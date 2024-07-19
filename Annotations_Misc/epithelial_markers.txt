@@ -1,0 +1,2245 @@
+Genes	Subtype
+WFDC3	BEST2 goblet cells
+WFDC2	BEST2 goblet cells
+KLK15	BEST2 goblet cells
+KLK1	BEST2 goblet cells
+BEST4	Best4 Enterocytes
+OTOP2	BEST4 enterocytes
+CAR7	BEST4 enterocytes
+CAR2	colonocytes
+SLC26A2	colonocytes- Immature Enterocytes 2
+FABP1	colonocytes- Immature Enterocytes 2
+MUC2	Goblet cells
+ZG16	Goblet cells
+TFF1	Goblet cells
+SPDEF	Goblet cells
+FCGBP	Goblet cells
+CLCA1	Goblet cells
+CAR1	Immature Enterocytes 2
+KRT18	Epithelium
+KRT8	Epithelium
+KRT7	Epithelium
+GUCA2A	Epithelium
+KRT19	Epithelium
+FABBP2	Epithelium
+KRTR20	Epithelium
+CTRB1	Acinar: Li Ding
+CELA3A	Acinar: Li Ding
+CELA3B	Acinar: Li Ding
+CTRB2	Acinar: Li Ding
+PLA2G1B	Acinar: Li Ding
+PRSS2	Acinar: Li Ding
+SPINK1	Acinar: Li Ding
+CLPS	Acinar: Li Ding
+CPA1	Acinar: Li Ding
+PRSS1	Acinar: Li Ding
+CPA2	Acinar: Li Ding
+REG1A	Acinar: Li Ding
+PNLIP	Acinar: Li Ding
+SYCN	Acinar: Li Ding
+PNLIPRP1	Acinar: Li Ding
+CTRC	Acinar: Li Ding
+KLK1	Acinar: Li Ding
+CELA2A	Acinar: Li Ding
+CPB1	Acinar: Li Ding
+KRT19	ductal cell 1: Peng
+KRT7	ductal cell 1: Peng
+TSPAN8	ductal cell 1: Peng
+SLPI	ductal cell 1: Peng
+PRSS1	acinar: Peng
+CTRB1	acinar: Peng
+CTRB2	acinar: Peng
+REG1B	acinar: Peng
+CLU	clu+ intestenial revsc : Peng
+SPINK1	Malignancy:Science
+GPC3	Malignancy:Science
+AKR1B10	Malignancy:Science
+TOP2A	Malignancy:Science
+REG3A	Malignancy:Science
+CAP2	Malignancy:Science
+UBE2C	Malignancy:Science
+MDK	Malignancy:Science
+LCN2	Malignancy:Science
+AURKA	Malignancy:Science
+BTNL8	Classical genes: elena Ferteg
+FAM3D	Classical genes: elena Ferteg
+ATAD4	Classical genes: elena Ferteg
+AGR3	Classical genes: elena Ferteg
+CTSE	Classical genes: elena Ferteg
+LOC400573	Classical genes: elena Ferteg
+LYZ	Classical genes: elena Ferteg
+TFF2	Classical genes: elena Ferteg
+TFF1	Classical genes: elena Ferteg
+ANXA10	Classical genes: elena Ferteg
+LGALS4	Classical genes: elena Ferteg
+PLA2G10	Classical genes: elena Ferteg
+CEACAM6	Classical genes: elena Ferteg
+VSIG2	Classical genes: elena Ferteg
+TSPAN8	Classical genes: elena Ferteg
+ST6GALNAC1	Classical genes: elena Ferteg
+AGR2	Classical genes: elena Ferteg
+TFF3	Classical genes: elena Ferteg
+CYP3A7	Classical genes: elena Ferteg
+MYO1A	Classical genes: elena Ferteg
+CLRN3	Classical genes: elena Ferteg
+KRT20	Classical genes: elena Ferteg
+CDH17	Classical genes: elena Ferteg
+SPINK4	Classical genes: elena Ferteg
+REG4	Classical genes: elena Ferteg
+VGLL	Basal-like genes: elena Ferteg
+UCA1	Basal-like genes: elena Ferteg
+S100A2	Basal-like genes: elena Ferteg
+LY6D	Basal-like genes: elena Ferteg
+SPRR3	Basal-like genes: elena Ferteg
+SPRR1B	Basal-like genes: elena Ferteg
+LEMD1	Basal-like genes: elena Ferteg
+KRT15	Basal-like genes: elena Ferteg
+CTSL2	Basal-like genes: elena Ferteg
+DHRS9	Basal-like genes: elena Ferteg
+AREG	Basal-like genes: elena Ferteg
+CST6	Basal-like genes: elena Ferteg
+SERPINB3	Basal-like genes: elena Ferteg
+KRT6C	Basal-like genes: elena Ferteg
+KRT6A	Basal-like genes: elena Ferteg
+SERPINB4	Basal-like genes: elena Ferteg
+FAM83A	Basal-like genes: elena Ferteg
+SCEL	Basal-like genes: elena Ferteg
+FGFBP1	Basal-like genes: elena Ferteg
+KRT7	Basal-like genes: elena Ferteg
+KRT17	Basal-like genes: elena Ferteg
+GPR87	Basal-like genes: elena Ferteg
+TNS4	Basal-like genes: elena Ferteg
+SLC2A1	Basal-like genes: elena Ferteg
+ANXA8L2	Basal-like genes: elena Ferteg
+ABCG2	cancer stem cell: elena Ferteg
+ALDH1A1	cancer stem cell: elena Ferteg
+CD24	cancer stem cell: elena Ferteg
+CD44	cancer stem cell: elena Ferteg
+EPCAM	cancer stem cell: elena Ferteg
+PROM1	cancer stem cell: elena Ferteg
+CXCR4	cancer stem cell: elena Ferteg
+NES	cancer stem cell: elena Ferteg
+DCLK1	cancer stem cell: elena Ferteg
+SOX9	cancer stem cell: elena Ferteg
+NANOG	cancer stem cell: elena Ferteg
+EPCAM	Epithelial:Our paper
+KRT8	Epithelial:Our paper
+KRT18	Epithelial:Our paper
+LYZ	epi-mye:Our Paper
+FERMT1	Classical:Adel-Collison
+HK2	Classical:Adel-Collison
+AHNAK2	Classical:Adel-Collison
+TMEM45B	Classical:Adel-Collison
+SDR16C5	Classical:Adel-Collison
+GPRC5A	Classical:Adel-Collison
+AGR2	Classical:Adel-Collison
+S100P	Classical:Adel-Collison
+FXYD3	Classical:Adel-Collison
+ST6GALNAC1	Classical:Adel-Collison
+CEACAM5	Classical:Adel-Collison
+CEACAM6	Classical:Adel-Collison
+TFF1	Classical:Adel-Collison
+TFF3	Classical:Adel-Collison
+CAPN8	Classical:Adel-Collison
+FOXQ1	Classical:Adel-Collison
+ELF3	Classical:Adel-Collison
+ERBB3	Classical:Adel-Collison
+TSPAN8	Classical:Adel-Collison
+TOX3	Classical:Adel-Collison
+LGALS4	Classical:Adel-Collison
+PLS1	Classical:Adel-Collison
+GPX2	Classical:Adel-Collison
+ATP10B	Classical:Adel-Collison
+MUC13	Classical:Adel-Collison
+S100A2	Basal:Adel
+KRT6A	Basal:Adel
+CST6	Basal:Adel
+GPR87	Basal:Adel
+SCEL	Basal:Adel
+ANXA8L2	Basal:Adel
+KRT6C	Basal:Adel
+SERPINB4	Basal:Adel
+SERPINB3	Basal:Adel
+LY6D	Basal:Adel
+LY6D	Basal:Adel
+PLAG1	Basal:Adel
+IL20RB	Basal:Adel
+C16ORF74	Basal:Adel
+DCBLD2	Basal:Adel
+KRT17P3	Basal:Adel
+HMGA2	Basal:Adel
+SPRR3	Basal:Adel
+SPRR1B	Basal:Adel
+KRT17	Basal:Adel
+TM4SF5	Classical:Adel-Moffit
+TFF1	Classical:Adel-Moffit
+PLA2G10	Classical:Adel-Moffit
+GPX2	Classical:Adel-Moffit
+SPINK4	Classical:Adel-Moffit
+LOC400573	Classical:Adel-Moffit
+BTNL8	Classical:Adel-Moffit
+DMBT1	Classical:Adel-Moffit
+ATAD4	Classical:Adel-Moffit
+TFF3	Classical:Adel-Moffit
+FAM3D	Classical:Adel-Moffit
+LYZ	Classical:Adel-Moffit
+MYO1A	Classical:Adel-Moffit
+ANXA10	Classical:Adel-Moffit
+CLRN3	Classical:Adel-Moffit
+AKR1B10	Classical:Adel-Moffit
+CTSE	Classical:Adel-Moffit
+TSPAN8	Classical:Adel-Moffit
+LGALS4	Classical:Adel-Moffit
+REG4	Classical:Adel-Moffit
+FAT2	Basal-like A:Adel
+MIR205HG	Basal-like A:Adel
+S100A9	Basal-like A:Adel
+S100A2	Basal-like A:Adel
+S100A8	Basal-like A:Adel
+KRT5	Basal-like A:Adel
+SLC2A9	Basal-like A:Adel
+RHCG	Basal-like A:Adel
+TP63	Basal-like A:Adel
+ZNF750	Basal-like A:Adel
+KRT6A	Basal-like A:Adel
+KRT14	Basal-like A:Adel
+PTHLH	Basal-like A:Adel
+TMEM45A	Basal-like A:Adel
+COL7A1	Basal-like A:Adel
+TNNT3	Basal-like A:Adel
+TMPRSS11E	Basal-like A:Adel
+ARL4D	Basal-like A:Adel
+SCPEP1	Basal-like A:Adel
+HCAR2	Basal-like A:Adel
+GSDMC	Basal-like A:Adel
+TMEM40	Basal-like A:Adel
+CYP24A1	Basal-like A:Adel
+IL20RB	Basal-like A:Adel
+GJB6	Basal-like A:Adel
+LPAR3	Basal-like A:Adel
+HCAR3	Basal-like A:Adel
+GPR87	Basal-like A:Adel
+ZNF385A	Basal-like A:Adel
+CLEC2B	Basal-like A:Adel
+FYB	Basal-like A:Adel
+COL4A6	Basal-like A:Adel
+PPP4R4	Basal-like A:Adel
+LCP1	Basal-like A:Adel
+LYPD3	Basal-like A:Adel
+ANXA8	Basal-like A:Adel
+TNC	Basal-like A:Adel
+SNAI2	Basal-like A:Adel
+FST	Basal-like A:Adel
+ANXA8L1	Basal-like A:Adel
+AIM2	Basal-like A:Adel
+LY6D	Basal-like A:Adel
+TCF7L1	Basal-like A:Adel
+KRT13	Basal-like A:Adel
+CLCA4	Basal-like A:Adel
+CAV1	Basal-like A:Adel
+MMP13	Basal-like A:Adel
+GBP6	Basal-like A:Adel
+SRGAP3	Basal-like A:Adel
+CSTA	Basal-like A:Adel
+FOXJ1	Basal-like B:Adel
+DRC1	Basal-like B:Adel
+CCDC114	Basal-like B:Adel
+C7ORF57	Basal-like B:Adel
+CFAP54	Basal-like B:Adel
+VWA3A	Basal-like B:Adel
+RARRES3	Basal-like B:Adel
+CFAP73	Basal-like B:Adel
+C11ORF70	Basal-like B:Adel
+CFAP45	Basal-like B:Adel
+ZBBX	Basal-like B:Adel
+CST6	Basal-like B:Adel
+CFAP43	Basal-like B:Adel
+C15ORF52	Basal-like B:Adel
+RSPH4A	Basal-like B:Adel
+MAPK15	Basal-like B:Adel
+FAM81B	Basal-like B:Adel
+PPIL6	Basal-like B:Adel
+KRT80	Basal-like B:Adel
+DAW1	Basal-like B:Adel
+CDHR4	Basal-like B:Adel
+VGLL1	Basal-like B:Adel
+MAATS1	Basal-like B:Adel
+ZMYND10	Basal-like B:Adel
+ELFN2	Basal-like B:Adel
+CERKL	Basal-like B:Adel
+C9ORF116	Basal-like B:Adel
+CASC1	Basal-like B:Adel
+MAK	Basal-like B:Adel
+PLA2G16	Basal-like B:Adel
+DRC7	Basal-like B:Adel
+BATF2	Basal-like B:Adel
+DNAI1	Basal-like B:Adel
+RSPH1	Basal-like B:Adel
+MFI2	Basal-like B:Adel
+ARMC3	Basal-like B:Adel
+LY75	Basal-like B:Adel
+CCDC173	Basal-like B:Adel
+TMEM169	Basal-like B:Adel
+CCDC103	Basal-like B:Adel
+GINS2	Basal-like B:Adel
+PRR29	Basal-like B:Adel
+KLK6	Basal-like B:Adel
+TCTEX1D2	Basal-like B:Adel
+CDA	Basal-like B:Adel
+RAB36	Basal-like B:Adel
+ANKRD1	Basal-like B:Adel
+MMP7	Basal-like B:Adel
+CFAP206	Basal-like B:Adel
+CFAP157	Basal-like B:Adel
+CYP2C18	Classical A:Adel
+RP11-400G3.5	Classical A:Adel
+VSIG2	Classical A:Adel
+SLC9B2	Classical A:Adel
+ANXA10	Classical A:Adel
+CAPN8	Classical A:Adel
+VILL	Classical A:Adel
+CLDN18	Classical A:Adel
+SULT1C2	Classical A:Adel
+CYSTM1	Classical A:Adel
+CTSE	Classical A:Adel
+ADAM28	Classical A:Adel
+VSIG1	Classical A:Adel
+CYP3A5	Classical A:Adel
+CAPN5	Classical A:Adel
+CYP2S1	Classical A:Adel
+KCNE3	Classical A:Adel
+CYP2C9	Classical A:Adel
+GCKR	Classical A:Adel
+TSPAN8	Classical A:Adel
+ACER2	Classical A:Adel
+SEMA4G	Classical A:Adel
+PDZD3	Classical A:Adel
+TMC5	Classical A:Adel
+DPCR1	Classical A:Adel
+IQGAP2	Classical A:Adel
+EPS8L3	Classical A:Adel
+NR1I2	Classical A:Adel
+MUC17	Classical A:Adel
+FER1L6	Classical A:Adel
+LRRC66	Classical A:Adel
+GATA6	Classical A:Adel
+CAPN9	Classical A:Adel
+POF1B	Classical A:Adel
+HTR1B	Classical A:Adel
+IHH	Classical A:Adel
+MTMR11	Classical A:Adel
+SLC6A20	Classical A:Adel
+OMP	Classical A:Adel
+PLA2G10	Classical A:Adel
+SPINK1	Classical A:Adel
+KIAA1211	Classical A:Adel
+TRIM54	Classical A:Adel
+FAM101A	Classical A:Adel
+BCL2L15	Classical A:Adel
+TNFRSF11A	Classical A:Adel
+RAPGEFL1	Classical A:Adel
+MYRF	Classical A:Adel
+PLAC8	Classical A:Adel
+PIP5K1B	Classical A:Adel
+MEP1A	Classical B:Adel
+GUCY2C	Classical B:Adel
+SPINK4	Classical B:Adel
+MUC2	Classical B:Adel
+GALNT8	Classical B:Adel
+ITLN1	Classical B:Adel
+CHST5	Classical B:Adel
+CDH17	Classical B:Adel
+FAM105A	Classical B:Adel
+SI	Classical B:Adel
+REG4	Classical B:Adel
+RP11-77K12.7	Classical B:Adel
+CLCA1	Classical B:Adel
+HEPACAM2	Classical B:Adel
+GPA33	Classical B:Adel
+CDX2	Classical B:Adel
+WNK4	Classical B:Adel
+BTNL3	Classical B:Adel
+KRT20	Classical B:Adel
+CLRN3	Classical B:Adel
+C3ORF70	Classical B:Adel
+REP15	Classical B:Adel
+FCGBP	Classical B:Adel
+FAM222A	Classical B:Adel
+AKR1C4	Classical B:Adel
+SLC6A7	Classical B:Adel
+PHGR1	Classical B:Adel
+KLHL32	Classical B:Adel
+SEPP1	Classical B:Adel
+AGR2	Classical B:Adel
+GMDS	Classical B:Adel
+ADGRG7	Classical B:Adel
+FFAR4	Classical B:Adel
+CCL15-CCL14	Classical B:Adel
+ATP8A1	Classical B:Adel
+SLC17A4	Classical B:Adel
+JPH1	Classical B:Adel
+PDE3B	Classical B:Adel
+GRIP2	Classical B:Adel
+B4GALNT2	Classical B:Adel
+HES6	Classical B:Adel
+MGAM2	Classical B:Adel
+WNK2	Classical B:Adel
+RNF186	Classical B:Adel
+MYO7B	Classical B:Adel
+GNA14	Classical B:Adel
+HEPH	Classical B:Adel
+RP11-234B24.6	Classical B:Adel
+MUC13	Classical B:Adel
+ANG	Classical B:Adel
+CFTR	Normal Epithelial:Adel
+BICC1	Normal Epithelial:Adel
+SLC4A4	Normal Epithelial:Adel
+GLIS3	Normal Epithelial:Adel
+SCTR	Normal Epithelial:Adel
+AMBP	Normal Epithelial:Adel
+FXYD2	Normal Epithelial:Adel
+ANXA4	Normal Epithelial:Adel
+SPP1	Normal Epithelial:Adel
+SOX9	Normal Epithelial:Adel
+FOS	Normal Epithelial:Adel
+JUN	Normal Epithelial:Adel
+CRP	Normal Epithelial:Adel
+MUC5B	Normal Epithelial:Adel
+ONECUT2	Normal Epithelial:Adel
+CRISP3	Normal Epithelial:Adel
+TFF3	Normal Epithelial:Adel
+AMBP	Ductal cell 1: Peng
+CFTR	Ductal cell 1: Peng
+MMP7	Ductal cell 1: Peng
+KRT19	Ductal cell 2: Peng
+KRT7	Ductal cell 2: Peng
+TSPAN8	Ductal cell 2: Peng
+SLPI	Ductal cell 2: Peng
+PRSS1	Acinar: Peng
+CTRB1	Acinar: Peng
+CTRB2	Acinar: Peng
+REG1B	Acinar: Peng
+ZG16	Acinar: Dana Pe'er
+CPA1	Acinar: Dana Pe'er
+KRT19	Ductal: Dana Pe'er
+SOX9	Ductal: Dana Pe'er
+CLU	Ductal: Dana Pe'er
+MUC1	Gastric: Dana Pe'er
+MUC6	Gastric: Dana Pe'er
+GKN3	Gastric: Dana Pe'er
+MUC5AC	Gastric: Dana Pe'er
+TFF2	Gastric: Dana Pe'er
+TFF1	Gastric: Dana Pe'er
+AGR2	Gastric: Dana Pe'er
+MT2	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+MUC6	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+CRIP1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+TMSB10	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+S100A11	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+GPX2	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+GSTM1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+KRT19	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+SNRPG	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+CXCL17	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+KLF5	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+GSTA4	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+LGALS9	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+AGR2	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+FGFBP1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+SOX4	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+XIST	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+OIT1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+SET	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+LGALS3BP	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+ID2	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+GSTO1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+GM8186	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+DMBT1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+HMGB2	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+WFDC2	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+SLC12A2	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+APRT	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+H2AFY	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+CKMT1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+LY6E	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+SOX9	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+FOXQ1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+FDPS	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+PTGR1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+NCL	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+PTP4A2	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+GFPT1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+HNRNPH1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+PRRC2C	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+2200002D01RIK	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+GOLM1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+IQGAP2	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+PSME1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+ID1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+CD2AP	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+ID3	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+BPIFB1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+FERMT1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+S100A6	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+NFIB	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+LDHB	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+MGST1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+CTSE	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+CCNL1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+SFPQ	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+GKN3	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+BST2	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+ASPH	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+ZFP36L2	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+MARCKS	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+LSM5	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+HSPA1B	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+PPP1R14B	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+MSMO1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+CYR61	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+CEBPB	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+CTNNA1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+DNAJC10	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+EMB	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+CLIC6	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+TSTD1	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+RFLNB	Acute_SPEM(spasmolytic polypeptide-expressing metaplasia)_sig: DelGiorno
+EMP1	Basal:AziziLabs
+TAGLN	Basal:AziziLabs
+TTYH1	Basal:AziziLabs
+RTN4	Basal:AziziLabs
+TK1	Basal:AziziLabs
+BUB3	Basal:AziziLabs
+IGLV3.25	Basal:AziziLabs
+FAM3C	Basal:AziziLabs
+TMEM123	Basal:AziziLabs
+KDM5B	Basal:AziziLabs
+KRT14	Basal:AziziLabs
+ALG3	Basal:AziziLabs
+KLK6	Basal:AziziLabs
+EEF2	Basal:AziziLabs
+NSMCE4A	Basal:AziziLabs
+LYST	Basal:AziziLabs
+DEDD	Basal:AziziLabs
+HLA.DRA	Basal:AziziLabs
+PAPOLA	Basal:AziziLabs
+SOX4	Basal:AziziLabs
+ACTR3B	Basal:AziziLabs
+EIF3D	Basal:AziziLabs
+CACYBP	Basal:AziziLabs
+RARRES1	Basal:AziziLabs
+STRA13	Basal:AziziLabs
+MFGE8	Basal:AziziLabs
+FRZB	Basal:AziziLabs
+SDHD	Basal:AziziLabs
+UCHL1	Basal:AziziLabs
+TMEM176A	Basal:AziziLabs
+CAV2	Basal:AziziLabs
+MARCO	Basal:AziziLabs
+P4HB	Basal:AziziLabs
+CHI3L2	Basal:AziziLabs
+APOE	Basal:AziziLabs
+ATP1B1	Basal:AziziLabs
+C6orf15	Basal:AziziLabs
+KRT6B	Basal:AziziLabs
+TAF1D	Basal:AziziLabs
+ACTA2	Basal:AziziLabs
+LY6D	Basal:AziziLabs
+SAA2	Basal:AziziLabs
+CYP27A1	Basal:AziziLabs
+DLK1	Basal:AziziLabs
+IGKV1.5	Basal:AziziLabs
+CENPW	Basal:AziziLabs
+RAB18	Basal:AziziLabs
+TNFRSF11B	Basal:AziziLabs
+VPS28	Basal:AziziLabs
+HULC	Basal:AziziLabs
+KRT16	Basal:AziziLabs
+CDKN2A	Basal:AziziLabs
+AHNAK2	Basal:AziziLabs
+SEC22B	Basal:AziziLabs
+CDC42EP1	Basal:AziziLabs
+HMGA1	Basal:AziziLabs
+CAV1	Basal:AziziLabs
+BAMBI	Basal:AziziLabs
+TOMM22	Basal:AziziLabs
+ATP6V0E2	Basal:AziziLabs
+MTCH2	Basal:AziziLabs
+PRSS21	Basal:AziziLabs
+HDAC2	Basal:AziziLabs
+ZG16B	Basal:AziziLabs
+GAL	Basal:AziziLabs
+SCGB1D2	Basal:AziziLabs
+S100A2	Basal:AziziLabs
+GSPT1	Basal:AziziLabs
+ARPC1B	Basal:AziziLabs
+NIT1	Basal:AziziLabs
+NEAT1	Basal:AziziLabs
+DSC2	Basal:AziziLabs
+RP1.60O19.1	Basal:AziziLabs
+MAL2	Basal:AziziLabs
+TMEM176B	Basal:AziziLabs
+CYP1B1	Basal:AziziLabs
+EIF3L	Basal:AziziLabs
+FKBP4	Basal:AziziLabs
+WFDC2	Basal:AziziLabs
+SAA1	Basal:AziziLabs
+CXCL17	Basal:AziziLabs
+PFDN2	Basal:AziziLabs
+UCP2	Basal:AziziLabs
+RAB11B	Basal:AziziLabs
+FDCSP	Basal:AziziLabs
+HLA.DPB1	Basal:AziziLabs
+PCSK1N	Basal:AziziLabs
+C4orf48	Basal:AziziLabs
+CTSC	Basal:AziziLabs
+KRT14	Normal epithelial:AziziLabs
+KRT17	Normal epithelial:AziziLabs
+LTF	Normal epithelial:AziziLabs
+KRT15	Normal epithelial:AziziLabs
+PTN	Normal epithelial:AziziLabs
+MGP	Normal epithelial:AziziLabs
+TACSTD2	Normal epithelial:AziziLabs
+MMP7	Normal epithelial:AziziLabs
+SCGB3A1	Normal epithelial:AziziLabs
+KRT5	Normal epithelial:AziziLabs
+CRYAB	Normal epithelial:AziziLabs
+CXCL2	Normal epithelial:AziziLabs
+SAA1	Normal epithelial:AziziLabs
+CLDN4	Normal epithelial:AziziLabs
+WFDC2	Normal epithelial:AziziLabs
+MYLK	Normal epithelial:AziziLabs
+TM4SF1	Normal epithelial:AziziLabs
+SFRP1	Normal epithelial:AziziLabs
+AZGP1	Normal epithelial:AziziLabs
+DST	Normal epithelial:AziziLabs
+KRT8	Normal epithelial:AziziLabs
+CSRP1	Normal epithelial:AziziLabs
+ACTG2	Normal epithelial:AziziLabs
+MT1X	Normal epithelial:AziziLabs
+KRT7	Normal epithelial:AziziLabs
+TAGLN	Normal epithelial:AziziLabs
+CLU	Normal epithelial:AziziLabs
+MT1E	Normal epithelial:AziziLabs
+PDLIM3	Normal epithelial:AziziLabs
+SFN	Normal epithelial:AziziLabs
+MAFF	Normal epithelial:AziziLabs
+SLPI	Normal epithelial:AziziLabs
+CCL28	Normal epithelial:AziziLabs
+FBXO32	Normal epithelial:AziziLabs
+PERP	Normal epithelial:AziziLabs
+KRT18	Normal epithelial:AziziLabs
+CNN1	Normal epithelial:AziziLabs
+CXCL14	Normal epithelial:AziziLabs
+EPCAM	"Epithelial:Chen et al, Bladder paper"
+CD14	Classical Monocytes:SCTyper
+CD11b	Classical Monocytes:SCTyper
+CD68	Classical Monocytes:SCTyper
+HLA-DR	Classical Monocytes:SCTyper
+CD33	Classical Monocytes:SCTyper
+CD11c	Classical Monocytes:SCTyper
+CD123	Classical Monocytes:SCTyper
+CD15	Classical Monocytes:SCTyper
+CD3D	Classical Monocytes:SCTyper
+CD3E	Classical Monocytes:SCTyper
+CD3G	Classical Monocytes:SCTyper
+CD3Z	Classical Monocytes:SCTyper
+CD66b	Classical Monocytes:SCTyper
+VCAN	Classical Monocytes:SCTyper
+S100A12	Classical Monocytes:SCTyper
+CXCL8	Classical Monocytes:SCTyper
+S100A8	Classical Monocytes:SCTyper
+S100A9	Classical Monocytes:SCTyper
+LYZ	Classical Monocytes:SCTyper
+CST3	Classical Monocytes:SCTyper
+Elane1	Classical Monocytes:SCTyper
+CD203c	Granulocytes:SCTyper
+CD15	Granulocytes:SCTyper
+CD11b	Granulocytes:SCTyper
+CD63	Granulocytes:SCTyper
+CD66b	Granulocytes:SCTyper
+CD123	Granulocytes:SCTyper
+CD16	Granulocytes:SCTyper
+CD33	Granulocytes:SCTyper
+CD117	Granulocytes:SCTyper
+CD45	Granulocytes:SCTyper
+Fc-epsilon RI-alpha	Granulocytes:SCTyper
+CD125	Granulocytes:SCTyper
+CD13	Granulocytes:SCTyper
+CD14	Granulocytes:SCTyper
+CD25	Granulocytes:SCTyper
+CD44	Granulocytes:SCTyper
+CD69	Granulocytes:SCTyper
+CD9	Granulocytes:SCTyper
+HLA-DR	Granulocytes:SCTyper
+CCR3	Granulocytes:SCTyper
+CD116	Granulocytes:SCTyper
+CD11c	Granulocytes:SCTyper
+CD193	Granulocytes:SCTyper
+CD24	Granulocytes:SCTyper
+CD32	Granulocytes:SCTyper
+CD43	Granulocytes:SCTyper
+CXCL8	Granulocytes:SCTyper
+FCGR3B	Granulocytes:SCTyper
+MNDA	Granulocytes:SCTyper
+SIGLEC8	Granulocytes:SCTyper
+AZU1	Granulocytes:SCTyper
+MPO	Granulocytes:SCTyper
+CTSG	Granulocytes:SCTyper
+LYZ	Granulocytes:SCTyper
+CTRB1	Acinar cells:SCTyper
+KLK1	Acinar cells:SCTyper
+RBPJL	Acinar cells:SCTyper
+PTF1A	Acinar cells:SCTyper
+CELA3A	Acinar cells:SCTyper
+PRSS1	Acinar cells:SCTyper
+SPINK1	Acinar cells:SCTyper
+ZG16	Acinar cells:SCTyper
+CEL	Acinar cells:SCTyper
+CELA2A	Acinar cells:SCTyper
+CPB1	Acinar cells:SCTyper
+CELA1	Acinar cells:SCTyper
+RNASE1	Acinar cells:SCTyper
+AMY2B	Acinar cells:SCTyper
+CPA2	Acinar cells:SCTyper
+CPA1	Acinar cells:SCTyper
+CELA3B	Acinar cells:SCTyper
+PNLIP	Acinar cells:SCTyper
+CTRB2	Acinar cells:SCTyper
+PLA2G1B	Acinar cells:SCTyper
+PRSS2	Acinar cells:SCTyper
+CLPS	Acinar cells:SCTyper
+REG1A	Acinar cells:SCTyper
+SYCN	Acinar cells:SCTyper
+PNLIPRP1	Acinar cells:SCTyper
+CTRC	Acinar cells:SCTyper
+REG3A	Acinar cells:SCTyper
+PRSS3	Acinar cells:SCTyper
+REG1B	Acinar cells:SCTyper
+CFB	Acinar cells:SCTyper
+GDF15	Acinar cells:SCTyper
+MUC1	Acinar cells:SCTyper
+C15orf48	Acinar cells:SCTyper
+AKR1C3	Acinar cells:SCTyper
+OLFM4	Acinar cells:SCTyper
+GSTA1	Acinar cells:SCTyper
+LGALS2	Acinar cells:SCTyper
+PDZK1IP1	Acinar cells:SCTyper
+RARRES2	Acinar cells:SCTyper
+CXCL17	Acinar cells:SCTyper
+GSTA2	Acinar cells:SCTyper
+ANPEP	Acinar cells:SCTyper
+LYZ	Acinar cells:SCTyper
+ANGPTL4	Acinar cells:SCTyper
+ALDOB	Acinar cells:SCTyper
+CD14	Kupffer cells:SCTyper
+CD68	Kupffer cells:SCTyper
+TNF	Kupffer cells:SCTyper
+LYZ	Kupffer cells:SCTyper
+MPO	Kupffer cells:SCTyper
+VSIG4	Kupffer cells:SCTyper
+PROK2	Kupffer cells:SCTyper
+STARD5	Kupffer cells:SCTyper
+MSR1	Kupffer cells:SCTyper
+PPARA	Kupffer cells:SCTyper
+TREM1	Kupffer cells:SCTyper
+SLC11A1	Kupffer cells:SCTyper
+MMP13	Kupffer cells:SCTyper
+VDR	Kupffer cells:SCTyper
+CHIT1	Kupffer cells:SCTyper
+OSM	Kupffer cells:SCTyper
+PPARD	Kupffer cells:SCTyper
+CLEC4F	Kupffer cells:SCTyper
+ADGRE1	Kupffer cells:SCTyper
+IL1B	Kupffer cells:SCTyper
+SLC40A1	Kupffer cells:SCTyper
+G6PD	Kupffer cells:SCTyper
+TIMD4	Kupffer cells:SCTyper
+MNDA	Kupffer cells:SCTyper
+SLC15A3	Kupffer cells:SCTyper
+DNASE1L3	Kupffer cells:SCTyper
+MARCO	Kupffer cells:SCTyper
+HFE	Kupffer cells:SCTyper
+CD38	Kupffer cells:SCTyper
+CD163	Kupffer cells:SCTyper
+CCR5	Kupffer cells:SCTyper
+CLEC1B	Kupffer cells:SCTyper
+CLEC4G	Kupffer cells:SCTyper
+GPIHBP1	Kupffer cells:SCTyper
+FOLR2	Kupffer cells:SCTyper
+PLTP	Kupffer cells:SCTyper
+FTL	Kupffer cells:SCTyper
+IRF7	Kupffer cells:SCTyper
+SPIC	Kupffer cells:SCTyper
+CSF1R	Kupffer cells:SCTyper
+C1QC	Kupffer cells:SCTyper
+C1QA	Kupffer cells:SCTyper
+C1QB	Kupffer cells:SCTyper
+CLEC4E	Kupffer cells:SCTyper
+EPCAM	Cancer stem cells:SCTyper
+SIX2	Cap mesenchyme cells (Mesenchymal cells):SCTyper
+ITGA8	Cap mesenchyme cells (Mesenchymal cells):SCTyper
+NR2F2	Cap mesenchyme cells (Mesenchymal cells):SCTyper
+EYA1	Cap mesenchyme cells (Mesenchymal cells):SCTyper
+MEIS2	Cap mesenchyme cells (Mesenchymal cells):SCTyper
+CITED1	Cap mesenchyme cells (Mesenchymal cells):SCTyper
+MUC1	Cap mesenchyme cells (Mesenchymal cells):SCTyper
+NOTCH2	Cap mesenchyme cells (Mesenchymal cells):SCTyper
+EPCAM	Cancer stem cells:SCTyper
+ADH7	Airway epithelial cells:SCTyper
+AQP1	Airway epithelial cells:SCTyper
+CDH1	Airway epithelial cells:SCTyper
+SEC14L3	Airway epithelial cells:SCTyper
+AGR2	Airway goblet cells:SCTyper
+AQP5	Airway goblet cells:SCTyper
+CEACAM1	Airway goblet cells:SCTyper
+DMBT1	Airway goblet cells:SCTyper
+DUSP4	Airway goblet cells:SCTyper
+FXYD3	Airway goblet cells:SCTyper
+GALNT5	Airway goblet cells:SCTyper
+GALNT6	Airway goblet cells:SCTyper
+GGH	Airway goblet cells:SCTyper
+GOLPH3	Airway goblet cells:SCTyper
+GP2	Airway goblet cells:SCTyper
+IL19	Airway goblet cells:SCTyper
+LIPF	Airway goblet cells:SCTyper
+LTF	Airway goblet cells:SCTyper
+LYNX1	Airway goblet cells:SCTyper
+MSLN	Airway goblet cells:SCTyper
+MUC16	Airway goblet cells:SCTyper
+MUC4	Airway goblet cells:SCTyper
+MUC5B	Airway goblet cells:SCTyper
+NOS2	Airway goblet cells:SCTyper
+PIGR	Airway goblet cells:SCTyper
+QSOX1	Airway goblet cells:SCTyper
+SCGB3A1	Airway goblet cells:SCTyper
+SEC23B	Airway goblet cells:SCTyper
+SPDEF	Airway goblet cells:SCTyper
+TFF2	Airway goblet cells:SCTyper
+ABI3BP	Basal cells (Airway progenitor cells):SCTyper
+AQP3	Basal cells (Airway progenitor cells):SCTyper
+DAPL1	Basal cells (Airway progenitor cells):SCTyper
+GSTM2	Basal cells (Airway progenitor cells):SCTyper
+HPGD	Basal cells (Airway progenitor cells):SCTyper
+ICAM1	Basal cells (Airway progenitor cells):SCTyper
+KRT14	Basal cells (Airway progenitor cells):SCTyper
+KRT15	Basal cells (Airway progenitor cells):SCTyper
+KRT5	Basal cells (Airway progenitor cells):SCTyper
+PHLDA3	Basal cells (Airway progenitor cells):SCTyper
+RPS18	Basal cells (Airway progenitor cells):SCTyper
+SDC1	Basal cells (Airway progenitor cells):SCTyper
+ANPEP	Epithelial cells:SCTyper
+EPCAM	Epithelial cells:SCTyper
+IL10	Epithelial cells:SCTyper
+IL6R	Epithelial cells:SCTyper
+BCL11A	Epiblast cells:SCTyper
+CDH1	Epiblast cells:SCTyper
+CLDN6	Epiblast cells:SCTyper
+CLDN7	Epiblast cells:SCTyper
+CRMP1	Epiblast cells:SCTyper
+CXCL12	Epiblast cells:SCTyper
+DPYSL5	Epiblast cells:SCTyper
+EPCAM	Epiblast cells:SCTyper
+INA	Epiblast cells:SCTyper
+LEF1	Epiblast cells:SCTyper
+MFAP2	Epiblast cells:SCTyper
+NANOG	Epiblast cells:SCTyper
+POU5F1	Epiblast cells:SCTyper
+SLC35D3	Epiblast cells:SCTyper
+SOX11	Epiblast cells:SCTyper
+TDGF1	Epiblast cells:SCTyper
+ANPEP	Gastric chief cells:SCTyper
+CHRM3	Gastric chief cells:SCTyper
+EGFR	Gastric chief cells:SCTyper
+KCNQ1	Gastric chief cells:SCTyper
+LGR5	Gastric chief cells:SCTyper
+PRKCZ	Gastric chief cells:SCTyper
+RAB3D	Gastric chief cells:SCTyper
+AGR2	Goblet cells:SCTyper
+AQP3	Goblet cells:SCTyper
+ATOH1	Goblet cells:SCTyper
+BACE2	Goblet cells:SCTyper
+CDON	Goblet cells:SCTyper
+CDX2	Goblet cells:SCTyper
+CLCA1	Goblet cells:SCTyper
+CREB3L1	Goblet cells:SCTyper
+FCGBP	Goblet cells:SCTyper
+GALNT12	Goblet cells:SCTyper
+GUCA2A	Goblet cells:SCTyper
+ITLN1	Goblet cells:SCTyper
+KLK1	Goblet cells:SCTyper
+KRT20	Goblet cells:SCTyper
+KRT7	Goblet cells:SCTyper
+LRRC26	Goblet cells:SCTyper
+MANF	Goblet cells:SCTyper
+MUC13	Goblet cells:SCTyper
+MUC2	Goblet cells:SCTyper
+MUC4	Goblet cells:SCTyper
+MUC5B	Goblet cells:SCTyper
+NLRP6	Goblet cells:SCTyper
+PDIA5	Goblet cells:SCTyper
+PHGR1	Goblet cells:SCTyper
+PLA2G10	Goblet cells:SCTyper
+REP15	Goblet cells:SCTyper
+SLC9A8	Goblet cells:SCTyper
+SPDEF	Goblet cells:SCTyper
+SPINK4	Goblet cells:SCTyper
+TFF3	Goblet cells:SCTyper
+TPSG1	Goblet cells:SCTyper
+ZG16	Goblet cells:SCTyper
+ACTA2	Airway smooth muscle cells:SCTyper
+FOXF1	Airway smooth muscle cells:SCTyper
+GATA5	Airway smooth muscle cells:SCTyper
+NOG	Airway smooth muscle cells:SCTyper
+ACKR3	Smooth muscle cells:SCTyper
+ACTA2	Smooth muscle cells:SCTyper
+ACTC1	Smooth muscle cells:SCTyper
+ACTG2	Smooth muscle cells:SCTyper
+ADAMDEC1	Smooth muscle cells:SCTyper
+AKT2	Smooth muscle cells:SCTyper
+ANGPT1	Smooth muscle cells:SCTyper
+ANKRD1	Smooth muscle cells:SCTyper
+AOC3	Smooth muscle cells:SCTyper
+BGN	Smooth muscle cells:SCTyper
+CCN3	Smooth muscle cells:SCTyper
+CNN1	Smooth muscle cells:SCTyper
+CRABP1	Smooth muscle cells:SCTyper
+DES	Smooth muscle cells:SCTyper
+DMPK	Smooth muscle cells:SCTyper
+EHD2	Smooth muscle cells:SCTyper
+FABP4	Smooth muscle cells:SCTyper
+FAS	Smooth muscle cells:SCTyper
+FBLN5	Smooth muscle cells:SCTyper
+FHL2	Smooth muscle cells:SCTyper
+GJA4	Smooth muscle cells:SCTyper
+GJC1	Smooth muscle cells:SCTyper
+HEXIM1	Smooth muscle cells:SCTyper
+HHIP	Smooth muscle cells:SCTyper
+HSPB6	Smooth muscle cells:SCTyper
+ITGA1	Smooth muscle cells:SCTyper
+ITGA8	Smooth muscle cells:SCTyper
+ITGA9	Smooth muscle cells:SCTyper
+JPH2	Smooth muscle cells:SCTyper
+KAT2B	Smooth muscle cells:SCTyper
+KCNAB1	Smooth muscle cells:SCTyper
+KCNMB1	Smooth muscle cells:SCTyper
+KIF1C	Smooth muscle cells:SCTyper
+LAMB2	Smooth muscle cells:SCTyper
+LGR6	Smooth muscle cells:SCTyper
+LMO7	Smooth muscle cells:SCTyper
+LMOD1	Smooth muscle cells:SCTyper
+LOX	Smooth muscle cells:SCTyper
+MAP3K7CL	Smooth muscle cells:SCTyper
+MFAP5	Smooth muscle cells:SCTyper
+MRVI1	Smooth muscle cells:SCTyper
+MSRB3	Smooth muscle cells:SCTyper
+MUSTN1	Smooth muscle cells:SCTyper
+MYH11	Smooth muscle cells:SCTyper
+MYH6	Smooth muscle cells:SCTyper
+MYL9	Smooth muscle cells:SCTyper
+MYLK	Smooth muscle cells:SCTyper
+NEXN	Smooth muscle cells:SCTyper
+NF2	Smooth muscle cells:SCTyper
+NOTCH3	Smooth muscle cells:SCTyper
+NOX4	Smooth muscle cells:SCTyper
+NRP2	Smooth muscle cells:SCTyper
+OBSCN	Smooth muscle cells:SCTyper
+OGN	Smooth muscle cells:SCTyper
+OTUD1	Smooth muscle cells:SCTyper
+PCP4L1	Smooth muscle cells:SCTyper
+PDE4DIP	Smooth muscle cells:SCTyper
+PDGFD	Smooth muscle cells:SCTyper
+PLN	Smooth muscle cells:SCTyper
+PLXNA1	Smooth muscle cells:SCTyper
+PRXL2C	Smooth muscle cells:SCTyper
+RASL12	Smooth muscle cells:SCTyper
+RBPMS2	Smooth muscle cells:SCTyper
+RGS5	Smooth muscle cells:SCTyper
+RPL10	Smooth muscle cells:SCTyper
+RPRM	Smooth muscle cells:SCTyper
+RRAD	Smooth muscle cells:SCTyper
+SEC24D	Smooth muscle cells:SCTyper
+SH3BGR	Smooth muscle cells:SCTyper
+SLC38A11	Smooth muscle cells:SCTyper
+SMOC1	Smooth muscle cells:SCTyper
+SMTN	Smooth muscle cells:SCTyper
+SNCG	Smooth muscle cells:SCTyper
+SOD3	Smooth muscle cells:SCTyper
+SPEG	Smooth muscle cells:SCTyper
+SPON2	Smooth muscle cells:SCTyper
+SSPN	Smooth muscle cells:SCTyper
+TAGLN	Smooth muscle cells:SCTyper
+TCF21	Smooth muscle cells:SCTyper
+VASN	Smooth muscle cells:SCTyper
+WFDC1	Smooth muscle cells:SCTyper
+WWP2	Smooth muscle cells:SCTyper
+ZBTB44	Smooth muscle cells:SCTyper
+ANXA8	Keratinocytes:SCTyper
+AQP3	Keratinocytes:SCTyper
+CALML5	Keratinocytes:SCTyper
+CCL2	Keratinocytes:SCTyper
+CD24	Keratinocytes:SCTyper
+CXCL1	Keratinocytes:SCTyper
+DMKN	Keratinocytes:SCTyper
+DSC3	Keratinocytes:SCTyper
+ENTPD2	Keratinocytes:SCTyper
+FGF5	Keratinocytes:SCTyper
+FST	Keratinocytes:SCTyper
+GJB3	Keratinocytes:SCTyper
+ICAM1	Keratinocytes:SCTyper
+IL13RA1	Keratinocytes:SCTyper
+IRF3	Keratinocytes:SCTyper
+IVL	Keratinocytes:SCTyper
+KRT1	Keratinocytes:SCTyper
+KRT10	Keratinocytes:SCTyper
+KRT14	Keratinocytes:SCTyper
+KRT15	Keratinocytes:SCTyper
+KRT16	Keratinocytes:SCTyper
+KRT17	Keratinocytes:SCTyper
+KRT36	Keratinocytes:SCTyper
+KRT5	Keratinocytes:SCTyper
+KRT84	Keratinocytes:SCTyper
+LAMA5	Keratinocytes:SCTyper
+LAMC2	Keratinocytes:SCTyper
+LCN2	Keratinocytes:SCTyper
+LGALS7	Keratinocytes:SCTyper
+NGFR	Keratinocytes:SCTyper
+PI3	Keratinocytes:SCTyper
+PKP1	Keratinocytes:SCTyper
+PKP3	Keratinocytes:SCTyper
+PLEC	Keratinocytes:SCTyper
+REL	Keratinocytes:SCTyper
+RIPK4	Keratinocytes:SCTyper
+S100A14	Keratinocytes:SCTyper
+SBSN	Keratinocytes:SCTyper
+SFN	Keratinocytes:SCTyper
+SGPP1	Keratinocytes:SCTyper
+SIRT7	Keratinocytes:SCTyper
+SPRR1A	Keratinocytes:SCTyper
+SPRR1B	Keratinocytes:SCTyper
+TFAP2A	Keratinocytes:SCTyper
+TGM1	Keratinocytes:SCTyper
+TRIM29	Keratinocytes:SCTyper
+CD44	Cancer cells:SCTyper
+EPCAM	Cancer cells:SCTyper
+ERBB2	Cancer cells:SCTyper
+FOLH1	Cancer cells:SCTyper
+KRT18	Cancer cells:SCTyper
+PROM1	Cancer cells:SCTyper
+CD24	Cancer stem cells:SCTyper
+CD44	Cancer stem cells:SCTyper
+FLOT2	Cancer stem cells:SCTyper
+ANPEP	Cancer stem cells:SCTyper
+CD44	Cancer stem cells:SCTyper
+EPCAM	Cancer stem cells:SCTyper
+POU5F1	Cancer stem cells:SCTyper
+PROM1	Cancer stem cells:SCTyper
+THY1	Cancer stem cells:SCTyper
+EPCAM	Cancer cells:SCTyper
+ABCG2	Cancer stem cells:SCTyper
+ALCAM	Cancer stem cells:SCTyper
+ALDH1A1	Cancer stem cells:SCTyper
+BMI1	Cancer stem cells:SCTyper
+CD24	Cancer stem cells:SCTyper
+CD44	Cancer stem cells:SCTyper
+KIT	Cancer stem cells:SCTyper
+NANOG	Cancer stem cells:SCTyper
+NES	Cancer stem cells:SCTyper
+PDPN	Cancer stem cells:SCTyper
+POU5F1	Cancer stem cells:SCTyper
+PROM1	Cancer stem cells:SCTyper
+SOX2	Cancer stem cells:SCTyper
+THY1	Cancer stem cells:SCTyper
+CD44	Cancer cells:SCTyper
+MBTPS2	Cancer cells:SCTyper
+PARP1	Cancer cells:SCTyper
+FUT4	Cancer stem cells:SCTyper
+MSI1	Cancer stem cells:SCTyper
+NES	Cancer stem cells:SCTyper
+PROM1	Cancer stem cells:SCTyper
+SOX2	Cancer stem cells:SCTyper
+THY1	Cancer stem cells:SCTyper
+EPCAM	Cancer stem cells:SCTyper
+MYH11	Smooth Muscle cells:SCTyper
+TAGLN	Smooth Muscle cells:SCTyper
+ACTA2	Smooth Muscle cells:SCTyper
+CALD1	Smooth Muscle cells:SCTyper
+AMH	Granulosa cells:SCTyper
+FOXL2	Granulosa cells:SCTyper
+BEX1	Granulosa cells:SCTyper
+FST	Granulosa cells:SCTyper
+NR5A2	Granulosa cells:SCTyper
+DES	Smooth Muscle cells:SCTyper
+RARB	Smooth Muscle cells:SCTyper
+ACTA2	Smooth Muscle cells:SCTyper
+NOTCH3	Smooth Muscle cells:SCTyper
+RGS5	Smooth Muscle cells:SCTyper
+ADGRL3	Smooth Muscle cells:SCTyper
+RCAN2	Smooth Muscle cells:SCTyper
+MYH11	Smooth Muscle cells:SCTyper
+KCNAB1	Smooth Muscle cells:SCTyper
+RGS6	Smooth Muscle cells:SCTyper
+CARMN	Smooth Muscle cells:SCTyper
+ACTA2	Smooth Muscle cells:SCTyper
+CACNA1C	Smooth Muscle cells:SCTyper
+INPP4B	Smooth Muscle cells:SCTyper
+SYNPO2	Smooth Muscle cells:SCTyper
+RYR2	Smooth Muscle cells:SCTyper
+AC012409.2	Smooth Muscle cells:SCTyper
+NR2F2-AS1	Smooth Muscle cells:SCTyper
+TEX41	Smooth Muscle cells:SCTyper
+AC131025.2	Smooth Muscle cells:SCTyper
+Myocd	Smooth Muscle cells:SCTyper
+Ctnna3	Smooth Muscle cells:SCTyper
+Dgkb	Smooth Muscle cells:SCTyper
+Dmd	Smooth Muscle cells:SCTyper
+Myh11	Smooth Muscle cells:SCTyper
+Cacna1c	Smooth Muscle cells:SCTyper
+Gm38048	Smooth Muscle cells:SCTyper
+Dcdc2a	Epithelial cells:SCTyper
+Ccdc129	Epithelial cells:SCTyper
+Adcy8	Epithelial cells:SCTyper
+RMST-1	Epithelial cells:SCTyper
+Erbb4	Epithelial cells:SCTyper
+Ank3	Epithelial cells:SCTyper
+Pkhd1	Epithelial cells:SCTyper
+Dlg2	Epithelial cells:SCTyper
+Prlr	Epithelial cells:SCTyper
+Adgrg2	Epithelial cells:SCTyper
+Esrrg	Epithelial cells:SCTyper
+Wnt5b	Epithelial cells:SCTyper
+Adgrl3	Epithelial cells:SCTyper
+Dnah12	Epithelial cells:SCTyper
+BC006965	Epithelial cells:SCTyper
+Grip1	Epithelial cells:SCTyper
+Ntng1	Epithelial cells:SCTyper
+Agbl4	Epithelial cells:SCTyper
+Csmd1	Epithelial cells:SCTyper
+Slc25a21	Epithelial cells:SCTyper
+Trps1	Epithelial cells:SCTyper
+Npas3	Epithelial cells:SCTyper
+Thsd4	Epithelial cells:SCTyper
+Kit	Epithelial cells:SCTyper
+Dnah11	Epithelial cells:SCTyper
+Bmpr1b	Epithelial cells:SCTyper
+KRT14	Epithelial cells:SCTyper
+ODAM	Epithelial cells:SCTyper
+WNT10A	Epithelial cells:SCTyper
+IL1A	Epithelial cells:SCTyper
+IL1B	Epithelial cells:SCTyper
+KRT5	Epithelial cells:SCTyper
+SFN	Epithelial cells:SCTyper
+FDCSP	Epithelial cells:SCTyper
+SLPI	Epithelial cells:SCTyper
+CDH1	Epithelial cells:SCTyper
+DSC3	Epithelial cells:SCTyper
+SPP1	Cancer cells 1:Raghu_Kalluri
+MGP	Cancer cells 1:Raghu_Kalluri
+S100A6	Cancer cells 1:Raghu_Kalluri
+MT2	Cancer cells 1:Raghu_Kalluri
+GAPDH	Cancer cells 1:Raghu_Kalluri
+LGALS1	Cancer cells 1:Raghu_Kalluri
+MT1	Cancer cells 1:Raghu_Kalluri
+CST6	Cancer cells 1:Raghu_Kalluri
+TM4SF1	Cancer cells 1:Raghu_Kalluri
+LGALS3	Cancer cells 1:Raghu_Kalluri
+KRT18	Cancer cells 1:Raghu_Kalluri
+TPI1	Cancer cells 1:Raghu_Kalluri
+VIM	Cancer cells 1:Raghu_Kalluri
+CD63	Cancer cells 1:Raghu_Kalluri
+HMGA2	Cancer cells 1:Raghu_Kalluri
+MIF	Cancer cells 1:Raghu_Kalluri
+KRT8	Cancer cells 1:Raghu_Kalluri
+COL6A1	Cancer cells 1:Raghu_Kalluri
+TSC22D1	Cancer cells 1:Raghu_Kalluri
+RPL26	Cancer cells 1:Raghu_Kalluri
+OAF	Cancer cells 1:Raghu_Kalluri
+PRKG2	Cancer cells 1:Raghu_Kalluri
+CD9	Cancer cells 1:Raghu_Kalluri
+PKM	Cancer cells 1:Raghu_Kalluri
+MEG3	Cancer cells 1:Raghu_Kalluri
+RPL32	Cancer cells 1:Raghu_Kalluri
+SLC25A4	Cancer cells 1:Raghu_Kalluri
+S100A4	Cancer cells 1:Raghu_Kalluri
+COL6A2	Cancer cells 1:Raghu_Kalluri
+DAP	Cancer cells 1:Raghu_Kalluri
+EMP1	Cancer cells 1:Raghu_Kalluri
+PHLDA1	Cancer cells 1:Raghu_Kalluri
+ANXA1	Cancer cells 1:Raghu_Kalluri
+CTSB	Cancer cells 1:Raghu_Kalluri
+LMNA	Cancer cells 1:Raghu_Kalluri
+APRT	Cancer cells 1:Raghu_Kalluri
+ESD	Cancer cells 1:Raghu_Kalluri
+TPT1	Cancer cells 1:Raghu_Kalluri
+EIF4EBP1	Cancer cells 1:Raghu_Kalluri
+PCOLCE	Cancer cells 1:Raghu_Kalluri
+ANXA2	Cancer cells 1:Raghu_Kalluri
+LDHA	Cancer cells 1:Raghu_Kalluri
+HSP90AB1	Cancer cells 1:Raghu_Kalluri
+GGCT	Cancer cells 1:Raghu_Kalluri
+COL3A1	Cancer cells 1:Raghu_Kalluri
+RPL13	Cancer cells 1:Raghu_Kalluri
+PTMS	Cancer cells 1:Raghu_Kalluri
+NUPR1	Cancer cells 1:Raghu_Kalluri
+MPP6	Cancer cells 1:Raghu_Kalluri
+TOMM20	Cancer cells 1:Raghu_Kalluri
+H1F0	Cancer cells 1:Raghu_Kalluri
+TNFRSF12A	Cancer cells 1:Raghu_Kalluri
+PPP1R14B	Cancer cells 1:Raghu_Kalluri
+S100A11	Cancer cells 1:Raghu_Kalluri
+PLA2G7	Cancer cells 1:Raghu_Kalluri
+GREM1	Cancer cells 1:Raghu_Kalluri
+RHOC	Cancer cells 1:Raghu_Kalluri
+PGAM1	Cancer cells 1:Raghu_Kalluri
+RPL29	Cancer cells 1:Raghu_Kalluri
+RPL5	Cancer cells 1:Raghu_Kalluri
+BSG	Cancer cells 1:Raghu_Kalluri
+RPL15	Cancer cells 1:Raghu_Kalluri
+CAPG	Cancer cells 1:Raghu_Kalluri
+TIMP1	Cancer cells 1:Raghu_Kalluri
+MLF2	Cancer cells 1:Raghu_Kalluri
+TPM4	Cancer cells 1:Raghu_Kalluri
+RACK1	Cancer cells 1:Raghu_Kalluri
+CPE	Cancer cells 1:Raghu_Kalluri
+TIMP2	Cancer cells 1:Raghu_Kalluri
+CYB5R3	Cancer cells 1:Raghu_Kalluri
+CSRP2	Cancer cells 1:Raghu_Kalluri
+S100A16	Cancer cells 1:Raghu_Kalluri
+MFGE8	Cancer cells 1:Raghu_Kalluri
+SDC1	Cancer cells 1:Raghu_Kalluri
+TIMP3	Cancer cells 1:Raghu_Kalluri
+TPM1	Cancer cells 1:Raghu_Kalluri
+ANK	Cancer cells 1:Raghu_Kalluri
+THY1	Cancer cells 1:Raghu_Kalluri
+MTAP	Cancer cells 1:Raghu_Kalluri
+RPL18A	Cancer cells 1:Raghu_Kalluri
+BMP2	Cancer cells 1:Raghu_Kalluri
+EEF1G	Cancer cells 1:Raghu_Kalluri
+NEAT1	Cancer cells 1:Raghu_Kalluri
+YBX3	Cancer cells 1:Raghu_Kalluri
+SELENOM	Cancer cells 1:Raghu_Kalluri
+S100A10	Cancer cells 1:Raghu_Kalluri
+CTSL	Cancer cells 1:Raghu_Kalluri
+MAP1LC3B	Cancer cells 1:Raghu_Kalluri
+NETO2	Cancer cells 1:Raghu_Kalluri
+GSN	Cancer cells 1:Raghu_Kalluri
+PHB2	Cancer cells 1:Raghu_Kalluri
+CSTB	Cancer cells 1:Raghu_Kalluri
+NEDD4	Cancer cells 1:Raghu_Kalluri
+USE1	Cancer cells 1:Raghu_Kalluri
+CAVIN3	Cancer cells 1:Raghu_Kalluri
+RPLP0	Cancer cells 1:Raghu_Kalluri
+RPS8	Cancer cells 1:Raghu_Kalluri
+PEBP1	Cancer cells 1:Raghu_Kalluri
+HSPB1	Cancer cells 1:Raghu_Kalluri
+RPL12	Cancer cells 1:Raghu_Kalluri
+EIF5A	Cancer cells 1:Raghu_Kalluri
+PRRX1	Cancer cells 1:Raghu_Kalluri
+FTH1	Cancer cells 1:Raghu_Kalluri
+FAM162A	Cancer cells 1:Raghu_Kalluri
+RPS12	Cancer cells 1:Raghu_Kalluri
+FERMT2	Cancer cells 1:Raghu_Kalluri
+ALDOA	Cancer cells 1:Raghu_Kalluri
+RPSA	Cancer cells 1:Raghu_Kalluri
+IER3	Cancer cells 1:Raghu_Kalluri
+RPL7A	Cancer cells 1:Raghu_Kalluri
+SFR1	Cancer cells 1:Raghu_Kalluri
+EEF2	Cancer cells 1:Raghu_Kalluri
+CALD1	Cancer cells 1:Raghu_Kalluri
+CCND1	Cancer cells 1:Raghu_Kalluri
+ANKRD37	Cancer cells 1:Raghu_Kalluri
+GNAS	Cancer cells 1:Raghu_Kalluri
+ANXA5	Cancer cells 1:Raghu_Kalluri
+IGFBP4	Cancer cells 1:Raghu_Kalluri
+RPL23A	Cancer cells 1:Raghu_Kalluri
+RPS18	Cancer cells 1:Raghu_Kalluri
+FKBP1A	Cancer cells 1:Raghu_Kalluri
+KRT19	Cancer cells 1:Raghu_Kalluri
+TUBB6	Cancer cells 1:Raghu_Kalluri
+PRDX2	Cancer cells 1:Raghu_Kalluri
+EVA1B	Cancer cells 1:Raghu_Kalluri
+GABARAPL1	Cancer cells 1:Raghu_Kalluri
+UBC	Cancer cells 1:Raghu_Kalluri
+HDGF	Cancer cells 1:Raghu_Kalluri
+AES	Cancer cells 1:Raghu_Kalluri
+UQCC2	Cancer cells 1:Raghu_Kalluri
+EEF1A1	Cancer cells 1:Raghu_Kalluri
+SERPINH1	Cancer cells 1:Raghu_Kalluri
+CNBP	Cancer cells 1:Raghu_Kalluri
+EEF1B2	Cancer cells 1:Raghu_Kalluri
+SERPINF1	Cancer cells 1:Raghu_Kalluri
+GADD45A	Cancer cells 1:Raghu_Kalluri
+RPS2	Cancer cells 1:Raghu_Kalluri
+TXNDC17	Cancer cells 1:Raghu_Kalluri
+P4HB	Cancer cells 1:Raghu_Kalluri
+RHOB	Cancer cells 1:Raghu_Kalluri
+BHLHE40	Cancer cells 1:Raghu_Kalluri
+IL33	Cancer cells 1:Raghu_Kalluri
+CKS1B	Cancer cells 1:Raghu_Kalluri
+DYNLL1	Cancer cells 1:Raghu_Kalluri
+NUDT9	Cancer cells 1:Raghu_Kalluri
+RPL21	Cancer cells 1:Raghu_Kalluri
+CAV1	Cancer cells 1:Raghu_Kalluri
+VDAC2	Cancer cells 1:Raghu_Kalluri
+GSTO1	Cancer cells 1:Raghu_Kalluri
+ERRFI1	Cancer cells 1:Raghu_Kalluri
+TWIST2	Cancer cells 1:Raghu_Kalluri
+AHNAK	Cancer cells 1:Raghu_Kalluri
+ARPC1B	Cancer cells 1:Raghu_Kalluri
+FBLN2	Cancer cells 1:Raghu_Kalluri
+IRX3	Cancer cells 1:Raghu_Kalluri
+SOX9	Cancer cells 1:Raghu_Kalluri
+GPX4	Cancer cells 1:Raghu_Kalluri
+RPL23	Cancer cells 1:Raghu_Kalluri
+COX4I1	Cancer cells 1:Raghu_Kalluri
+RAB7	Cancer cells 1:Raghu_Kalluri
+STRAP	Cancer cells 1:Raghu_Kalluri
+NUDT4	Cancer cells 1:Raghu_Kalluri
+EPS8	Cancer cells 1:Raghu_Kalluri
+SELENOF	Cancer cells 1:Raghu_Kalluri
+COL6A3	Cancer cells 1:Raghu_Kalluri
+CNIH1	Cancer cells 1:Raghu_Kalluri
+IGFBP7	Cancer cells 1:Raghu_Kalluri
+TMED10	Cancer cells 1:Raghu_Kalluri
+CXCL1	Cancer cells 1:Raghu_Kalluri
+HBEGF	Cancer cells 1:Raghu_Kalluri
+CYR61	Cancer cells 1:Raghu_Kalluri
+NACA	Cancer cells 1:Raghu_Kalluri
+NT5DC2	Cancer cells 1:Raghu_Kalluri
+BOK	Cancer cells 1:Raghu_Kalluri
+COL8A1	Cancer cells 1:Raghu_Kalluri
+RBPMS	Cancer cells 1:Raghu_Kalluri
+ATP5D	Cancer cells 1:Raghu_Kalluri
+MBNL2	Cancer cells 1:Raghu_Kalluri
+TINAGL1	Cancer cells 1:Raghu_Kalluri
+FSTL1	Cancer cells 1:Raghu_Kalluri
+RPS10	Cancer cells 1:Raghu_Kalluri
+LAMP1	Cancer cells 1:Raghu_Kalluri
+RPS14	Cancer cells 1:Raghu_Kalluri
+SEC61A1	Cancer cells 1:Raghu_Kalluri
+DPH3	Cancer cells 1:Raghu_Kalluri
+AVPI1	Cancer cells 1:Raghu_Kalluri
+PLAT	Cancer cells 1:Raghu_Kalluri
+SCD2	Cancer cells 1:Raghu_Kalluri
+HSBP1	Cancer cells 1:Raghu_Kalluri
+LRP1	Cancer cells 1:Raghu_Kalluri
+BRI3	Cancer cells 1:Raghu_Kalluri
+SERPINB6A	Cancer cells 1:Raghu_Kalluri
+COPS7A	Cancer cells 1:Raghu_Kalluri
+RPS15	Cancer cells 1:Raghu_Kalluri
+RTN4	Cancer cells 1:Raghu_Kalluri
+ARF4	Cancer cells 1:Raghu_Kalluri
+MRPS6	Cancer cells 1:Raghu_Kalluri
+PPIC	Cancer cells 1:Raghu_Kalluri
+FN1	Cancer cells 1:Raghu_Kalluri
+FOSL1	Cancer cells 1:Raghu_Kalluri
+RPL24	Cancer cells 1:Raghu_Kalluri
+PTOV1	Cancer cells 1:Raghu_Kalluri
+PMEPA1	Cancer cells 1:Raghu_Kalluri
+TCIM	Cancer cells 1:Raghu_Kalluri
+TPM2	Cancer cells 1:Raghu_Kalluri
+LMO7	Cancer cells 1:Raghu_Kalluri
+WWTR1	Cancer cells 1:Raghu_Kalluri
+ATP2B1	Cancer cells 1:Raghu_Kalluri
+RPL14	Cancer cells 1:Raghu_Kalluri
+MMP14	Cancer cells 1:Raghu_Kalluri
+CHCHD2	Cancer cells 1:Raghu_Kalluri
+CFL2	Cancer cells 1:Raghu_Kalluri
+RPS27A	Cancer cells 1:Raghu_Kalluri
+NENF	Cancer cells 1:Raghu_Kalluri
+INHBA	Cancer cells 1:Raghu_Kalluri
+HMGN3	Cancer cells 1:Raghu_Kalluri
+PCBD1	Cancer cells 1:Raghu_Kalluri
+OCIAD2	Cancer cells 1:Raghu_Kalluri
+PBX1	Cancer cells 1:Raghu_Kalluri
+RPL4	Cancer cells 1:Raghu_Kalluri
+RTRAF	Cancer cells 1:Raghu_Kalluri
+KLF9	Cancer cells 1:Raghu_Kalluri
+AKR1A1	Cancer cells 1:Raghu_Kalluri
+MRFAP1	Cancer cells 1:Raghu_Kalluri
+ARL1	Cancer cells 1:Raghu_Kalluri
+SIN3B	Cancer cells 1:Raghu_Kalluri
+AQP1	Cancer cells 1:Raghu_Kalluri
+HES1	Cancer cells 1:Raghu_Kalluri
+EGR1	Cancer cells 1:Raghu_Kalluri
+AHNAK2	Cancer cells 1:Raghu_Kalluri
+BDNF	Cancer cells 1:Raghu_Kalluri
+PTTG1IP	Cancer cells 1:Raghu_Kalluri
+TCP1	Cancer cells 1:Raghu_Kalluri
+NAA38	Cancer cells 1:Raghu_Kalluri
+UBE2M	Cancer cells 1:Raghu_Kalluri
+VDAC3	Cancer cells 1:Raghu_Kalluri
+SLC20A1	Cancer cells 1:Raghu_Kalluri
+HCFC1R1	Cancer cells 1:Raghu_Kalluri
+TRAPPC1	Cancer cells 1:Raghu_Kalluri
+RAB34	Cancer cells 1:Raghu_Kalluri
+HSPA9	Cancer cells 1:Raghu_Kalluri
+CHD3	Cancer cells 1:Raghu_Kalluri
+BRK1	Cancer cells 1:Raghu_Kalluri
+PSMD7	Cancer cells 1:Raghu_Kalluri
+CDK4	Cancer cells 1:Raghu_Kalluri
+DPYSL3	Cancer cells 1:Raghu_Kalluri
+PDGFRL	Cancer cells 1:Raghu_Kalluri
+GJA1	Cancer cells 1:Raghu_Kalluri
+HACD1	Cancer cells 1:Raghu_Kalluri
+SH3GLB1	Cancer cells 1:Raghu_Kalluri
+FLT1	Cancer cells 1:Raghu_Kalluri
+DSTN	Cancer cells 1:Raghu_Kalluri
+MSMO1	Cancer cells 1:Raghu_Kalluri
+RPL17	Cancer cells 1:Raghu_Kalluri
+TCF25	Cancer cells 1:Raghu_Kalluri
+SMIM10L1	Cancer cells 1:Raghu_Kalluri
+EFEMP2	Cancer cells 1:Raghu_Kalluri
+RBMS1	Cancer cells 1:Raghu_Kalluri
+UGDH	Cancer cells 1:Raghu_Kalluri
+SNHG6	Cancer cells 1:Raghu_Kalluri
+VCAM1	Cancer cells 1:Raghu_Kalluri
+VMP1	Cancer cells 1:Raghu_Kalluri
+ESM1	Cancer cells 1:Raghu_Kalluri
+GPRC5A	Cancer cells 1:Raghu_Kalluri
+GCHFR	Cancer cells 1:Raghu_Kalluri
+TUSC3	Cancer cells 1:Raghu_Kalluri
+ITGB1	Cancer cells 1:Raghu_Kalluri
+AREG	Cancer cells 1:Raghu_Kalluri
+SMG6	Cancer cells 1:Raghu_Kalluri
+IFITM2	Cancer cells 1:Raghu_Kalluri
+MTCH2	Cancer cells 1:Raghu_Kalluri
+FKBP4	Cancer cells 1:Raghu_Kalluri
+ONECUT2	Cancer cells 1:Raghu_Kalluri
+VAT1	Cancer cells 1:Raghu_Kalluri
+CDX2	Cancer cells 1:Raghu_Kalluri
+GDE1	Cancer cells 1:Raghu_Kalluri
+TM4SF4	Cancer cells 1:Raghu_Kalluri
+MRPL51	Cancer cells 1:Raghu_Kalluri
+DDA1	Cancer cells 1:Raghu_Kalluri
+CALML4	Cancer cells 1:Raghu_Kalluri
+PGLS	Cancer cells 1:Raghu_Kalluri
+VDAC1	Cancer cells 1:Raghu_Kalluri
+NUDT21	Cancer cells 1:Raghu_Kalluri
+GM9493	Cancer cells 1:Raghu_Kalluri
+IFITM3	Cancer cells 1:Raghu_Kalluri
+MGST3	Cancer cells 1:Raghu_Kalluri
+DUT	Cancer cells 1:Raghu_Kalluri
+BNIP3	Cancer cells 1:Raghu_Kalluri
+PLEKHA5	Cancer cells 1:Raghu_Kalluri
+FKBP10	Cancer cells 1:Raghu_Kalluri
+MPZL1	Cancer cells 1:Raghu_Kalluri
+LAPTM4B	Cancer cells 1:Raghu_Kalluri
+DUSP6	Cancer cells 1:Raghu_Kalluri
+NFIC	Cancer cells 1:Raghu_Kalluri
+FKBP8	Cancer cells 1:Raghu_Kalluri
+RRM2	Cancer cells 1:Raghu_Kalluri
+FKBP5	Cancer cells 1:Raghu_Kalluri
+CALU	Cancer cells 1:Raghu_Kalluri
+RANGRF	Cancer cells 1:Raghu_Kalluri
+CNN3	Cancer cells 1:Raghu_Kalluri
+AP3S1	Cancer cells 1:Raghu_Kalluri
+PDGFA	Cancer cells 1:Raghu_Kalluri
+TNFAIP2	Cancer cells 1:Raghu_Kalluri
+AEBP1	Cancer cells 1:Raghu_Kalluri
+SAR1A	Cancer cells 1:Raghu_Kalluri
+ARL4A	Cancer cells 1:Raghu_Kalluri
+TNFSF13B	Cancer cells 1:Raghu_Kalluri
+UNC5B	Cancer cells 1:Raghu_Kalluri
+ANXA7	Cancer cells 1:Raghu_Kalluri
+PCDH17	Cancer cells 1:Raghu_Kalluri
+PDGFRB	Cancer cells 1:Raghu_Kalluri
+WLS	Cancer cells 1:Raghu_Kalluri
+MATN2	Cancer cells 1:Raghu_Kalluri
+AP1S1	Cancer cells 1:Raghu_Kalluri
+IGF2BP2	Cancer cells 1:Raghu_Kalluri
+GARS	Cancer cells 1:Raghu_Kalluri
+NPDC1	Cancer cells 1:Raghu_Kalluri
+UBTD1	Cancer cells 1:Raghu_Kalluri
+SMAP1	Cancer cells 1:Raghu_Kalluri
+AKR1B8	Cancer cells 1:Raghu_Kalluri
+EGLN3	Cancer cells 1:Raghu_Kalluri
+ZFHX3	Cancer cells 1:Raghu_Kalluri
+TIMM17A	Cancer cells 1:Raghu_Kalluri
+SLC16A1	Cancer cells 1:Raghu_Kalluri
+APEX1	Cancer cells 1:Raghu_Kalluri
+GNL3	Cancer cells 1:Raghu_Kalluri
+RCN1	Cancer cells 1:Raghu_Kalluri
+TMEM107	Cancer cells 1:Raghu_Kalluri
+AIG1	Cancer cells 1:Raghu_Kalluri
+QSOX1	Cancer cells 1:Raghu_Kalluri
+NAB2	Cancer cells 1:Raghu_Kalluri
+GPX8	Cancer cells 1:Raghu_Kalluri
+POLR2C	Cancer cells 1:Raghu_Kalluri
+NR2F1	Cancer cells 1:Raghu_Kalluri
+NBL1	Cancer cells 1:Raghu_Kalluri
+PPP4R2	Cancer cells 1:Raghu_Kalluri
+PDPN	Cancer cells 1:Raghu_Kalluri
+COL4A2	Cancer cells 1:Raghu_Kalluri
+ACOT7	Cancer cells 1:Raghu_Kalluri
+TSPAN4	Cancer cells 1:Raghu_Kalluri
+TSPAN3	Cancer cells 1:Raghu_Kalluri
+GM26532	Cancer cells 1:Raghu_Kalluri
+TES	Cancer cells 1:Raghu_Kalluri
+ZFP91	Cancer cells 1:Raghu_Kalluri
+MEIS2	Cancer cells 1:Raghu_Kalluri
+MMD	Cancer cells 1:Raghu_Kalluri
+BMP1	Cancer cells 1:Raghu_Kalluri
+DNM1	Cancer cells 1:Raghu_Kalluri
+HMGA1	Cancer cells 1:Raghu_Kalluri
+MAP1B	Cancer cells 1:Raghu_Kalluri
+PDGFRA	Cancer cells 1:Raghu_Kalluri
+GM10073	Cancer cells 1:Raghu_Kalluri
+DDB1	Cancer cells 1:Raghu_Kalluri
+RNF126	Cancer cells 1:Raghu_Kalluri
+COPG1	Cancer cells 1:Raghu_Kalluri
+CASP3	Cancer cells 1:Raghu_Kalluri
+PPA2	Cancer cells 1:Raghu_Kalluri
+SMIM7	Cancer cells 1:Raghu_Kalluri
+METTL9	Cancer cells 1:Raghu_Kalluri
+SDC4	Cancer cells 1:Raghu_Kalluri
+COPE	Cancer cells 1:Raghu_Kalluri
+GM12840	Cancer cells 1:Raghu_Kalluri
+RPL7	Cancer cells 1:Raghu_Kalluri
+DRAP1	Cancer cells 1:Raghu_Kalluri
+MRPL52	Cancer cells 1:Raghu_Kalluri
+SELENOK	Cancer cells 1:Raghu_Kalluri
+SUGT1	Cancer cells 1:Raghu_Kalluri
+BANF1	Cancer cells 1:Raghu_Kalluri
+HINT1	Cancer cells 1:Raghu_Kalluri
+ARL6IP5	Cancer cells 1:Raghu_Kalluri
+GM10076	Cancer cells 1:Raghu_Kalluri
+PFDN1	Cancer cells 1:Raghu_Kalluri
+DYNLRB1	Cancer cells 1:Raghu_Kalluri
+RNH1	Cancer cells 1:Raghu_Kalluri
+PDAP1	Cancer cells 1:Raghu_Kalluri
+RPS24	Cancer cells 1:Raghu_Kalluri
+NPC2	Cancer cells 1:Raghu_Kalluri
+1810058I24RIK	Cancer cells 1:Raghu_Kalluri
+RPL41	Cancer cells 1:Raghu_Kalluri
+RPS27L	Cancer cells 1:Raghu_Kalluri
+SWI5	Cancer cells 1:Raghu_Kalluri
+DNAJB1	Cancer cells 1:Raghu_Kalluri
+SQSTM1	Cancer cells 1:Raghu_Kalluri
+MTCH1	Cancer cells 1:Raghu_Kalluri
+RPL28	Cancer cells 1:Raghu_Kalluri
+ELOB	Cancer cells 1:Raghu_Kalluri
+RPS20	Cancer cells 1:Raghu_Kalluri
+SOCS2	Cancer cells 1:Raghu_Kalluri
+REX1BD	Cancer cells 1:Raghu_Kalluri
+CCT2	Cancer cells 1:Raghu_Kalluri
+TXNL1	Cancer cells 1:Raghu_Kalluri
+SSR2	Cancer cells 1:Raghu_Kalluri
+MT-CO2	Cancer cells 1:Raghu_Kalluri
+LAPTM4A	Cancer cells 1:Raghu_Kalluri
+ATP5B	Cancer cells 1:Raghu_Kalluri
+FOS	Cancer cells 1:Raghu_Kalluri
+UBXN1	Cancer cells 1:Raghu_Kalluri
+SLC25A3	Cancer cells 1:Raghu_Kalluri
+PGK1	Cancer cells 1:Raghu_Kalluri
+PRELID1	Cancer cells 1:Raghu_Kalluri
+EMP3	Cancer cells 1:Raghu_Kalluri
+DAD1	Cancer cells 1:Raghu_Kalluri
+RPL10A	Cancer cells 1:Raghu_Kalluri
+SPCS1	Cancer cells 1:Raghu_Kalluri
+TUBA1A	Cancer cells 1:Raghu_Kalluri
+CALR	Cancer cells 1:Raghu_Kalluri
+C1QBP	Cancer cells 1:Raghu_Kalluri
+CCND2	Cancer cells 1:Raghu_Kalluri
+PSMB5	Cancer cells 1:Raghu_Kalluri
+EMG1	Cancer cells 1:Raghu_Kalluri
+TKT	Cancer cells 1:Raghu_Kalluri
+BNIP3L	Cancer cells 1:Raghu_Kalluri
+YBX1	Cancer cells 1:Raghu_Kalluri
+METAP2	Cancer cells 1:Raghu_Kalluri
+IFI27	Cancer cells 1:Raghu_Kalluri
+RWDD1	Cancer cells 1:Raghu_Kalluri
+JUN	Cancer cells 1:Raghu_Kalluri
+NDUFA12	Cancer cells 1:Raghu_Kalluri
+IMPDH2	Cancer cells 1:Raghu_Kalluri
+RAN	Cancer cells 1:Raghu_Kalluri
+KLF6	Cancer cells 1:Raghu_Kalluri
+RPLP1	Cancer cells 1:Raghu_Kalluri
+EIF6	Cancer cells 1:Raghu_Kalluri
+PSMA7	Cancer cells 1:Raghu_Kalluri
+YWHAE	Cancer cells 1:Raghu_Kalluri
+HMGN1	Cancer cells 1:Raghu_Kalluri
+PSMA3	Cancer cells 1:Raghu_Kalluri
+CCT3	Cancer cells 1:Raghu_Kalluri
+ZFAND5	Cancer cells 1:Raghu_Kalluri
+PPIB	Cancer cells 1:Raghu_Kalluri
+KLF4	Cancer cells 1:Raghu_Kalluri
+DDX39	Cancer cells 1:Raghu_Kalluri
+VAPA	Cancer cells 1:Raghu_Kalluri
+NEDD8	Cancer cells 1:Raghu_Kalluri
+ID3	Cancer cells 1:Raghu_Kalluri
+TXN1	Cancer cells 1:Raghu_Kalluri
+GNB2	Cancer cells 1:Raghu_Kalluri
+GNG5	Cancer cells 1:Raghu_Kalluri
+HIGD1A	Cancer cells 1:Raghu_Kalluri
+EIF4A1	Cancer cells 1:Raghu_Kalluri
+MT-ATP6	Cancer cells 1:Raghu_Kalluri
+CEBPD	Cancer cells 1:Raghu_Kalluri
+IER2	Cancer cells 1:Raghu_Kalluri
+TAGLN2	Cancer cells 1:Raghu_Kalluri
+FTL1	Cancer cells 1:Raghu_Kalluri
+EIF5	Cancer cells 1:Raghu_Kalluri
+NCL	Cancer cells 1:Raghu_Kalluri
+HSP90AA1	Cancer cells 1:Raghu_Kalluri
+GPI1	Cancer cells 1:Raghu_Kalluri
+JUND	Cancer cells 1:Raghu_Kalluri
+NME1	Cancer cells 1:Raghu_Kalluri
+TUBB4B	Cancer cells 1:Raghu_Kalluri
+JUNB	Cancer cells 1:Raghu_Kalluri
+KLF2	Cancer cells 1:Raghu_Kalluri
+ACTG1	Cancer cells 1:Raghu_Kalluri
+CLU	Cancer cells 2:Raghu_Kalluri
+GKN3	Cancer cells 2:Raghu_Kalluri
+TFF2	Cancer cells 2:Raghu_Kalluri
+SPP1	Cancer cells 2:Raghu_Kalluri
+KRT18	Cancer cells 2:Raghu_Kalluri
+FXYD3	Cancer cells 2:Raghu_Kalluri
+WFDC2	Cancer cells 2:Raghu_Kalluri
+DMBT1	Cancer cells 2:Raghu_Kalluri
+KRT8	Cancer cells 2:Raghu_Kalluri
+WFDC18	Cancer cells 2:Raghu_Kalluri
+EPCAM	Cancer cells 2:Raghu_Kalluri
+DBI	Cancer cells 2:Raghu_Kalluri
+KRT19	Cancer cells 2:Raghu_Kalluri
+TM4SF4	Cancer cells 2:Raghu_Kalluri
+TTR	Cancer cells 2:Raghu_Kalluri
+SPINT2	Cancer cells 2:Raghu_Kalluri
+CYSTM1	Cancer cells 2:Raghu_Kalluri
+KRT7	Cancer cells 2:Raghu_Kalluri
+S100A11	Cancer cells 2:Raghu_Kalluri
+LCN2	Cancer cells 2:Raghu_Kalluri
+GSTA4	Cancer cells 2:Raghu_Kalluri
+LGALS4	Cancer cells 2:Raghu_Kalluri
+BSG	Cancer cells 2:Raghu_Kalluri
+CLDN3	Cancer cells 2:Raghu_Kalluri
+ATP1B1	Cancer cells 2:Raghu_Kalluri
+ONECUT2	Cancer cells 2:Raghu_Kalluri
+MGST1	Cancer cells 2:Raghu_Kalluri
+CP	Cancer cells 2:Raghu_Kalluri
+CD24A	Cancer cells 2:Raghu_Kalluri
+CLDN7	Cancer cells 2:Raghu_Kalluri
+AMBP	Cancer cells 2:Raghu_Kalluri
+TSTD1	Cancer cells 2:Raghu_Kalluri
+2200002D01RIK	Cancer cells 2:Raghu_Kalluri
+LURAP1L	Cancer cells 2:Raghu_Kalluri
+TMEM176B	Cancer cells 2:Raghu_Kalluri
+TSPAN8	Cancer cells 2:Raghu_Kalluri
+DSTN	Cancer cells 2:Raghu_Kalluri
+TMEM45A	Cancer cells 2:Raghu_Kalluri
+ANXA4	Cancer cells 2:Raghu_Kalluri
+GPX2	Cancer cells 2:Raghu_Kalluri
+SMIM22	Cancer cells 2:Raghu_Kalluri
+ATPIF1	Cancer cells 2:Raghu_Kalluri
+PIGR	Cancer cells 2:Raghu_Kalluri
+CD81	Cancer cells 2:Raghu_Kalluri
+RBP1	Cancer cells 2:Raghu_Kalluri
+KCNE3	Cancer cells 2:Raghu_Kalluri
+SOX4	Cancer cells 2:Raghu_Kalluri
+SNHG18	Cancer cells 2:Raghu_Kalluri
+CD9	Cancer cells 2:Raghu_Kalluri
+TCEAL9	Cancer cells 2:Raghu_Kalluri
+CLDN2	Cancer cells 2:Raghu_Kalluri
+CTNNB1	Cancer cells 2:Raghu_Kalluri
+HES1	Cancer cells 2:Raghu_Kalluri
+SOX9	Cancer cells 2:Raghu_Kalluri
+STARD10	Cancer cells 2:Raghu_Kalluri
+MUC1	Cancer cells 2:Raghu_Kalluri
+HBEGF	Cancer cells 2:Raghu_Kalluri
+RAB25	Cancer cells 2:Raghu_Kalluri
+KLF5	Cancer cells 2:Raghu_Kalluri
+ATP1A1	Cancer cells 2:Raghu_Kalluri
+SFN	Cancer cells 2:Raghu_Kalluri
+CLDN4	Cancer cells 2:Raghu_Kalluri
+ALCAM	Cancer cells 2:Raghu_Kalluri
+TNFRSF12A	Cancer cells 2:Raghu_Kalluri
+CDKN2A	Cancer cells 2:Raghu_Kalluri
+TSC22D1	Cancer cells 2:Raghu_Kalluri
+PROM1	Cancer cells 2:Raghu_Kalluri
+CRIP2	Cancer cells 2:Raghu_Kalluri
+FAM213A	Cancer cells 2:Raghu_Kalluri
+SDC4	Cancer cells 2:Raghu_Kalluri
+SMIM6	Cancer cells 2:Raghu_Kalluri
+ELF3	Cancer cells 2:Raghu_Kalluri
+CDH1	Cancer cells 2:Raghu_Kalluri
+NFIB	Cancer cells 2:Raghu_Kalluri
+CXADR	Cancer cells 2:Raghu_Kalluri
+CAR2	Cancer cells 2:Raghu_Kalluri
+CCND1	Cancer cells 2:Raghu_Kalluri
+GAS6	Cancer cells 2:Raghu_Kalluri
+S100A16	Cancer cells 2:Raghu_Kalluri
+SCARA3	Cancer cells 2:Raghu_Kalluri
+S100A1	Cancer cells 2:Raghu_Kalluri
+GSTM1	Cancer cells 2:Raghu_Kalluri
+PRR15L	Cancer cells 2:Raghu_Kalluri
+CAMK2N1	Cancer cells 2:Raghu_Kalluri
+LSR	Cancer cells 2:Raghu_Kalluri
+PDZK1IP1	Cancer cells 2:Raghu_Kalluri
+CTGF	Cancer cells 2:Raghu_Kalluri
+SLC12A2	Cancer cells 2:Raghu_Kalluri
+AQP5	Cancer cells 2:Raghu_Kalluri
+CHKA	Cancer cells 2:Raghu_Kalluri
+B4GALT6	Cancer cells 2:Raghu_Kalluri
+CD63	Cancer cells 2:Raghu_Kalluri
+CADM1	Cancer cells 2:Raghu_Kalluri
+F11R	Cancer cells 2:Raghu_Kalluri
+PCBD1	Cancer cells 2:Raghu_Kalluri
+ST3GAL4	Cancer cells 2:Raghu_Kalluri
+TSHZ2	Cancer cells 2:Raghu_Kalluri
+CDC42EP5	Cancer cells 2:Raghu_Kalluri
+FOXQ1	Cancer cells 2:Raghu_Kalluri
+HPN	Cancer cells 2:Raghu_Kalluri
+IGFBP7	Cancer cells 2:Raghu_Kalluri
+PLPP2	Cancer cells 2:Raghu_Kalluri
+KCNK1	Cancer cells 2:Raghu_Kalluri
+OCIAD2	Cancer cells 2:Raghu_Kalluri
+SLC39A4	Cancer cells 2:Raghu_Kalluri
+NPDC1	Cancer cells 2:Raghu_Kalluri
+WFDC15B	Cancer cells 2:Raghu_Kalluri
+CLDN10	Cancer cells 2:Raghu_Kalluri
+EHF	Cancer cells 2:Raghu_Kalluri
+TMC4	Cancer cells 2:Raghu_Kalluri
+TMEM238	Cancer cells 2:Raghu_Kalluri
+CRB3	Cancer cells 2:Raghu_Kalluri
+FERMT1	Cancer cells 2:Raghu_Kalluri
+ERRFI1	Cancer cells 2:Raghu_Kalluri
+RGS5	Cancer cells 2:Raghu_Kalluri
+MAL	Cancer cells 2:Raghu_Kalluri
+BEX4	Cancer cells 2:Raghu_Kalluri
+DCDC2A	Cancer cells 2:Raghu_Kalluri
+SORBS2	Cancer cells 2:Raghu_Kalluri
+MGST3	Cancer cells 2:Raghu_Kalluri
+JUP	Cancer cells 2:Raghu_Kalluri
+SMAGP	Cancer cells 2:Raghu_Kalluri
+DDAH2	Cancer cells 2:Raghu_Kalluri
+NECTIN2	Cancer cells 2:Raghu_Kalluri
+PTPRF	Cancer cells 2:Raghu_Kalluri
+TMEM205	Cancer cells 2:Raghu_Kalluri
+MFGE8	Cancer cells 2:Raghu_Kalluri
+GSTM5	Cancer cells 2:Raghu_Kalluri
+VSIG2	Cancer cells 2:Raghu_Kalluri
+KRTCAP3	Cancer cells 2:Raghu_Kalluri
+CD2AP	Cancer cells 2:Raghu_Kalluri
+GSTA3	Cancer cells 2:Raghu_Kalluri
+MEIS2	Cancer cells 2:Raghu_Kalluri
+RIDA	Cancer cells 2:Raghu_Kalluri
+CFI	Cancer cells 2:Raghu_Kalluri
+PLET1	Cancer cells 2:Raghu_Kalluri
+BOK	Cancer cells 2:Raghu_Kalluri
+CTNNA1	Cancer cells 2:Raghu_Kalluri
+5330417C22RIK	Cancer cells 2:Raghu_Kalluri
+CTTN	Cancer cells 2:Raghu_Kalluri
+SERINC2	Cancer cells 2:Raghu_Kalluri
+PERP	Cancer cells 2:Raghu_Kalluri
+CITED4	Cancer cells 2:Raghu_Kalluri
+CTNND1	Cancer cells 2:Raghu_Kalluri
+RBM47	Cancer cells 2:Raghu_Kalluri
+ECSCR	Cancer cells 2:Raghu_Kalluri
+BACE2	Cancer cells 2:Raghu_Kalluri
+TSPAN12	Cancer cells 2:Raghu_Kalluri
+PTGR1	Cancer cells 2:Raghu_Kalluri
+KRT23	Cancer cells 2:Raghu_Kalluri
+GSTT1	Cancer cells 2:Raghu_Kalluri
+BCAM	Cancer cells 2:Raghu_Kalluri
+TCEAL8	Cancer cells 2:Raghu_Kalluri
+SMPD3	Cancer cells 2:Raghu_Kalluri
+GJB1	Cancer cells 2:Raghu_Kalluri
+BICC1	Cancer cells 2:Raghu_Kalluri
+URAH	Cancer cells 2:Raghu_Kalluri
+DSG2	Cancer cells 2:Raghu_Kalluri
+GOLIM4	Cancer cells 2:Raghu_Kalluri
+KIFC3	Cancer cells 2:Raghu_Kalluri
+NFIA	Cancer cells 2:Raghu_Kalluri
+0610040J01RIK	Cancer cells 2:Raghu_Kalluri
+LAD1	Cancer cells 2:Raghu_Kalluri
+LIMA1	Cancer cells 2:Raghu_Kalluri
+ME1	Cancer cells 2:Raghu_Kalluri
+DSP	Cancer cells 2:Raghu_Kalluri
+PROSER2	Cancer cells 2:Raghu_Kalluri
+MAPK13	Cancer cells 2:Raghu_Kalluri
+RBMS3	Cancer cells 2:Raghu_Kalluri
+CAV2	Cancer cells 2:Raghu_Kalluri
+CBLC	Cancer cells 2:Raghu_Kalluri
+PBX1	Cancer cells 2:Raghu_Kalluri
+PGRMC1	Cancer cells 2:Raghu_Kalluri
+SDC1	Cancer cells 2:Raghu_Kalluri
+CYR61	Cancer cells 2:Raghu_Kalluri
+ARHGAP5	Cancer cells 2:Raghu_Kalluri
+MAGED1	Cancer cells 2:Raghu_Kalluri
+JUN	Cancer cells 2:Raghu_Kalluri
+PLSCR1	Cancer cells 2:Raghu_Kalluri
+PGLYRP1	Cancer cells 2:Raghu_Kalluri
+PRDX1	Cancer cells 2:Raghu_Kalluri
+TMEM176A	Cancer cells 2:Raghu_Kalluri
+GFPT1	Cancer cells 2:Raghu_Kalluri
+GSTO1	Cancer cells 2:Raghu_Kalluri
+EGR1	Cancer cells 2:Raghu_Kalluri
+TM9SF3	Cancer cells 2:Raghu_Kalluri
+NEDD4	Cancer cells 2:Raghu_Kalluri
+APP	Cancer cells 2:Raghu_Kalluri
+IDH2	Cancer cells 2:Raghu_Kalluri
+TOB1	Cancer cells 2:Raghu_Kalluri
+TESC	Cancer cells 2:Raghu_Kalluri
+CD151	Cancer cells 2:Raghu_Kalluri
+APLP2	Cancer cells 2:Raghu_Kalluri
+PEBP1	Cancer cells 2:Raghu_Kalluri
+YWHAQ	Cancer cells 2:Raghu_Kalluri
+IFITM2	Cancer cells 2:Raghu_Kalluri
+PRDX2	Cancer cells 2:Raghu_Kalluri
+BAG1	Cancer cells 2:Raghu_Kalluri
+CNPY2	Cancer cells 2:Raghu_Kalluri
+PTOV1	Cancer cells 2:Raghu_Kalluri
+SELENOP	Cancer cells 2:Raghu_Kalluri
+TSEN34	Cancer cells 2:Raghu_Kalluri
+VAMP5	Cancer cells 2:Raghu_Kalluri
+QSOX1	Cancer cells 2:Raghu_Kalluri
+POLR2F	Cancer cells 2:Raghu_Kalluri
+H3F3B	Cancer cells 2:Raghu_Kalluri
+LPP	Cancer cells 2:Raghu_Kalluri
+HMGN1	Cancer cells 2:Raghu_Kalluri
+ZBTB20	Cancer cells 2:Raghu_Kalluri
+METTL26	Cancer cells 2:Raghu_Kalluri
+NUDT19	Cancer cells 2:Raghu_Kalluri
+SERPINB6A	Cancer cells 2:Raghu_Kalluri
+REG3B	Cancer cells 2:Raghu_Kalluri
+PIGYL	Cancer cells 2:Raghu_Kalluri
+ANXA5	Cancer cells 2:Raghu_Kalluri
+SCD2	Cancer cells 2:Raghu_Kalluri
+SMCO4	Cancer cells 2:Raghu_Kalluri
+TMEM59	Cancer cells 2:Raghu_Kalluri
+GPX4	Cancer cells 2:Raghu_Kalluri
+LAPTM4A	Cancer cells 2:Raghu_Kalluri
+HHEX	Cancer cells 2:Raghu_Kalluri
+AVPI1	Cancer cells 2:Raghu_Kalluri
+TMBIM6	Cancer cells 2:Raghu_Kalluri
+VAMP8	Cancer cells 2:Raghu_Kalluri
+ADK	Cancer cells 2:Raghu_Kalluri
+NDUFA4	Cancer cells 2:Raghu_Kalluri
+SELENOM	Cancer cells 2:Raghu_Kalluri
+NENF	Cancer cells 2:Raghu_Kalluri
+CLTB	Cancer cells 2:Raghu_Kalluri
+H1F0	Cancer cells 2:Raghu_Kalluri
+UQCR11	Cancer cells 2:Raghu_Kalluri
+HINT2	Cancer cells 2:Raghu_Kalluri
+REG1	Cancer cells 2:Raghu_Kalluri
+PAICS	Cancer cells 2:Raghu_Kalluri
+FKBP4	Cancer cells 2:Raghu_Kalluri
+TRF	Cancer cells 2:Raghu_Kalluri
+ACTN4	Cancer cells 2:Raghu_Kalluri
+KCNN4	Cancer cells 2:Raghu_Kalluri
+RPS27L	Cancer cells 2:Raghu_Kalluri
+GNG5	Cancer cells 2:Raghu_Kalluri
+PHLDA1	Cancer cells 2:Raghu_Kalluri
+NUPR1	Cancer cells 2:Raghu_Kalluri
+ANXA2	Cancer cells 2:Raghu_Kalluri
+UBE2E3	Cancer cells 2:Raghu_Kalluri
+CTSE	Cancer cells 2:Raghu_Kalluri
+HSD17B10	Cancer cells 2:Raghu_Kalluri
+LAMP2	Cancer cells 2:Raghu_Kalluri
+PTP4A1	Cancer cells 2:Raghu_Kalluri
+COX7C	Cancer cells 2:Raghu_Kalluri
+VMP1	Cancer cells 2:Raghu_Kalluri
+MAPK3	Cancer cells 2:Raghu_Kalluri
+MT-CO1	Cancer cells 2:Raghu_Kalluri
+ATF3	Cancer cells 2:Raghu_Kalluri
+NDUFA7	Cancer cells 2:Raghu_Kalluri
+FOS	Cancer cells 2:Raghu_Kalluri
+ERGIC3	Cancer cells 2:Raghu_Kalluri
+SEC62	Cancer cells 2:Raghu_Kalluri
+PMEPA1	Cancer cells 2:Raghu_Kalluri
+TMEM147	Cancer cells 2:Raghu_Kalluri
+ANXA3	Cancer cells 2:Raghu_Kalluri
+IVNS1ABP	Cancer cells 2:Raghu_Kalluri
+AKR1A1	Cancer cells 2:Raghu_Kalluri
+CYB5R3	Cancer cells 2:Raghu_Kalluri
+UQCRB	Cancer cells 2:Raghu_Kalluri
+CSTB	Cancer cells 2:Raghu_Kalluri
+XBP1	Cancer cells 2:Raghu_Kalluri
+PFDN1	Cancer cells 2:Raghu_Kalluri
+GLO1	Cancer cells 2:Raghu_Kalluri
+RHOB	Cancer cells 2:Raghu_Kalluri
+CHCHD2	Cancer cells 2:Raghu_Kalluri
+HIST1H2BC	Cancer cells 2:Raghu_Kalluri
+TPM1	Cancer cells 2:Raghu_Kalluri
+PTMS	Cancer cells 2:Raghu_Kalluri
+CELA1	Cancer cells 2:Raghu_Kalluri
+BEX3	Cancer cells 2:Raghu_Kalluri
+SKP1A	Cancer cells 2:Raghu_Kalluri
+BRI3	Cancer cells 2:Raghu_Kalluri
+HCFC1R1	Cancer cells 2:Raghu_Kalluri
+BMYC	Cancer cells 2:Raghu_Kalluri
+SPTSSA	Cancer cells 2:Raghu_Kalluri
+MT1	Cancer cells 2:Raghu_Kalluri
+ANAPC13	Cancer cells 2:Raghu_Kalluri
+SELENOF	Cancer cells 2:Raghu_Kalluri
+ECH1	Cancer cells 2:Raghu_Kalluri
+HIGD2A	Cancer cells 2:Raghu_Kalluri
+HDGF	Cancer cells 2:Raghu_Kalluri
+IER3	Cancer cells 2:Raghu_Kalluri
+COX6B1	Cancer cells 2:Raghu_Kalluri
+HSP90AB1	Cancer cells 2:Raghu_Kalluri
+NDUFB9	Cancer cells 2:Raghu_Kalluri
+CD44	Cancer cells 2:Raghu_Kalluri
+PRDX6	Cancer cells 2:Raghu_Kalluri
+CSRP1	Cancer cells 2:Raghu_Kalluri
+CAPNS1	Cancer cells 2:Raghu_Kalluri
+NDUFB2	Cancer cells 2:Raghu_Kalluri
+NDUFC2	Cancer cells 2:Raghu_Kalluri
+NDUFA6	Cancer cells 2:Raghu_Kalluri
+NEAT1	Cancer cells 2:Raghu_Kalluri
+TMED10	Cancer cells 2:Raghu_Kalluri
+SSR2	Cancer cells 2:Raghu_Kalluri
+ATP5J	Cancer cells 2:Raghu_Kalluri
+FOSB	Cancer cells 2:Raghu_Kalluri
+ROMO1	Cancer cells 2:Raghu_Kalluri
+TECR	Cancer cells 2:Raghu_Kalluri
+XIST	Cancer cells 2:Raghu_Kalluri
+MPC2	Cancer cells 2:Raghu_Kalluri
+IER2	Cancer cells 2:Raghu_Kalluri
+P4HB	Cancer cells 2:Raghu_Kalluri
+OAT	Cancer cells 2:Raghu_Kalluri
+COX4I1	Cancer cells 2:Raghu_Kalluri
+CALM2	Cancer cells 2:Raghu_Kalluri
+USMG5	Cancer cells 2:Raghu_Kalluri
+NDUFC1	Cancer cells 2:Raghu_Kalluri
+RTN4	Cancer cells 2:Raghu_Kalluri
+TXNIP	Cancer cells 2:Raghu_Kalluri
+TAGLN2	Cancer cells 2:Raghu_Kalluri
+HINT1	Cancer cells 2:Raghu_Kalluri
+KLF6	Cancer cells 2:Raghu_Kalluri
+SWI5	Cancer cells 2:Raghu_Kalluri
+CYB5A	Cancer cells 2:Raghu_Kalluri
+COX7B	Cancer cells 2:Raghu_Kalluri
+COX7A2	Cancer cells 2:Raghu_Kalluri
+S100A6	Cancer cells 2:Raghu_Kalluri
+COX6C	Cancer cells 2:Raghu_Kalluri
+TBCA	Cancer cells 2:Raghu_Kalluri
+PARK7	Cancer cells 2:Raghu_Kalluri
+MT-CYTB	Cancer cells 2:Raghu_Kalluri
+HSP90AA1	Cancer cells 2:Raghu_Kalluri
+EIF4A2	Cancer cells 2:Raghu_Kalluri
+LY6E	Cancer cells 2:Raghu_Kalluri
+TXN1	Cancer cells 2:Raghu_Kalluri
+COX6A1	Cancer cells 2:Raghu_Kalluri
+MT-ATP6	Cancer cells 2:Raghu_Kalluri
+UBC	Cancer cells 2:Raghu_Kalluri
+H2AFJ	Cancer cells 2:Raghu_Kalluri
+MT-ND4	Cancer cells 2:Raghu_Kalluri
+JUND	Cancer cells 2:Raghu_Kalluri
+MALAT1	Cancer cells 2:Raghu_Kalluri
+LY6A	Cancer cells 2:Raghu_Kalluri
+S100A8	Granulocytes:Raghu_Kalluri
+S100A9	Granulocytes:Raghu_Kalluri
+NGP	Granulocytes:Raghu_Kalluri
+RETNLG	Granulocytes:Raghu_Kalluri
+IL1B	Granulocytes:Raghu_Kalluri
+CXCL2	Granulocytes:Raghu_Kalluri
+G0S2	Granulocytes:Raghu_Kalluri
+LCN2	Granulocytes:Raghu_Kalluri
+WFDC21	Granulocytes:Raghu_Kalluri
+CD14	Granulocytes:Raghu_Kalluri
+CEBPB	Granulocytes:Raghu_Kalluri
+IFITM1	Granulocytes:Raghu_Kalluri
+CCRL2	Granulocytes:Raghu_Kalluri
+LTF	Granulocytes:Raghu_Kalluri
+MSRB1	Granulocytes:Raghu_Kalluri
+TYROBP	Granulocytes:Raghu_Kalluri
+HP	Granulocytes:Raghu_Kalluri
+IL1R2	Granulocytes:Raghu_Kalluri
+GM5483	Granulocytes:Raghu_Kalluri
+CHIL3	Granulocytes:Raghu_Kalluri
+PGLYRP1	Granulocytes:Raghu_Kalluri
+FCER1G	Granulocytes:Raghu_Kalluri
+ALOX5AP	Granulocytes:Raghu_Kalluri
+MMP9	Granulocytes:Raghu_Kalluri
+AA467197	Granulocytes:Raghu_Kalluri
+CLEC4E	Granulocytes:Raghu_Kalluri
+IL1RN	Granulocytes:Raghu_Kalluri
+LST1	Granulocytes:Raghu_Kalluri
+LRG1	Granulocytes:Raghu_Kalluri
+PLAUR	Granulocytes:Raghu_Kalluri
+GSR	Granulocytes:Raghu_Kalluri
+SLPI	Granulocytes:Raghu_Kalluri
+TREM1	Granulocytes:Raghu_Kalluri
+MCEMP1	Granulocytes:Raghu_Kalluri
+CCR1	Granulocytes:Raghu_Kalluri
+CLEC4D	Granulocytes:Raghu_Kalluri
+MXD1	Granulocytes:Raghu_Kalluri
+C5AR1	Granulocytes:Raghu_Kalluri
+CSF3R	Granulocytes:Raghu_Kalluri
+HCAR2	Granulocytes:Raghu_Kalluri
+FCGR3	Granulocytes:Raghu_Kalluri
+HDC	Granulocytes:Raghu_Kalluri
+CXCR2	Granulocytes:Raghu_Kalluri
+SLC16A3	Granulocytes:Raghu_Kalluri
+CD300LF	Granulocytes:Raghu_Kalluri
+CD177	Granulocytes:Raghu_Kalluri
+F630028O10RIK	Granulocytes:Raghu_Kalluri
+CD33	Granulocytes:Raghu_Kalluri
+LILR4B	Granulocytes:Raghu_Kalluri
+FPR2	Granulocytes:Raghu_Kalluri
+PILRA	Granulocytes:Raghu_Kalluri
+IL1F9	Granulocytes:Raghu_Kalluri
+CHIL1	Granulocytes:Raghu_Kalluri
+SIRPB1B	Granulocytes:Raghu_Kalluri
+TREM3	Granulocytes:Raghu_Kalluri
+CLEC5A	Granulocytes:Raghu_Kalluri
+PYGL	Granulocytes:Raghu_Kalluri
+SIGLECE	Granulocytes:Raghu_Kalluri
+UPP1	Granulocytes:Raghu_Kalluri
+PRDX5	Granulocytes:Raghu_Kalluri
+GRINA	Granulocytes:Raghu_Kalluri
+NCF1	Granulocytes:Raghu_Kalluri
+SIRPB1C	Granulocytes:Raghu_Kalluri
+SPI1	Granulocytes:Raghu_Kalluri
+CAMP	Granulocytes:Raghu_Kalluri
+S100A11	Granulocytes:Raghu_Kalluri
+SLFN1	Granulocytes:Raghu_Kalluri
+IER3	Granulocytes:Raghu_Kalluri
+LITAF	Granulocytes:Raghu_Kalluri
+SRGN	Granulocytes:Raghu_Kalluri
+ID1	Granulocytes:Raghu_Kalluri
+LTB4R1	Granulocytes:Raghu_Kalluri
+GADD45A	Granulocytes:Raghu_Kalluri
+SAMSN1	Granulocytes:Raghu_Kalluri
+IFITM2	Granulocytes:Raghu_Kalluri
+PTGS2	Granulocytes:Raghu_Kalluri
+CD24A	Granulocytes:Raghu_Kalluri
+IFITM6	Granulocytes:Raghu_Kalluri
+PIM1	Granulocytes:Raghu_Kalluri
+IGFBP6	Granulocytes:Raghu_Kalluri
+CEBPD	Granulocytes:Raghu_Kalluri
+CCL3	Granulocytes:Raghu_Kalluri
+PLEK	Granulocytes:Raghu_Kalluri
+TNFAIP2	Granulocytes:Raghu_Kalluri
+MARCKSL1	Granulocytes:Raghu_Kalluri
+GADD45B	Granulocytes:Raghu_Kalluri
+ETS2	Granulocytes:Raghu_Kalluri
+NCF4	Granulocytes:Raghu_Kalluri
+OSTF1	Granulocytes:Raghu_Kalluri
+CD9	Granulocytes:Raghu_Kalluri
+CLEC4N	Granulocytes:Raghu_Kalluri
+FGR	Granulocytes:Raghu_Kalluri
+CARD19	Granulocytes:Raghu_Kalluri
+FTH1	Granulocytes:Raghu_Kalluri
+TXN1	Granulocytes:Raghu_Kalluri
+FXYD5	Granulocytes:Raghu_Kalluri
+LMNB1	Granulocytes:Raghu_Kalluri
+MCL1	Granulocytes:Raghu_Kalluri
+CDKN1A	Granulocytes:Raghu_Kalluri
+JUNB	Granulocytes:Raghu_Kalluri
+ANXA1	Granulocytes:Raghu_Kalluri
+NINJ1	Granulocytes:Raghu_Kalluri
+BTG2	Granulocytes:Raghu_Kalluri
+DHRS7	Granulocytes:Raghu_Kalluri
+BCL2A1A	Granulocytes:Raghu_Kalluri
+TPD52	Granulocytes:Raghu_Kalluri
+LCP1	Granulocytes:Raghu_Kalluri
+RAB20	Granulocytes:Raghu_Kalluri
+CYBA	Granulocytes:Raghu_Kalluri
+SDCBP	Granulocytes:Raghu_Kalluri
+PGD	Granulocytes:Raghu_Kalluri
+RHOG	Granulocytes:Raghu_Kalluri
+ADIPOR1	Granulocytes:Raghu_Kalluri
+EMILIN2	Granulocytes:Raghu_Kalluri
+CLEC4A2	Granulocytes:Raghu_Kalluri
+S100A6	Granulocytes:Raghu_Kalluri
+LYZ2	Granulocytes:Raghu_Kalluri
+GPSM3	Granulocytes:Raghu_Kalluri
+SNAP23	Granulocytes:Raghu_Kalluri
+VASP	Granulocytes:Raghu_Kalluri
+GPX1	Granulocytes:Raghu_Kalluri
+NCF2	Granulocytes:Raghu_Kalluri
+CYP4F18	Granulocytes:Raghu_Kalluri
+OGFRL1	Granulocytes:Raghu_Kalluri
+SEM1	Granulocytes:Raghu_Kalluri
+BCL2A1B	Granulocytes:Raghu_Kalluri
+VSIR	Granulocytes:Raghu_Kalluri
+PKM	Granulocytes:Raghu_Kalluri
+GNG5	Granulocytes:Raghu_Kalluri
+TALDO1	Granulocytes:Raghu_Kalluri
+GABARAP	Granulocytes:Raghu_Kalluri
+FTL1	Granulocytes:Raghu_Kalluri
+SAT1	Granulocytes:Raghu_Kalluri
+GMFG	Granulocytes:Raghu_Kalluri
+H3F3B	Granulocytes:Raghu_Kalluri
+NUDT4	Granulocytes:Raghu_Kalluri
+TRIB1	Granulocytes:Raghu_Kalluri
+PTP4A1	Granulocytes:Raghu_Kalluri
+GAPDH	Granulocytes:Raghu_Kalluri
+NFIL3	Granulocytes:Raghu_Kalluri
+RAC2	Granulocytes:Raghu_Kalluri
+DUSP1	Granulocytes:Raghu_Kalluri
+ATP6V1G1	Granulocytes:Raghu_Kalluri
+SLFN2	Granulocytes:Raghu_Kalluri
+LRRC25	Granulocytes:Raghu_Kalluri
+ARPC1B	Granulocytes:Raghu_Kalluri
+NFKBID	Granulocytes:Raghu_Kalluri
+ARRB2	Granulocytes:Raghu_Kalluri
+FAM49B	Granulocytes:Raghu_Kalluri
+RNF149	Granulocytes:Raghu_Kalluri
+NDEL1	Granulocytes:Raghu_Kalluri
+CSF2RB	Granulocytes:Raghu_Kalluri
+WFDC17	Granulocytes:Raghu_Kalluri
+NFKBIA	Granulocytes:Raghu_Kalluri
+FOS	Granulocytes:Raghu_Kalluri
+TMSB4X	Granulocytes:Raghu_Kalluri
+PRDX6	Granulocytes:Raghu_Kalluri
+CCL6	Granulocytes:Raghu_Kalluri
+ARPC3	Granulocytes:Raghu_Kalluri
+PIRB	Granulocytes:Raghu_Kalluri
+CSRNP1	Granulocytes:Raghu_Kalluri
+ACTG1	Granulocytes:Raghu_Kalluri
+ANXA2	Granulocytes:Raghu_Kalluri
+ZYX	Granulocytes:Raghu_Kalluri
+GLRX	Granulocytes:Raghu_Kalluri
+CTSD	Granulocytes:Raghu_Kalluri
+PNRC1	Granulocytes:Raghu_Kalluri
+SH3BGRL3	Granulocytes:Raghu_Kalluri
+CSF2RA	Granulocytes:Raghu_Kalluri
+CKS2	Granulocytes:Raghu_Kalluri
+MGST1	Granulocytes:Raghu_Kalluri
+SKAP2	Granulocytes:Raghu_Kalluri
+PFN1	Granulocytes:Raghu_Kalluri
+HMGB2	Granulocytes:Raghu_Kalluri
+PLIN2	Granulocytes:Raghu_Kalluri
+2810474O19RIK	Granulocytes:Raghu_Kalluri
+CMTM6	Granulocytes:Raghu_Kalluri
+R3HDM4	Granulocytes:Raghu_Kalluri
+MAP1LC3B	Granulocytes:Raghu_Kalluri
+SOCS3	Granulocytes:Raghu_Kalluri
+VAMP8	Granulocytes:Raghu_Kalluri
+ALDOA	Granulocytes:Raghu_Kalluri
+LY6C2	Granulocytes:Raghu_Kalluri
+H3F3A	Granulocytes:Raghu_Kalluri
+FOSL2	Granulocytes:Raghu_Kalluri
+OSER1	Granulocytes:Raghu_Kalluri
+IER2	Granulocytes:Raghu_Kalluri
+ZFP36	Granulocytes:Raghu_Kalluri
+CDKN2D	Granulocytes:Raghu_Kalluri
+PGAM1	Granulocytes:Raghu_Kalluri
+EIF1	Granulocytes:Raghu_Kalluri
+CDK2AP2	Granulocytes:Raghu_Kalluri
+COX17	Granulocytes:Raghu_Kalluri
+RGS2	Granulocytes:Raghu_Kalluri
+PPP1R2	Granulocytes:Raghu_Kalluri
+ARPC2	Granulocytes:Raghu_Kalluri
+RGCC	Granulocytes:Raghu_Kalluri
+XBP1	Granulocytes:Raghu_Kalluri
+CDC42	Granulocytes:Raghu_Kalluri
+EFHD2	Granulocytes:Raghu_Kalluri
+ATG3	Granulocytes:Raghu_Kalluri
+COTL1	Granulocytes:Raghu_Kalluri
+MRPL33	Granulocytes:Raghu_Kalluri
+CD52	Granulocytes:Raghu_Kalluri
+PLP2	Granulocytes:Raghu_Kalluri
+1810037I17RIK	Granulocytes:Raghu_Kalluri
+HIST1H2BC	Granulocytes:Raghu_Kalluri
+ENO1	Granulocytes:Raghu_Kalluri
+SNX20	Granulocytes:Raghu_Kalluri
+2310001H17RIK	Granulocytes:Raghu_Kalluri
+NFKBIZ	Granulocytes:Raghu_Kalluri
+CD53	Granulocytes:Raghu_Kalluri
+GNB2	Granulocytes:Raghu_Kalluri
+TUBA4A	Granulocytes:Raghu_Kalluri
+IER5	Granulocytes:Raghu_Kalluri
+CD44	Granulocytes:Raghu_Kalluri
+GDPD3	Granulocytes:Raghu_Kalluri
+ATP6V0B	Granulocytes:Raghu_Kalluri
+UBC	Granulocytes:Raghu_Kalluri
+DSTN	Granulocytes:Raghu_Kalluri
+NFE2L2	Granulocytes:Raghu_Kalluri
+BASP1	Granulocytes:Raghu_Kalluri
+CORO1A	Granulocytes:Raghu_Kalluri
+TXNIP	Granulocytes:Raghu_Kalluri
+HMGN2	Granulocytes:Raghu_Kalluri
+TMBIM6	Granulocytes:Raghu_Kalluri
+AB124611	Granulocytes:Raghu_Kalluri
+IFITM3	Granulocytes:Raghu_Kalluri
+UBL5	Granulocytes:Raghu_Kalluri
+BCL2A1D	Granulocytes:Raghu_Kalluri
+ATOX1	Granulocytes:Raghu_Kalluri
+GNAI2	Granulocytes:Raghu_Kalluri
+RHOA	Granulocytes:Raghu_Kalluri
+RAP1B	Granulocytes:Raghu_Kalluri
+ARPC5	Granulocytes:Raghu_Kalluri
+UBB	Granulocytes:Raghu_Kalluri
+RAC1	Granulocytes:Raghu_Kalluri
+H2AFJ	Granulocytes:Raghu_Kalluri
+PRR13	Granulocytes:Raghu_Kalluri
+RSRP1	Granulocytes:Raghu_Kalluri
+SELPLG	Granulocytes:Raghu_Kalluri
+SRSF5	Granulocytes:Raghu_Kalluri
+BNIP3L	Granulocytes:Raghu_Kalluri
+ARHGDIB	Granulocytes:Raghu_Kalluri
+COX8A	Granulocytes:Raghu_Kalluri
+YPEL3	Granulocytes:Raghu_Kalluri
+LDHA	Granulocytes:Raghu_Kalluri
+IFRD1	Granulocytes:Raghu_Kalluri
+GNGT2	Granulocytes:Raghu_Kalluri
+BTG1	Granulocytes:Raghu_Kalluri
+D8ERTD738E	Granulocytes:Raghu_Kalluri
+COX6A1	Granulocytes:Raghu_Kalluri
+MDH2	Granulocytes:Raghu_Kalluri
+CSTB	Granulocytes:Raghu_Kalluri
+TIMM10B	Granulocytes:Raghu_Kalluri
+TSPO	Granulocytes:Raghu_Kalluri
+ACTB	Granulocytes:Raghu_Kalluri
+CTRB1	Acinar cells:Raghu_Kalluri
+PRSS2	Acinar cells:Raghu_Kalluri
+TRY5	Acinar cells:Raghu_Kalluri
+CELA3B	Acinar cells:Raghu_Kalluri
+CPB1	Acinar cells:Raghu_Kalluri
+2210010C04RIK	Acinar cells:Raghu_Kalluri
+TRY4	Acinar cells:Raghu_Kalluri
+SYCN	Acinar cells:Raghu_Kalluri
+REG1	Acinar cells:Raghu_Kalluri
+PNLIPRP1	Acinar cells:Raghu_Kalluri
+PNLIP	Acinar cells:Raghu_Kalluri
+RNASE1	Acinar cells:Raghu_Kalluri
+CPA1	Acinar cells:Raghu_Kalluri
+SPINK1	Acinar cells:Raghu_Kalluri
+CELA2A	Acinar cells:Raghu_Kalluri
+REG2	Acinar cells:Raghu_Kalluri
+CELA1	Acinar cells:Raghu_Kalluri
+REG3B	Acinar cells:Raghu_Kalluri
+ZG16	Acinar cells:Raghu_Kalluri
+PLA2G1B	Acinar cells:Raghu_Kalluri
+CTRL	Acinar cells:Raghu_Kalluri
+CEL	Acinar cells:Raghu_Kalluri
+CTRC	Acinar cells:Raghu_Kalluri
+KLK1	Acinar cells:Raghu_Kalluri
+REG3A	Acinar cells:Raghu_Kalluri
+GP2	Acinar cells:Raghu_Kalluri
+CPA2	Acinar cells:Raghu_Kalluri
+DMBT1	Acinar cells:Raghu_Kalluri
+TFF2	Acinar cells:Raghu_Kalluri
+PRSS3	Acinar cells:Raghu_Kalluri
+PNLIPRP2	Acinar cells:Raghu_Kalluri
+GM10334	Acinar cells:Raghu_Kalluri
+REG3G	Acinar cells:Raghu_Kalluri
+GM2663	Acinar cells:Raghu_Kalluri
+TRY10	Acinar cells:Raghu_Kalluri
+PDIA2	Acinar cells:Raghu_Kalluri
+CUZD1	Acinar cells:Raghu_Kalluri
+ERP27	Acinar cells:Raghu_Kalluri
+REG3D	Acinar cells:Raghu_Kalluri
+SERPINI2	Acinar cells:Raghu_Kalluri
+AMY2A2	Acinar cells:Raghu_Kalluri
+CLPS	Acinar cells:Raghu_Kalluri
+GM5771	Acinar cells:Raghu_Kalluri
+NUPR1	Acinar cells:Raghu_Kalluri
+GGH	Acinar cells:Raghu_Kalluri
+MT2	Acinar cells:Raghu_Kalluri
+MT1	Acinar cells:Raghu_Kalluri
+CLU	Acinar cells:Raghu_Kalluri
+TMEM97	Acinar cells:Raghu_Kalluri
+GATM	Acinar cells:Raghu_Kalluri
+LCMT1	Acinar cells:Raghu_Kalluri
+TCEAL9	Acinar cells:Raghu_Kalluri
+KRT18	Acinar cells:Raghu_Kalluri
+P4HB	Acinar cells:Raghu_Kalluri
+PSMB10	Acinar cells:Raghu_Kalluri
+RPS27L	Acinar cells:Raghu_Kalluri
+SPINT2	Acinar cells:Raghu_Kalluri
+UQCRQ	Acinar cells:Raghu_Kalluri
+GM42418	Acinar cells:Raghu_Kalluri

@@ -1,0 +1,2916 @@
+Genes	Subtype
+CD4	T-cell
+CD8A	T-cell
+CD8B1	T-cell
+CD3D	T-cell
+CD3G	T-cell
+TFF1	T-cell
+FOXP3	T-cell
+CD8B	CD8 T cells: Li Ding
+CD8A	CD8 T cells: Li Ding
+CD3E	CD8 T cells: Li Ding
+CD3D	CD8 T cells: Li Ding
+CD8B	CD4 T cells: Li Ding
+CD8A	CD4 T cells: Li Ding
+CD4	CD4 T cells: Li Ding
+XCL2	NK: Li Ding
+XCL1	NK: Li Ding
+SPON2	NK: Li Ding
+KLRF1	NK: Li Ding
+KIR2DL3	NK: Li Ding
+IL2RB	NK: Li Ding
+HOPX	NK: Li Ding
+CLIC3	NK: Li Ding
+CD7	NK: Li Ding
+KLRB1	NK: Li Ding
+KLRD1	NK: Li Ding
+GZMA	NK: Li Ding
+PRF1	NK: Li Ding
+CD160	NK: Li Ding
+NCAM1	NK: Li Ding
+FCGR3A	NK: Li Ding
+CD1C	DC: Li Ding
+CD1A	DC: Li Ding
+FLT3	DC: Li Ding
+ZBTB46	DC: Li Ding
+XCR1	DC: Li Ding
+CLEC9A	DC: Li Ding
+IRF8	DC: Li Ding
+FLT3	DC: Li Ding
+BATF3	DC: Li Ding
+IKZF2	Tregs: Li Ding
+TNFRSF18	Tregs: Li Ding
+FOXP3	Tregs: Li Ding
+CTLA4	Tregs: Li Ding
+IL7R	Tregs: Li Ding
+IL2RA	Tregs: Li Ding
+GZMH	cytotoxic T cell: Li Ding
+GZMK	cytotoxic T cell: Li Ding
+GZMB	cytotoxic T cell: Li Ding
+GZMA	cytotoxic T cell: Li Ding
+PRF1	cytotoxic T cell: Li Ding
+IFNG	cytotoxic T cell: Li Ding
+FASLG	cytotoxic T cell: Li Ding
+LAMP1	cytotoxic T cell: Li Ding
+CD8A	cytotoxic T cell: Li Ding
+CD8B	cytotoxic T cell: Li Ding
+CD3E	cytotoxic T cell: Li Ding
+CD3D	cytotoxic T cell: Li Ding
+VSIR	exhausted T cell: Li Ding
+TIGIT	exhausted T cell: Li Ding
+ICOS	exhausted T cell: Li Ding
+EOMES	exhausted T cell: Li Ding
+HAVCR2	exhausted T cell: Li Ding
+PDCD1	exhausted T cell: Li Ding
+BTLA	exhausted T cell: Li Ding
+CD244	exhausted T cell: Li Ding
+LAG3	exhausted T cell: Li Ding
+CD160	exhausted T cell: Li Ding
+CTLA4	exhausted T cell: Li Ding
+CD96	exhausted T cell: Li Ding
+CD3D	T cell: Peng
+CD3E	T cell: Peng
+CD4	T cell: Peng
+CD8A	T cell: Peng
+CD3D	T cell:Science
+CD3E	T cell:Science
+CD3G	T cell:Science
+NCAM1	NK cells:Science
+KLRF1	NK cells:Science
+NCR1	NK cells:Science
+KLRC1	NK cells:Science
+CD8A	CD8_Tcells:Science
+CD8B	CD8_Tcells:Science
+CD8A	CD8_Tcm::Science
+CD8B	CD8_Tcm::Science
+CTSW	CD8_Tcm::Science
+GZMK	CD8_Tcm::Science
+IL2RB	CD8_Tcm::Science
+SH2D1A	CD8_Tcm::Science
+GPR171	CD8_Tcm::Science
+CRTAM	CD8_Tcm::Science
+USP36	CD8_Tcm::Science
+TMEM30B	CD8_Tcm::Science
+DHX8	CD8_Tcm::Science
+GZMH	CD8_Tcm::Science
+GZMK	CD8_Tcm::Science
+LAG3	CD8_Tcm::Science
+ZAP70	CD8_Tcm::Science
+COLQ	CD8_Tcm::Science
+RGS9	CD8_Tcm::Science
+CXCR6	CD8_Tcm::Science
+PVRIG	CD8_Tcm::Science
+PYHIN1	CD8_Tcm::Science
+CD2	CD4_Tcells:Science
+CD3D	CD4_Tcells:Science
+CD3E	CD4_Tcells:Science
+CD3G	CD4_Tcells:Science
+CD5	CD4_Tcells:Science
+CD7	CD4_Tcells:Science
+CD27	CD4_Tcells:Science
+CD40LG	CD4_Tcells:Science
+CTLA4	CD4_Tcells:Science
+GOLGA4	CD4_Tcells:Science
+TRAF1	CD4_Tcells:Science
+CD96	CD4_Tcells:Science
+ICOS	CD4_Tcells:Science
+GPR171	CD4_Tcells:Science
+TRAT1	CD4_Tcells:Science
+FOXP3	CD4_Tcells:Science
+SIRPG	CD4_Tcells:Science
+RIC3	CD4_Tcells:Science
+CCR4	Tregs:Science
+CCR8	Tregs:Science
+CTLA4	Tregs:Science
+GPR25	Tregs:Science
+IL2RA	Tregs:Science
+KCNA2	Tregs:Science
+LAIR2	Tregs:Science
+HS3ST3B1	Tregs:Science
+MCF2L2	Tregs:Science
+FOXP3	Tregs:Science
+CD27	CD4_naive_Tcells:Science
+CLC	CD4_naive_Tcells:Science
+CTSW	CD4_naive_Tcells:Science
+DNAJB1	CD4_naive_Tcells:Science
+RBL2	CD4_naive_Tcells:Science
+HAUS3	CD4_naive_Tcells:Science
+ANKRD55	CD4_naive_Tcells:Science
+ZNF394	CD4_naive_Tcells:Science
+CHMP7	CD4_naive_Tcells:Science
+CD28	CD4_memory_Tcells:Science
+CD40LG	CD4_memory_Tcells:Science
+CCR4	CD4_memory_Tcells:Science
+CTLA4	CD4_memory_Tcells:Science
+GPR15	CD4_memory_Tcells:Science
+GZMA	CD4_memory_Tcells:Science
+GZMK	CD4_memory_Tcells:Science
+HMGB2	CD4_memory_Tcells:Science
+PDCD1	CD4_memory_Tcells:Science
+RBL2	CD4_memory_Tcells:Science
+CD226	CD4_memory_Tcells:Science
+GPR171	CD4_memory_Tcells:Science
+TRAT1	CD4_memory_Tcells:Science
+UBASH3A	CD4_memory_Tcells:Science
+ARHGAP15	CD4_memory_Tcells:Science
+CD40LG	CD4_Tcm:Science
+CCR4	CD4_Tcm:Science
+CCR8	CD4_Tcm:Science
+CTLA4	CD4_Tcm:Science
+DAB1	CD4_Tcm:Science
+ERN1	CD4_Tcm:Science
+GPR15	CD4_Tcm:Science
+DNAJB1	CD4_Tcm:Science
+KRT1	CD4_Tcm:Science
+POU6F1	CD4_Tcm:Science
+TPO	CD4_Tcm:Science
+CDC14A	CD4_Tcm:Science
+TRADD	CD4_Tcm:Science
+DLEC1	CD4_Tcm:Science
+ICOS	CD4_Tcm:Science
+TRAT1	CD4_Tcm:Science
+FXYD7	CD4_Tcm:Science
+FBXL8	CD4_Tcm:Science
+SIRPG	CD4_Tcm:Science
+SLC4A5	CD4_Tcm:Science
+ANKRD55	CD4_Tcm:Science
+OBSCN	CD4_Tcm:Science
+CD40LG	CD4_Tcm:Science
+CCR6	CD4_Tcm:Science
+KLRB1	CD4_Tcm:Science
+LTK	CD4_Tcm:Science
+MCF2L2	CD4_Tcm:Science
+GALNT8	CD4_Tcm:Science
+TRAT1	CD4_Tcm:Science
+CD1A	cDC:Science
+CD1B	cDC:Science
+CD1C	cDC:Science
+CD1E	cDC:Science
+CD80	cDC:Science
+CD86	cDC:Science
+FCER1A	cDC:Science
+GFRA2	cDC:Science
+CCL13	cDC:Science
+CCL17	cDC:Science
+CLEC10A	cDC:Science
+CD209	cDC:Science
+KCNK13	cDC:Science
+ALOX15	cDC:Science
+F13A1	cDC:Science
+CCL13	cDC:Science
+CCL17	cDC:Science
+CCL18	cDC:Science
+CCL23	cDC:Science
+CCL24	cDC:Science
+CD209	cDC:Science
+C1QA	cDC:Science
+C1QB	cDC:Science
+CD80	cDC:Science
+FPR3	cDC:Science
+HLA-DQA1	cDC:Science
+IL12B	cDC:Science
+CCL13	cDC:Science
+CCL17	cDC:Science
+CCL19	cDC:Science
+CCL22	cDC:Science
+CD3D	T cells:Our Paper
+CD1C	DC:Our Paper
+FOXP3	Tregs:Our Paper
+LAG3	Tregs:Our Paper
+CTLA4	Tregs:Our Paper
+PD-1	Tregs:Our Paper
+CCR7	Memory cell -t:Our Paper
+SELL	Memory cell -t:Our Paper
+TCF7	Memory cell -t:Our Paper
+CXCL13	Acrtivated T:Our Paper
+GZMK	Cytotoxic T:Our Paper
+GZMB	Cytotoxic T:Our Paper
+IFNG	Cytotoxic T:Our Paper
+PRF1	Cytotoxic T:Our Paper
+CCL4	Cytotoxic T:Our Paper
+CXCL13	Activated:Our Paper
+CD3D	Tcells: Peng
+CD3E	Tcells: Peng
+CD4	Tcells: Peng
+CD8	Tcells: Peng
+CCR7	Tcm:AziziLabs
+LTB	Tcm:AziziLabs
+IL7R	Tcm:AziziLabs
+SARAF	Tcm:AziziLabs
+SELL	Tcm:AziziLabs
+CD3E	Tcm:AziziLabs
+ZFP36L2	Tcm:AziziLabs
+GPR183	Tcm:AziziLabs
+BTG1	Tcm:AziziLabs
+PASK	Tcm:AziziLabs
+YPEL5	Tcm:AziziLabs
+FXYD5	Tcm:AziziLabs
+LEPROTL1	Tcm:AziziLabs
+CD40LG	Tcm:AziziLabs
+IL7R	Tem:AziziLabs
+ANXA1	Tem:AziziLabs
+CXCR4	Tem:AziziLabs
+KLRB1	Tem:AziziLabs
+TNFAIP3	Tem:AziziLabs
+RGCC	Tem:AziziLabs
+CD69	Tem:AziziLabs
+CD40LG	Tem:AziziLabs
+TSC22D3	Tem:AziziLabs
+CREM	Tem:AziziLabs
+CD52	Tem:AziziLabs
+GPR183	Tem:AziziLabs
+YPEL5	Tem:AziziLabs
+SRGN	Tem:AziziLabs
+CD3D	Tem:AziziLabs
+CD2	Tem:AziziLabs
+TRAC	Tem:AziziLabs
+GPR171	Tem:AziziLabs
+BIRC3	Tem:AziziLabs
+PTGER4	Tem:AziziLabs
+SLC2A3	Tem:AziziLabs
+ZFP36L2	Tem:AziziLabs
+LEPROTL1	Tem:AziziLabs
+CXCL13	Tfh:AziziLabs
+NMB	Tfh:AziziLabs
+NR3C1	Tfh:AziziLabs
+DUSP4	Tfh:AziziLabs
+TNFRSF18	Tfh:AziziLabs
+CD200	Tfh:AziziLabs
+TNFRSF4	Tfh:AziziLabs
+ITM2A	Tfh:AziziLabs
+CD2	Tfh:AziziLabs
+SRGN	Tfh:AziziLabs
+IGFL2	Tfh:AziziLabs
+CTLA4	Tfh:AziziLabs
+KLRB1	Tfh:AziziLabs
+RGS1	Tfh:AziziLabs
+TIGIT	Tfh:AziziLabs
+CD3D	Tfh:AziziLabs
+CD40LG	Tfh:AziziLabs
+BATF	Tfh:AziziLabs
+SH2D1A	Tfh:AziziLabs
+RBPJ	Tfh:AziziLabs
+PDCD1	Tfh:AziziLabs
+RNF19A	Tfh:AziziLabs
+FKBP5	Tfh:AziziLabs
+TRAC	Tfh:AziziLabs
+FYB	Tfh:AziziLabs
+CD3E	Tfh:AziziLabs
+PGM2L1	Tfh:AziziLabs
+IL21	Tfh:AziziLabs
+TOX	Tfh:AziziLabs
+SPOCK2	Tfh:AziziLabs
+BIRC3	Tfh:AziziLabs
+PTPRC	Tfh:AziziLabs
+LAT	Tfh:AziziLabs
+TRBC2	Tfh:AziziLabs
+TNFRSF4	Treg:AziziLabs
+LTB	Treg:AziziLabs
+IL32	Treg:AziziLabs
+BATF	Treg:AziziLabs
+FOXP3	Treg:AziziLabs
+TIGIT	Treg:AziziLabs
+TNFRSF18	Treg:AziziLabs
+CTLA4	Treg:AziziLabs
+CARD16	Treg:AziziLabs
+TRAC	Treg:AziziLabs
+IL2RA	Treg:AziziLabs
+CD27	Treg:AziziLabs
+DUSP4	Treg:AziziLabs
+ICOS	Treg:AziziLabs
+CD2	Treg:AziziLabs
+PMAIP1	Treg:AziziLabs
+RGS1	Treg:AziziLabs
+AC133644.2	Treg:AziziLabs
+TNFRSF9	Treg:AziziLabs
+TNFRSF1B	Treg:AziziLabs
+SPOCK2	Treg:AziziLabs
+TBC1D4	Treg:AziziLabs
+IL2RG	Treg:AziziLabs
+BIRC3	Treg:AziziLabs
+S100A4	Treg:AziziLabs
+RTKN2	Treg:AziziLabs
+CD7	Treg:AziziLabs
+ARID5B	Treg:AziziLabs
+GK	Treg:AziziLabs
+CD3D	Treg:AziziLabs
+TRBC2	Treg:AziziLabs
+TRBC1	Treg:AziziLabs
+CREM	Treg:AziziLabs
+CYTIP	Treg:AziziLabs
+SAMSN1	Treg:AziziLabs
+PIM2	Treg:AziziLabs
+SH2D2A	Treg:AziziLabs
+GBP5	Treg:AziziLabs
+CD3E	Treg:AziziLabs
+STK17B	Treg:AziziLabs
+PTPRC	Treg:AziziLabs
+RAC2	Treg:AziziLabs
+IKZF2	Treg:AziziLabs
+LCK	Treg:AziziLabs
+PELI1	Treg:AziziLabs
+CACYBP	Treg:AziziLabs
+SOD1	Treg:AziziLabs
+LAT	Treg:AziziLabs
+MAGEH1	Treg:AziziLabs
+RHOH	Treg:AziziLabs
+CLEC2D	Treg:AziziLabs
+SKAP1	Treg:AziziLabs
+ARHGDIB	Treg:AziziLabs
+SELL	Treg:AziziLabs
+PRDM1	Treg:AziziLabs
+ISG20	Treg:AziziLabs
+CORO1A	Treg:AziziLabs
+CORO1B	Treg:AziziLabs
+STK4	Treg:AziziLabs
+LAIR2	Treg:AziziLabs
+BTG1	Treg:AziziLabs
+PHLDA1	Treg:AziziLabs
+CD69	Activated CD8:AziziLabs
+CCR7	Activated CD8:AziziLabs
+CD27	Activated CD8:AziziLabs
+BTLA	Activated CD8:AziziLabs
+CD40LG	Activated CD8:AziziLabs
+IL2RA	Activated CD8:AziziLabs
+CD3E	Activated CD8:AziziLabs
+CD47	Activated CD8:AziziLabs
+EOMES	Activated CD8:AziziLabs
+GNLY	Activated CD8:AziziLabs
+GZMA	Activated CD8:AziziLabs
+GZMB	Activated CD8:AziziLabs
+PRF1	Activated CD8:AziziLabs
+IFNG	Activated CD8:AziziLabs
+CD8A	Activated CD8:AziziLabs
+CD8B	Activated CD8:AziziLabs
+CD95L	Activated CD8:AziziLabs
+LAMP1	Activated CD8:AziziLabs
+LAG3	Activated CD8:AziziLabs
+CTLA4	Activated CD8:AziziLabs
+HLA-DRA	Activated CD8:AziziLabs
+TNFRSF4	Activated CD8:AziziLabs
+ICOS	Activated CD8:AziziLabs
+TNFRSF9	Activated CD8:AziziLabs
+TNFRSF18	Activated CD8:AziziLabs
+TNFSF11	Deletional tolerance CD8:AziziLabs
+RGS16	Deletional tolerance CD8:AziziLabs
+NRN1	Deletional tolerance CD8:AziziLabs
+IKZF2	Deletional tolerance CD8:AziziLabs
+TBC1D4	Deletional tolerance CD8:AziziLabs
+NR4A2	Deletional tolerance CD8:AziziLabs
+GPM6B	Deletional tolerance CD8:AziziLabs
+ENDOD1	Deletional tolerance CD8:AziziLabs
+FCRL1	Deletional tolerance CD8:AziziLabs
+LRIG1	Deletional tolerance CD8:AziziLabs
+MARCKS	Deletional tolerance CD8:AziziLabs
+NR4A3	Deletional tolerance CD8:AziziLabs
+LTA	Deletional tolerance CD8:AziziLabs
+SYNJ2	Deletional tolerance CD8:AziziLabs
+NR4A1	Deletional tolerance CD8:AziziLabs
+HSPA4L	Deletional tolerance CD8:AziziLabs
+PTPRS	Deletional tolerance CD8:AziziLabs
+EGR2	Deletional tolerance CD8:AziziLabs
+CYTH3	Deletional tolerance CD8:AziziLabs
+YPEL2	Deletional tolerance CD8:AziziLabs
+SKIL	Deletional tolerance CD8:AziziLabs
+NAB2	Deletional tolerance CD8:AziziLabs
+SOAT1	Deletional tolerance CD8:AziziLabs
+GALM	Deletional tolerance CD8:AziziLabs
+TOX	Deletional tolerance CD8:AziziLabs
+REEP3	Deletional tolerance CD8:AziziLabs
+MDH1	Deletional tolerance CD8:AziziLabs
+EPHX1	Deletional tolerance CD8:AziziLabs
+SSH1	Deletional tolerance CD8:AziziLabs
+CREM	Deletional tolerance CD8:AziziLabs
+PACSIN1	Deletional tolerance CD8:AziziLabs
+NPEPPS	Dysfunc CD8:AziziLabs
+NOTCH2	Dysfunc CD8:AziziLabs
+CABLES1	Dysfunc CD8:AziziLabs
+CERK	Dysfunc CD8:AziziLabs
+MTMR3	Dysfunc CD8:AziziLabs
+RELB	Dysfunc CD8:AziziLabs
+KLF3	Dysfunc CD8:AziziLabs
+CAMK2D	Dysfunc CD8:AziziLabs
+CCNG2	Dysfunc CD8:AziziLabs
+SLC25A33	Dysfunc CD8:AziziLabs
+PIM3	Dysfunc CD8:AziziLabs
+RNF149	Dysfunc CD8:AziziLabs
+SWAP70	Dysfunc CD8:AziziLabs
+PINK1	Dysfunc CD8:AziziLabs
+RAB2A	Dysfunc CD8:AziziLabs
+FAM168B	Dysfunc CD8:AziziLabs
+MAP2K7	Dysfunc CD8:AziziLabs
+MIR466I	Dysfunc CD8:AziziLabs
+ASAP1	Dysfunc CD8:AziziLabs
+GRASP	Dysfunc CD8:AziziLabs
+POU2AF1	Dysfunc CD8:AziziLabs
+GATA3	Dysfunc CD8:AziziLabs
+B3GNT2	Dysfunc CD8:AziziLabs
+FAS	Dysfunc CD8:AziziLabs
+PIAS2	Dysfunc CD8:AziziLabs
+FOXO1	Dysfunc CD8:AziziLabs
+SEC24B	Dysfunc CD8:AziziLabs
+TUBB2B	Dysfunc CD8:AziziLabs
+PARP3	Dysfunc CD8:AziziLabs
+PIGH	Dysfunc CD8:AziziLabs
+BRAP	Dysfunc CD8:AziziLabs
+CD19	Dysfunc CD8:AziziLabs
+IL2RG	Dysfunc CD8:AziziLabs
+SNTB1	Dysfunc CD8:AziziLabs
+KDM5B	Dysfunc CD8:AziziLabs
+UTP15	Dysfunc CD8:AziziLabs
+LATS2	Dysfunc CD8:AziziLabs
+RASSF2	Dysfunc CD8:AziziLabs
+IFI30	Dysfunc CD8:AziziLabs
+KDM4B	Dysfunc CD8:AziziLabs
+IER5	Dysfunc CD8:AziziLabs
+CD5	Dysfunc CD8:AziziLabs
+MNDAL	Dysfunc CD8:AziziLabs
+PCGF5	Dysfunc CD8:AziziLabs
+GPR35	Dysfunc CD8:AziziLabs
+SPRY1	Dysfunc CD8:AziziLabs
+TNIP1	Dysfunc CD8:AziziLabs
+CSNK1D	Dysfunc CD8:AziziLabs
+NSMCE1	Dysfunc CD8:AziziLabs
+NR4A1	Dysfunc CD8:AziziLabs
+OSBPL11	Dysfunc CD8:AziziLabs
+PNRC1	Dysfunc CD8:AziziLabs
+ITGAE	Dysfunc CD8:AziziLabs
+SNX18	Dysfunc CD8:AziziLabs
+TMEM55B	Dysfunc CD8:AziziLabs
+IKZF2	Dysfunc CD8:AziziLabs
+ISCU	Dysfunc CD8:AziziLabs
+FAM196B	Dysfunc CD8:AziziLabs
+TMEM243	Dysfunc CD8:AziziLabs
+ZFP62	Dysfunc CD8:AziziLabs
+RASGEF1B	Dysfunc CD8:AziziLabs
+DTWD1	Dysfunc CD8:AziziLabs
+GNA13	Dysfunc CD8:AziziLabs
+JAK2	Dysfunc CD8:AziziLabs
+EIF3F	Dysfunc CD8:AziziLabs
+CCR7	Dysfunc CD8:AziziLabs
+SGPP1	Dysfunc CD8:AziziLabs
+SLAMF7	Dysfunc CD8:AziziLabs
+QRICH1	Dysfunc CD8:AziziLabs
+EML4	Dysfunc CD8:AziziLabs
+CACNB3	Dysfunc CD8:AziziLabs
+CD3G	Terminal exhaustion:AziziLabs
+FASLG	Terminal exhaustion:AziziLabs
+ID2	Terminal exhaustion:AziziLabs
+LAG3	Terminal exhaustion:AziziLabs
+RGS1	Terminal exhaustion:AziziLabs
+CCL3 CCL3L1	Terminal exhaustion:AziziLabs
+KIAA1671	Terminal exhaustion:AziziLabs
+SH2D2A	Terminal exhaustion:AziziLabs
+DUSP2	Terminal exhaustion:AziziLabs
+PDCD1	Terminal exhaustion:AziziLabs
+CD7	Terminal exhaustion:AziziLabs
+NR4A2	Terminal exhaustion:AziziLabs
+CD160	Terminal exhaustion:AziziLabs
+PTPN22	Terminal exhaustion:AziziLabs
+ABI3	Terminal exhaustion:AziziLabs
+PTGER4	Terminal exhaustion:AziziLabs
+GZMK	Terminal exhaustion:AziziLabs
+GZMA	Terminal exhaustion:AziziLabs
+MBNL1	Terminal exhaustion:AziziLabs
+VMP1	Terminal exhaustion:AziziLabs
+PLAC8	Terminal exhaustion:AziziLabs
+RGS3	Terminal exhaustion:AziziLabs
+EFHD2	Terminal exhaustion:AziziLabs
+GLRX	Terminal exhaustion:AziziLabs
+CXCR6	Terminal exhaustion:AziziLabs
+ARL6IP1	Terminal exhaustion:AziziLabs
+CCL4	Terminal exhaustion:AziziLabs
+ISG15	Terminal exhaustion:AziziLabs
+LAX1	Terminal exhaustion:AziziLabs
+CD8A	Terminal exhaustion:AziziLabs
+SERPINA3	Terminal exhaustion:AziziLabs
+GNLY	NK:AziziLabs
+XCL1	NK:AziziLabs
+XCL2	NK:AziziLabs
+AREG	NK:AziziLabs
+KLRD1	NK:AziziLabs
+NKG7	NK:AziziLabs
+TRDC	NK:AziziLabs
+KLRC1	NK:AziziLabs
+GZMB	NK:AziziLabs
+CTSW	NK:AziziLabs
+KLRB1	NK:AziziLabs
+CD7	NK:AziziLabs
+HOPX	NK:AziziLabs
+CCL5	NK:AziziLabs
+CD69	NK:AziziLabs
+CMC1	NK:AziziLabs
+GZMA	NK:AziziLabs
+IL2RB	NK:AziziLabs
+CCL4	NK:AziziLabs
+DUSP2	NK:AziziLabs
+REL	NK:AziziLabs
+ZNF683	NK:AziziLabs
+SRGN	NK:AziziLabs
+SYTL3	NK:AziziLabs
+TNFRSF18	NK:AziziLabs
+CST7	NK:AziziLabs
+MATK	NK:AziziLabs
+LDLRAD4	NK:AziziLabs
+FCER1G	NK:AziziLabs
+PRF1	NK:AziziLabs
+KLRF1	NK:AziziLabs
+KRT86	NK:AziziLabs
+CRTAM	NK:AziziLabs
+CD80	cDC:AziziLabs
+CD86	cDC:AziziLabs
+CCR7	cDC:AziziLabs
+CD1A	cDC:AziziLabs
+CD1C	cDC:AziziLabs
+CD11b	cDC:AziziLabs
+CD11C	cDC:AziziLabs
+CD14	cDC:AziziLabs
+CD16	cDC:AziziLabs
+CD40	cDC:AziziLabs
+CD83	cDC:AziziLabs
+CD123	cDC:AziziLabs
+CD141	cDC:AziziLabs
+CX3CR1	cDC:AziziLabs
+CD209	cDC:AziziLabs
+EpCAM	cDC:AziziLabs
+HLA-DR	cDC:AziziLabs
+CD207	cDC:AziziLabs
+CD172A	cDC:AziziLabs
+XCR1	cDC:AziziLabs
+TCF7	Na夫e T cells:Lee et al 2020
+SELL	Na夫e T cells:Lee et al 2020
+LEF1	Na夫e T cells:Lee et al 2020
+CCR7	Na夫e T cells:Lee et al 2020
+LAG3	Exhausted T cells:Lee et al 2020
+TIGIT	Exhausted T cells:Lee et al 2020
+PDCP1	Exhausted T cells:Lee et al 2020
+HAVCR2	Exhausted T cells:Lee et al 2020
+CTLA4	Exhausted T cells:Lee et al 2020
+IL2	Cytotoxic T cells:Lee et al 2020
+GZMA	Cytotoxic T cells:Lee et al 2020
+GNLY	Cytotoxic T cells:Lee et al 2020
+PRF1	Cytotoxic T cells:Lee et al 2020
+GZMB	Cytotoxic T cells:Lee et al 2020
+GZMK	Cytotoxic T cells:Lee et al 2020
+IFNG	Cytotoxic T cells:Lee et al 2020
+NKG7	Cytotoxic T cells:Lee et al 2020
+CD28	Co-stimulatory T cells:Lee et al 2020
+TNFRSF14	Co-stimulatory T cells:Lee et al 2020
+ICOS	Co-stimulatory T cells:Lee et al 2020
+TNFRSF9	Co-stimulatory T cells:Lee et al 2020
+IL2R	Regulatory T cells:Lee et al 2020
+FOXP3	Regulatory T cells:Lee et al 2020
+IKZF2	Regulatory T cells:Lee et al 2020
+IL4R	Regulatory T cells:Lee et al 2020
+TGFB1	Regulatory T cells:Lee et al 2020
+TGFB3	Regulatory T cells:Lee et al 2020
+TGFBI	Regulatory T cells:Lee et al 2020
+TGFBR1	Regulatory T cells:Lee et al 2020
+TRGC1	Y-Delta T cells:Lee et al 2020
+TRGC2	Y-Delta T cells:Lee et al 2020
+TRDC	Y-Delta T cells:Lee et al 2020
+IL17A	TH17 T cells:Lee et al 2020
+IL17F	TH17 T cells:Lee et al 2020
+IL22	TH17 T cells:Lee et al 2020
+CCR6	TH17 T cells:Lee et al 2020
+KLRB1	TH17 T cells:Lee et al 2020
+RORA	TH17 T cells:Lee et al 2020
+STAT4	Th1-Like T cells:Lee et al 2020
+IL12RB2	Th1-Like T cells:Lee et al 2020
+IFNG	Th1-Like T cells:Lee et al 2020
+GATA3	Th2-Like T cells:Lee et al 2020
+STAT6	Th2-Like T cells:Lee et al 2020
+IL4R	Th2-Like T cells:Lee et al 2020
+MAF	Tfh cells:Lee et al 2020
+CXCL13	Tfh cells:Lee et al 2020
+CXCR5	Tfh cells:Lee et al 2020
+PDCD1	Tfh cells:Lee et al 2020
+XCL1	NK:Lee et al 2020
+FCGR3A	NK:Lee et al 2020
+KLRD1	NK:Lee et al 2020
+KLRF1	NK:Lee et al 2020
+MKI67	Proliferative T cells :Lee et al 2020
+PCNA	Proliferative T cells :Lee et al 2020
+CD1C	"Dendritic cells:Chen et al, Bladder paper"
+CLEC10A	"Dendritic cells:Chen et al, Bladder paper"
+CCR7	"Dendritic cells:Chen et al, Bladder paper"
+CD8	Naive CD8+ T cells:SCTyper
+CD2	Naive CD8+ T cells:SCTyper
+CD3D	Naive CD8+ T cells:SCTyper
+CD3E	Naive CD8+ T cells:SCTyper
+CD3G	Naive CD8+ T cells:SCTyper
+CD3Z	Naive CD8+ T cells:SCTyper
+CD45RA	Naive CD8+ T cells:SCTyper
+CD62L	Naive CD8+ T cells:SCTyper
+CD27	Naive CD8+ T cells:SCTyper
+CD127	Naive CD8+ T cells:SCTyper
+FOXP3	Naive CD8+ T cells:SCTyper
+CCR7	Naive CD8+ T cells:SCTyper
+CD45	Naive CD8+ T cells:SCTyper
+CD8A	Naive CD8+ T cells:SCTyper
+CD8B	Naive CD8+ T cells:SCTyper
+CCR6	Naive CD8+ T cells:SCTyper
+CD11b	Naive CD8+ T cells:SCTyper
+CD30	Naive CD8+ T cells:SCTyper
+CD6	Naive CD8+ T cells:SCTyper
+CTLA4	Naive CD8+ T cells:SCTyper
+IL2RA	Naive CD8+ T cells:SCTyper
+GZMB	Naive CD8+ T cells:SCTyper
+PTPRC	Naive CD8+ T cells:SCTyper
+SELL	Naive CD8+ T cells:SCTyper
+CCR7	Naive CD8+ T cells:SCTyper
+GNLY	Naive CD8+ T cells:SCTyper
+Trac	Naive CD8+ T cells:SCTyper
+Ltb	Naive CD8+ T cells:SCTyper
+Cd52	Naive CD8+ T cells:SCTyper
+Trbc2	Naive CD8+ T cells:SCTyper
+Shisa5	Naive CD8+ T cells:SCTyper
+Lck	Naive CD8+ T cells:SCTyper
+Thy1	Naive CD8+ T cells:SCTyper
+Dapl1	Naive CD8+ T cells:SCTyper
+CD4	Naive CD4+ T cells:SCTyper
+CD2	Naive CD4+ T cells:SCTyper
+CD3D	Naive CD4+ T cells:SCTyper
+CD3E	Naive CD4+ T cells:SCTyper
+CD3G	Naive CD4+ T cells:SCTyper
+CD3Z	Naive CD4+ T cells:SCTyper
+CD45RA	Naive CD4+ T cells:SCTyper
+CD62L	Naive CD4+ T cells:SCTyper
+CD27	Naive CD4+ T cells:SCTyper
+CD127	Naive CD4+ T cells:SCTyper
+FOXP3	Naive CD4+ T cells:SCTyper
+CCR7	Naive CD4+ T cells:SCTyper
+CD45	Naive CD4+ T cells:SCTyper
+CCR6	Naive CD4+ T cells:SCTyper
+CD11b	Naive CD4+ T cells:SCTyper
+CD30	Naive CD4+ T cells:SCTyper
+CD6	Naive CD4+ T cells:SCTyper
+CTLA4	Naive CD4+ T cells:SCTyper
+IL2RA	Naive CD4+ T cells:SCTyper
+GZMB	Naive CD4+ T cells:SCTyper
+PTPRC	Naive CD4+ T cells:SCTyper
+SELL	Naive CD4+ T cells:SCTyper
+CCR7	Naive CD4+ T cells:SCTyper
+Trac	Naive CD4+ T cells:SCTyper
+Ltb	Naive CD4+ T cells:SCTyper
+Cd52	Naive CD4+ T cells:SCTyper
+Trbc2	Naive CD4+ T cells:SCTyper
+Shisa5	Naive CD4+ T cells:SCTyper
+Lck	Naive CD4+ T cells:SCTyper
+Thy1	Naive CD4+ T cells:SCTyper
+Dapl1	Naive CD4+ T cells:SCTyper
+CD8	Memory CD8+ T cells:SCTyper
+CD2	Memory CD8+ T cells:SCTyper
+CD3D	Memory CD8+ T cells:SCTyper
+CD3E	Memory CD8+ T cells:SCTyper
+CD3G	Memory CD8+ T cells:SCTyper
+CD3Z	Memory CD8+ T cells:SCTyper
+CD25	Memory CD8+ T cells:SCTyper
+CD45RA	Memory CD8+ T cells:SCTyper
+CD62L	Memory CD8+ T cells:SCTyper
+CD27	Memory CD8+ T cells:SCTyper
+CD127	Memory CD8+ T cells:SCTyper
+FOXP3	Memory CD8+ T cells:SCTyper
+CCR7	Memory CD8+ T cells:SCTyper
+CD45	Memory CD8+ T cells:SCTyper
+CD8A	Memory CD8+ T cells:SCTyper
+CD8B	Memory CD8+ T cells:SCTyper
+CCR6	Memory CD8+ T cells:SCTyper
+CD11b	Memory CD8+ T cells:SCTyper
+CD30	Memory CD8+ T cells:SCTyper
+CD45RO	Memory CD8+ T cells:SCTyper
+CD6	Memory CD8+ T cells:SCTyper
+CTLA4	Memory CD8+ T cells:SCTyper
+IL2RA	Memory CD8+ T cells:SCTyper
+GZMB	Memory CD8+ T cells:SCTyper
+SELL	Memory CD8+ T cells:SCTyper
+CCR7	Memory CD8+ T cells:SCTyper
+GNLY	Memory CD8+ T cells:SCTyper
+S100A4	Memory CD8+ T cells:SCTyper
+Trac	Memory CD8+ T cells:SCTyper
+Ltb	Memory CD8+ T cells:SCTyper
+Cd52	Memory CD8+ T cells:SCTyper
+Trbc2	Memory CD8+ T cells:SCTyper
+Shisa5	Memory CD8+ T cells:SCTyper
+Lck	Memory CD8+ T cells:SCTyper
+Thy1	Memory CD8+ T cells:SCTyper
+Dapl1	Memory CD8+ T cells:SCTyper
+CD4	Memory CD4+ T cells:SCTyper
+CD2	Memory CD4+ T cells:SCTyper
+CD3D	Memory CD4+ T cells:SCTyper
+CD3E	Memory CD4+ T cells:SCTyper
+CD3G	Memory CD4+ T cells:SCTyper
+CD3Z	Memory CD4+ T cells:SCTyper
+CD25	Memory CD4+ T cells:SCTyper
+CD45RA	Memory CD4+ T cells:SCTyper
+CD62L	Memory CD4+ T cells:SCTyper
+CD27	Memory CD4+ T cells:SCTyper
+CD127	Memory CD4+ T cells:SCTyper
+FOXP3	Memory CD4+ T cells:SCTyper
+CCR7	Memory CD4+ T cells:SCTyper
+CD45	Memory CD4+ T cells:SCTyper
+CCR6	Memory CD4+ T cells:SCTyper
+CD11b	Memory CD4+ T cells:SCTyper
+CD30	Memory CD4+ T cells:SCTyper
+CD45RO	Memory CD4+ T cells:SCTyper
+CD6	Memory CD4+ T cells:SCTyper
+CTLA4	Memory CD4+ T cells:SCTyper
+IL2RA	Memory CD4+ T cells:SCTyper
+GZMB	Memory CD4+ T cells:SCTyper
+SELL	Memory CD4+ T cells:SCTyper
+CCR7	Memory CD4+ T cells:SCTyper
+S100A4	Memory CD4+ T cells:SCTyper
+Trac	Memory CD4+ T cells:SCTyper
+Ltb	Memory CD4+ T cells:SCTyper
+Cd52	Memory CD4+ T cells:SCTyper
+Trbc2	Memory CD4+ T cells:SCTyper
+Shisa5	Memory CD4+ T cells:SCTyper
+Lck	Memory CD4+ T cells:SCTyper
+Thy1	Memory CD4+ T cells:SCTyper
+Dapl1	Memory CD4+ T cells:SCTyper
+CD8	Effector CD8+ T cells:SCTyper
+CD2	Effector CD8+ T cells:SCTyper
+CD3D	Effector CD8+ T cells:SCTyper
+CD3E	Effector CD8+ T cells:SCTyper
+CD3G	Effector CD8+ T cells:SCTyper
+CD3Z	Effector CD8+ T cells:SCTyper
+CD25	Effector CD8+ T cells:SCTyper
+CD45RA	Effector CD8+ T cells:SCTyper
+CD62L	Effector CD8+ T cells:SCTyper
+CD27	Effector CD8+ T cells:SCTyper
+CD127	Effector CD8+ T cells:SCTyper
+FOXP3	Effector CD8+ T cells:SCTyper
+CCR7	Effector CD8+ T cells:SCTyper
+CD45	Effector CD8+ T cells:SCTyper
+CD8A	Effector CD8+ T cells:SCTyper
+CD8B	Effector CD8+ T cells:SCTyper
+CCR6	Effector CD8+ T cells:SCTyper
+CD11b	Effector CD8+ T cells:SCTyper
+CD30	Effector CD8+ T cells:SCTyper
+CD6	Effector CD8+ T cells:SCTyper
+CTLA4	Effector CD8+ T cells:SCTyper
+IL2RA	Effector CD8+ T cells:SCTyper
+GZMB	Effector CD8+ T cells:SCTyper
+PTPRC	Effector CD8+ T cells:SCTyper
+GNLY	Effector CD8+ T cells:SCTyper
+Trac	Effector CD8+ T cells:SCTyper
+Ltb	Effector CD8+ T cells:SCTyper
+Cd52	Effector CD8+ T cells:SCTyper
+Trbc2	Effector CD8+ T cells:SCTyper
+Shisa5	Effector CD8+ T cells:SCTyper
+Lck	Effector CD8+ T cells:SCTyper
+Thy1	Effector CD8+ T cells:SCTyper
+Dapl1	Effector CD8+ T cells:SCTyper
+CD4	Effector CD4+ T cells:SCTyper
+CD2	Effector CD4+ T cells:SCTyper
+CD3D	Effector CD4+ T cells:SCTyper
+CD3E	Effector CD4+ T cells:SCTyper
+CD3G	Effector CD4+ T cells:SCTyper
+CD3Z	Effector CD4+ T cells:SCTyper
+CD25	Effector CD4+ T cells:SCTyper
+CD45RA	Effector CD4+ T cells:SCTyper
+CD62L	Effector CD4+ T cells:SCTyper
+CD27	Effector CD4+ T cells:SCTyper
+CD127	Effector CD4+ T cells:SCTyper
+FOXP3	Effector CD4+ T cells:SCTyper
+CCR7	Effector CD4+ T cells:SCTyper
+CD45	Effector CD4+ T cells:SCTyper
+CCR6	Effector CD4+ T cells:SCTyper
+CD11b	Effector CD4+ T cells:SCTyper
+CD30	Effector CD4+ T cells:SCTyper
+CD6	Effector CD4+ T cells:SCTyper
+CTLA4	Effector CD4+ T cells:SCTyper
+IL2RA	Effector CD4+ T cells:SCTyper
+GZMB	Effector CD4+ T cells:SCTyper
+PTPRC	Effector CD4+ T cells:SCTyper
+Trac	Effector CD4+ T cells:SCTyper
+Ltb	Effector CD4+ T cells:SCTyper
+Cd52	Effector CD4+ T cells:SCTyper
+Trbc2	Effector CD4+ T cells:SCTyper
+Shisa5	Effector CD4+ T cells:SCTyper
+Lck	Effector CD4+ T cells:SCTyper
+Thy1	Effector CD4+ T cells:SCTyper
+Dapl1	Effector CD4+ T cells:SCTyper
+CD8	CD8+ NKT-like cells:SCTyper
+CD56	CD8+ NKT-like cells:SCTyper
+CD2	CD8+ NKT-like cells:SCTyper
+CD16	CD8+ NKT-like cells:SCTyper
+CD94	CD8+ NKT-like cells:SCTyper
+CD3D	CD8+ NKT-like cells:SCTyper
+CD3E	CD8+ NKT-like cells:SCTyper
+CD3G	CD8+ NKT-like cells:SCTyper
+CD3Z	CD8+ NKT-like cells:SCTyper
+NKp46	CD8+ NKT-like cells:SCTyper
+CD11b	CD8+ NKT-like cells:SCTyper
+CD161	CD8+ NKT-like cells:SCTyper
+CD314	CD8+ NKT-like cells:SCTyper
+CD69	CD8+ NKT-like cells:SCTyper
+NKG7	CD8+ NKT-like cells:SCTyper
+CD122	CD8+ NKT-like cells:SCTyper
+NKG2D	CD8+ NKT-like cells:SCTyper
+GZMB	CD8+ NKT-like cells:SCTyper
+GZMA	CD8+ NKT-like cells:SCTyper
+GZMM	CD8+ NKT-like cells:SCTyper
+GNLY	CD8+ NKT-like cells:SCTyper
+COX6A2	CD8+ NKT-like cells:SCTyper
+ZMAT4	CD8+ NKT-like cells:SCTyper
+KIR2DL4	CD8+ NKT-like cells:SCTyper
+CD4	CD4+ NKT-like cells:SCTyper
+CD56	CD4+ NKT-like cells:SCTyper
+CD2	CD4+ NKT-like cells:SCTyper
+CD16	CD4+ NKT-like cells:SCTyper
+CD94	CD4+ NKT-like cells:SCTyper
+CD3D	CD4+ NKT-like cells:SCTyper
+CD3E	CD4+ NKT-like cells:SCTyper
+CD3G	CD4+ NKT-like cells:SCTyper
+CD3Z	CD4+ NKT-like cells:SCTyper
+NKp46	CD4+ NKT-like cells:SCTyper
+CD11b	CD4+ NKT-like cells:SCTyper
+CD161	CD4+ NKT-like cells:SCTyper
+CD314	CD4+ NKT-like cells:SCTyper
+CD69	CD4+ NKT-like cells:SCTyper
+NKG7	CD4+ NKT-like cells:SCTyper
+CD122	CD4+ NKT-like cells:SCTyper
+NKG2D	CD4+ NKT-like cells:SCTyper
+GZMB	CD4+ NKT-like cells:SCTyper
+GZMA	CD4+ NKT-like cells:SCTyper
+GZMM	CD4+ NKT-like cells:SCTyper
+COX6A2	CD4+ NKT-like cells:SCTyper
+ZMAT4	CD4+ NKT-like cells:SCTyper
+KIR2DL4	CD4+ NKT-like cells:SCTyper
+CD56	Natural killer cells:SCTyper
+CD2	Natural killer cells:SCTyper
+CD16	Natural killer cells:SCTyper
+CD94	Natural killer cells:SCTyper
+NKp46	Natural killer cells:SCTyper
+CD11b	Natural killer cells:SCTyper
+CD161	Natural killer cells:SCTyper
+CD314	Natural killer cells:SCTyper
+CD69	Natural killer cells:SCTyper
+NKG7	Natural killer cells:SCTyper
+CD122	Natural killer cells:SCTyper
+NKG2D	Natural killer cells:SCTyper
+GZMB	Natural killer cells:SCTyper
+GZMA	Natural killer cells:SCTyper
+GZMM	Natural killer cells:SCTyper
+FCGR3A	Natural killer cells:SCTyper
+GNLY	Natural killer cells:SCTyper
+COX6A2	Natural killer cells:SCTyper
+ZMAT4	Natural killer cells:SCTyper
+KIR2DL4	Natural killer cells:SCTyper
+NKG7	Natural killer cells:SCTyper
+BCL11A	Epiblast cells:SCTyper
+CDH1	Epiblast cells:SCTyper
+CLDN6	Epiblast cells:SCTyper
+CLDN7	Epiblast cells:SCTyper
+CRMP1	Epiblast cells:SCTyper
+CXCL12	Epiblast cells:SCTyper
+DPYSL5	Epiblast cells:SCTyper
+EPCAM	Epiblast cells:SCTyper
+INA	Epiblast cells:SCTyper
+LEF1	Epiblast cells:SCTyper
+MFAP2	Epiblast cells:SCTyper
+NANOG	Epiblast cells:SCTyper
+POU5F1	Epiblast cells:SCTyper
+SLC35D3	Epiblast cells:SCTyper
+SOX11	Epiblast cells:SCTyper
+TDGF1	Epiblast cells:SCTyper
+TRBC2	T cells 1:Raghu_Kalluri
+CD3D	T cells 1:Raghu_Kalluri
+TRAC	T cells 1:Raghu_Kalluri
+LEF1	T cells 1:Raghu_Kalluri
+CD3G	T cells 1:Raghu_Kalluri
+LAT	T cells 1:Raghu_Kalluri
+CD3E	T cells 1:Raghu_Kalluri
+MS4A4B	T cells 1:Raghu_Kalluri
+TMSB10	T cells 1:Raghu_Kalluri
+RPS27	T cells 1:Raghu_Kalluri
+RPL12	T cells 1:Raghu_Kalluri
+RPL13A	T cells 1:Raghu_Kalluri
+RPS15A	T cells 1:Raghu_Kalluri
+RPS29	T cells 1:Raghu_Kalluri
+RPS16	T cells 1:Raghu_Kalluri
+LCK	T cells 1:Raghu_Kalluri
+TCF7	T cells 1:Raghu_Kalluri
+RPS7	T cells 1:Raghu_Kalluri
+RPS28	T cells 1:Raghu_Kalluri
+RPS23	T cells 1:Raghu_Kalluri
+RPS6	T cells 1:Raghu_Kalluri
+RPS24	T cells 1:Raghu_Kalluri
+RPL8	T cells 1:Raghu_Kalluri
+RPLP2	T cells 1:Raghu_Kalluri
+RPS4X	T cells 1:Raghu_Kalluri
+RPS19	T cells 1:Raghu_Kalluri
+SKAP1	T cells 1:Raghu_Kalluri
+RPLP1	T cells 1:Raghu_Kalluri
+RPL19	T cells 1:Raghu_Kalluri
+RPS3	T cells 1:Raghu_Kalluri
+RPL35A	T cells 1:Raghu_Kalluri
+RPL36A	T cells 1:Raghu_Kalluri
+RPS13	T cells 1:Raghu_Kalluri
+LIMD2	T cells 1:Raghu_Kalluri
+RPL9	T cells 1:Raghu_Kalluri
+TRBC1	T cells 1:Raghu_Kalluri
+CD247	T cells 1:Raghu_Kalluri
+DGKA	T cells 1:Raghu_Kalluri
+RPS21	T cells 1:Raghu_Kalluri
+RPL35	T cells 1:Raghu_Kalluri
+RPL39	T cells 1:Raghu_Kalluri
+RPL3	T cells 1:Raghu_Kalluri
+RPL11	T cells 1:Raghu_Kalluri
+RPL17	T cells 1:Raghu_Kalluri
+RPL30	T cells 1:Raghu_Kalluri
+RPL36	T cells 1:Raghu_Kalluri
+RPL14	T cells 1:Raghu_Kalluri
+RPS3A1	T cells 1:Raghu_Kalluri
+RPS18	T cells 1:Raghu_Kalluri
+BCL11B	T cells 1:Raghu_Kalluri
+MS4A6B	T cells 1:Raghu_Kalluri
+DAPL1	T cells 1:Raghu_Kalluri
+RPS15	T cells 1:Raghu_Kalluri
+RPS27RT	T cells 1:Raghu_Kalluri
+RPL37A	T cells 1:Raghu_Kalluri
+RPL31	T cells 1:Raghu_Kalluri
+RPLP0	T cells 1:Raghu_Kalluri
+HCST	T cells 1:Raghu_Kalluri
+SATB1	T cells 1:Raghu_Kalluri
+RPL18	T cells 1:Raghu_Kalluri
+RPL21	T cells 1:Raghu_Kalluri
+CD28	T cells 1:Raghu_Kalluri
+RPL27	T cells 1:Raghu_Kalluri
+RPL6	T cells 1:Raghu_Kalluri
+SHISA5	T cells 1:Raghu_Kalluri
+CD27	T cells 1:Raghu_Kalluri
+RPL38	T cells 1:Raghu_Kalluri
+RPL22L1	T cells 1:Raghu_Kalluri
+RPS20	T cells 1:Raghu_Kalluri
+GIMAP3	T cells 1:Raghu_Kalluri
+GM11808	T cells 1:Raghu_Kalluri
+SARAF	T cells 1:Raghu_Kalluri
+CD2	T cells 1:Raghu_Kalluri
+UBA52	T cells 1:Raghu_Kalluri
+FXYD5	T cells 1:Raghu_Kalluri
+GIMAP4	T cells 1:Raghu_Kalluri
+43709	T cells 1:Raghu_Kalluri
+H2-K1	T cells 1:Raghu_Kalluri
+LTB	T cells 1:Raghu_Kalluri
+PTPN18	T cells 1:Raghu_Kalluri
+CORO1A	T cells 1:Raghu_Kalluri
+GM12840	T cells 1:Raghu_Kalluri
+ARHGEF1	T cells 1:Raghu_Kalluri
+RGS10	T cells 1:Raghu_Kalluri
+CD8B1	T cells 2:Raghu_Kalluri
+DAPL1	T cells 2:Raghu_Kalluri
+CD3D	T cells 2:Raghu_Kalluri
+TRBC2	T cells 2:Raghu_Kalluri
+NKG7	T cells 2:Raghu_Kalluri
+MS4A4B	T cells 2:Raghu_Kalluri
+TMSB10	T cells 2:Raghu_Kalluri
+CD8A	T cells 2:Raghu_Kalluri
+CD3G	T cells 2:Raghu_Kalluri
+RPS15A	T cells 2:Raghu_Kalluri
+CD3E	T cells 2:Raghu_Kalluri
+LY6C2	T cells 2:Raghu_Kalluri
+LEF1	T cells 2:Raghu_Kalluri
+RPS28	T cells 2:Raghu_Kalluri
+RPS27	T cells 2:Raghu_Kalluri
+TRAC	T cells 2:Raghu_Kalluri
+RPL22L1	T cells 2:Raghu_Kalluri
+HCST	T cells 2:Raghu_Kalluri
+RPL13A	T cells 2:Raghu_Kalluri
+RPS7	T cells 2:Raghu_Kalluri
+RPL12	T cells 2:Raghu_Kalluri
+RPS6	T cells 2:Raghu_Kalluri
+RPLP1	T cells 2:Raghu_Kalluri
+RPS24	T cells 2:Raghu_Kalluri
+LAT	T cells 2:Raghu_Kalluri
+RPS16	T cells 2:Raghu_Kalluri
+SARAF	T cells 2:Raghu_Kalluri
+RPL36A	T cells 2:Raghu_Kalluri
+RPS23	T cells 2:Raghu_Kalluri
+RPS29	T cells 2:Raghu_Kalluri
+RPL39	T cells 2:Raghu_Kalluri
+RPLP2	T cells 2:Raghu_Kalluri
+RPL35	T cells 2:Raghu_Kalluri
+RPS18	T cells 2:Raghu_Kalluri
+RPS4X	T cells 2:Raghu_Kalluri
+RPLP0	T cells 2:Raghu_Kalluri
+LCK	T cells 2:Raghu_Kalluri
+KLK8	T cells 2:Raghu_Kalluri
+RPS5	T cells 2:Raghu_Kalluri
+RPS3	T cells 2:Raghu_Kalluri
+MS4A6B	T cells 2:Raghu_Kalluri
+RPS13	T cells 2:Raghu_Kalluri
+RPL27	T cells 2:Raghu_Kalluri
+RPL38	T cells 2:Raghu_Kalluri
+RPL17	T cells 2:Raghu_Kalluri
+RPS20	T cells 2:Raghu_Kalluri
+RPL8	T cells 2:Raghu_Kalluri
+RPS21	T cells 2:Raghu_Kalluri
+RPL9	T cells 2:Raghu_Kalluri
+RPL18	T cells 2:Raghu_Kalluri
+RPL3	T cells 2:Raghu_Kalluri
+CTSW	T cells 2:Raghu_Kalluri
+RPL30	T cells 2:Raghu_Kalluri
+RPS19	T cells 2:Raghu_Kalluri
+RPL37A	T cells 2:Raghu_Kalluri
+RPL35A	T cells 2:Raghu_Kalluri
+RPL37	T cells 2:Raghu_Kalluri
+RPL19	T cells 2:Raghu_Kalluri
+THY1	T cells 2:Raghu_Kalluri
+RPL23A	T cells 2:Raghu_Kalluri
+RPS3A1	T cells 2:Raghu_Kalluri
+RPS10	T cells 2:Raghu_Kalluri
+RPL36	T cells 2:Raghu_Kalluri
+RPL11	T cells 2:Raghu_Kalluri
+AW112010	T cells 2:Raghu_Kalluri
+RPS15	T cells 2:Raghu_Kalluri
+RPL23	T cells 2:Raghu_Kalluri
+RPL18A	T cells 2:Raghu_Kalluri
+RPL27A	T cells 2:Raghu_Kalluri
+FAM189B	T cells 2:Raghu_Kalluri
+RPL13	T cells 2:Raghu_Kalluri
+RPL34	T cells 2:Raghu_Kalluri
+TCF7	T cells 2:Raghu_Kalluri
+TXK	T cells 2:Raghu_Kalluri
+SKAP1	T cells 2:Raghu_Kalluri
+KLRD1	T cells 2:Raghu_Kalluri
+RPL32	T cells 2:Raghu_Kalluri
+RPL6	T cells 2:Raghu_Kalluri
+RPL10A	T cells 2:Raghu_Kalluri
+RPS17	T cells 2:Raghu_Kalluri
+UBA52	T cells 2:Raghu_Kalluri
+RPL31	T cells 2:Raghu_Kalluri
+IFI206	T cells 2:Raghu_Kalluri
+RPL14	T cells 2:Raghu_Kalluri
+ARL4C	T cells 2:Raghu_Kalluri
+GM11808	T cells 2:Raghu_Kalluri
+TRBC1	T cells 2:Raghu_Kalluri
+RPL4	T cells 2:Raghu_Kalluri
+LIMD2	T cells 2:Raghu_Kalluri
+RPS27A	T cells 2:Raghu_Kalluri
+RPSA	T cells 2:Raghu_Kalluri
+RPL21	T cells 2:Raghu_Kalluri
+RPL15	T cells 2:Raghu_Kalluri
+SHISA5	T cells 2:Raghu_Kalluri
+RPS2	T cells 2:Raghu_Kalluri
+RPS8	T cells 2:Raghu_Kalluri
+RPS25	T cells 2:Raghu_Kalluri
+RPS14	T cells 2:Raghu_Kalluri
+RPS27RT	T cells 2:Raghu_Kalluri
+GIMAP4	T cells 2:Raghu_Kalluri
+CCND2	T cells 2:Raghu_Kalluri
+RPS11	T cells 2:Raghu_Kalluri
+BCL2	T cells 2:Raghu_Kalluri
+RPL7	T cells 2:Raghu_Kalluri
+LTB	T cells 2:Raghu_Kalluri
+RPS26	T cells 2:Raghu_Kalluri
+B2M	T cells 2:Raghu_Kalluri
+EEF1A1	T cells 2:Raghu_Kalluri
+PTPN18	T cells 2:Raghu_Kalluri
+SELPLG	T cells 2:Raghu_Kalluri
+GM10260	T cells 2:Raghu_Kalluri
+SNRPG	T cells 2:Raghu_Kalluri
+EEF1B2	T cells 2:Raghu_Kalluri
+PTPRCAP	T cells 2:Raghu_Kalluri
+RAC2	T cells 2:Raghu_Kalluri
+CD52	T cells 2:Raghu_Kalluri
+NPM1	T cells 2:Raghu_Kalluri
+IZUMO1R	T cells 3:Raghu_Kalluri
+AW112010	T cells 3:Raghu_Kalluri
+IKZF2	T cells 3:Raghu_Kalluri
+TNFRSF4	T cells 3:Raghu_Kalluri
+CD3G	T cells 3:Raghu_Kalluri
+TRBC2	T cells 3:Raghu_Kalluri
+TRAC	T cells 3:Raghu_Kalluri
+CD3E	T cells 3:Raghu_Kalluri
+CD3D	T cells 3:Raghu_Kalluri
+SHISA5	T cells 3:Raghu_Kalluri
+TNFRSF18	T cells 3:Raghu_Kalluri
+LAT	T cells 3:Raghu_Kalluri
+CTLA4	T cells 3:Raghu_Kalluri
+LCK	T cells 3:Raghu_Kalluri
+CD2	T cells 3:Raghu_Kalluri
+GIMAP3	T cells 3:Raghu_Kalluri
+CD28	T cells 3:Raghu_Kalluri
+ICOS	T cells 3:Raghu_Kalluri
+SH2D1A	T cells 3:Raghu_Kalluri
+CD5	T cells 3:Raghu_Kalluri
+CD6	T cells 3:Raghu_Kalluri
+IFI27L2A	T cells 3:Raghu_Kalluri
+MAF	T cells 3:Raghu_Kalluri
+IL2RB	T cells 3:Raghu_Kalluri
+B2M	T cells 3:Raghu_Kalluri
+H2-K1	T cells 3:Raghu_Kalluri
+GIMAP7	T cells 3:Raghu_Kalluri
+CD247	T cells 3:Raghu_Kalluri
+H2-D1	T cells 3:Raghu_Kalluri
+RGS1	T cells 3:Raghu_Kalluri
+TRBC1	T cells 3:Raghu_Kalluri
+CD27	T cells 3:Raghu_Kalluri
+RAC2	T cells 3:Raghu_Kalluri
+PTPRCAP	T cells 3:Raghu_Kalluri
+PKP3	T cells 3:Raghu_Kalluri
+SKAP1	T cells 3:Raghu_Kalluri
+LTB	T cells 3:Raghu_Kalluri
+BCL11B	T cells 3:Raghu_Kalluri
+BATF	T cells 3:Raghu_Kalluri
+ASS1	T cells 3:Raghu_Kalluri
+UBB	T cells 3:Raghu_Kalluri
+SMCO4	T cells 3:Raghu_Kalluri
+GIMAP4	T cells 3:Raghu_Kalluri
+H2-Q7	T cells 3:Raghu_Kalluri
+S100A10	T cells 3:Raghu_Kalluri
+ETS1	T cells 3:Raghu_Kalluri
+GIMAP1	T cells 3:Raghu_Kalluri
+TSPAN32	T cells 3:Raghu_Kalluri
+MS4A6B	T cells 3:Raghu_Kalluri
+FYB	T cells 3:Raghu_Kalluri
+MALAT1	T cells 3:Raghu_Kalluri
+2310001H17RIK	T cells 3:Raghu_Kalluri
+PTPN22	T cells 3:Raghu_Kalluri
+PFN1	T cells 3:Raghu_Kalluri
+GLRX	T cells 3:Raghu_Kalluri
+BTG1	T cells 3:Raghu_Kalluri
+GIMAP6	T cells 3:Raghu_Kalluri
+SDF4	T cells 3:Raghu_Kalluri
+FXYD5	T cells 3:Raghu_Kalluri
+LIMD2	T cells 3:Raghu_Kalluri
+PTPN18	T cells 3:Raghu_Kalluri
+CD82	T cells 3:Raghu_Kalluri
+H2AFZ	T cells 3:Raghu_Kalluri
+HCST	T cells 3:Raghu_Kalluri
+CDK2AP2	T cells 3:Raghu_Kalluri
+SRGN	T cells 3:Raghu_Kalluri
+GDPD3	T cells 3:Raghu_Kalluri
+ITGB7	T cells 3:Raghu_Kalluri
+43709	T cells 3:Raghu_Kalluri
+RGS10	T cells 3:Raghu_Kalluri
+ARHGAP45	T cells 3:Raghu_Kalluri
+MS4A4B	T cells 3:Raghu_Kalluri
+CCND2	T cells 3:Raghu_Kalluri
+TSPAN13	T cells 3:Raghu_Kalluri
+MBNL1	T cells 3:Raghu_Kalluri
+JUNB	T cells 3:Raghu_Kalluri
+PNRC1	T cells 3:Raghu_Kalluri
+ID2	T cells 3:Raghu_Kalluri
+RNASET2A	T cells 3:Raghu_Kalluri
+CAPG	T cells 3:Raghu_Kalluri
+NFKBIA	T cells 3:Raghu_Kalluri
+ZFP36L1	T cells 3:Raghu_Kalluri
+ACTB	T cells 4:Raghu_Kalluri
+TRBC2	T cells 4:Raghu_Kalluri
+CD3D	T cells 4:Raghu_Kalluri
+CD3G	T cells 4:Raghu_Kalluri
+LEF1	T cells 4:Raghu_Kalluri
+TRAC	T cells 4:Raghu_Kalluri
+PDCD4	T cells 4:Raghu_Kalluri
+CD3E	T cells 4:Raghu_Kalluri
+CBX3	T cells 4:Raghu_Kalluri
+LAT	T cells 4:Raghu_Kalluri
+MS4A4B	T cells 4:Raghu_Kalluri
+TMSB10	T cells 4:Raghu_Kalluri
+DAPL1	T cells 4:Raghu_Kalluri
+RPS16	T cells 4:Raghu_Kalluri
+RPS15A	T cells 4:Raghu_Kalluri
+RPS29	T cells 4:Raghu_Kalluri
+LCK	T cells 4:Raghu_Kalluri
+RPS28	T cells 4:Raghu_Kalluri
+RPS27	T cells 4:Raghu_Kalluri
+CD8B1	T cells 4:Raghu_Kalluri
+RPS6	T cells 4:Raghu_Kalluri
+RPS7	T cells 4:Raghu_Kalluri
+RPS23	T cells 4:Raghu_Kalluri
+RPL13A	T cells 4:Raghu_Kalluri
+RPLP2	T cells 4:Raghu_Kalluri
+SKAP1	T cells 4:Raghu_Kalluri
+PTPN22	T cells 4:Raghu_Kalluri
+TRBC1	T cells 4:Raghu_Kalluri
+TCF7	T cells 4:Raghu_Kalluri
+RPS24	T cells 4:Raghu_Kalluri
+RPL12	T cells 4:Raghu_Kalluri
+RPLP1	T cells 4:Raghu_Kalluri
+RPS3	T cells 4:Raghu_Kalluri
+HCST	T cells 4:Raghu_Kalluri
+RPL8	T cells 4:Raghu_Kalluri
+RPL35	T cells 4:Raghu_Kalluri
+TUBB5	T cells 4:Raghu_Kalluri
+RPS4X	T cells 4:Raghu_Kalluri
+SARAF	T cells 4:Raghu_Kalluri
+RPS13	T cells 4:Raghu_Kalluri
+KLK8	T cells 4:Raghu_Kalluri
+RPS19	T cells 4:Raghu_Kalluri
+RPL36A	T cells 4:Raghu_Kalluri
+RPL35A	T cells 4:Raghu_Kalluri
+RPS3A1	T cells 4:Raghu_Kalluri
+THY1	T cells 4:Raghu_Kalluri
+RPL19	T cells 4:Raghu_Kalluri
+LIMD2	T cells 4:Raghu_Kalluri
+RPL11	T cells 4:Raghu_Kalluri
+RPS18	T cells 4:Raghu_Kalluri
+RPL9	T cells 4:Raghu_Kalluri
+RPS21	T cells 4:Raghu_Kalluri
+MS4A6B	T cells 4:Raghu_Kalluri
+RPLP0	T cells 4:Raghu_Kalluri
+RPL3	T cells 4:Raghu_Kalluri
+RPL39	T cells 4:Raghu_Kalluri
+RPL17	T cells 4:Raghu_Kalluri
+RPL38	T cells 4:Raghu_Kalluri
+RPL27	T cells 4:Raghu_Kalluri
+RPL22L1	T cells 4:Raghu_Kalluri
+UBA52	T cells 4:Raghu_Kalluri
+WTAP	T cells 4:Raghu_Kalluri
+CD8A	T cells 4:Raghu_Kalluri
+NKG7	T cells 4:Raghu_Kalluri
+RPL30	T cells 4:Raghu_Kalluri
+SHISA5	T cells 4:Raghu_Kalluri
+GIMAP3	T cells 4:Raghu_Kalluri
+GM11808	T cells 4:Raghu_Kalluri
+RPS27RT	T cells 4:Raghu_Kalluri
+GIMAP4	T cells 4:Raghu_Kalluri
+43709	T cells 4:Raghu_Kalluri
+RAC2	T cells 4:Raghu_Kalluri
+RGS10	T cells 4:Raghu_Kalluri
+KLF13	T cells 4:Raghu_Kalluri
+PTPN18	T cells 4:Raghu_Kalluri
+CCL5	NK and NKT cells:Raghu_Kalluri
+NKG7	NK and NKT cells:Raghu_Kalluri
+AW112010	NK and NKT cells:Raghu_Kalluri
+KLRD1	NK and NKT cells:Raghu_Kalluri
+CD7	NK and NKT cells:Raghu_Kalluri
+KLRK1	NK and NKT cells:Raghu_Kalluri
+MS4A4B	NK and NKT cells:Raghu_Kalluri
+HCST	NK and NKT cells:Raghu_Kalluri
+XCL1	NK and NKT cells:Raghu_Kalluri
+NCR1	NK and NKT cells:Raghu_Kalluri
+KLRC1	NK and NKT cells:Raghu_Kalluri
+CTLA2A	NK and NKT cells:Raghu_Kalluri
+IL2RB	NK and NKT cells:Raghu_Kalluri
+CTSW	NK and NKT cells:Raghu_Kalluri
+KLRE1	NK and NKT cells:Raghu_Kalluri
+KLRC2	NK and NKT cells:Raghu_Kalluri
+CD160	NK and NKT cells:Raghu_Kalluri
+CST7	NK and NKT cells:Raghu_Kalluri
+GIMAP4	NK and NKT cells:Raghu_Kalluri
+TXK	NK and NKT cells:Raghu_Kalluri
+TRBC1	NK and NKT cells:Raghu_Kalluri
+ID2	NK and NKT cells:Raghu_Kalluri
+GIMAP3	NK and NKT cells:Raghu_Kalluri
+TMSB10	NK and NKT cells:Raghu_Kalluri
+SH2D1A	NK and NKT cells:Raghu_Kalluri
+SHISA5	NK and NKT cells:Raghu_Kalluri
+H2-Q7	NK and NKT cells:Raghu_Kalluri
+LCK	NK and NKT cells:Raghu_Kalluri
+GIMAP5	NK and NKT cells:Raghu_Kalluri
+B2M	NK and NKT cells:Raghu_Kalluri
+SELPLG	NK and NKT cells:Raghu_Kalluri
+BCL2	NK and NKT cells:Raghu_Kalluri
+RPL38	NK and NKT cells:Raghu_Kalluri
+SKAP1	NK and NKT cells:Raghu_Kalluri
+PTPN22	NK and NKT cells:Raghu_Kalluri
+RGS1	NK and NKT cells:Raghu_Kalluri
+LY6C2	NK and NKT cells:Raghu_Kalluri
+H2-K1	NK and NKT cells:Raghu_Kalluri
+GIMAP6	NK and NKT cells:Raghu_Kalluri
+MBNL1	NK and NKT cells:Raghu_Kalluri
+GIMAP7	NK and NKT cells:Raghu_Kalluri
+PTPRC	NK and NKT cells:Raghu_Kalluri
+RPL27	NK and NKT cells:Raghu_Kalluri
+PTPN18	NK and NKT cells:Raghu_Kalluri
+RPS23	NK and NKT cells:Raghu_Kalluri
+PFN1	NK and NKT cells:Raghu_Kalluri
+RPL13A	NK and NKT cells:Raghu_Kalluri
+43709	NK and NKT cells:Raghu_Kalluri
+RAC2	NK and NKT cells:Raghu_Kalluri
+H2-D1	NK and NKT cells:Raghu_Kalluri
+CD52	NK and NKT cells:Raghu_Kalluri
+RPS15A	NK and NKT cells:Raghu_Kalluri
+CD8B1	NK and NKT cells:Raghu_Kalluri
+TRBC2	NK and NKT cells:Raghu_Kalluri
+PTPRCAP	NK and NKT cells:Raghu_Kalluri
+PDCD4	NK and NKT cells:Raghu_Kalluri
+TYROBP	NK and NKT cells:Raghu_Kalluri
+SARAF	NK and NKT cells:Raghu_Kalluri
+CD3D	NK and NKT cells:Raghu_Kalluri
+GIMAP1	NK and NKT cells:Raghu_Kalluri
+CD3G	NK and NKT cells:Raghu_Kalluri
+LTB	NK and NKT cells:Raghu_Kalluri
+BTG1	NK and NKT cells:Raghu_Kalluri
+CD3E	NK and NKT cells:Raghu_Kalluri
+ZFP36L2	NK and NKT cells:Raghu_Kalluri
+IL7R	T cells 5:Raghu_Kalluri
+CXCR6	T cells 5:Raghu_Kalluri
+TCRG-C1	T cells 5:Raghu_Kalluri
+TCRG-C4	T cells 5:Raghu_Kalluri
+ICOS	T cells 5:Raghu_Kalluri
+IL18R1	T cells 5:Raghu_Kalluri
+RORA	T cells 5:Raghu_Kalluri
+GATA3	T cells 5:Raghu_Kalluri
+ID2	T cells 5:Raghu_Kalluri
+RAMP1	T cells 5:Raghu_Kalluri
+LMO4	T cells 5:Raghu_Kalluri
+EMB	T cells 5:Raghu_Kalluri
+AW112010	T cells 5:Raghu_Kalluri
+CD82	T cells 5:Raghu_Kalluri
+JUNB	T cells 5:Raghu_Kalluri
+LTB	T cells 5:Raghu_Kalluri
+SPTSSA	T cells 5:Raghu_Kalluri
+VPS37B	T cells 5:Raghu_Kalluri
+TRBC2	T cells 5:Raghu_Kalluri
+HCST	T cells 5:Raghu_Kalluri
+S100A4	T cells 5:Raghu_Kalluri
+TNFAIP3	T cells 5:Raghu_Kalluri
+TRBC1	T cells 5:Raghu_Kalluri
+ZNRF1	T cells 5:Raghu_Kalluri
+LAT	T cells 5:Raghu_Kalluri
+CD3G	T cells 5:Raghu_Kalluri
+SKAP1	T cells 5:Raghu_Kalluri
+B2M	T cells 5:Raghu_Kalluri
+TMEM176A	T cells 5:Raghu_Kalluri
+TMSB10	T cells 5:Raghu_Kalluri
+TMEM176B	T cells 5:Raghu_Kalluri
+OAZ1	T cells 5:Raghu_Kalluri
+RGS1	T cells 5:Raghu_Kalluri
+DUSP5	T cells 5:Raghu_Kalluri
+S100A10	T cells 5:Raghu_Kalluri
+SELPLG	T cells 5:Raghu_Kalluri
+LY6E	T cells 5:Raghu_Kalluri
+PTPN22	T cells 5:Raghu_Kalluri
+CD3E	T cells 5:Raghu_Kalluri
+THY1	T cells 5:Raghu_Kalluri
+GIMAP3	T cells 5:Raghu_Kalluri
+BTG2	T cells 5:Raghu_Kalluri
+SHISA5	T cells 5:Raghu_Kalluri
+PRR13	T cells 5:Raghu_Kalluri
+GADD45B	T cells 5:Raghu_Kalluri
+BCL2	T cells 5:Raghu_Kalluri
+PRDX6	T cells 5:Raghu_Kalluri
+NFKBIA	T cells 5:Raghu_Kalluri
+ZFP36L2	T cells 5:Raghu_Kalluri
+H2-D1	T cells 5:Raghu_Kalluri
+H2-K1	T cells 5:Raghu_Kalluri
+GABARAPL2	T cells 5:Raghu_Kalluri
+ZFAND6	T cells 5:Raghu_Kalluri
+IER2	T cells 5:Raghu_Kalluri
+PPP1R15A	T cells 5:Raghu_Kalluri
+TSPAN13	T cells 5:Raghu_Kalluri
+ZFP36L1	T cells 5:Raghu_Kalluri
+DAD1	T cells 5:Raghu_Kalluri
+NAAA	Dendritic cells 1:Raghu_Kalluri
+IRF8	Dendritic cells 1:Raghu_Kalluri
+PLBD1	Dendritic cells 1:Raghu_Kalluri
+PPT1	Dendritic cells 1:Raghu_Kalluri
+ID2	Dendritic cells 1:Raghu_Kalluri
+CKB	Dendritic cells 1:Raghu_Kalluri
+H2-DMB1	Dendritic cells 1:Raghu_Kalluri
+AIF1	Dendritic cells 1:Raghu_Kalluri
+ALOX5AP	Dendritic cells 1:Raghu_Kalluri
+MPEG1	Dendritic cells 1:Raghu_Kalluri
+XCR1	Dendritic cells 1:Raghu_Kalluri
+BC028528	Dendritic cells 1:Raghu_Kalluri
+TNNI2	Dendritic cells 1:Raghu_Kalluri
+BATF3	Dendritic cells 1:Raghu_Kalluri
+WDFY4	Dendritic cells 1:Raghu_Kalluri
+IFI205	Dendritic cells 1:Raghu_Kalluri
+PKIB	Dendritic cells 1:Raghu_Kalluri
+RTL8A	Dendritic cells 1:Raghu_Kalluri
+RAB7B	Dendritic cells 1:Raghu_Kalluri
+DNASE1L3	Dendritic cells 1:Raghu_Kalluri
+PAK1	Dendritic cells 1:Raghu_Kalluri
+IFI211	Dendritic cells 1:Raghu_Kalluri
+CADM1	Dendritic cells 1:Raghu_Kalluri
+NAGA	Dendritic cells 1:Raghu_Kalluri
+JAML	Dendritic cells 1:Raghu_Kalluri
+FGD2	Dendritic cells 1:Raghu_Kalluri
+CLEC9A	Dendritic cells 1:Raghu_Kalluri
+SDAD1	Dendritic cells 1:Raghu_Kalluri
+CD36	Dendritic cells 1:Raghu_Kalluri
+GCSAM	Dendritic cells 1:Raghu_Kalluri
+ST3GAL5	Dendritic cells 1:Raghu_Kalluri
+SLC8B1	Dendritic cells 1:Raghu_Kalluri
+43711	Dendritic cells 1:Raghu_Kalluri
+TLR3	Dendritic cells 1:Raghu_Kalluri
+PHF11A	Dendritic cells 1:Raghu_Kalluri
+MYCL	Dendritic cells 1:Raghu_Kalluri
+SLAMF8	Dendritic cells 1:Raghu_Kalluri
+P2RY14	Dendritic cells 1:Raghu_Kalluri
+TSPAN33	Dendritic cells 1:Raghu_Kalluri
+SNX22	Dendritic cells 1:Raghu_Kalluri
+A530099J19RIK	Dendritic cells 1:Raghu_Kalluri
+FLT3	Dendritic cells 1:Raghu_Kalluri
+GM2A	Dendritic cells 1:Raghu_Kalluri
+GM6377	Dendritic cells 1:Raghu_Kalluri
+BC035044	Dendritic cells 1:Raghu_Kalluri
+RNASE6	Dendritic cells 1:Raghu_Kalluri
+CBFA2T3	Dendritic cells 1:Raghu_Kalluri
+CST3	Dendritic cells 1:Raghu_Kalluri
+PPFIA4	Dendritic cells 1:Raghu_Kalluri
+UNC119	Dendritic cells 1:Raghu_Kalluri
+RAB32	Dendritic cells 1:Raghu_Kalluri
+RTL8B	Dendritic cells 1:Raghu_Kalluri
+PSMB9	Dendritic cells 1:Raghu_Kalluri
+ATOX1	Dendritic cells 1:Raghu_Kalluri
+PPM1M	Dendritic cells 1:Raghu_Kalluri
+GATM	Dendritic cells 1:Raghu_Kalluri
+H2-EB1	Dendritic cells 1:Raghu_Kalluri
+H2-DMA	Dendritic cells 1:Raghu_Kalluri
+H2-AA	Dendritic cells 1:Raghu_Kalluri
+TMSB4X	Dendritic cells 1:Raghu_Kalluri
+CLEC12A	Dendritic cells 1:Raghu_Kalluri
+PSAP	Dendritic cells 1:Raghu_Kalluri
+H2-AB1	Dendritic cells 1:Raghu_Kalluri
+ATPIF1	Dendritic cells 1:Raghu_Kalluri
+SHTN1	Dendritic cells 1:Raghu_Kalluri
+BCL2A1A	Dendritic cells 1:Raghu_Kalluri
+TXNDC15	Dendritic cells 1:Raghu_Kalluri
+OLFM1	Dendritic cells 1:Raghu_Kalluri
+SPI1	Dendritic cells 1:Raghu_Kalluri
+BTLA	Dendritic cells 1:Raghu_Kalluri
+EFHD2	Dendritic cells 1:Raghu_Kalluri
+TXNDC16	Dendritic cells 1:Raghu_Kalluri
+CD86	Dendritic cells 1:Raghu_Kalluri
+TALDO1	Dendritic cells 1:Raghu_Kalluri
+HFE	Dendritic cells 1:Raghu_Kalluri
+CD74	Dendritic cells 1:Raghu_Kalluri
+ECE1	Dendritic cells 1:Raghu_Kalluri
+BCL2A1D	Dendritic cells 1:Raghu_Kalluri
+IRF5	Dendritic cells 1:Raghu_Kalluri
+POMP	Dendritic cells 1:Raghu_Kalluri
+PMAIP1	Dendritic cells 1:Raghu_Kalluri
+SLC25A20	Dendritic cells 1:Raghu_Kalluri
+LSP1	Dendritic cells 1:Raghu_Kalluri
+NAPSA	Dendritic cells 1:Raghu_Kalluri
+SKAP2	Dendritic cells 1:Raghu_Kalluri
+PHF11B	Dendritic cells 1:Raghu_Kalluri
+AP1S3	Dendritic cells 1:Raghu_Kalluri
+FGL2	Dendritic cells 1:Raghu_Kalluri
+PSMB8	Dendritic cells 1:Raghu_Kalluri
+SH3BP1	Dendritic cells 1:Raghu_Kalluri
+H2AFY	Dendritic cells 1:Raghu_Kalluri
+RALA	Dendritic cells 1:Raghu_Kalluri
+PPP1R11	Dendritic cells 1:Raghu_Kalluri
+PSME1	Dendritic cells 1:Raghu_Kalluri
+UCP2	Dendritic cells 1:Raghu_Kalluri
+FNBP1	Dendritic cells 1:Raghu_Kalluri
+CD24A	Dendritic cells 1:Raghu_Kalluri
+SYNGR2	Dendritic cells 1:Raghu_Kalluri
+PLD4	Dendritic cells 1:Raghu_Kalluri
+H2-OA	Dendritic cells 1:Raghu_Kalluri
+ACTG1	Dendritic cells 1:Raghu_Kalluri
+CIITA	Dendritic cells 1:Raghu_Kalluri
+SLC35C2	Dendritic cells 1:Raghu_Kalluri
+PTMS	Dendritic cells 1:Raghu_Kalluri
+BLOC1S2	Dendritic cells 1:Raghu_Kalluri
+PLEKHO1	Dendritic cells 1:Raghu_Kalluri
+SDF2L1	Dendritic cells 1:Raghu_Kalluri
+KHK	Dendritic cells 1:Raghu_Kalluri
+CYCS	Dendritic cells 1:Raghu_Kalluri
+CCDC12	Dendritic cells 1:Raghu_Kalluri
+TAP1	Dendritic cells 1:Raghu_Kalluri
+CRIP1	Dendritic cells 1:Raghu_Kalluri
+CSF2RA	Dendritic cells 1:Raghu_Kalluri
+FAM105A	Dendritic cells 1:Raghu_Kalluri
+GPX1	Dendritic cells 1:Raghu_Kalluri
+ARPC2	Dendritic cells 1:Raghu_Kalluri
+TRIM35	Dendritic cells 1:Raghu_Kalluri
+DCTPP1	Dendritic cells 1:Raghu_Kalluri
+FUCA1	Dendritic cells 1:Raghu_Kalluri
+BRI3BP	Dendritic cells 1:Raghu_Kalluri
+GLTP	Dendritic cells 1:Raghu_Kalluri
+SERF2	Dendritic cells 1:Raghu_Kalluri
+CALM1	Dendritic cells 1:Raghu_Kalluri
+TXN1	Dendritic cells 1:Raghu_Kalluri
+SUB1	Dendritic cells 1:Raghu_Kalluri
+CYB5A	Dendritic cells 1:Raghu_Kalluri
+H2AFZ	Dendritic cells 1:Raghu_Kalluri
+ACTR3	Dendritic cells 1:Raghu_Kalluri
+43714	Dendritic cells 1:Raghu_Kalluri
+COMMD8	Dendritic cells 1:Raghu_Kalluri
+TMSB10	Dendritic cells 1:Raghu_Kalluri
+RPS11	Dendritic cells 1:Raghu_Kalluri
+ERP29	Dendritic cells 1:Raghu_Kalluri
+GDI2	Dendritic cells 1:Raghu_Kalluri
+PLP2	Dendritic cells 1:Raghu_Kalluri
+MAN2B1	Dendritic cells 1:Raghu_Kalluri
+RGS10	Dendritic cells 1:Raghu_Kalluri
+EVI2A	Dendritic cells 1:Raghu_Kalluri
+SMDT1	Dendritic cells 1:Raghu_Kalluri
+TBCA	Dendritic cells 1:Raghu_Kalluri
+DBNL	Dendritic cells 1:Raghu_Kalluri
+LGALS3	Dendritic cells 1:Raghu_Kalluri
+STARD3NL	Dendritic cells 1:Raghu_Kalluri
+UNC93B1	Dendritic cells 1:Raghu_Kalluri
+PSME2	Dendritic cells 1:Raghu_Kalluri
+GPR171	Dendritic cells 1:Raghu_Kalluri
+CORO1B	Dendritic cells 1:Raghu_Kalluri
+S100A11	Dendritic cells 1:Raghu_Kalluri
+ATP6V0E	Dendritic cells 1:Raghu_Kalluri
+ACTB	Dendritic cells 1:Raghu_Kalluri
+MKRN1	Dendritic cells 1:Raghu_Kalluri
+CD52	Dendritic cells 1:Raghu_Kalluri
+BAZ1A	Dendritic cells 1:Raghu_Kalluri
+HSPA1A	Dendritic cells 1:Raghu_Kalluri
+ARPC3	Dendritic cells 1:Raghu_Kalluri
+COX7C	Dendritic cells 1:Raghu_Kalluri
+SH3BGRL3	Dendritic cells 1:Raghu_Kalluri
+SH3BGRL	Dendritic cells 1:Raghu_Kalluri
+IER5	Dendritic cells 1:Raghu_Kalluri
+HCLS1	Dendritic cells 1:Raghu_Kalluri
+HSPA8	Dendritic cells 1:Raghu_Kalluri
+IFNGR1	Dendritic cells 1:Raghu_Kalluri
+LCP1	Dendritic cells 1:Raghu_Kalluri
+TMPO	Dendritic cells 1:Raghu_Kalluri
+ALYREF	Dendritic cells 1:Raghu_Kalluri
+MRPL42	Dendritic cells 1:Raghu_Kalluri
+RAB11A	Dendritic cells 1:Raghu_Kalluri
+SEM1	Dendritic cells 1:Raghu_Kalluri
+CAPZB	Dendritic cells 1:Raghu_Kalluri
+ZYX	Dendritic cells 1:Raghu_Kalluri
+CFL1	Dendritic cells 1:Raghu_Kalluri
+GPSM3	Dendritic cells 1:Raghu_Kalluri
+CAPZA2	Dendritic cells 1:Raghu_Kalluri
+DEK	Dendritic cells 1:Raghu_Kalluri
+SELPLG	Dendritic cells 1:Raghu_Kalluri
+CLDND1	Dendritic cells 1:Raghu_Kalluri
+COX7B	Dendritic cells 1:Raghu_Kalluri
+MYL12B	Dendritic cells 1:Raghu_Kalluri
+RPL10	Dendritic cells 1:Raghu_Kalluri
+ARPC1B	Dendritic cells 1:Raghu_Kalluri
+SEC61G	Dendritic cells 1:Raghu_Kalluri
+USMG5	Dendritic cells 1:Raghu_Kalluri
+ATP5E	Dendritic cells 1:Raghu_Kalluri
+ARPC4	Dendritic cells 1:Raghu_Kalluri
+SNX3	Dendritic cells 1:Raghu_Kalluri
+YWHAH	Dendritic cells 1:Raghu_Kalluri
+RPS27L	Dendritic cells 1:Raghu_Kalluri
+FDPS	Dendritic cells 1:Raghu_Kalluri
+IRF7	Dendritic cells 1:Raghu_Kalluri
+CKS1B	Dendritic cells 1:Raghu_Kalluri
+NPC2	Dendritic cells 1:Raghu_Kalluri
+ATP5C1	Dendritic cells 1:Raghu_Kalluri
+AKR1A1	Dendritic cells 1:Raghu_Kalluri
+OAZ1	Dendritic cells 1:Raghu_Kalluri
+EEF1B2	Dendritic cells 1:Raghu_Kalluri
+H2AFX	Dendritic cells 1:Raghu_Kalluri
+RBM3	Dendritic cells 1:Raghu_Kalluri
+UQCRB	Dendritic cells 1:Raghu_Kalluri
+PTPN18	Dendritic cells 1:Raghu_Kalluri
+NOTCH2	Dendritic cells 1:Raghu_Kalluri
+PDIA3	Dendritic cells 1:Raghu_Kalluri
+CDC42	Dendritic cells 1:Raghu_Kalluri
+PCLAF	Dendritic cells 1:Raghu_Kalluri
+PLAC8	Dendritic cells 1:Raghu_Kalluri
+RPL36AL	Dendritic cells 1:Raghu_Kalluri
+CNN2	Dendritic cells 1:Raghu_Kalluri
+HMGN2	Dendritic cells 1:Raghu_Kalluri
+STMN1	Dendritic cells 1:Raghu_Kalluri
+SEC61B	Dendritic cells 1:Raghu_Kalluri
+GNAI2	Dendritic cells 1:Raghu_Kalluri
+CLIC1	Dendritic cells 1:Raghu_Kalluri
+HINT1	Dendritic cells 1:Raghu_Kalluri
+SRSF3	Dendritic cells 1:Raghu_Kalluri
+PTMA	Dendritic cells 1:Raghu_Kalluri
+HMGB2	Dendritic cells 1:Raghu_Kalluri
+MALAT1	Dendritic cells 1:Raghu_Kalluri
+TUBA1B	Dendritic cells 1:Raghu_Kalluri
+CCL5	Dendritic cells 2:Raghu_Kalluri
+FSCN1	Dendritic cells 2:Raghu_Kalluri
+EPSTI1	Dendritic cells 2:Raghu_Kalluri
+TMEM123	Dendritic cells 2:Raghu_Kalluri
+FABP5	Dendritic cells 2:Raghu_Kalluri
+MARCKSL1	Dendritic cells 2:Raghu_Kalluri
+APOL7C	Dendritic cells 2:Raghu_Kalluri
+CCR7	Dendritic cells 2:Raghu_Kalluri
+SERPINB6B	Dendritic cells 2:Raghu_Kalluri
+CXCL16	Dendritic cells 2:Raghu_Kalluri
+ZMYND15	Dendritic cells 2:Raghu_Kalluri
+IL4I1	Dendritic cells 2:Raghu_Kalluri
+CCL22	Dendritic cells 2:Raghu_Kalluri
+ROGDI	Dendritic cells 2:Raghu_Kalluri
+BCL2A1D	Dendritic cells 2:Raghu_Kalluri
+SAMSN1	Dendritic cells 2:Raghu_Kalluri
+RELB	Dendritic cells 2:Raghu_Kalluri
+TBC1D4	Dendritic cells 2:Raghu_Kalluri
+CCL17	Dendritic cells 2:Raghu_Kalluri
+CACNB3	Dendritic cells 2:Raghu_Kalluri
+MARCKS	Dendritic cells 2:Raghu_Kalluri
+SOCS2	Dendritic cells 2:Raghu_Kalluri
+BASP1	Dendritic cells 2:Raghu_Kalluri
+NUDT17	Dendritic cells 2:Raghu_Kalluri
+ANXA3	Dendritic cells 2:Raghu_Kalluri
+TRAF1	Dendritic cells 2:Raghu_Kalluri
+BCL2A1A	Dendritic cells 2:Raghu_Kalluri
+ENO3	Dendritic cells 2:Raghu_Kalluri
+ETV3	Dendritic cells 2:Raghu_Kalluri
+BATF3	Dendritic cells 2:Raghu_Kalluri
+BIRC2	Dendritic cells 2:Raghu_Kalluri
+SERPINB9	Dendritic cells 2:Raghu_Kalluri
+OGFRL1	Dendritic cells 2:Raghu_Kalluri
+PFKFB3	Dendritic cells 2:Raghu_Kalluri
+MXD1	Dendritic cells 2:Raghu_Kalluri
+FAM49A	Dendritic cells 2:Raghu_Kalluri
+PGAP2	Dendritic cells 2:Raghu_Kalluri
+TMCC3	Dendritic cells 2:Raghu_Kalluri
+NET1	Dendritic cells 2:Raghu_Kalluri
+LRRK1	Dendritic cells 2:Raghu_Kalluri
+PLXNC1	Dendritic cells 2:Raghu_Kalluri
+H2-M2	Dendritic cells 2:Raghu_Kalluri
+INSL6	Dendritic cells 2:Raghu_Kalluri
+GNB4	Dendritic cells 2:Raghu_Kalluri
+SLCO5A1	Dendritic cells 2:Raghu_Kalluri
+GRK3	Dendritic cells 2:Raghu_Kalluri
+PHF11A	Dendritic cells 2:Raghu_Kalluri
+SLC4A8	Dendritic cells 2:Raghu_Kalluri
+TBC1D8	Dendritic cells 2:Raghu_Kalluri
+ANKRD33B	Dendritic cells 2:Raghu_Kalluri
+IL15	Dendritic cells 2:Raghu_Kalluri
+MREG	Dendritic cells 2:Raghu_Kalluri
+IL15RA	Dendritic cells 2:Raghu_Kalluri
+TSPAN33	Dendritic cells 2:Raghu_Kalluri
+ADAM23	Dendritic cells 2:Raghu_Kalluri
+STRIP2	Dendritic cells 2:Raghu_Kalluri
+STAP2	Dendritic cells 2:Raghu_Kalluri
+NOSTRIN	Dendritic cells 2:Raghu_Kalluri
+MYO1G	Dendritic cells 2:Raghu_Kalluri
+ID2	Dendritic cells 2:Raghu_Kalluri
+ISCU	Dendritic cells 2:Raghu_Kalluri
+GADD45B	Dendritic cells 2:Raghu_Kalluri
+ADORA2A	Dendritic cells 2:Raghu_Kalluri
+HTRA2	Dendritic cells 2:Raghu_Kalluri
+PCGF5	Dendritic cells 2:Raghu_Kalluri
+CPNE2	Dendritic cells 2:Raghu_Kalluri
+ARHGAP22	Dendritic cells 2:Raghu_Kalluri
+BCL2A1B	Dendritic cells 2:Raghu_Kalluri
+SPINT2	Dendritic cells 2:Raghu_Kalluri
+LSP1	Dendritic cells 2:Raghu_Kalluri
+TMEM176A	Dendritic cells 2:Raghu_Kalluri
+ADAP1	Dendritic cells 2:Raghu_Kalluri
+POGLUT1	Dendritic cells 2:Raghu_Kalluri
+RGS1	Dendritic cells 2:Raghu_Kalluri
+TMEM19	Dendritic cells 2:Raghu_Kalluri
+RAP2B	Dendritic cells 2:Raghu_Kalluri
+CD200	Dendritic cells 2:Raghu_Kalluri
+PSME2	Dendritic cells 2:Raghu_Kalluri
+TNFRSF4	Dendritic cells 2:Raghu_Kalluri
+TMEM176B	Dendritic cells 2:Raghu_Kalluri
+UBE2L6	Dendritic cells 2:Raghu_Kalluri
+SWAP70	Dendritic cells 2:Raghu_Kalluri
+CBFA2T3	Dendritic cells 2:Raghu_Kalluri
+RNF115	Dendritic cells 2:Raghu_Kalluri
+CRIP1	Dendritic cells 2:Raghu_Kalluri
+RAB9	Dendritic cells 2:Raghu_Kalluri
+VHL	Dendritic cells 2:Raghu_Kalluri
+GNL2	Dendritic cells 2:Raghu_Kalluri
+AIF1	Dendritic cells 2:Raghu_Kalluri
+TMSB4X	Dendritic cells 2:Raghu_Kalluri
+BMP2K	Dendritic cells 2:Raghu_Kalluri
+DOK1	Dendritic cells 2:Raghu_Kalluri
+MVP	Dendritic cells 2:Raghu_Kalluri
+ATOX1	Dendritic cells 2:Raghu_Kalluri
+LY96	Dendritic cells 2:Raghu_Kalluri
+HMGN3	Dendritic cells 2:Raghu_Kalluri
+SYNGR2	Dendritic cells 2:Raghu_Kalluri
+FAM60A	Dendritic cells 2:Raghu_Kalluri
+AVPI1	Dendritic cells 2:Raghu_Kalluri
+ICAM1	Dendritic cells 2:Raghu_Kalluri
+CCDC88A	Dendritic cells 2:Raghu_Kalluri
+MTHFD2	Dendritic cells 2:Raghu_Kalluri
+ARL5C	Dendritic cells 2:Raghu_Kalluri
+GYG	Dendritic cells 2:Raghu_Kalluri
+AW112010	Dendritic cells 2:Raghu_Kalluri
+PSME1	Dendritic cells 2:Raghu_Kalluri
+CST3	Dendritic cells 2:Raghu_Kalluri
+TRAFD1	Dendritic cells 2:Raghu_Kalluri
+RNF19B	Dendritic cells 2:Raghu_Kalluri
+TUBB2B	Dendritic cells 2:Raghu_Kalluri
+B2M	Dendritic cells 2:Raghu_Kalluri
+TMEM39A	Dendritic cells 2:Raghu_Kalluri
+CLIC4	Dendritic cells 2:Raghu_Kalluri
+TSPAN3	Dendritic cells 2:Raghu_Kalluri
+PMAIP1	Dendritic cells 2:Raghu_Kalluri
+MALAT1	Dendritic cells 2:Raghu_Kalluri
+ADAM8	Dendritic cells 2:Raghu_Kalluri
+FAM32A	Dendritic cells 2:Raghu_Kalluri
+SLAMF7	Dendritic cells 2:Raghu_Kalluri
+PSMB8	Dendritic cells 2:Raghu_Kalluri
+CTSH	Dendritic cells 2:Raghu_Kalluri
+ARHGAP31	Dendritic cells 2:Raghu_Kalluri
+POLR3C	Dendritic cells 2:Raghu_Kalluri
+TAPBPL	Dendritic cells 2:Raghu_Kalluri
+AEBP2	Dendritic cells 2:Raghu_Kalluri
+ICOSL	Dendritic cells 2:Raghu_Kalluri
+H2-Q6	Dendritic cells 2:Raghu_Kalluri
+TANK	Dendritic cells 2:Raghu_Kalluri
+PSMB9	Dendritic cells 2:Raghu_Kalluri
+GLIPR2	Dendritic cells 2:Raghu_Kalluri
+2200002D01RIK	Dendritic cells 2:Raghu_Kalluri
+N4BP2L1	Dendritic cells 2:Raghu_Kalluri
+CD63	Dendritic cells 2:Raghu_Kalluri
+PHF11B	Dendritic cells 2:Raghu_Kalluri
+SDHAF1	Dendritic cells 2:Raghu_Kalluri
+SELPLG	Dendritic cells 2:Raghu_Kalluri
+TNFRSF1B	Dendritic cells 2:Raghu_Kalluri
+TUBA1A	Dendritic cells 2:Raghu_Kalluri
+CORO1B	Dendritic cells 2:Raghu_Kalluri
+CD1D1	Dendritic cells 2:Raghu_Kalluri
+FTL1	Dendritic cells 2:Raghu_Kalluri
+JAK2	Dendritic cells 2:Raghu_Kalluri
+NFKB2	Dendritic cells 2:Raghu_Kalluri
+TUBB2A	Dendritic cells 2:Raghu_Kalluri
+LAMP1	Dendritic cells 2:Raghu_Kalluri
+H2-K1	Dendritic cells 2:Raghu_Kalluri
+CD40	Dendritic cells 2:Raghu_Kalluri
+PLA2G16	Dendritic cells 2:Raghu_Kalluri
+H2-T23	Dendritic cells 2:Raghu_Kalluri
+RGS3	Dendritic cells 2:Raghu_Kalluri
+FRMD4A	Dendritic cells 2:Raghu_Kalluri
+ACTG1	Dendritic cells 2:Raghu_Kalluri
+PREX1	Dendritic cells 2:Raghu_Kalluri
+ITM2C	Dendritic cells 2:Raghu_Kalluri
+DUSP5	Dendritic cells 2:Raghu_Kalluri
+NABP1	Dendritic cells 2:Raghu_Kalluri
+H2-Q7	Dendritic cells 2:Raghu_Kalluri
+CSRP1	Dendritic cells 2:Raghu_Kalluri
+CTSZ	Dendritic cells 2:Raghu_Kalluri
+H2-D1	Dendritic cells 2:Raghu_Kalluri
+EFHD2	Dendritic cells 2:Raghu_Kalluri
+GPR132	Dendritic cells 2:Raghu_Kalluri
+RASSF2	Dendritic cells 2:Raghu_Kalluri
+H2AFZ	Dendritic cells 2:Raghu_Kalluri
+CASP3	Dendritic cells 2:Raghu_Kalluri
+TCTEX1D2	Dendritic cells 2:Raghu_Kalluri
+TAP1	Dendritic cells 2:Raghu_Kalluri
+TAPBP	Dendritic cells 2:Raghu_Kalluri
+GPR137B	Dendritic cells 2:Raghu_Kalluri
+NCF1	Dendritic cells 2:Raghu_Kalluri
+RHOG	Dendritic cells 2:Raghu_Kalluri
+CD83	Dendritic cells 2:Raghu_Kalluri
+CSF2RB	Dendritic cells 2:Raghu_Kalluri
+STARD7	Dendritic cells 2:Raghu_Kalluri
+BIRC3	Dendritic cells 2:Raghu_Kalluri
+TXNDC17	Dendritic cells 2:Raghu_Kalluri
+MTHFSL	Dendritic cells 2:Raghu_Kalluri
+IRF1	Dendritic cells 2:Raghu_Kalluri
+CYBA	Dendritic cells 2:Raghu_Kalluri
+RFTN1	Dendritic cells 2:Raghu_Kalluri
+S100A4	Dendritic cells 2:Raghu_Kalluri
+WNK1	Dendritic cells 2:Raghu_Kalluri
+CALM1	Dendritic cells 2:Raghu_Kalluri
+MRPL14	Dendritic cells 2:Raghu_Kalluri
+CLEC2D	Dendritic cells 2:Raghu_Kalluri
+RASSF4	Dendritic cells 2:Raghu_Kalluri
+OSTF1	Dendritic cells 2:Raghu_Kalluri
+ZFP36L1	Dendritic cells 2:Raghu_Kalluri
+SUB1	Dendritic cells 2:Raghu_Kalluri
+APOBEC3	Dendritic cells 2:Raghu_Kalluri
+SPI1	Dendritic cells 2:Raghu_Kalluri
+REL	Dendritic cells 2:Raghu_Kalluri
+H2-Q4	Dendritic cells 2:Raghu_Kalluri
+CLEC2I	Dendritic cells 2:Raghu_Kalluri
+CFLAR	Dendritic cells 2:Raghu_Kalluri
+SPR	Dendritic cells 2:Raghu_Kalluri
+RAB8B	Dendritic cells 2:Raghu_Kalluri
+ATP6V0E	Dendritic cells 2:Raghu_Kalluri
+NFKBIB	Dendritic cells 2:Raghu_Kalluri
+UAP1	Dendritic cells 2:Raghu_Kalluri
+NSMCE3	Dendritic cells 2:Raghu_Kalluri
+SLC6A6	Dendritic cells 2:Raghu_Kalluri
+TSPO	Dendritic cells 2:Raghu_Kalluri
+BRK1	Dendritic cells 2:Raghu_Kalluri
+LAPTM4B	Dendritic cells 2:Raghu_Kalluri
+ZFAND6	Dendritic cells 2:Raghu_Kalluri
+RAB21	Dendritic cells 2:Raghu_Kalluri
+VAMP8	Dendritic cells 2:Raghu_Kalluri
+CDC42EP3	Dendritic cells 2:Raghu_Kalluri
+ACTB	Dendritic cells 2:Raghu_Kalluri
+NFAT5	Dendritic cells 2:Raghu_Kalluri
+CD47	Dendritic cells 2:Raghu_Kalluri
+CREG1	Dendritic cells 2:Raghu_Kalluri
+ATPIF1	Dendritic cells 2:Raghu_Kalluri
+SCAND1	Dendritic cells 2:Raghu_Kalluri
+PRCP	Dendritic cells 2:Raghu_Kalluri
+SRI	Dendritic cells 2:Raghu_Kalluri
+DYNLL2	Dendritic cells 2:Raghu_Kalluri
+CDKN1A	Dendritic cells 2:Raghu_Kalluri
+ACTN1	Dendritic cells 2:Raghu_Kalluri
+GLIPR1	Dendritic cells 2:Raghu_Kalluri
+EDF1	Dendritic cells 2:Raghu_Kalluri
+SP140	Dendritic cells 2:Raghu_Kalluri
+PSMG4	Dendritic cells 2:Raghu_Kalluri
+SAMHD1	Dendritic cells 2:Raghu_Kalluri
+NCOA7	Dendritic cells 2:Raghu_Kalluri
+COX5A	Dendritic cells 2:Raghu_Kalluri
+PIK3R1	Dendritic cells 2:Raghu_Kalluri
+HSPA8	Dendritic cells 2:Raghu_Kalluri
+ELOC	Dendritic cells 2:Raghu_Kalluri
+ITGA4	Dendritic cells 2:Raghu_Kalluri
+SQSTM1	Dendritic cells 2:Raghu_Kalluri
+IKBKB	Dendritic cells 2:Raghu_Kalluri
+NFKBIA	Dendritic cells 2:Raghu_Kalluri
+S100A11	Dendritic cells 2:Raghu_Kalluri
+SRGN	Dendritic cells 2:Raghu_Kalluri
+NMT1	Dendritic cells 2:Raghu_Kalluri
+PTMS	Dendritic cells 2:Raghu_Kalluri
+PSMB10	Dendritic cells 2:Raghu_Kalluri
+NANS	Dendritic cells 2:Raghu_Kalluri
+BTG1	Dendritic cells 2:Raghu_Kalluri
+TXN1	Dendritic cells 2:Raghu_Kalluri
+IL21R	Dendritic cells 2:Raghu_Kalluri
+ARHGAP30	Dendritic cells 2:Raghu_Kalluri
+SPOP	Dendritic cells 2:Raghu_Kalluri
+TUBB5	Dendritic cells 2:Raghu_Kalluri
+PFDN5	Dendritic cells 2:Raghu_Kalluri
+RPS27L	Dendritic cells 2:Raghu_Kalluri
+ANXA2	Dendritic cells 2:Raghu_Kalluri
+H2-EB1	Dendritic cells 2:Raghu_Kalluri
+CNN2	Dendritic cells 2:Raghu_Kalluri
+ITGB1	Dendritic cells 2:Raghu_Kalluri
+ASAP1	Dendritic cells 2:Raghu_Kalluri
+RPS19	Dendritic cells 2:Raghu_Kalluri
+CDC37	Dendritic cells 2:Raghu_Kalluri
+RNASET2A	Dendritic cells 2:Raghu_Kalluri
+TUBA1C	Dendritic cells 2:Raghu_Kalluri
+WDR1	Dendritic cells 2:Raghu_Kalluri
+GABARAP	Dendritic cells 2:Raghu_Kalluri
+SOD1	Dendritic cells 2:Raghu_Kalluri
+CMC2	Dendritic cells 2:Raghu_Kalluri
+RGS10	Dendritic cells 2:Raghu_Kalluri
+GNGT2	Dendritic cells 2:Raghu_Kalluri
+SUPT4A	Dendritic cells 2:Raghu_Kalluri
+CD74	Dendritic cells 2:Raghu_Kalluri
+DSTN	Dendritic cells 2:Raghu_Kalluri
+UBB	Dendritic cells 2:Raghu_Kalluri
+PRR13	Dendritic cells 2:Raghu_Kalluri
+PSMA5	Dendritic cells 2:Raghu_Kalluri
+POMP	Dendritic cells 2:Raghu_Kalluri
+NPC2	Dendritic cells 2:Raghu_Kalluri
+H2-AA	Dendritic cells 2:Raghu_Kalluri
+CD44	Dendritic cells 2:Raghu_Kalluri
+VCP	Dendritic cells 2:Raghu_Kalluri
+CSTB	Dendritic cells 2:Raghu_Kalluri
+ARPP19	Dendritic cells 2:Raghu_Kalluri
+SAT1	Dendritic cells 2:Raghu_Kalluri
+MYL6	Dendritic cells 2:Raghu_Kalluri
+UBL5	Dendritic cells 2:Raghu_Kalluri
+COX7C	Dendritic cells 2:Raghu_Kalluri
+H3F3A	Dendritic cells 2:Raghu_Kalluri
+SH3BGRL3	Dendritic cells 2:Raghu_Kalluri
+ARPC3	Dendritic cells 2:Raghu_Kalluri
+PFN1	Dendritic cells 2:Raghu_Kalluri
+EIF4A2	Dendritic cells 2:Raghu_Kalluri
+IER5	Dendritic cells 2:Raghu_Kalluri
+PSMA7	Dendritic cells 2:Raghu_Kalluri
+CDC42	Dendritic cells 2:Raghu_Kalluri
+CALM3	Dendritic cells 2:Raghu_Kalluri
+SUMO2	Dendritic cells 2:Raghu_Kalluri
+TAGLN2	Dendritic cells 2:Raghu_Kalluri
+STMN1	T cells 6:Raghu_Kalluri
+PCLAF	T cells 6:Raghu_Kalluri
+HIST1H2AP	T cells 6:Raghu_Kalluri
+UBE2C	T cells 6:Raghu_Kalluri
+BIRC5	T cells 6:Raghu_Kalluri
+TOP2A	T cells 6:Raghu_Kalluri
+LOCKD	T cells 6:Raghu_Kalluri
+NUSAP1	T cells 6:Raghu_Kalluri
+CCNA2	T cells 6:Raghu_Kalluri
+CDCA8	T cells 6:Raghu_Kalluri
+SPC24	T cells 6:Raghu_Kalluri
+MXD3	T cells 6:Raghu_Kalluri
+SGO1	T cells 6:Raghu_Kalluri
+TK1	T cells 6:Raghu_Kalluri
+HIST1H2AE	T cells 6:Raghu_Kalluri
+SPC25	T cells 6:Raghu_Kalluri
+CKS2	T cells 6:Raghu_Kalluri
+CDCA3	T cells 6:Raghu_Kalluri
+RRM2	T cells 6:Raghu_Kalluri
+CCNB2	T cells 6:Raghu_Kalluri
+KIF11	T cells 6:Raghu_Kalluri
+CCNB1	T cells 6:Raghu_Kalluri
+FBXO5	T cells 6:Raghu_Kalluri
+ASF1B	T cells 6:Raghu_Kalluri
+SMC2	T cells 6:Raghu_Kalluri
+CIT	T cells 6:Raghu_Kalluri
+MKI67	T cells 6:Raghu_Kalluri
+PRC1	T cells 6:Raghu_Kalluri
+AURKA	T cells 6:Raghu_Kalluri
+CKS1B	T cells 6:Raghu_Kalluri
+CENPA	T cells 6:Raghu_Kalluri
+TPX2	T cells 6:Raghu_Kalluri
+CENPF	T cells 6:Raghu_Kalluri
+AURKB	T cells 6:Raghu_Kalluri
+MAD2L1	T cells 6:Raghu_Kalluri
+CDC20	T cells 6:Raghu_Kalluri
+GMNN	T cells 6:Raghu_Kalluri
+CENPM	T cells 6:Raghu_Kalluri
+HMGN2	T cells 6:Raghu_Kalluri
+CENPW	T cells 6:Raghu_Kalluri
+CDK1	T cells 6:Raghu_Kalluri
+LMNB1	T cells 6:Raghu_Kalluri
+H2AFX	T cells 6:Raghu_Kalluri
+KNSTRN	T cells 6:Raghu_Kalluri
+TYMS	T cells 6:Raghu_Kalluri
+LIG1	T cells 6:Raghu_Kalluri
+HMGB2	T cells 6:Raghu_Kalluri
+1700097N02RIK	T cells 6:Raghu_Kalluri
+CENPE	T cells 6:Raghu_Kalluri
+KPNA2	T cells 6:Raghu_Kalluri
+DUT	T cells 6:Raghu_Kalluri
+TCF19	T cells 6:Raghu_Kalluri
+RACGAP1	T cells 6:Raghu_Kalluri
+TACC3	T cells 6:Raghu_Kalluri
+TMPO	T cells 6:Raghu_Kalluri
+PLK1	T cells 6:Raghu_Kalluri
+SH2D1A	T cells 6:Raghu_Kalluri
+SELENOH	T cells 6:Raghu_Kalluri
+EZH2	T cells 6:Raghu_Kalluri
+HELLS	T cells 6:Raghu_Kalluri
+SMC4	T cells 6:Raghu_Kalluri
+NCAPD2	T cells 6:Raghu_Kalluri
+TUBA1B	T cells 6:Raghu_Kalluri
+INCENP	T cells 6:Raghu_Kalluri
+CDC25B	T cells 6:Raghu_Kalluri
+UBE2S	T cells 6:Raghu_Kalluri
+DEK	T cells 6:Raghu_Kalluri
+H2AFZ	T cells 6:Raghu_Kalluri
+SKA2	T cells 6:Raghu_Kalluri
+TRAC	T cells 6:Raghu_Kalluri
+UHRF1	T cells 6:Raghu_Kalluri
+CTLA4	T cells 6:Raghu_Kalluri
+RAN	T cells 6:Raghu_Kalluri
+CDKN2C	T cells 6:Raghu_Kalluri
+MIS18A	T cells 6:Raghu_Kalluri
+MCM5	T cells 6:Raghu_Kalluri
+LAT	T cells 6:Raghu_Kalluri
+PCNA	T cells 6:Raghu_Kalluri
+TRBC2	T cells 6:Raghu_Kalluri
+CD28	T cells 6:Raghu_Kalluri
+LCK	T cells 6:Raghu_Kalluri
+TUBB5	T cells 6:Raghu_Kalluri
+ALYREF	T cells 6:Raghu_Kalluri
+HMGB1	T cells 6:Raghu_Kalluri
+CD3E	T cells 6:Raghu_Kalluri
+CDKN3	T cells 6:Raghu_Kalluri
+TIPIN	T cells 6:Raghu_Kalluri
+H2AFV	T cells 6:Raghu_Kalluri
+PTMA	T cells 6:Raghu_Kalluri
+TFDP1	T cells 6:Raghu_Kalluri
+NUCKS1	T cells 6:Raghu_Kalluri
+IL2RB	T cells 6:Raghu_Kalluri
+PPIL1	T cells 6:Raghu_Kalluri
+CMC2	T cells 6:Raghu_Kalluri
+DBF4	T cells 6:Raghu_Kalluri
+ICOS	T cells 6:Raghu_Kalluri
+DNAJC9	T cells 6:Raghu_Kalluri
+ANP32B	T cells 6:Raghu_Kalluri
+RPA3	T cells 6:Raghu_Kalluri
+HIST1H4I	T cells 6:Raghu_Kalluri
+LSM5	T cells 6:Raghu_Kalluri
+MCM7	T cells 6:Raghu_Kalluri
+TUBB4B	T cells 6:Raghu_Kalluri
+PTPN7	T cells 6:Raghu_Kalluri
+CD247	T cells 6:Raghu_Kalluri
+SKAP1	T cells 6:Raghu_Kalluri
+BUB3	T cells 6:Raghu_Kalluri
+RAD21	T cells 6:Raghu_Kalluri
+PPIA	T cells 6:Raghu_Kalluri
+HMGB3	T cells 6:Raghu_Kalluri
+GSTP3	T cells 6:Raghu_Kalluri
+SLBP	T cells 6:Raghu_Kalluri
+CD6	T cells 6:Raghu_Kalluri
+CD3D	T cells 6:Raghu_Kalluri
+DNMT1	T cells 6:Raghu_Kalluri
+CD3G	T cells 6:Raghu_Kalluri
+PTTG1	T cells 6:Raghu_Kalluri
+LSM3	T cells 6:Raghu_Kalluri
+THY1	T cells 6:Raghu_Kalluri
+ZAP70	T cells 6:Raghu_Kalluri
+SUMO2	T cells 6:Raghu_Kalluri
+ERH	T cells 6:Raghu_Kalluri
+CBX5	T cells 6:Raghu_Kalluri
+IZUMO1R	T cells 6:Raghu_Kalluri
+RBM3	T cells 6:Raghu_Kalluri
+SNRPE	T cells 6:Raghu_Kalluri
+PPIH	T cells 6:Raghu_Kalluri
+ANP32E	T cells 6:Raghu_Kalluri
+BATF	T cells 6:Raghu_Kalluri
+LSM2	T cells 6:Raghu_Kalluri
+JPT1	T cells 6:Raghu_Kalluri
+CD5	T cells 6:Raghu_Kalluri
+SNRPD1	T cells 6:Raghu_Kalluri
+AW112010	T cells 6:Raghu_Kalluri
+IKZF2	T cells 6:Raghu_Kalluri
+ACOT7	T cells 6:Raghu_Kalluri
+GIMAP7	T cells 6:Raghu_Kalluri
+NRM	T cells 6:Raghu_Kalluri
+USP1	T cells 6:Raghu_Kalluri
+RALY	T cells 6:Raghu_Kalluri
+BANF1	T cells 6:Raghu_Kalluri
+PFN1	T cells 6:Raghu_Kalluri
+HNRNPA3	T cells 6:Raghu_Kalluri
+TNFRSF4	T cells 6:Raghu_Kalluri
+CALM3	T cells 6:Raghu_Kalluri
+FYB	T cells 6:Raghu_Kalluri
+NXT1	T cells 6:Raghu_Kalluri
+SRSF3	T cells 6:Raghu_Kalluri
+PHGDH	T cells 6:Raghu_Kalluri
+SLAMF6	T cells 6:Raghu_Kalluri
+MS4A6B	T cells 6:Raghu_Kalluri
+SLC25A5	T cells 6:Raghu_Kalluri
+MCM6	T cells 6:Raghu_Kalluri
+RBBP4	T cells 6:Raghu_Kalluri
+NUDT21	T cells 6:Raghu_Kalluri
+MED30	T cells 6:Raghu_Kalluri
+ACTG1	T cells 6:Raghu_Kalluri
+CCDC34	T cells 6:Raghu_Kalluri
+LBR	T cells 6:Raghu_Kalluri
+YWHAH	T cells 6:Raghu_Kalluri
+43709	T cells 6:Raghu_Kalluri
+MS4A4B	T cells 6:Raghu_Kalluri
+ARL6IP1	T cells 6:Raghu_Kalluri
+SNRPG	T cells 6:Raghu_Kalluri
+HPRT	T cells 6:Raghu_Kalluri
+CDKN2D	T cells 6:Raghu_Kalluri
+HINT1	T cells 6:Raghu_Kalluri
+YBX1	T cells 6:Raghu_Kalluri
+RAC2	T cells 6:Raghu_Kalluri
+EXOSC8	T cells 6:Raghu_Kalluri
+MTHFD2	T cells 6:Raghu_Kalluri
+OAZ1	T cells 6:Raghu_Kalluri
+LSM8	T cells 6:Raghu_Kalluri
+MRPL18	T cells 6:Raghu_Kalluri
+TRBC1	T cells 6:Raghu_Kalluri
+BEX3	T cells 6:Raghu_Kalluri
+SNRPF	T cells 6:Raghu_Kalluri
+ATP5G2	T cells 6:Raghu_Kalluri
+TXN1	T cells 6:Raghu_Kalluri
+CFL1	T cells 6:Raghu_Kalluri
+RANBP1	T cells 6:Raghu_Kalluri
+GIMAP4	T cells 6:Raghu_Kalluri
+ABRACL	T cells 6:Raghu_Kalluri
+PSMB9	T cells 6:Raghu_Kalluri
+TUBA1C	T cells 6:Raghu_Kalluri
+HPF1	T cells 6:Raghu_Kalluri
+PRELID3B	T cells 6:Raghu_Kalluri
+GAPDH	T cells 6:Raghu_Kalluri
+CDK2AP1	T cells 6:Raghu_Kalluri
+NAP1L1	T cells 6:Raghu_Kalluri
+LSM6	T cells 6:Raghu_Kalluri
+LSM4	T cells 6:Raghu_Kalluri
+COTL1	T cells 6:Raghu_Kalluri
+ATP5J	T cells 6:Raghu_Kalluri
+TCF7	T cells 6:Raghu_Kalluri
+BCL11B	T cells 6:Raghu_Kalluri
+SMS	T cells 6:Raghu_Kalluri
+HNRNPAB	T cells 6:Raghu_Kalluri
+PYCARD	T cells 6:Raghu_Kalluri
+HNRNPA1	T cells 6:Raghu_Kalluri
+ASS1	T cells 6:Raghu_Kalluri
+COX7A2	T cells 6:Raghu_Kalluri
+COX5B	T cells 6:Raghu_Kalluri
+NONO	T cells 6:Raghu_Kalluri
+LEPROTL1	T cells 6:Raghu_Kalluri
+PPP1CC	T cells 6:Raghu_Kalluri
+PRELID1	T cells 6:Raghu_Kalluri
+CBX3	T cells 6:Raghu_Kalluri
+ARHGDIB	T cells 6:Raghu_Kalluri
+DCTPP1	T cells 6:Raghu_Kalluri
+SMCO4	T cells 6:Raghu_Kalluri
+RPL41	T cells 6:Raghu_Kalluri
+PSIP1	T cells 6:Raghu_Kalluri
+SERBP1	T cells 6:Raghu_Kalluri
+TMSB4X	T cells 6:Raghu_Kalluri
+1810037I17RIK	T cells 6:Raghu_Kalluri
+ATP5G3	T cells 6:Raghu_Kalluri
+CNN2	T cells 6:Raghu_Kalluri
+0610010K14RIK	T cells 6:Raghu_Kalluri
+DTYMK	T cells 6:Raghu_Kalluri
+UQCR10	T cells 6:Raghu_Kalluri
+ATP5K	T cells 6:Raghu_Kalluri
+NDUFA4	T cells 6:Raghu_Kalluri
+GLTP	T cells 6:Raghu_Kalluri
+MAGOH	T cells 6:Raghu_Kalluri
+PPP1CA	T cells 6:Raghu_Kalluri
+TMSB10	T cells 6:Raghu_Kalluri
+CTCF	T cells 6:Raghu_Kalluri
+COX5A	T cells 6:Raghu_Kalluri
+CLIC1	T cells 6:Raghu_Kalluri
+SRSF2	T cells 6:Raghu_Kalluri
+COX7C	T cells 6:Raghu_Kalluri
+PTPRCAP	T cells 6:Raghu_Kalluri
+PGK1	T cells 6:Raghu_Kalluri
+NPM1	T cells 6:Raghu_Kalluri
+CORO1A	T cells 6:Raghu_Kalluri
+HSPA8	T cells 6:Raghu_Kalluri
+HSP90AA1	T cells 6:Raghu_Kalluri
+GIMAP5	T cells 6:Raghu_Kalluri
+SLC9A3R1	T cells 6:Raghu_Kalluri
+TMA7	T cells 6:Raghu_Kalluri
+CALM2	T cells 6:Raghu_Kalluri
+AURKAIP1	T cells 6:Raghu_Kalluri
+HNRNPA2B1	T cells 6:Raghu_Kalluri
+LGALS1	T cells 6:Raghu_Kalluri
+RBM38	T cells 6:Raghu_Kalluri
+HDGF	T cells 6:Raghu_Kalluri
+EIF1AX	T cells 6:Raghu_Kalluri
+RPSA	T cells 6:Raghu_Kalluri
+CD48	T cells 6:Raghu_Kalluri
+RFC2	T cells 6:Raghu_Kalluri
+NKG7	T cells 6:Raghu_Kalluri
+COX6C	T cells 6:Raghu_Kalluri
+LDHA	T cells 6:Raghu_Kalluri
+CYCS	T cells 6:Raghu_Kalluri
+RPLP0	T cells 6:Raghu_Kalluri
+43714	T cells 6:Raghu_Kalluri
+DAZAP1	T cells 6:Raghu_Kalluri
+SUMO1	T cells 6:Raghu_Kalluri
+SSNA1	T cells 6:Raghu_Kalluri
+SET	T cells 6:Raghu_Kalluri
+LIMD2	T cells 6:Raghu_Kalluri
+UBE2L3	T cells 6:Raghu_Kalluri
+RBBP7	T cells 6:Raghu_Kalluri
+IMPDH2	T cells 6:Raghu_Kalluri
+COX8A	T cells 6:Raghu_Kalluri
+FUNDC2	T cells 6:Raghu_Kalluri
+RAP1A	T cells 6:Raghu_Kalluri
+H2-T22	T cells 6:Raghu_Kalluri
+CENPX	T cells 6:Raghu_Kalluri
+SNRPB	T cells 6:Raghu_Kalluri
+NDUFC2	T cells 6:Raghu_Kalluri
+RPS2	T cells 6:Raghu_Kalluri
+PABPC1	T cells 6:Raghu_Kalluri
+AP2S1	T cells 6:Raghu_Kalluri
+ATP5J2	T cells 6:Raghu_Kalluri
+SRSF7	T cells 6:Raghu_Kalluri
+IFI27L2A	T cells 6:Raghu_Kalluri
+MINOS1	T cells 6:Raghu_Kalluri
+CDK2AP2	T cells 6:Raghu_Kalluri
+PKP3	T cells 6:Raghu_Kalluri
+MAF	T cells 6:Raghu_Kalluri
+ATP5H	T cells 6:Raghu_Kalluri
+PRDX1	T cells 6:Raghu_Kalluri
+ANP32A	T cells 6:Raghu_Kalluri
+SF3B5	T cells 6:Raghu_Kalluri
+SNRPD2	T cells 6:Raghu_Kalluri
+PSMB8	T cells 6:Raghu_Kalluri
+NPM3	T cells 6:Raghu_Kalluri
+GIMAP3	T cells 6:Raghu_Kalluri
+S100A10	T cells 6:Raghu_Kalluri
+UBE2N	T cells 6:Raghu_Kalluri
+BIN2	T cells 6:Raghu_Kalluri
+ARF5	T cells 6:Raghu_Kalluri
+CAPZA1	T cells 6:Raghu_Kalluri
+SUB1	T cells 6:Raghu_Kalluri
+UBALD2	T cells 6:Raghu_Kalluri
+RPL28	T cells 6:Raghu_Kalluri
+TOMM22	T cells 6:Raghu_Kalluri
+ITGB7	T cells 6:Raghu_Kalluri
+UBE2I	T cells 6:Raghu_Kalluri
+GLRX	T cells 6:Raghu_Kalluri
+CMTM7	T cells 6:Raghu_Kalluri
+HSP90AB1	T cells 6:Raghu_Kalluri
+PDAP1	T cells 6:Raghu_Kalluri
+HNRNPF	T cells 6:Raghu_Kalluri
+CDK4	T cells 6:Raghu_Kalluri
+COX17	T cells 6:Raghu_Kalluri
+SNU13	T cells 6:Raghu_Kalluri
+SF3B6	T cells 6:Raghu_Kalluri
+COX6B1	T cells 6:Raghu_Kalluri
+H2-Q7	T cells 6:Raghu_Kalluri
+CTBP1	T cells 6:Raghu_Kalluri
+DNAJC15	T cells 6:Raghu_Kalluri
+ATP5E	T cells 6:Raghu_Kalluri
+ATP5F1	T cells 6:Raghu_Kalluri
+NDUFB7	T cells 6:Raghu_Kalluri
+PCBP2	T cells 6:Raghu_Kalluri
+43715	T cells 6:Raghu_Kalluri
+PSMA4	T cells 6:Raghu_Kalluri
+COX6A1	T cells 6:Raghu_Kalluri
+NDUFA3	T cells 6:Raghu_Kalluri
+TPM3	T cells 6:Raghu_Kalluri
+CCND3	T cells 6:Raghu_Kalluri
+RPL22L1	T cells 6:Raghu_Kalluri
+ARPP19	T cells 6:Raghu_Kalluri
+NHP2	T cells 6:Raghu_Kalluri
+CD2	T cells 6:Raghu_Kalluri
+ELOB	T cells 6:Raghu_Kalluri
+TAGLN2	T cells 6:Raghu_Kalluri
+ATP5C1	T cells 6:Raghu_Kalluri
+H3F3B	T cells 6:Raghu_Kalluri
+NCL	T cells 6:Raghu_Kalluri
+XIST	T cells 6:Raghu_Kalluri
+ATP5B	T cells 6:Raghu_Kalluri
+COX7B	T cells 6:Raghu_Kalluri
+ACTR3	T cells 6:Raghu_Kalluri
+UBB	T cells 6:Raghu_Kalluri
+BTF3	T cells 6:Raghu_Kalluri
+NME1	T cells 6:Raghu_Kalluri
+EIF5A	T cells 6:Raghu_Kalluri
+TMEM14C	T cells 6:Raghu_Kalluri
+SEC11C	T cells 6:Raghu_Kalluri
+REEP5	T cells 6:Raghu_Kalluri
+MIF	T cells 6:Raghu_Kalluri
+PSMA2	T cells 6:Raghu_Kalluri
+2010107E04RIK	T cells 6:Raghu_Kalluri
+USMG5	T cells 6:Raghu_Kalluri
+SELPLG	T cells 6:Raghu_Kalluri
+GM10260	T cells 6:Raghu_Kalluri
+MYL12A	T cells 6:Raghu_Kalluri
+SH3BGRL3	T cells 6:Raghu_Kalluri
+CD52	T cells 6:Raghu_Kalluri
+GMFG	T cells 6:Raghu_Kalluri
+EMP3	T cells 6:Raghu_Kalluri
+RGS10	T cells 6:Raghu_Kalluri
+CD8B1	T cells 6:Raghu_Kalluri
+B2M	T cells 6:Raghu_Kalluri
+HSPE1	T cells 6:Raghu_Kalluri
+FSCN1 	Activated DC:Zhang 2021
+BIRC3 	Activated DC:Zhang 2021
+LAMP3 	Activated DC:Zhang 2021
+CCL19 	Activated DC:Zhang 2021
+LAD1 	Activated DC:Zhang 2021
+MARCKS 	Activated DC:Zhang 2021
+TNFAIP2 	Activated DC:Zhang 2021
+CCR7 	Activated DC:Zhang 2021
+CCL22 	Activated DC:Zhang 2021
+MARCKSL1 	Activated DC:Zhang 2021
+EBI3 	Activated DC:Zhang 2021
+TNFRSF11B 	Activated DC:Zhang 2021
+NUB1 	Activated DC:Zhang 2021
+INSM1 	Activated DC:Zhang 2021
+RAB9A 	Activated DC:Zhang 2021
+LY75 	Activated DC:Zhang 2021
+SIAH2 	Activated DC:Zhang 2021
+POGLUT1 	Activated DC:Zhang 2021
+KDM2B 	Activated DC:Zhang 2021
+MGLL 	Activated DC:Zhang 2021
+TXN 	Activated DC:Zhang 2021
+MLLT6 	Activated DC:Zhang 2021
+KIF2A 	Activated DC:Zhang 2021
+GRSF1 	Activated DC:Zhang 2021
+FAM49A 	Activated DC:Zhang 2021
+PLEKHG1 	Activated DC:Zhang 2021
+SOCS2 	Activated DC:Zhang 2021
+RFTN1 	Activated DC:Zhang 2021
+AC009812.4 	Activated DC:Zhang 2021
+BMP2K 	Activated DC:Zhang 2021
+NAV1 	Activated DC:Zhang 2021
+IL7R 	Activated DC:Zhang 2021
+ID2 	Activated DC:Zhang 2021
+CCL17 	Activated DC:Zhang 2021
+PPP1R9B 	Activated DC:Zhang 2021
+NRP2 	Activated DC:Zhang 2021
+TUBB6 	Activated DC:Zhang 2021
+ARNTL2 	Activated DC:Zhang 2021
+UVRAG 	Activated DC:Zhang 2021
+TXNDC11 	Activated DC:Zhang 2021
+MREG 	Activated DC:Zhang 2021
+BTG1 	Activated DC:Zhang 2021
+NDE1 	Activated DC:Zhang 2021
+SPG11 	Activated DC:Zhang 2021
+IL32 	Activated DC:Zhang 2021
+ERICH1 	Activated DC:Zhang 2021
+TBC1D4 	Activated DC:Zhang 2021
+NFKB1 	Activated DC:Zhang 2021
+GCSAM 	Activated DC:Zhang 2021
+BZW1 	Activated DC:Zhang 2021
+CXCR4	C01_cDC2_CXCR4hi:Zhang 2021
+SARAF	C01_cDC2_CXCR4hi:Zhang 2021
+RPS14	C01_cDC2_CXCR4hi:Zhang 2021
+CREM	C01_cDC2_CXCR4hi:Zhang 2021
+RPS10	C01_cDC2_CXCR4hi:Zhang 2021
+RPS23	C01_cDC2_CXCR4hi:Zhang 2021
+C1orf162	C01_cDC2_CXCR4hi:Zhang 2021
+SMAP2	C01_cDC2_CXCR4hi:Zhang 2021
+CEBPD	C01_cDC2_CXCR4hi:Zhang 2021
+HLA-DPB1	C01_cDC2_CXCR4hi:Zhang 2021
+RPL18A	C01_cDC2_CXCR4hi:Zhang 2021
+FCER1A	C01_cDC2_CXCR4hi:Zhang 2021
+DUSP4	C01_cDC2_CXCR4hi:Zhang 2021
+RPS7	C01_cDC2_CXCR4hi:Zhang 2021
+RPL13	C01_cDC2_CXCR4hi:Zhang 2021
+RPS18	C01_cDC2_CXCR4hi:Zhang 2021
+EZR	C01_cDC2_CXCR4hi:Zhang 2021
+RNASE6	C01_cDC2_CXCR4hi:Zhang 2021
+HERPUD1	C01_cDC2_CXCR4hi:Zhang 2021
+RPS2	C01_cDC2_CXCR4hi:Zhang 2021
+RPL26	C01_cDC2_CXCR4hi:Zhang 2021
+EEF1B2	C01_cDC2_CXCR4hi:Zhang 2021
+RPL32	C01_cDC2_CXCR4hi:Zhang 2021
+RPL10	C01_cDC2_CXCR4hi:Zhang 2021
+RPL5	C01_cDC2_CXCR4hi:Zhang 2021
+RPL30	C01_cDC2_CXCR4hi:Zhang 2021
+RPL29	C01_cDC2_CXCR4hi:Zhang 2021
+RPS12	C01_cDC2_CXCR4hi:Zhang 2021
+EEF1A1	C01_cDC2_CXCR4hi:Zhang 2021
+RPL11	C01_cDC2_CXCR4hi:Zhang 2021
+RPL18	C01_cDC2_CXCR4hi:Zhang 2021
+RPL8	C01_cDC2_CXCR4hi:Zhang 2021
+RPL19	C01_cDC2_CXCR4hi:Zhang 2021
+RPS6	C01_cDC2_CXCR4hi:Zhang 2021
+RPS16	C01_cDC2_CXCR4hi:Zhang 2021
+RPL10A	C01_cDC2_CXCR4hi:Zhang 2021
+ARL4C	C01_cDC2_CXCR4hi:Zhang 2021
+RPS5	C01_cDC2_CXCR4hi:Zhang 2021
+RPS3	C01_cDC2_CXCR4hi:Zhang 2021
+PABPC1	C01_cDC2_CXCR4hi:Zhang 2021
+AKR1C3	C01_cDC2_CXCR4hi:Zhang 2021
+ENHO	C01_cDC2_CXCR4hi:Zhang 2021
+INSIG1	C01_cDC2_CXCR4hi:Zhang 2021
+MAT2A	C01_cDC2_CXCR4hi:Zhang 2021
+HBEGF	C01_cDC2_CXCR4hi:Zhang 2021
+SATB1	C01_cDC2_CXCR4hi:Zhang 2021
+EEF1G	C01_cDC2_CXCR4hi:Zhang 2021
+CXCL16	C01_cDC2_CXCR4hi:Zhang 2021
+RPS9	C01_cDC2_CXCR4hi:Zhang 2021
+RPS26	C01_cDC2_CXCR4hi:Zhang 2021
+RPL3	C01_cDC2_CXCR4hi:Zhang 2021
+SLC25A3	C01_cDC2_CXCR4hi:Zhang 2021
+LGMN	C01_cDC2_CXCR4hi:Zhang 2021
+RPS24	C01_cDC2_CXCR4hi:Zhang 2021
+RPS8	C01_cDC2_CXCR4hi:Zhang 2021
+RPL24	C01_cDC2_CXCR4hi:Zhang 2021
+TUBA1A	C01_cDC2_CXCR4hi:Zhang 2021
+RPS15A	C01_cDC2_CXCR4hi:Zhang 2021
+RPS27A	C01_cDC2_CXCR4hi:Zhang 2021
+RGS2	C01_cDC2_CXCR4hi:Zhang 2021
+RPLP0	C01_cDC2_CXCR4hi:Zhang 2021
+RPL23A	C01_cDC2_CXCR4hi:Zhang 2021
+RNF149	C01_cDC2_CXCR4hi:Zhang 2021
+RPS4Y1	C01_cDC2_CXCR4hi:Zhang 2021
+RPS13	C01_cDC2_CXCR4hi:Zhang 2021
+AREG	C01_cDC2_CXCR4hi:Zhang 2021
+EIF3L	C01_cDC2_CXCR4hi:Zhang 2021
+YPEL5	C01_cDC2_CXCR4hi:Zhang 2021
+RPL6	C01_cDC2_CXCR4hi:Zhang 2021
+RPS25	C01_cDC2_CXCR4hi:Zhang 2021
+SH3TC1	C01_cDC2_CXCR4hi:Zhang 2021
+BTF3	C01_cDC2_CXCR4hi:Zhang 2021
+RPLP1	C01_cDC2_CXCR4hi:Zhang 2021
+CST3	C01_cDC2_CXCR4hi:Zhang 2021
+BIN1	C01_cDC2_CXCR4hi:Zhang 2021
+EIF2AK4	C01_cDC2_CXCR4hi:Zhang 2021
+SGK1	C01_cDC2_CXCR4hi:Zhang 2021
+ISG20	C01_cDC2_CXCR4hi:Zhang 2021
+ZNF331	C01_cDC2_CXCR4hi:Zhang 2021
+GABARAPL1	C01_cDC2_CXCR4hi:Zhang 2021
+RPL4	C01_cDC2_CXCR4hi:Zhang 2021
+NACA	C01_cDC2_CXCR4hi:Zhang 2021
+HLA-DRB5	C01_cDC2_CXCR4hi:Zhang 2021
+AKAP13	C01_cDC2_CXCR4hi:Zhang 2021
+FAU	C01_cDC2_CXCR4hi:Zhang 2021
+RPL7A	C01_cDC2_CXCR4hi:Zhang 2021
+RPLP2	C01_cDC2_CXCR4hi:Zhang 2021
+ATP1B3	C01_cDC2_CXCR4hi:Zhang 2021
+SPIB	C01_cDC2_CXCR4hi:Zhang 2021
+TPT1	C01_cDC2_CXCR4hi:Zhang 2021
+FBXO34	C01_cDC2_CXCR4hi:Zhang 2021
+GNB2L1	C01_cDC2_CXCR4hi:Zhang 2021
+RPL13A	C01_cDC2_CXCR4hi:Zhang 2021
+RILPL2	C01_cDC2_CXCR4hi:Zhang 2021
+LSP1	C01_cDC2_CXCR4hi:Zhang 2021
+IL1R2	C01_cDC2_CXCR4hi:Zhang 2021
+RPL17	C01_cDC2_CXCR4hi:Zhang 2021
+AC090498.1	C01_cDC2_CXCR4hi:Zhang 2021
+RIN3	C01_cDC2_CXCR4hi:Zhang 2021
+NET1	C01_cDC2_CXCR4hi:Zhang 2021
+CD1A	C02_cDC2_CD1A:Zhang 2021
+S100B	C02_cDC2_CD1A:Zhang 2021
+ACTB	C02_cDC2_CD1A:Zhang 2021
+PFN1	C02_cDC2_CD1A:Zhang 2021
+LTB	C02_cDC2_CD1A:Zhang 2021
+GSN	C02_cDC2_CD1A:Zhang 2021
+SPI1	C02_cDC2_CD1A:Zhang 2021
+SYNGR2	C02_cDC2_CD1A:Zhang 2021
+ACTG1	C02_cDC2_CD1A:Zhang 2021
+ARPC2	C02_cDC2_CD1A:Zhang 2021
+LCP1	C02_cDC2_CD1A:Zhang 2021
+UCP2	C02_cDC2_CD1A:Zhang 2021
+MIF	C02_cDC2_CD1A:Zhang 2021
+TPI1	C02_cDC2_CD1A:Zhang 2021
+MYL12A	C02_cDC2_CD1A:Zhang 2021
+ACTR3	C02_cDC2_CD1A:Zhang 2021
+CFL1	C02_cDC2_CD1A:Zhang 2021
+PKM	C02_cDC2_CD1A:Zhang 2021
+LST1	C02_cDC2_CD1A:Zhang 2021
+TMSB10	C02_cDC2_CD1A:Zhang 2021
+CD207	C02_cDC2_CD1A:Zhang 2021
+IL2RG	C02_cDC2_CD1A:Zhang 2021
+SERF2	C02_cDC2_CD1A:Zhang 2021
+SMCO4	C02_cDC2_CD1A:Zhang 2021
+COTL1	C02_cDC2_CD1A:Zhang 2021
+CAPZB	C02_cDC2_CD1A:Zhang 2021
+GAPDH	C02_cDC2_CD1A:Zhang 2021
+ALOX5AP	C02_cDC2_CD1A:Zhang 2021
+TUBA1B	C02_cDC2_CD1A:Zhang 2021
+PRR13	C02_cDC2_CD1A:Zhang 2021
+ALDOA	C02_cDC2_CD1A:Zhang 2021
+HINT1	C02_cDC2_CD1A:Zhang 2021
+VASP	C02_cDC2_CD1A:Zhang 2021
+GDI2	C02_cDC2_CD1A:Zhang 2021
+HLA-DQB2	C02_cDC2_CD1A:Zhang 2021
+PTMS	C02_cDC2_CD1A:Zhang 2021
+C15orf48	C02_cDC2_CD1A:Zhang 2021
+PPP1R14A	C02_cDC2_CD1A:Zhang 2021
+SRP14	C02_cDC2_CD1A:Zhang 2021
+CST7	C02_cDC2_CD1A:Zhang 2021
+ARPC5	C02_cDC2_CD1A:Zhang 2021
+LGALS1	C02_cDC2_CD1A:Zhang 2021
+TUBB	C02_cDC2_CD1A:Zhang 2021
+CD59	C02_cDC2_CD1A:Zhang 2021
+SH3BGRL3	C02_cDC2_CD1A:Zhang 2021
+CAP1	C02_cDC2_CD1A:Zhang 2021
+PKIB	C02_cDC2_CD1A:Zhang 2021
+PDIA3	C02_cDC2_CD1A:Zhang 2021
+YWHAH	C02_cDC2_CD1A:Zhang 2021
+CA2	C02_cDC2_CD1A:Zhang 2021
+PAK1	C02_cDC2_CD1A:Zhang 2021
+TMSB4X	C02_cDC2_CD1A:Zhang 2021
+VAMP8	C02_cDC2_CD1A:Zhang 2021
+ENO1	C02_cDC2_CD1A:Zhang 2021
+CKLF	C02_cDC2_CD1A:Zhang 2021
+PPIB	C02_cDC2_CD1A:Zhang 2021
+CNN2	C02_cDC2_CD1A:Zhang 2021
+C11orf31	C02_cDC2_CD1A:Zhang 2021
+DBNDD2	C02_cDC2_CD1A:Zhang 2021
+PRELID1	C02_cDC2_CD1A:Zhang 2021
+COX6C	C02_cDC2_CD1A:Zhang 2021
+ATP5G3	C02_cDC2_CD1A:Zhang 2021
+ABI3	C02_cDC2_CD1A:Zhang 2021
+ARL6IP5	C02_cDC2_CD1A:Zhang 2021
+PGAM1	C02_cDC2_CD1A:Zhang 2021
+COX6A1	C02_cDC2_CD1A:Zhang 2021
+UQCR10	C02_cDC2_CD1A:Zhang 2021
+ARPC1B	C02_cDC2_CD1A:Zhang 2021
+HLA-DQA2	C02_cDC2_CD1A:Zhang 2021
+CD52	C02_cDC2_CD1A:Zhang 2021
+NOP10	C02_cDC2_CD1A:Zhang 2021
+ATOX1	C02_cDC2_CD1A:Zhang 2021
+PTPN6	C02_cDC2_CD1A:Zhang 2021
+ATP5J	C02_cDC2_CD1A:Zhang 2021
+IL7R	C02_cDC2_CD1A:Zhang 2021
+UBL5	C02_cDC2_CD1A:Zhang 2021
+LAMTOR1	C02_cDC2_CD1A:Zhang 2021
+ARPC3	C02_cDC2_CD1A:Zhang 2021
+CALM3	C02_cDC2_CD1A:Zhang 2021
+HCK	C02_cDC2_CD1A:Zhang 2021
+TXN	C02_cDC2_CD1A:Zhang 2021
+PSMB9	C02_cDC2_CD1A:Zhang 2021
+CALR	C02_cDC2_CD1A:Zhang 2021
+UQCRQ	C02_cDC2_CD1A:Zhang 2021
+DCTPP1	C02_cDC2_CD1A:Zhang 2021
+CIB1	C02_cDC2_CD1A:Zhang 2021
+PGK1	C02_cDC2_CD1A:Zhang 2021
+NME2	C02_cDC2_CD1A:Zhang 2021
+PSME2	C02_cDC2_CD1A:Zhang 2021
+NDUFB2	C02_cDC2_CD1A:Zhang 2021
+HN1	C02_cDC2_CD1A:Zhang 2021
+COX6B1	C02_cDC2_CD1A:Zhang 2021
+ARHGDIB	C02_cDC2_CD1A:Zhang 2021
+DCXR	C02_cDC2_CD1A:Zhang 2021
+CDK2AP2	C02_cDC2_CD1A:Zhang 2021
+GPR137B	C02_cDC2_CD1A:Zhang 2021
+TPM3	C02_cDC2_CD1A:Zhang 2021
+TMEM176A	C02_cDC2_CD1A:Zhang 2021
+CD40	C02_cDC2_CD1A:Zhang 2021
+ITGB2	C02_cDC2_CD1A:Zhang 2021
+NFKBIA	C03_cDC2_IL1B:Zhang 2021
+IL1B	C03_cDC2_IL1B:Zhang 2021
+ICAM1	C03_cDC2_IL1B:Zhang 2021
+NFKBIZ	C03_cDC2_IL1B:Zhang 2021
+TNFAIP3	C03_cDC2_IL1B:Zhang 2021
+BCL2A1	C03_cDC2_IL1B:Zhang 2021
+IER3	C03_cDC2_IL1B:Zhang 2021
+GADD45B	C03_cDC2_IL1B:Zhang 2021
+CXCL8	C03_cDC2_IL1B:Zhang 2021
+PNRC1	C03_cDC2_IL1B:Zhang 2021
+CCL4L2	C03_cDC2_IL1B:Zhang 2021
+PPP1R15A	C03_cDC2_IL1B:Zhang 2021
+CD83	C03_cDC2_IL1B:Zhang 2021
+SOD2	C03_cDC2_IL1B:Zhang 2021
+NLRP3	C03_cDC2_IL1B:Zhang 2021
+PLAUR	C03_cDC2_IL1B:Zhang 2021
+NFKB1	C03_cDC2_IL1B:Zhang 2021
+DUSP2	C03_cDC2_IL1B:Zhang 2021
+CCL3L3	C03_cDC2_IL1B:Zhang 2021
+ZC3H12A	C03_cDC2_IL1B:Zhang 2021
+TRAF1	C03_cDC2_IL1B:Zhang 2021
+THAP2	C03_cDC2_IL1B:Zhang 2021
+CCL4	C03_cDC2_IL1B:Zhang 2021
+CXCL2	C03_cDC2_IL1B:Zhang 2021
+CCL3	C03_cDC2_IL1B:Zhang 2021
+KDM6B	C03_cDC2_IL1B:Zhang 2021
+PLEK	C03_cDC2_IL1B:Zhang 2021
+ID2	C03_cDC2_IL1B:Zhang 2021
+REL	C03_cDC2_IL1B:Zhang 2021
+PDE4B	C03_cDC2_IL1B:Zhang 2021
+ZFP36	C03_cDC2_IL1B:Zhang 2021
+NFKBID	C03_cDC2_IL1B:Zhang 2021
+NR4A1	C03_cDC2_IL1B:Zhang 2021
+MIR155HG	C03_cDC2_IL1B:Zhang 2021
+MAFF	C03_cDC2_IL1B:Zhang 2021
+BIRC3	C03_cDC2_IL1B:Zhang 2021
+ARL5B	C03_cDC2_IL1B:Zhang 2021
+SOCS3	C03_cDC2_IL1B:Zhang 2021
+SDCBP	C03_cDC2_IL1B:Zhang 2021
+RBKS	C03_cDC2_IL1B:Zhang 2021
+CFLAR	C03_cDC2_IL1B:Zhang 2021
+PIM3	C03_cDC2_IL1B:Zhang 2021
+PLK3	C03_cDC2_IL1B:Zhang 2021
+G0S2	C03_cDC2_IL1B:Zhang 2021
+FOSB	C03_cDC2_IL1B:Zhang 2021
+ZNF267	C03_cDC2_IL1B:Zhang 2021
+MAP3K8	C03_cDC2_IL1B:Zhang 2021
+CDKN1A	C03_cDC2_IL1B:Zhang 2021
+FCGR2A	C03_cDC2_IL1B:Zhang 2021
+TNF	C03_cDC2_IL1B:Zhang 2021
+ZFAND5	C03_cDC2_IL1B:Zhang 2021
+NFE2L2	C03_cDC2_IL1B:Zhang 2021
+STX11	C03_cDC2_IL1B:Zhang 2021
+CCRL2	C03_cDC2_IL1B:Zhang 2021
+GPR183	C03_cDC2_IL1B:Zhang 2021
+JUNB	C03_cDC2_IL1B:Zhang 2021
+NR4A2	C03_cDC2_IL1B:Zhang 2021
+MAP2K3	C03_cDC2_IL1B:Zhang 2021
+CSRNP1	C03_cDC2_IL1B:Zhang 2021
+BHLHE40	C03_cDC2_IL1B:Zhang 2021
+IRAK2	C03_cDC2_IL1B:Zhang 2021
+SRGN	C03_cDC2_IL1B:Zhang 2021
+EGR1	C03_cDC2_IL1B:Zhang 2021
+CCR7	C03_cDC2_IL1B:Zhang 2021
+XBP1	C03_cDC2_IL1B:Zhang 2021
+BTG1	C03_cDC2_IL1B:Zhang 2021
+IL10RA	C03_cDC2_IL1B:Zhang 2021
+KLF10	C03_cDC2_IL1B:Zhang 2021
+DUSP1	C03_cDC2_IL1B:Zhang 2021
+KLF6	C03_cDC2_IL1B:Zhang 2021
+NAMPT	C03_cDC2_IL1B:Zhang 2021
+MS4A7	C03_cDC2_IL1B:Zhang 2021
+ABL2	C03_cDC2_IL1B:Zhang 2021
+RASGEF1B	C03_cDC2_IL1B:Zhang 2021
+CDC42EP3	C03_cDC2_IL1B:Zhang 2021
+PTGS2	C03_cDC2_IL1B:Zhang 2021
+TNFAIP8	C03_cDC2_IL1B:Zhang 2021
+FCGR2B	C03_cDC2_IL1B:Zhang 2021
+RGS1	C03_cDC2_IL1B:Zhang 2021
+ITM2B	C03_cDC2_IL1B:Zhang 2021
+AF213884.2	C03_cDC2_IL1B:Zhang 2021
+GPR132	C03_cDC2_IL1B:Zhang 2021
+NFKB2	C03_cDC2_IL1B:Zhang 2021
+EIF1	C03_cDC2_IL1B:Zhang 2021
+C5AR1	C03_cDC2_IL1B:Zhang 2021
+LITAF	C03_cDC2_IL1B:Zhang 2021
+MSR1	C03_cDC2_IL1B:Zhang 2021
+ETV3	C03_cDC2_IL1B:Zhang 2021
+CD68	C03_cDC2_IL1B:Zhang 2021
+SQSTM1	C03_cDC2_IL1B:Zhang 2021
+NINJ1	C03_cDC2_IL1B:Zhang 2021
+IL1A	C03_cDC2_IL1B:Zhang 2021
+GPR84	C03_cDC2_IL1B:Zhang 2021
+PLAU	C03_cDC2_IL1B:Zhang 2021
+IFNGR2	C03_cDC2_IL1B:Zhang 2021
+OLR1	C03_cDC2_IL1B:Zhang 2021
+EBI3	C03_cDC2_IL1B:Zhang 2021
+PMAIP1	C03_cDC2_IL1B:Zhang 2021
+ELL2	C03_cDC2_IL1B:Zhang 2021
+VSIG4	C03_cDC2_IL1B:Zhang 2021
+S100A9	C04_cDC2_FCN1:Zhang 2021
+FCN1	C04_cDC2_FCN1:Zhang 2021
+VCAN	C04_cDC2_FCN1:Zhang 2021
+LYZ	C04_cDC2_FCN1:Zhang 2021
+S100A8	C04_cDC2_FCN1:Zhang 2021
+TSPO	C04_cDC2_FCN1:Zhang 2021
+S100A6	C04_cDC2_FCN1:Zhang 2021
+SH3BGRL3	C04_cDC2_FCN1:Zhang 2021
+S100A4	C04_cDC2_FCN1:Zhang 2021
+S100A10	C04_cDC2_FCN1:Zhang 2021
+CD163	C04_cDC2_FCN1:Zhang 2021
+CSTA	C04_cDC2_FCN1:Zhang 2021
+SLC11A1	C04_cDC2_FCN1:Zhang 2021
+TREM1	C04_cDC2_FCN1:Zhang 2021
+NEAT1	C04_cDC2_FCN1:Zhang 2021
+SERPINA1	C04_cDC2_FCN1:Zhang 2021
+FCER1G	C04_cDC2_FCN1:Zhang 2021
+EREG	C04_cDC2_FCN1:Zhang 2021
+ALDOA	C04_cDC2_FCN1:Zhang 2021
+LILRB2	C04_cDC2_FCN1:Zhang 2021
+CD14	C04_cDC2_FCN1:Zhang 2021
+ANXA2	C04_cDC2_FCN1:Zhang 2021
+CFD	C04_cDC2_FCN1:Zhang 2021
+TIMP1	C04_cDC2_FCN1:Zhang 2021
+THBS1	C04_cDC2_FCN1:Zhang 2021
+APLP2	C04_cDC2_FCN1:Zhang 2021
+RPS28	C04_cDC2_FCN1:Zhang 2021
+RPL39	C04_cDC2_FCN1:Zhang 2021
+SLC25A37	C04_cDC2_FCN1:Zhang 2021
+CRIP1	C04_cDC2_FCN1:Zhang 2021
+TKT	C04_cDC2_FCN1:Zhang 2021
+COX4I1	C04_cDC2_FCN1:Zhang 2021
+CD44	C04_cDC2_FCN1:Zhang 2021
+IFI30	C04_cDC2_FCN1:Zhang 2021
+YBX3	C04_cDC2_FCN1:Zhang 2021
+MT-CO3	C04_cDC2_FCN1:Zhang 2021
+TYMP	C04_cDC2_FCN1:Zhang 2021
+GAPDH	C04_cDC2_FCN1:Zhang 2021
+BLVRB	C04_cDC2_FCN1:Zhang 2021
+NCF2	C04_cDC2_FCN1:Zhang 2021
+FTH1	C04_cDC2_FCN1:Zhang 2021
+CFP	C04_cDC2_FCN1:Zhang 2021
+MT-ND3	C04_cDC2_FCN1:Zhang 2021
+H3F3A	C04_cDC2_FCN1:Zhang 2021
+MYL6	C04_cDC2_FCN1:Zhang 2021
+EMP3	C04_cDC2_FCN1:Zhang 2021
+S100A12	C04_cDC2_FCN1:Zhang 2021
+PSAP	C04_cDC2_FCN1:Zhang 2021
+OAZ1	C04_cDC2_FCN1:Zhang 2021
+C5AR1	C04_cDC2_FCN1:Zhang 2021
+LINC01272	C04_cDC2_FCN1:Zhang 2021
+LILRA5	C04_cDC2_FCN1:Zhang 2021
+MT-ND1	C04_cDC2_FCN1:Zhang 2021
+TCEB2	C04_cDC2_FCN1:Zhang 2021
+CD99	C04_cDC2_FCN1:Zhang 2021
+ZEB2	C04_cDC2_FCN1:Zhang 2021
+CTSS	C04_cDC2_FCN1:Zhang 2021
+MT-ND4	C04_cDC2_FCN1:Zhang 2021
+AGTRAP	C04_cDC2_FCN1:Zhang 2021
+PID1	C04_cDC2_FCN1:Zhang 2021
+LRP1	C04_cDC2_FCN1:Zhang 2021
+F13A1	C04_cDC2_FCN1:Zhang 2021
+S100A11	C04_cDC2_FCN1:Zhang 2021
+SERF2	C04_cDC2_FCN1:Zhang 2021
+LGALS1	C04_cDC2_FCN1:Zhang 2021
+STXBP2	C04_cDC2_FCN1:Zhang 2021
+CLEC4E	C04_cDC2_FCN1:Zhang 2021
+FLNA	C04_cDC2_FCN1:Zhang 2021
+AP2S1	C04_cDC2_FCN1:Zhang 2021
+PILRA	C04_cDC2_FCN1:Zhang 2021
+GSTO1	C04_cDC2_FCN1:Zhang 2021
+CD52	C04_cDC2_FCN1:Zhang 2021
+FTL	C04_cDC2_FCN1:Zhang 2021
+CYBA	C04_cDC2_FCN1:Zhang 2021
+LGALS3	C04_cDC2_FCN1:Zhang 2021
+MT-CO2	C04_cDC2_FCN1:Zhang 2021
+SLC25A6	C04_cDC2_FCN1:Zhang 2021
+ANXA1	C04_cDC2_FCN1:Zhang 2021
+AHNAK	C04_cDC2_FCN1:Zhang 2021
+RPLP1	C04_cDC2_FCN1:Zhang 2021
+TYROBP	C04_cDC2_FCN1:Zhang 2021
+IFITM2	C04_cDC2_FCN1:Zhang 2021
+CD36	C04_cDC2_FCN1:Zhang 2021
+MAFB	C04_cDC2_FCN1:Zhang 2021
+KLF2	C04_cDC2_FCN1:Zhang 2021
+GNAI2	C04_cDC2_FCN1:Zhang 2021
+RPS13	C04_cDC2_FCN1:Zhang 2021
+CEBPB	C04_cDC2_FCN1:Zhang 2021
+FPR1	C04_cDC2_FCN1:Zhang 2021
+RPL37A	C04_cDC2_FCN1:Zhang 2021
+RPS8	C04_cDC2_FCN1:Zhang 2021
+RAB31	C04_cDC2_FCN1:Zhang 2021
+FKBP1A	C04_cDC2_FCN1:Zhang 2021
+TRAPPC5	C04_cDC2_FCN1:Zhang 2021
+LILRB3	C04_cDC2_FCN1:Zhang 2021
+BNIP3L	C04_cDC2_FCN1:Zhang 2021
+MT-ND2	C04_cDC2_FCN1:Zhang 2021
+CD300E	C04_cDC2_FCN1:Zhang 2021
+CPVL	C04_cDC2_FCN1:Zhang 2021
+MT-ATP6	C04_cDC2_FCN1:Zhang 2021
+ISG15	C05_cDC2_ISG15:Zhang 2021
+IFI6	C05_cDC2_ISG15:Zhang 2021
+MX1	C05_cDC2_ISG15:Zhang 2021
+LY6E	C05_cDC2_ISG15:Zhang 2021
+IFITM1	C05_cDC2_ISG15:Zhang 2021
+IFITM3	C05_cDC2_ISG15:Zhang 2021
+EPSTI1	C05_cDC2_ISG15:Zhang 2021
+IFI44L	C05_cDC2_ISG15:Zhang 2021
+EIF2AK2	C05_cDC2_ISG15:Zhang 2021
+MX2	C05_cDC2_ISG15:Zhang 2021
+OAS1	C05_cDC2_ISG15:Zhang 2021
+UBE2L6	C05_cDC2_ISG15:Zhang 2021
+BST2	C05_cDC2_ISG15:Zhang 2021
+B2M	C05_cDC2_ISG15:Zhang 2021
+XAF1	C05_cDC2_ISG15:Zhang 2021
+STAT1	C05_cDC2_ISG15:Zhang 2021
+IFIT1	C05_cDC2_ISG15:Zhang 2021
+OAS2	C05_cDC2_ISG15:Zhang 2021
+IFIT3	C05_cDC2_ISG15:Zhang 2021
+TRIM22	C05_cDC2_ISG15:Zhang 2021
+LAP3	C05_cDC2_ISG15:Zhang 2021
+IRF7	C05_cDC2_ISG15:Zhang 2021
+IFIT2	C05_cDC2_ISG15:Zhang 2021
+IFI35	C05_cDC2_ISG15:Zhang 2021
+LGALS9	C05_cDC2_ISG15:Zhang 2021
+OAS3	C05_cDC2_ISG15:Zhang 2021
+RNF213	C05_cDC2_ISG15:Zhang 2021
+SP110	C05_cDC2_ISG15:Zhang 2021
+IFI44	C05_cDC2_ISG15:Zhang 2021
+SAMD9L	C05_cDC2_ISG15:Zhang 2021
+TNFSF13B	C05_cDC2_ISG15:Zhang 2021
+IFITM2	C05_cDC2_ISG15:Zhang 2021
+RSAD2	C05_cDC2_ISG15:Zhang 2021
+SERPING1	C05_cDC2_ISG15:Zhang 2021
+PARP14	C05_cDC2_ISG15:Zhang 2021
+PARP9	C05_cDC2_ISG15:Zhang 2021
+ISG20	C05_cDC2_ISG15:Zhang 2021
+MT2A	C05_cDC2_ISG15:Zhang 2021
+TNFSF10	C05_cDC2_ISG15:Zhang 2021
+GBP1	C05_cDC2_ISG15:Zhang 2021
+HERC5	C05_cDC2_ISG15:Zhang 2021
+OASL	C05_cDC2_ISG15:Zhang 2021
+SHISA5	C05_cDC2_ISG15:Zhang 2021
+HLA-E	C05_cDC2_ISG15:Zhang 2021
+CMPK2	C05_cDC2_ISG15:Zhang 2021
+DRAP1	C05_cDC2_ISG15:Zhang 2021
+IFI16	C05_cDC2_ISG15:Zhang 2021
+SAMD9	C05_cDC2_ISG15:Zhang 2021
+NMI	C05_cDC2_ISG15:Zhang 2021
+RABGAP1L	C05_cDC2_ISG15:Zhang 2021
+PSMB9	C05_cDC2_ISG15:Zhang 2021
+MNDA	C05_cDC2_ISG15:Zhang 2021
+LGALS3BP	C05_cDC2_ISG15:Zhang 2021
+NAPA	C05_cDC2_ISG15:Zhang 2021
+CHMP5	C05_cDC2_ISG15:Zhang 2021
+SSB	C05_cDC2_ISG15:Zhang 2021
+HLA-A	C05_cDC2_ISG15:Zhang 2021
+PLSCR1	C05_cDC2_ISG15:Zhang 2021
+PSME2	C05_cDC2_ISG15:Zhang 2021
+PML	C05_cDC2_ISG15:Zhang 2021
+GBP4	C05_cDC2_ISG15:Zhang 2021
+ITM2B	C05_cDC2_ISG15:Zhang 2021
+FAM26F	C05_cDC2_ISG15:Zhang 2021
+UNC93B1	C05_cDC2_ISG15:Zhang 2021
+CD74	C05_cDC2_ISG15:Zhang 2021
+HLA-DRB5	C05_cDC2_ISG15:Zhang 2021
+ADAR	C05_cDC2_ISG15:Zhang 2021
+RAB8A	C05_cDC2_ISG15:Zhang 2021
+DDX58	C05_cDC2_ISG15:Zhang 2021
+C19orf66	C05_cDC2_ISG15:Zhang 2021
+TAP1	C05_cDC2_ISG15:Zhang 2021
+DDX60L	C05_cDC2_ISG15:Zhang 2021
+TYROBP	C05_cDC2_ISG15:Zhang 2021
+VAMP5	C05_cDC2_ISG15:Zhang 2021
+STAT2	C05_cDC2_ISG15:Zhang 2021
+FGL2	C05_cDC2_ISG15:Zhang 2021
+CST3	C05_cDC2_ISG15:Zhang 2021
+APOL6	C05_cDC2_ISG15:Zhang 2021
+SCIMP	C05_cDC2_ISG15:Zhang 2021
+SP100	C05_cDC2_ISG15:Zhang 2021
+RGS1	C05_cDC2_ISG15:Zhang 2021
+NT5C3A	C05_cDC2_ISG15:Zhang 2021
+HLA-B	C05_cDC2_ISG15:Zhang 2021
+DTX3L	C05_cDC2_ISG15:Zhang 2021
+IFIH1	C05_cDC2_ISG15:Zhang 2021
+PHF11	C05_cDC2_ISG15:Zhang 2021
+FOS	C05_cDC2_ISG15:Zhang 2021
+GAPT	C05_cDC2_ISG15:Zhang 2021
+TXNIP	C05_cDC2_ISG15:Zhang 2021
+RNASE6	C05_cDC2_ISG15:Zhang 2021
+PLD4	C05_cDC2_ISG15:Zhang 2021
+ELF1	C05_cDC2_ISG15:Zhang 2021
+PLAC8	C05_cDC2_ISG15:Zhang 2021
+HLA-F	C05_cDC2_ISG15:Zhang 2021
+USP18	C05_cDC2_ISG15:Zhang 2021
+MYL12A	C05_cDC2_ISG15:Zhang 2021
+HAVCR2	C05_cDC2_ISG15:Zhang 2021
+TMEM219	C05_cDC2_ISG15:Zhang 2021
+RARRES3	C05_cDC2_ISG15:Zhang 2021
+NCF1	C05_cDC2_ISG15:Zhang 2021
+CXCL9	C06_cDC2_CXCL9:Zhang 2021
+PSME2	C06_cDC2_CXCL9:Zhang 2021
+WARS	C06_cDC2_CXCL9:Zhang 2021
+B2M	C06_cDC2_CXCL9:Zhang 2021
+GBP1	C06_cDC2_CXCL9:Zhang 2021
+VAMP5	C06_cDC2_CXCL9:Zhang 2021
+LAP3	C06_cDC2_CXCL9:Zhang 2021
+GBP4	C06_cDC2_CXCL9:Zhang 2021
+GBP5	C06_cDC2_CXCL9:Zhang 2021
+STAT1	C06_cDC2_CXCL9:Zhang 2021
+RARRES3	C06_cDC2_CXCL9:Zhang 2021
+TAP1	C06_cDC2_CXCL9:Zhang 2021
+IDO1	C06_cDC2_CXCL9:Zhang 2021
+UBE2L6	C06_cDC2_CXCL9:Zhang 2021
+UBD	C06_cDC2_CXCL9:Zhang 2021
+PSMB9	C06_cDC2_CXCL9:Zhang 2021
+HLA-A	C06_cDC2_CXCL9:Zhang 2021
+GBP2	C06_cDC2_CXCL9:Zhang 2021
+PSME1	C06_cDC2_CXCL9:Zhang 2021
+SERPING1	C06_cDC2_CXCL9:Zhang 2021
+PSMB10	C06_cDC2_CXCL9:Zhang 2021
+TMSB10	C06_cDC2_CXCL9:Zhang 2021
+HLA-B	C06_cDC2_CXCL9:Zhang 2021
+IFITM3	C06_cDC2_CXCL9:Zhang 2021
+PDIA3	C06_cDC2_CXCL9:Zhang 2021
+EPSTI1	C06_cDC2_CXCL9:Zhang 2021
+CTSH	C06_cDC2_CXCL9:Zhang 2021
+PLEKHO1	C06_cDC2_CXCL9:Zhang 2021
+SLAMF8	C06_cDC2_CXCL9:Zhang 2021
+SMCO4	C06_cDC2_CXCL9:Zhang 2021
+HLA-DPA1	C06_cDC2_CXCL9:Zhang 2021
+HLA-DQA1	C06_cDC2_CXCL9:Zhang 2021
+HLA-F	C06_cDC2_CXCL9:Zhang 2021
+SERPINA1	C06_cDC2_CXCL9:Zhang 2021
+EIF5A	C06_cDC2_CXCL9:Zhang 2021
+TNFSF13B	C06_cDC2_CXCL9:Zhang 2021
+FYB	C06_cDC2_CXCL9:Zhang 2021
+PSMB8	C06_cDC2_CXCL9:Zhang 2021
+SLAMF7	C06_cDC2_CXCL9:Zhang 2021
+MT2A	C06_cDC2_CXCL9:Zhang 2021
+HLA-C	C06_cDC2_CXCL9:Zhang 2021
+ACTB	C06_cDC2_CXCL9:Zhang 2021
+FCGR1A	C06_cDC2_CXCL9:Zhang 2021
+PPA1	C06_cDC2_CXCL9:Zhang 2021
+FAM26F	C06_cDC2_CXCL9:Zhang 2021
+HAPLN3	C06_cDC2_CXCL9:Zhang 2021
+LY6E	C06_cDC2_CXCL9:Zhang 2021
+HLA-DRA	C06_cDC2_CXCL9:Zhang 2021
+HLA-DPB1	C06_cDC2_CXCL9:Zhang 2021
+IL2RG	C06_cDC2_CXCL9:Zhang 2021
+IRF1	C06_cDC2_CXCL9:Zhang 2021
+SPI1	C06_cDC2_CXCL9:Zhang 2021
+TAPBP	C06_cDC2_CXCL9:Zhang 2021
+C1QB	C06_cDC2_CXCL9:Zhang 2021
+CD40	C06_cDC2_CXCL9:Zhang 2021
+BST2	C06_cDC2_CXCL9:Zhang 2021
+IFITM1	C06_cDC2_CXCL9:Zhang 2021
+CALR	C06_cDC2_CXCL9:Zhang 2021
+NUB1	C06_cDC2_CXCL9:Zhang 2021
+POMP	C06_cDC2_CXCL9:Zhang 2021
+LGALS2	C06_cDC2_CXCL9:Zhang 2021
+GSN	C06_cDC2_CXCL9:Zhang 2021
+FGL2	C06_cDC2_CXCL9:Zhang 2021
+CXCL10	C06_cDC2_CXCL9:Zhang 2021
+TNFRSF14	C06_cDC2_CXCL9:Zhang 2021
+IL18BP	C06_cDC2_CXCL9:Zhang 2021
+AKR1A1	C06_cDC2_CXCL9:Zhang 2021
+SAMD9L	C06_cDC2_CXCL9:Zhang 2021
+IFI35	C06_cDC2_CXCL9:Zhang 2021
+CD74	C06_cDC2_CXCL9:Zhang 2021
+PDIA6	C06_cDC2_CXCL9:Zhang 2021
+TYMP	C06_cDC2_CXCL9:Zhang 2021
+MVP	C06_cDC2_CXCL9:Zhang 2021
+LYZ	C06_cDC2_CXCL9:Zhang 2021
+ATOX1	C06_cDC2_CXCL9:Zhang 2021
+ATF5	C06_cDC2_CXCL9:Zhang 2021
+MARCKSL1	C06_cDC2_CXCL9:Zhang 2021
+PSMA2	C06_cDC2_CXCL9:Zhang 2021
+PPIB	C06_cDC2_CXCL9:Zhang 2021
+EBI3	C06_cDC2_CXCL9:Zhang 2021
+ATP1B1	C06_cDC2_CXCL9:Zhang 2021
+TMSB4X	C06_cDC2_CXCL9:Zhang 2021
+RGS10	C06_cDC2_CXCL9:Zhang 2021
+MNDA	C06_cDC2_CXCL9:Zhang 2021
+NMI	C06_cDC2_CXCL9:Zhang 2021
+VOPP1	C06_cDC2_CXCL9:Zhang 2021
+TPMT	C06_cDC2_CXCL9:Zhang 2021
+CYBB	C06_cDC2_CXCL9:Zhang 2021
+IGFLR1	C06_cDC2_CXCL9:Zhang 2021
+HLA-E	C06_cDC2_CXCL9:Zhang 2021
+CLIC2	C06_cDC2_CXCL9:Zhang 2021
+CTSZ	C06_cDC2_CXCL9:Zhang 2021
+CASP4	C06_cDC2_CXCL9:Zhang 2021
+LGALS9	C06_cDC2_CXCL9:Zhang 2021
+BAZ1A	C06_cDC2_CXCL9:Zhang 2021
+JAK2	C06_cDC2_CXCL9:Zhang 2021
+SQRDL	C06_cDC2_CXCL9:Zhang 2021
+UBE2E2	C06_cDC2_CXCL9:Zhang 2021
+HSPA8	C06_cDC2_CXCL9:Zhang 2021
+PSMB3	C06_cDC2_CXCL9:Zhang 2021
+	

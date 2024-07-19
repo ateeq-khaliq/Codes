@@ -1,1 +1,11 @@
+First Read the Function in R --> save_markers_to_excel_pages_by_cluster.R
+Write the marker genes in to .xlsx or txt using read.table
+then pass the following argumets --> 
+save_markers_to_excel_pages_by_cluster ("marker_genes.xlsx", "marker_genes_new.xlsx") 
+
+1st argument is your file saved after DGEa  and 2nd argument is new file created after seperating it into different clusters
+
+
+# updated markers list can be found in the following file
+/Users/akhaliq/Desktop/MarkerGenesListCode/marker_genes1.xlsx
 

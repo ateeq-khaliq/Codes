@@ -1,0 +1,64 @@
+Gene	Markers
+EPCAM	Epithelial:Our paper
+KRT8	Epithelial:Our paper
+KRT18	Epithelial:Our paper
+COL1A1	CAF-S1/myCAF:Our Paper
+CLDN5	endothelial:Our Paper
+CD3D	T cells:Our Paper
+CD79A	B cells:Our Paper
+LYZ	epi-mye:Our Paper
+FAP	CAF-S1/myCAF:Our Paper
+PDPN	CAF-S1/myCAF:Our Paper
+PDGFRA	CAF-S1:Our Paper
+COL1A2	CAF-S1/myCAF:Our Paper
+CXCL12	CAF-S1/iCAF:Our Paper
+GJB	CAF-S1/ecm-myCAF:Our Paper
+ANTXR1	CAF-S1/ecm-myCAF:Our Paper
+SDC1	CAF-S1/ecm-myCAF:Our Paper
+SEMA3C	CAF-S1/wound-myCAF:Our Paper
+CD9	CAF-S1/wound-myCAF:Our Paper
+CST1	CAF-S1/TGFB-myCAF:Our Paper
+TGFB1	CAF-S1/TGFB-myCAF:Our Paper
+LAMP5	CAF-S1/TGFB-myCAF:Our Paper
+SCARA5	CAF-S1/IL-iCAF:Our Paper
+DLK1	CAF-S1/IL-iCAF:Our Paper
+ADH1B	CAF-S1/detox-iCAF:Our Paper
+GPC3	CAF-S1/detox-iCAF:Our Paper
+RGS5	CAF-S4:Our Paper
+CSPG4	CAF-S4:Our Paper
+PDGFRB	CAF-S4:Our Paper
+CD248	CAF-S4:Our Paper
+EPAS1	CAF-S4:Our Paper
+CD1C	DC:Our Paper
+C1QA	C!Q+TAM:Our Paper
+C1QB	C!Q+TAM:Our Paper
+MRC1	TAM:Our Paper
+S100A8	Monocytes:Our Paper
+1L1B	Monocytes:Our Paper
+S100A9	Monocytes:Our Paper
+APOE	TAM:Our Paper
+SEPP1	TAM:Our Paper
+CD163	TAM:Our Paper
+FCGR3B	Monocytes:Our Paper
+FOXP3	Tregs:Our Paper
+LAG3	Tregs:Our Paper
+CTLA4	Tregs:Our Paper
+PD-1	Tregs:Our Paper
+CCR7	Memory cell-t:Our Paper
+SELL	Memory cell-t:Our Paper
+TCF7	Memory cell-t:Our Paper
+ANXA1	Resting cells-T:Our Paper
+IL7R	Resting cells-T:Our Paper
+LMNA	Resting cells-T:Our Paper
+CXCL13	Acrtivated T:Our Paper
+GZMK	Cytotoxic T:Our Paper
+GZMB	Cytotoxic T:Our Paper
+IFNG	Cytotoxic T:Our Paper
+PRF1	Cytotoxic T:Our Paper
+CCL4	Cytotoxic T:Our Paper
+CXCL13	Activated:Our Paper
+LAG3	exhaustion T:Our Paper
+HAVCR2	exhaustion T:Our Paper
+CD96	exhaustion T:Our Paper
+EOMES	pre-dysfunctional:Our Paper
+KLRG1	pre-dysfunctional:Our Paper

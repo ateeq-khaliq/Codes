@@ -1,0 +1,877 @@
+Genes	Subtype
+PECAM1	Endothelial 
+CCL21A	Endothelial 
+CLDN5	Endothelial 
+PLVAP	Endothelial 
+VWF	Endothelial : Li Ding
+PECAM1	Endothelial : Li Ding
+FLT4	Endothelial : Li Ding
+FLT1	Endothelial : Li Ding
+FLT3	Endothelial : Li Ding
+KDR	Endothelial : Li Ding
+PLVAP	Endothelial : Li Ding
+ANGPT2	Endothelial : Li Ding
+TRIM24	Endothelial : Li Ding
+ACTA2	Endothelial : Li Ding
+CDH5	endothelial cell: Peng
+PLVAP	endothelial cell: Peng
+VWF	endothelial cell: Peng
+CLDN5	endothelial cell: Peng
+CLDN5	endothelial cell:Science
+PECAM1	endothelial cell:Science
+CD34	endothelial cell:Science
+FLT1	endothelial cell:Science
+VWF	endothelial cell:Science
+ENG	endothelial cell:Science
+CDH5	endothelial cell:Science
+FLT4	lymphatic endothelial cell
+HYAL2	lymphatic endothelial cell
+CLEC1A	lymphatic endothelial cell
+SOX18	lymphatic endothelial cell
+ROBO4	lymphatic endothelial cell
+CXORF36	lymphatic endothelial cell
+MYCT1	lymphatic endothelial cell
+KANK3	lymphatic endothelial cell
+ACVRL1	Microvascular endothelial cell
+CETP	Microvascular endothelial cell
+RANGAP1	Microvascular endothelial cell
+SELE	Microvascular endothelial cell
+TIE1	Microvascular endothelial cell
+CLDN5	Microvascular endothelial cell
+VWF	Microvascular endothelial cell
+HYAL2	Microvascular endothelial cell
+EIF2B2	Microvascular endothelial cell
+TNFSF18	Microvascular endothelial cell
+LYVE1	Microvascular endothelial cell
+ARHGEF15	Microvascular endothelial cell
+CLEC1A	Microvascular endothelial cell
+ROBO4	Microvascular endothelial cell
+CXORF36	Microvascular endothelial cell
+MMRN2	Microvascular endothelial cell
+KANK3	Microvascular endothelial cell
+CLDN5	endothelial:Our Paper
+RAMP3	Portal Endothelial: Ian et al- Nature com 2018
+INMT	Portal Endothelial: Ian et al- Nature com 2018
+DNASE1L3	Portal Endothelial: Ian et al- Nature com 2018
+LIFR	Portal Endothelial: Ian et al- Nature com 2018
+ACKR1	Endothelial:AziziLabs
+FABP4	Endothelial:AziziLabs
+PLVAP	Endothelial:AziziLabs
+RAMP2	Endothelial:AziziLabs
+VWF	Endothelial:AziziLabs
+AQP1	Endothelial:AziziLabs
+CLDN5	Endothelial:AziziLabs
+SPARCL1	Endothelial:AziziLabs
+GNG11	Endothelial:AziziLabs
+PECAM1	Endothelial:AziziLabs
+ENG	Endothelial:AziziLabs
+EGFL7	Endothelial:AziziLabs
+HSPG2	Endothelial:AziziLabs
+RAMP3	Endothelial:AziziLabs
+A2M	Endothelial:AziziLabs
+SPRY1	Endothelial:AziziLabs
+CLEC14A	Endothelial:AziziLabs
+RBP7	Endothelial:AziziLabs
+EMCN	Endothelial:AziziLabs
+IGFBP7	Endothelial:AziziLabs
+ADGRL4	Endothelial:AziziLabs
+ID1	Endothelial:AziziLabs
+NPDC1	Endothelial:AziziLabs
+ESAM	Endothelial:AziziLabs
+CALCRL	Endothelial:AziziLabs
+CAV1	Endothelial:AziziLabs
+IGFBP3	Endothelial:AziziLabs
+IFI27	Endothelial:AziziLabs
+RNASE1	Endothelial:AziziLabs
+CD34	Endothelial:AziziLabs
+SDPR	Endothelial:AziziLabs
+IFITM3	Endothelial:AziziLabs
+IGFBP4	Endothelial:AziziLabs
+FKBP1A	Endothelial:AziziLabs
+TM4SF1	Endothelial:AziziLabs
+PLPP1	Endothelial:AziziLabs
+HYAL2	Endothelial:AziziLabs
+SLC9A3R2	Endothelial:AziziLabs
+CRIP2	Endothelial:AziziLabs
+PDLIM1	Endothelial:AziziLabs
+COL15A1	Endothelial:AziziLabs
+COL4A1	Endothelial:AziziLabs
+EPAS1	Endothelial:AziziLabs
+PRCP	Endothelial:AziziLabs
+PALMD	Endothelial:AziziLabs
+EMP1	Endothelial:AziziLabs
+CD36	Endothelial:AziziLabs
+CD93	Endothelial:AziziLabs
+TCF4	Endothelial:AziziLabs
+SOCS3	Endothelial:AziziLabs
+PTRF	Endothelial:AziziLabs
+COL4A2	Endothelial:AziziLabs
+FLT1	Endothelial:AziziLabs
+PDK4	Endothelial:AziziLabs
+CYYR1	Endothelial:AziziLabs
+ID3	Endothelial:AziziLabs
+CXorf36	Endothelial:AziziLabs
+BCAM	Endothelial:AziziLabs
+BIRC5	Prolifarative endothelial cells:Lee et al 2020
+CKS1B	Prolifarative endothelial cells:Lee et al 2020
+MKI67	Prolifarative endothelial cells:Lee et al 2020
+PCNA	Prolifarative endothelial cells:Lee et al 2020
+PPARG	Lymphatic endothelial cells: Lee et al 2020
+FABP1	Lymphatic endothelial cells: Lee et al 2020
+FABP4	Lymphatic endothelial cells: Lee et al 2020
+FABP5	Tip-like endothelial cells: Lee et al 2020
+RGCC	Tip-like endothelial cells: Lee et al 2020
+RAMP3	Tip-like endothelial cells: Lee et al 2020
+ACKR1	Stalk-like endothelial cells: Lee et al 2020
+SELP	Stalk-like endothelial cells: Lee et al 2020
+LYVE1	Prolifarative endothelial cells:Lee et al 2020
+PROX1	Prolifarative endothelial cells:Lee et al 2020
+CD31	"Endothelial :Chen et al, Bladder paper"
+PECAM1	Endothelial:SCTyper
+CD34	Endothelial:SCTyper
+KDR	Endothelial:SCTyper
+CDH5	Endothelial:SCTyper
+PROM1	Endothelial:SCTyper
+PDPN	Endothelial:SCTyper
+TEK	Endothelial:SCTyper
+FLT1	Endothelial:SCTyper
+VCAM1	Endothelial:SCTyper
+PTPRC	Endothelial:SCTyper
+VWF	Endothelial:SCTyper
+ENG	Endothelial:SCTyper
+MCAM	Endothelial:SCTyper
+ICAM1	Endothelial:SCTyper
+FLT4	Endothelial:SCTyper
+SELE	Endothelial:SCTyper
+PECAM1	Endothelial cells:SCTyper
+CD34	Endothelial cells:SCTyper
+MCAM	Endothelial cells:SCTyper
+CDH5	Endothelial cells:SCTyper
+VWF	Endothelial cells:SCTyper
+ENG	Endothelial cells:SCTyper
+KDR	Endothelial cells:SCTyper
+PDPN	Endothelial cells:SCTyper
+SELE	Endothelial cells:SCTyper
+A2M	Endothelial cells:SCTyper
+FLT1	Endothelial cell:SCTyper
+APPBP2	Endothelial cell:SCTyper
+ARGLU1	Endothelial cell:SCTyper
+ATP10D	Endothelial cell:SCTyper
+BNIP1	Endothelial cell:SCTyper
+BST2	Endothelial cell:SCTyper
+BTNL9	Endothelial cell:SCTyper
+C11orf96	Endothelial cell:SCTyper
+CCDC85B	Endothelial cell:SCTyper
+CCL14	Endothelial cell:SCTyper
+CD4	Endothelial cell:SCTyper
+CDC73	Endothelial cell:SCTyper
+CDKL1	Endothelial cell:SCTyper
+CHD4	Endothelial cell:SCTyper
+CLEC1B	Endothelial cell:SCTyper
+CLEC2B	Endothelial cell:SCTyper
+CLEC4G	Endothelial cell:SCTyper
+CLEC4M	Endothelial cell:SCTyper
+CRBN	Endothelial cell:SCTyper
+CRHBP	Endothelial cell:SCTyper
+CTSL	Endothelial cell:SCTyper
+DCLRE1C	Endothelial cell:SCTyper
+DIPK2A	Endothelial cell:SCTyper
+DLC1	Endothelial cell:SCTyper
+DLG1	Endothelial cell:SCTyper
+DLK1	Endothelial cell:SCTyper
+DNASE1L3	Endothelial cell:SCTyper
+DOCK1	Endothelial cell:SCTyper
+DUSP5	Endothelial cell:SCTyper
+EFNB2	Endothelial cell:SCTyper
+ENG	Endothelial cell:SCTyper
+F8	Endothelial cell:SCTyper
+FCN2	Endothelial cell:SCTyper
+FCN3	Endothelial cell:SCTyper
+FILIP1	Endothelial cell:SCTyper
+FOSB	Endothelial cell:SCTyper
+FXYD6	Endothelial cell:SCTyper
+GBP4	Endothelial cell:SCTyper
+GGA2	Endothelial cell:SCTyper
+GNG11	Endothelial cell:SCTyper
+HES1	Endothelial cell:SCTyper
+HYI	Endothelial cell:SCTyper
+IL1R1	Endothelial cell:SCTyper
+IL33	Endothelial cell:SCTyper
+KDR	Endothelial cell:SCTyper
+KIF1B	Endothelial cell:SCTyper
+KLHL28	Endothelial cell:SCTyper
+LDB2	Endothelial cell:SCTyper
+MCAM	Endothelial cell:SCTyper
+MCM3AP	Endothelial cell:SCTyper
+MEF2C	Endothelial cell:SCTyper
+MFN1	Endothelial cell:SCTyper
+MGAT5	Endothelial cell:SCTyper
+MPZL3	Endothelial cell:SCTyper
+MRC1	Endothelial cell:SCTyper
+OIT3	Endothelial cell:SCTyper
+PIK3C2A	Endothelial cell:SCTyper
+PPWD1	Endothelial cell:SCTyper
+PTPRC	Endothelial cell:SCTyper
+RASGEF1B	Endothelial cell:SCTyper
+RASGRP3	Endothelial cell:SCTyper
+RELN	Endothelial cell:SCTyper
+RIN2	Endothelial cell:SCTyper
+SECISBP2L	Endothelial cell:SCTyper
+STAB1	Endothelial cell:SCTyper
+STRN3	Endothelial cell:SCTyper
+TCF12	Endothelial cell:SCTyper
+TEX264	Endothelial cell:SCTyper
+TFRC	Endothelial cell:SCTyper
+TRAPPC11	Endothelial cell:SCTyper
+TSPAN7	Endothelial cell:SCTyper
+USP48	Endothelial cell:SCTyper
+VWF	Endothelial cell:SCTyper
+ZNF286B	Endothelial cell:SCTyper
+STAB2	Endothelial cell:SCTyper
+CD34	Endothelial cell:SCTyper
+PECAM1	Endothelial cell:SCTyper
+PECAM1	Endothelial cells:SCTyper
+VWF	Endothelial cells:SCTyper
+CDH5	Endothelial cells:SCTyper
+BMP2	Endothelial cells:SCTyper
+BMP4	Endothelial cells:SCTyper
+CD34	Endothelial cells:SCTyper
+CD55	Endothelial cells:SCTyper
+FLT1	Endothelial cells:SCTyper
+MED1	Endothelial cells:SCTyper
+TGFBR1	Endothelial cells:SCTyper
+TMEM98	Endothelial cells:SCTyper
+TNFSF12	Endothelial cells:SCTyper
+CD93	Endothelial cells:SCTyper
+SLCO1A4	Endothelial cells:SCTyper
+CLDN5	Endothelial cells:SCTyper
+ICAM1	Endothelial cells:SCTyper
+GNG11	Endothelial cells:SCTyper
+TGFBR2	Endothelial cells:SCTyper
+NOTCH4	Endothelial cells:SCTyper
+ADGRL4	Endothelial cells:SCTyper
+EMCN	Endothelial cells:SCTyper
+ENG	Endothelial cells:SCTyper
+PECAM1	Endothelial cells:SCTyper
+PLAC8	Endothelial cells:SCTyper
+PLVAP	Endothelial cells:SCTyper
+TEK	Endothelial cells:SCTyper
+KDR	Endothelial cells:SCTyper
+VWF	Endothelial cells:SCTyper
+MMRN1	Endothelial cells:SCTyper
+CD93	Endothelial cells:SCTyper
+PECAM1	Endothelial cells:SCTyper
+VWF	Endothelial cells:SCTyper
+A2M	Endothelial cells:SCTyper
+APOLD1	Endothelial cells:SCTyper
+FLT1	Endothelial cells:SCTyper
+TM4SF1	Endothelial cells:SCTyper
+CD34	Endothelial cells:SCTyper
+MCAM	Endothelial cells:SCTyper
+ENG	Endothelial cells:SCTyper
+PTPRC	Endothelial cells:SCTyper
+VCAM1	Endothelial cells:SCTyper
+CDH5	Endothelial cells:SCTyper
+CD34	Endothelial cell:SCTyper
+EGFL7	Endothelial cell:SCTyper
+EMCN	Endothelial cell:SCTyper
+ESAM	Endothelial cell:SCTyper
+FLT1	Endothelial cell:SCTyper
+KDR	Endothelial cell:SCTyper
+MCAM	Endothelial cell:SCTyper
+PECAM1	Endothelial cell:SCTyper
+RAMP2	Endothelial cell:SCTyper
+TEK	Endothelial cell:SCTyper
+VWF	Endothelial cell:SCTyper
+CD34	Endothelial cell:SCTyper
+CDH5	Endothelial cell:SCTyper
+PECAM1	Endothelial cell:SCTyper
+VWF	Endothelial cells:SCTyper
+PECAM1	Endothelial cells:SCTyper
+CDH5	Endothelial cells:SCTyper
+FABP4	Endothelial cells:SCTyper
+AQP7	Endothelial cells:SCTyper
+Npr3	Endothelial cells:SCTyper
+Plvap	Endothelial cells:SCTyper
+Kdr	Endothelial cells:SCTyper
+CD34	Endothelial cells:SCTyper
+VWF	Endothelial cells:SCTyper
+CDH5	Endothelial cells:SCTyper
+FLI1	Endothelial cells:SCTyper
+ERG	Endothelial cells:SCTyper
+VWF	Endothelial cells:SCTyper
+CA4	Endothelial cells:SCTyper
+PECAM1	Endothelial cells:SCTyper
+PALMD	Endothelial cells:SCTyper
+NOSTRIN	Endothelial cells:SCTyper
+MECOM	Endothelial cells:SCTyper
+PTPRB	Endothelial cells:SCTyper
+VWF	Endothelial cells:SCTyper
+ANO2	Endothelial cells:SCTyper
+BTNL9	Endothelial cells:SCTyper
+EMCN	Endothelial cells:SCTyper
+CADM2	Endothelial cells:SCTyper
+LDB2	Endothelial cells:SCTyper
+ADGRL4	Endothelial cells:SCTyper
+PLCB4	Endothelial cells:SCTyper
+ARL15	Endothelial cells:SCTyper
+KIAA1217	Endothelial cells:SCTyper
+FLT1	Endothelial cells:SCTyper
+CYYR1	Endothelial cells:SCTyper
+PECAM1	Endothelial cells:SCTyper
+Jam2	Endothelial cells:SCTyper
+Mecom	Endothelial cells:SCTyper
+Ptprb	Endothelial cells:SCTyper
+Pecam1	Endothelial cells:SCTyper
+Cdh13	Endothelial cells:SCTyper
+MMRN1	Lymphatic Endothelial cells:SCTyper
+AL357507.1	Lymphatic Endothelial cells:SCTyper
+LINC02147	Lymphatic Endothelial cells:SCTyper
+NRG3	Lymphatic Endothelial cells:SCTyper
+RELN	Lymphatic Endothelial cells:SCTyper
+CCL21	Lymphatic Endothelial cells:SCTyper
+PROX1	Lymphatic Endothelial cells:SCTyper
+STOX2	Lymphatic Endothelial cells:SCTyper
+TFPI	Lymphatic Endothelial cells:SCTyper
+PPFIBP1	Lymphatic Endothelial cells:SCTyper
+MPP7	Lymphatic Endothelial cells:SCTyper
+PTPRE	Lymphatic Endothelial cells:SCTyper
+PGM5	Lymphatic Endothelial cells:SCTyper
+SNTG2	Lymphatic Endothelial cells:SCTyper
+ST6GALNAC3	Lymphatic Endothelial cells:SCTyper
+PDE1A	Lymphatic Endothelial cells:SCTyper
+AC007319.1	Lymphatic Endothelial cells:SCTyper
+GPM6A	Lymphatic Endothelial cells:SCTyper
+RHOJ	Lymphatic Endothelial cells:SCTyper
+SMAD1	Lymphatic Endothelial cells:SCTyper
+Reln	Lymphatic Endothelial cells:SCTyper
+Mmrn1	Lymphatic Endothelial cells:SCTyper
+Galnt18	Lymphatic Endothelial cells:SCTyper
+Sema6a	Lymphatic Endothelial cells:SCTyper
+EDN1	Endothelial cells:SCTyper
+CLDN5	Endothelial cells:SCTyper
+ACKR1	Endothelial cells:SCTyper
+CD234	Endothelial cells:SCTyper
+INSR	Endothelial cells:SCTyper
+RGCC	Endothelial cells:SCTyper
+CTNNB1	Endothelial cells:SCTyper
+CLDN5	Endothelial cells:SCTyper
+ACKR1	Endothelial cells:SCTyper
+SELE	Endothelial cells:SCTyper
+TM4SF1	Endothelial cells:SCTyper
+IGFBP7	Endothelial cells:Raghu_Kalluri
+FABP4	Endothelial cells:Raghu_Kalluri
+GNG11	Endothelial cells:Raghu_Kalluri
+PLVAP	Endothelial cells:Raghu_Kalluri
+EGFL7	Endothelial cells:Raghu_Kalluri
+SPARC	Endothelial cells:Raghu_Kalluri
+LY6C1	Endothelial cells:Raghu_Kalluri
+CTLA2A	Endothelial cells:Raghu_Kalluri
+IGFBP3	Endothelial cells:Raghu_Kalluri
+AQP1	Endothelial cells:Raghu_Kalluri
+COL4A1	Endothelial cells:Raghu_Kalluri
+RAMP2	Endothelial cells:Raghu_Kalluri
+EMCN	Endothelial cells:Raghu_Kalluri
+CRIP2	Endothelial cells:Raghu_Kalluri
+PECAM1	Endothelial cells:Raghu_Kalluri
+ECSCR	Endothelial cells:Raghu_Kalluri
+CDH5	Endothelial cells:Raghu_Kalluri
+COL4A2	Endothelial cells:Raghu_Kalluri
+ESAM	Endothelial cells:Raghu_Kalluri
+TM4SF1	Endothelial cells:Raghu_Kalluri
+ENG	Endothelial cells:Raghu_Kalluri
+CLDN5	Endothelial cells:Raghu_Kalluri
+CD34	Endothelial cells:Raghu_Kalluri
+GPIHBP1	Endothelial cells:Raghu_Kalluri
+CAV1	Endothelial cells:Raghu_Kalluri
+SPARCL1	Endothelial cells:Raghu_Kalluri
+SLC9A3R2	Endothelial cells:Raghu_Kalluri
+FLT1	Endothelial cells:Raghu_Kalluri
+CD93	Endothelial cells:Raghu_Kalluri
+KDR	Endothelial cells:Raghu_Kalluri
+PLPP1	Endothelial cells:Raghu_Kalluri
+SLCO2A1	Endothelial cells:Raghu_Kalluri
+PTPRB	Endothelial cells:Raghu_Kalluri
+FAM167B	Endothelial cells:Raghu_Kalluri
+CAVIN2	Endothelial cells:Raghu_Kalluri
+GRRP1	Endothelial cells:Raghu_Kalluri
+APLNR	Endothelial cells:Raghu_Kalluri
+LTBP4	Endothelial cells:Raghu_Kalluri
+TMEM252	Endothelial cells:Raghu_Kalluri
+CLEC14A	Endothelial cells:Raghu_Kalluri
+EPAS1	Endothelial cells:Raghu_Kalluri
+MMRN2	Endothelial cells:Raghu_Kalluri
+CYYR1	Endothelial cells:Raghu_Kalluri
+VWF	Endothelial cells:Raghu_Kalluri
+HSPG2	Endothelial cells:Raghu_Kalluri
+ADGRF5	Endothelial cells:Raghu_Kalluri
+PCDH17	Endothelial cells:Raghu_Kalluri
+VWA1	Endothelial cells:Raghu_Kalluri
+MGLL	Endothelial cells:Raghu_Kalluri
+ADGRL4	Endothelial cells:Raghu_Kalluri
+PODXL	Endothelial cells:Raghu_Kalluri
+TIE1	Endothelial cells:Raghu_Kalluri
+CRACR2B	Endothelial cells:Raghu_Kalluri
+APOLD1	Endothelial cells:Raghu_Kalluri
+MYCT1	Endothelial cells:Raghu_Kalluri
+EFNA1	Endothelial cells:Raghu_Kalluri
+MCAM	Endothelial cells:Raghu_Kalluri
+BVHT	Endothelial cells:Raghu_Kalluri
+JAM2	Endothelial cells:Raghu_Kalluri
+SOX18	Endothelial cells:Raghu_Kalluri
+PREX2	Endothelial cells:Raghu_Kalluri
+KANK3	Endothelial cells:Raghu_Kalluri
+USHBP1	Endothelial cells:Raghu_Kalluri
+RASIP1	Endothelial cells:Raghu_Kalluri
+ABCG2	Endothelial cells:Raghu_Kalluri
+MEOX1	Endothelial cells:Raghu_Kalluri
+TEK	Endothelial cells:Raghu_Kalluri
+TSPAN12	Endothelial cells:Raghu_Kalluri
+TMEM204	Endothelial cells:Raghu_Kalluri
+LDB2	Endothelial cells:Raghu_Kalluri
+PLSCR2	Endothelial cells:Raghu_Kalluri
+ROBO4	Endothelial cells:Raghu_Kalluri
+RAPGEF5	Endothelial cells:Raghu_Kalluri
+SEMA3F	Endothelial cells:Raghu_Kalluri
+DLC1	Endothelial cells:Raghu_Kalluri
+TSPAN7	Endothelial cells:Raghu_Kalluri
+SEMA6A	Endothelial cells:Raghu_Kalluri
+PRSS23	Endothelial cells:Raghu_Kalluri
+CD300LG	Endothelial cells:Raghu_Kalluri
+TMEM88	Endothelial cells:Raghu_Kalluri
+DOCK9	Endothelial cells:Raghu_Kalluri
+CAVIN3	Endothelial cells:Raghu_Kalluri
+TJP1	Endothelial cells:Raghu_Kalluri
+LIMS2	Endothelial cells:Raghu_Kalluri
+CALCRL	Endothelial cells:Raghu_Kalluri
+CAV2	Endothelial cells:Raghu_Kalluri
+CD200	Endothelial cells:Raghu_Kalluri
+NFIB	Endothelial cells:Raghu_Kalluri
+EHD2	Endothelial cells:Raghu_Kalluri
+ARHGAP29	Endothelial cells:Raghu_Kalluri
+ID1	Endothelial cells:Raghu_Kalluri
+PLPP3	Endothelial cells:Raghu_Kalluri
+TSPAN9	Endothelial cells:Raghu_Kalluri
+ECE1	Endothelial cells:Raghu_Kalluri
+LRG1	Endothelial cells:Raghu_Kalluri
+TSHZ2	Endothelial cells:Raghu_Kalluri
+COL15A1	Endothelial cells:Raghu_Kalluri
+RHOJ	Endothelial cells:Raghu_Kalluri
+PLK2	Endothelial cells:Raghu_Kalluri
+UPP1	Endothelial cells:Raghu_Kalluri
+VAMP5	Endothelial cells:Raghu_Kalluri
+COL18A1	Endothelial cells:Raghu_Kalluri
+RTL8A	Endothelial cells:Raghu_Kalluri
+F11R	Endothelial cells:Raghu_Kalluri
+ARHGAP31	Endothelial cells:Raghu_Kalluri
+SCARB1	Endothelial cells:Raghu_Kalluri
+TCF4	Endothelial cells:Raghu_Kalluri
+CDH13	Endothelial cells:Raghu_Kalluri
+SORBS2	Endothelial cells:Raghu_Kalluri
+TIMP3	Endothelial cells:Raghu_Kalluri
+MECOM	Endothelial cells:Raghu_Kalluri
+FSCN1	Endothelial cells:Raghu_Kalluri
+ENTPD1	Endothelial cells:Raghu_Kalluri
+SERPINH1	Endothelial cells:Raghu_Kalluri
+SPTBN1	Endothelial cells:Raghu_Kalluri
+GJA1	Endothelial cells:Raghu_Kalluri
+SCN1B	Endothelial cells:Raghu_Kalluri
+BCR	Endothelial cells:Raghu_Kalluri
+HSPB1	Endothelial cells:Raghu_Kalluri
+RBPMS	Endothelial cells:Raghu_Kalluri
+S100A16	Endothelial cells:Raghu_Kalluri
+THBD	Endothelial cells:Raghu_Kalluri
+FBLN5	Endothelial cells:Raghu_Kalluri
+PPIC	Endothelial cells:Raghu_Kalluri
+RTL8B	Endothelial cells:Raghu_Kalluri
+CD151	Endothelial cells:Raghu_Kalluri
+ELK3	Endothelial cells:Raghu_Kalluri
+PDLIM1	Endothelial cells:Raghu_Kalluri
+RBP1	Endothelial cells:Raghu_Kalluri
+CRIM1	Endothelial cells:Raghu_Kalluri
+4931406P16RIK	Endothelial cells:Raghu_Kalluri
+ACVRL1	Endothelial cells:Raghu_Kalluri
+TINAGL1	Endothelial cells:Raghu_Kalluri
+KCTD17	Endothelial cells:Raghu_Kalluri
+ID3	Endothelial cells:Raghu_Kalluri
+DDAH2	Endothelial cells:Raghu_Kalluri
+ICAM2	Endothelial cells:Raghu_Kalluri
+TRIM47	Endothelial cells:Raghu_Kalluri
+TCIM	Endothelial cells:Raghu_Kalluri
+IFITM3	Endothelial cells:Raghu_Kalluri
+SMAD1	Endothelial cells:Raghu_Kalluri
+INSR	Endothelial cells:Raghu_Kalluri
+APP	Endothelial cells:Raghu_Kalluri
+ADAMTS1	Endothelial cells:Raghu_Kalluri
+BCAM	Endothelial cells:Raghu_Kalluri
+N4BP3	Endothelial cells:Raghu_Kalluri
+HEG1	Endothelial cells:Raghu_Kalluri
+MAST4	Endothelial cells:Raghu_Kalluri
+CD36	Endothelial cells:Raghu_Kalluri
+APBB2	Endothelial cells:Raghu_Kalluri
+NRP2	Endothelial cells:Raghu_Kalluri
+BMPR2	Endothelial cells:Raghu_Kalluri
+MPZL1	Endothelial cells:Raghu_Kalluri
+RHOC	Endothelial cells:Raghu_Kalluri
+EHD4	Endothelial cells:Raghu_Kalluri
+NDRG1	Endothelial cells:Raghu_Kalluri
+APLP2	Endothelial cells:Raghu_Kalluri
+CAVIN1	Endothelial cells:Raghu_Kalluri
+RAI14	Endothelial cells:Raghu_Kalluri
+PPFIBP1	Endothelial cells:Raghu_Kalluri
+IPO11	Endothelial cells:Raghu_Kalluri
+NR2F2	Endothelial cells:Raghu_Kalluri
+SNRK	Endothelial cells:Raghu_Kalluri
+SGK1	Endothelial cells:Raghu_Kalluri
+CD81	Endothelial cells:Raghu_Kalluri
+NRP1	Endothelial cells:Raghu_Kalluri
+TSPAN4	Endothelial cells:Raghu_Kalluri
+MKL2	Endothelial cells:Raghu_Kalluri
+IFITM2	Endothelial cells:Raghu_Kalluri
+LUZP1	Endothelial cells:Raghu_Kalluri
+SMAGP	Endothelial cells:Raghu_Kalluri
+NID1	Endothelial cells:Raghu_Kalluri
+PLS3	Endothelial cells:Raghu_Kalluri
+BAMBI	Endothelial cells:Raghu_Kalluri
+LAMC1	Endothelial cells:Raghu_Kalluri
+LAMB1	Endothelial cells:Raghu_Kalluri
+LYSMD2	Endothelial cells:Raghu_Kalluri
+TSC22D1	Endothelial cells:Raghu_Kalluri
+ADAM15	Endothelial cells:Raghu_Kalluri
+ITGA6	Endothelial cells:Raghu_Kalluri
+RGCC	Endothelial cells:Raghu_Kalluri
+NECTIN2	Endothelial cells:Raghu_Kalluri
+WWTR1	Endothelial cells:Raghu_Kalluri
+TNS1	Endothelial cells:Raghu_Kalluri
+FKBP1A	Endothelial cells:Raghu_Kalluri
+NFIA	Endothelial cells:Raghu_Kalluri
+FAM43A	Endothelial cells:Raghu_Kalluri
+SLC43A3	Endothelial cells:Raghu_Kalluri
+CLIC4	Endothelial cells:Raghu_Kalluri
+PLOD1	Endothelial cells:Raghu_Kalluri
+NPDC1	Endothelial cells:Raghu_Kalluri
+NOTCH1	Endothelial cells:Raghu_Kalluri
+CTNNBIP1	Endothelial cells:Raghu_Kalluri
+S1PR1	Endothelial cells:Raghu_Kalluri
+BC028528	Endothelial cells:Raghu_Kalluri
+PRNP	Endothelial cells:Raghu_Kalluri
+SLFN5	Endothelial cells:Raghu_Kalluri
+PPP1R2	Endothelial cells:Raghu_Kalluri
+CCDC85B	Endothelial cells:Raghu_Kalluri
+HES1	Endothelial cells:Raghu_Kalluri
+TNFAIP1	Endothelial cells:Raghu_Kalluri
+TGM2	Endothelial cells:Raghu_Kalluri
+RALB	Endothelial cells:Raghu_Kalluri
+LRRC8A	Endothelial cells:Raghu_Kalluri
+SOX4	Endothelial cells:Raghu_Kalluri
+JUP	Endothelial cells:Raghu_Kalluri
+TCN2	Endothelial cells:Raghu_Kalluri
+RAB11A	Endothelial cells:Raghu_Kalluri
+PIM3	Endothelial cells:Raghu_Kalluri
+CYR61	Endothelial cells:Raghu_Kalluri
+ACTN4	Endothelial cells:Raghu_Kalluri
+PLXND1	Endothelial cells:Raghu_Kalluri
+LXN	Endothelial cells:Raghu_Kalluri
+CTNNA1	Endothelial cells:Raghu_Kalluri
+NEDD4	Endothelial cells:Raghu_Kalluri
+ATOX1	Endothelial cells:Raghu_Kalluri
+MAPK3	Endothelial cells:Raghu_Kalluri
+CTNNB1	Endothelial cells:Raghu_Kalluri
+RHOB	Endothelial cells:Raghu_Kalluri
+CDS2	Endothelial cells:Raghu_Kalluri
+EMP1	Endothelial cells:Raghu_Kalluri
+IL6ST	Endothelial cells:Raghu_Kalluri
+TAX1BP3	Endothelial cells:Raghu_Kalluri
+CNN3	Endothelial cells:Raghu_Kalluri
+TPM4	Endothelial cells:Raghu_Kalluri
+STAB1	Endothelial cells:Raghu_Kalluri
+SELENOM	Endothelial cells:Raghu_Kalluri
+LPAR6	Endothelial cells:Raghu_Kalluri
+OAZ2	Endothelial cells:Raghu_Kalluri
+LAPTM4A	Endothelial cells:Raghu_Kalluri
+2200002D01RIK	Endothelial cells:Raghu_Kalluri
+MSN	Endothelial cells:Raghu_Kalluri
+VIM	Endothelial cells:Raghu_Kalluri
+GNAI2	Endothelial cells:Raghu_Kalluri
+SLC29A1	Endothelial cells:Raghu_Kalluri
+TNFRSF1A	Endothelial cells:Raghu_Kalluri
+PEA15A	Endothelial cells:Raghu_Kalluri
+LY6A	Endothelial cells:Raghu_Kalluri
+ETS2	Endothelial cells:Raghu_Kalluri
+TRP53I11	Endothelial cells:Raghu_Kalluri
+BOK	Endothelial cells:Raghu_Kalluri
+PDLIM7	Endothelial cells:Raghu_Kalluri
+CEBPD	Endothelial cells:Raghu_Kalluri
+JUN	Endothelial cells:Raghu_Kalluri
+MFGE8	Endothelial cells:Raghu_Kalluri
+RFLNB	Endothelial cells:Raghu_Kalluri
+TMEM176B	Endothelial cells:Raghu_Kalluri
+IGFBP4	Endothelial cells:Raghu_Kalluri
+CD9	Endothelial cells:Raghu_Kalluri
+2010111I01RIK	Endothelial cells:Raghu_Kalluri
+THBS1	Endothelial cells:Raghu_Kalluri
+CSRP2	Endothelial cells:Raghu_Kalluri
+SELENOP	Endothelial cells:Raghu_Kalluri
+UTRN	Endothelial cells:Raghu_Kalluri
+PRCP	Endothelial cells:Raghu_Kalluri
+ST3GAL6	Endothelial cells:Raghu_Kalluri
+LGMN	Endothelial cells:Raghu_Kalluri
+IER3	Endothelial cells:Raghu_Kalluri
+SYPL	Endothelial cells:Raghu_Kalluri
+GNGT2	Endothelial cells:Raghu_Kalluri
+ITM2B	Endothelial cells:Raghu_Kalluri
+ITGB1	Endothelial cells:Raghu_Kalluri
+ANXA2	Endothelial cells:Raghu_Kalluri
+ADAM10	Endothelial cells:Raghu_Kalluri
+ARL4A	Endothelial cells:Raghu_Kalluri
+SPTAN1	Endothelial cells:Raghu_Kalluri
+ANXA3	Endothelial cells:Raghu_Kalluri
+DSTN	Endothelial cells:Raghu_Kalluri
+MTCH1	Endothelial cells:Raghu_Kalluri
+RDX	Endothelial cells:Raghu_Kalluri
+S100A13	Endothelial cells:Raghu_Kalluri
+SH3BP5	Endothelial cells:Raghu_Kalluri
+CLTB	Endothelial cells:Raghu_Kalluri
+GNAS	Endothelial cells:Raghu_Kalluri
+TCEAL9	Endothelial cells:Raghu_Kalluri
+KLF7	Endothelial cells:Raghu_Kalluri
+LRRC58	Endothelial cells:Raghu_Kalluri
+MARCKS	Endothelial cells:Raghu_Kalluri
+DUSP3	Endothelial cells:Raghu_Kalluri
+CSRP1	Endothelial cells:Raghu_Kalluri
+MXD4	Endothelial cells:Raghu_Kalluri
+RSU1	Endothelial cells:Raghu_Kalluri
+GADD45G	Endothelial cells:Raghu_Kalluri
+KLF4	Endothelial cells:Raghu_Kalluri
+ITM2C	Endothelial cells:Raghu_Kalluri
+PTMS	Endothelial cells:Raghu_Kalluri
+CALM1	Endothelial cells:Raghu_Kalluri
+TMEM176A	Endothelial cells:Raghu_Kalluri
+QK	Endothelial cells:Raghu_Kalluri
+LMO2	Endothelial cells:Raghu_Kalluri
+FCGRT	Endothelial cells:Raghu_Kalluri
+DEGS1	Endothelial cells:Raghu_Kalluri
+LMNA	Endothelial cells:Raghu_Kalluri
+MARCKSL1	Endothelial cells:Raghu_Kalluri
+SERPINB6A	Endothelial cells:Raghu_Kalluri
+GNB1	Endothelial cells:Raghu_Kalluri
+EVA1B	Endothelial cells:Raghu_Kalluri
+CTSL	Endothelial cells:Raghu_Kalluri
+SOD1	Endothelial cells:Raghu_Kalluri
+GIMAP5	Endothelial cells:Raghu_Kalluri
+SLC3A2	Endothelial cells:Raghu_Kalluri
+SOCS3	Endothelial cells:Raghu_Kalluri
+BNIP2	Endothelial cells:Raghu_Kalluri
+BST2	Endothelial cells:Raghu_Kalluri
+TMEM59	Endothelial cells:Raghu_Kalluri
+SH3BGRL	Endothelial cells:Raghu_Kalluri
+NUDT4	Endothelial cells:Raghu_Kalluri
+GLUL	Endothelial cells:Raghu_Kalluri
+SERTAD1	Endothelial cells:Raghu_Kalluri
+CYB5R3	Endothelial cells:Raghu_Kalluri
+NDUFA8	Endothelial cells:Raghu_Kalluri
+DYNLL1	Endothelial cells:Raghu_Kalluri
+ABHD17A	Endothelial cells:Raghu_Kalluri
+SELENOF	Endothelial cells:Raghu_Kalluri
+KLF2	Endothelial cells:Raghu_Kalluri
+CYB5A	Endothelial cells:Raghu_Kalluri
+FLI1	Endothelial cells:Raghu_Kalluri
+TUBA1A	Endothelial cells:Raghu_Kalluri
+RAB5C	Endothelial cells:Raghu_Kalluri
+ZBTB20	Endothelial cells:Raghu_Kalluri
+LGALS9	Endothelial cells:Raghu_Kalluri
+YWHAH	Endothelial cells:Raghu_Kalluri
+ANXA5	Endothelial cells:Raghu_Kalluri
+DUSP1	Endothelial cells:Raghu_Kalluri
+FABP5	Endothelial cells:Raghu_Kalluri
+BSG	Endothelial cells:Raghu_Kalluri
+RBMS1	Endothelial cells:Raghu_Kalluri
+GIMAP6	Endothelial cells:Raghu_Kalluri
+ZFP36L1	Endothelial cells:Raghu_Kalluri
+SDCBP	Endothelial cells:Raghu_Kalluri
+FOS	Endothelial cells:Raghu_Kalluri
+DDX3X	Endothelial cells:Raghu_Kalluri
+SERINC3	Endothelial cells:Raghu_Kalluri
+CAPNS1	Endothelial cells:Raghu_Kalluri
+PPP1R15A	Endothelial cells:Raghu_Kalluri
+YWHAQ	Endothelial cells:Raghu_Kalluri
+ETS1	Endothelial cells:Raghu_Kalluri
+HSP90AB1	Endothelial cells:Raghu_Kalluri
+DNAJA1	Endothelial cells:Raghu_Kalluri
+ATP5J	Endothelial cells:Raghu_Kalluri
+TXNIP	Endothelial cells:Raghu_Kalluri
+NFKBIA	Endothelial cells:Raghu_Kalluri
+SNX3	Endothelial cells:Raghu_Kalluri
+MYL6	Endothelial cells:Raghu_Kalluri
+TSPAN13	Endothelial cells:Raghu_Kalluri
+43526	Endothelial cells:Raghu_Kalluri
+TAGLN2	Endothelial cells:Raghu_Kalluri
+UBC	Endothelial cells:Raghu_Kalluri
+MYL12A	Endothelial cells:Raghu_Kalluri
+PPIA	Endothelial cells:Raghu_Kalluri
+UBB	Endothelial cells:Raghu_Kalluri
+PRDX1	Endothelial cells:Raghu_Kalluri
+GNG5	Endothelial cells:Raghu_Kalluri
+TMED10	Endothelial cells:Raghu_Kalluri
+TPM3	Endothelial cells:Raghu_Kalluri
+IER2	Endothelial cells:Raghu_Kalluri
+NDUFC2	Endothelial cells:Raghu_Kalluri
+SLC38A2	Endothelial cells:Raghu_Kalluri
+LY6E	Endothelial cells:Raghu_Kalluri
+RAC1	Endothelial cells:Raghu_Kalluri
+SH3GLB1	Endothelial cells:Raghu_Kalluri
+YBX1	Endothelial cells:Raghu_Kalluri
+UQCRB	Endothelial cells:Raghu_Kalluri
+EGR1	Endothelial cells:Raghu_Kalluri
+CLIC1	Endothelial cells:Raghu_Kalluri
+SAT1	Endothelial cells:Raghu_Kalluri
+CCL21	lymphatic_Endothelial cells:Qin et al 2023
+TFF3	lymphatic_Endothelial cells:Qin et al 2023
+MMRN1	lymphatic_Endothelial cells:Qin et al 2023
+EFEMP1	lymphatic_Endothelial cells:Qin et al 2023
+TFPI	lymphatic_Endothelial cells:Qin et al 2023
+APOD	lymphatic_Endothelial cells:Qin et al 2023
+PROX1	lymphatic_Endothelial cells:Qin et al 2023
+LYVE1	lymphatic_Endothelial cells:Qin et al 2023
+PDPN	lymphatic_Endothelial cells:Qin et al 2023
+NTS	lymphatic_Endothelial cells:Qin et al 2023
+RBP1	lymphatic_Endothelial cells:Qin et al 2023
+AKAP12	lymphatic_Endothelial cells:Qin et al 2023
+FABP4	lymphatic_Endothelial cells:Qin et al 2023
+GYPC	lymphatic_Endothelial cells:Qin et al 2023
+PPFIBP1	lymphatic_Endothelial cells:Qin et al 2023
+LAPTM5	lymphatic_Endothelial cells:Qin et al 2023
+STMN1	lymphatic_Endothelial cells:Qin et al 2023
+RGS16	lymphatic_Endothelial cells:Qin et al 2023
+IGF1	lymphatic_Endothelial cells:Qin et al 2023
+PTPRE	lymphatic_Endothelial cells:Qin et al 2023
+RELN	lymphatic_Endothelial cells:Qin et al 2023
+NR2F1	lymphatic_Endothelial cells:Qin et al 2023
+ARL4A	lymphatic_Endothelial cells:Qin et al 2023
+DOCK5	lymphatic_Endothelial cells:Qin et al 2023
+LIMS1	lymphatic_Endothelial cells:Qin et al 2023
+TIMP1	lymphatic_Endothelial cells:Qin et al 2023
+NUPR1	lymphatic_Endothelial cells:Qin et al 2023
+FXYD6	lymphatic_Endothelial cells:Qin et al 2023
+TBX1	lymphatic_Endothelial cells:Qin et al 2023
+MFAP4	lymphatic_Endothelial cells:Qin et al 2023
+CCDC80	lymphatic_Endothelial cells:Qin et al 2023
+PPP1R2	lymphatic_Endothelial cells:Qin et al 2023
+NRP2	lymphatic_Endothelial cells:Qin et al 2023
+SNCG	lymphatic_Endothelial cells:Qin et al 2023
+EFNA5	lymphatic_Endothelial cells:Qin et al 2023
+MAF	lymphatic_Endothelial cells:Qin et al 2023
+VPS35L	lymphatic_Endothelial cells:Qin et al 2023
+ADD3	lymphatic_Endothelial cells:Qin et al 2023
+PARD6G	lymphatic_Endothelial cells:Qin et al 2023
+CHRDL1	lymphatic_Endothelial cells:Qin et al 2023
+MDK	lymphatic_Endothelial cells:Qin et al 2023
+ANXA2	lymphatic_Endothelial cells:Qin et al 2023
+MRC1	lymphatic_Endothelial cells:Qin et al 2023
+TSTA3	lymphatic_Endothelial cells:Qin et al 2023
+S100A10	lymphatic_Endothelial cells:Qin et al 2023
+IGLC3	lymphatic_Endothelial cells:Qin et al 2023
+ARL6IP1	lymphatic_Endothelial cells:Qin et al 2023
+ADIRF	lymphatic_Endothelial cells:Qin et al 2023
+RARRES2	lymphatic_Endothelial cells:Qin et al 2023
+ATP5F1E	lymphatic_Endothelial cells:Qin et al 2023
+COL4A1	tip_like_Endothelial cells:Qin et al 2023
+COL4A2	tip_like_Endothelial cells:Qin et al 2023
+ESM1	tip_like_Endothelial cells:Qin et al 2023
+SPARC	tip_like_Endothelial cells:Qin et al 2023
+CA2	tip_like_Endothelial cells:Qin et al 2023
+INSR	tip_like_Endothelial cells:Qin et al 2023
+IGFBP3	tip_like_Endothelial cells:Qin et al 2023
+HTRA1	tip_like_Endothelial cells:Qin et al 2023
+VWA1	tip_like_Endothelial cells:Qin et al 2023
+MCAM	tip_like_Endothelial cells:Qin et al 2023
+CDH13	tip_like_Endothelial cells:Qin et al 2023
+COL15A1	tip_like_Endothelial cells:Qin et al 2023
+PLVAP	tip_like_Endothelial cells:Qin et al 2023
+THY1	tip_like_Endothelial cells:Qin et al 2023
+ANGPT2	tip_like_Endothelial cells:Qin et al 2023
+LGALS1	tip_like_Endothelial cells:Qin et al 2023
+HSPG2	tip_like_Endothelial cells:Qin et al 2023
+EDNRB	tip_like_Endothelial cells:Qin et al 2023
+RGCC	tip_like_Endothelial cells:Qin et al 2023
+TNFRSF4	tip_like_Endothelial cells:Qin et al 2023
+LAMA4	tip_like_Endothelial cells:Qin et al 2023
+IVNS1ABP	tip_like_Endothelial cells:Qin et al 2023
+TP53I11	tip_like_Endothelial cells:Qin et al 2023
+SPP1	tip_like_Endothelial cells:Qin et al 2023
+PXDN	tip_like_Endothelial cells:Qin et al 2023
+FOLH1	tip_like_Endothelial cells:Qin et al 2023
+IGFBP7	tip_like_Endothelial cells:Qin et al 2023
+PGF	tip_like_Endothelial cells:Qin et al 2023
+LBH	tip_like_Endothelial cells:Qin et al 2023
+NID1	tip_like_Endothelial cells:Qin et al 2023
+SERPINI1	tip_like_Endothelial cells:Qin et al 2023
+ANGPTL2	tip_like_Endothelial cells:Qin et al 2023
+FLT1	tip_like_Endothelial cells:Qin et al 2023
+COL18A1	tip_like_Endothelial cells:Qin et al 2023
+MIR4435-2HG	tip_like_Endothelial cells:Qin et al 2023
+YWHAH	tip_like_Endothelial cells:Qin et al 2023
+KCNE3	tip_like_Endothelial cells:Qin et al 2023
+MLEC	tip_like_Endothelial cells:Qin et al 2023
+GABRD	tip_like_Endothelial cells:Qin et al 2023
+ITGB1	tip_like_Endothelial cells:Qin et al 2023
+FSTL1	tip_like_Endothelial cells:Qin et al 2023
+SEMA3F	tip_like_Endothelial cells:Qin et al 2023
+MYO1B	tip_like_Endothelial cells:Qin et al 2023
+KDR	tip_like_Endothelial cells:Qin et al 2023
+LAMC1	tip_like_Endothelial cells:Qin et al 2023
+PDGFD	tip_like_Endothelial cells:Qin et al 2023
+CALM1	tip_like_Endothelial cells:Qin et al 2023
+MMP14	tip_like_Endothelial cells:Qin et al 2023
+LAMB1	tip_like_Endothelial cells:Qin et al 2023
+APLN	tip_like_Endothelial cells:Qin et al 2023
+ACKR1	venous_Endothelial cells:Qin et al 2023
+CLU	venous_Endothelial cells:Qin et al 2023
+POSTN	venous_Endothelial cells:Qin et al 2023
+CPE	venous_Endothelial cells:Qin et al 2023
+ADIRF	venous_Endothelial cells:Qin et al 2023
+PTGDS	venous_Endothelial cells:Qin et al 2023
+DUSP23	venous_Endothelial cells:Qin et al 2023
+C7	venous_Endothelial cells:Qin et al 2023
+VCAM1	venous_Endothelial cells:Qin et al 2023
+CCL14	venous_Endothelial cells:Qin et al 2023
+SELP	venous_Endothelial cells:Qin et al 2023
+CYP1B1	venous_Endothelial cells:Qin et al 2023
+NR2F2	venous_Endothelial cells:Qin et al 2023
+SELE	venous_Endothelial cells:Qin et al 2023
+NPC2	venous_Endothelial cells:Qin et al 2023
+ZNF385D	venous_Endothelial cells:Qin et al 2023
+PRCP	venous_Endothelial cells:Qin et al 2023
+NNMT	venous_Endothelial cells:Qin et al 2023
+IL1R1	venous_Endothelial cells:Qin et al 2023
+CCL23	venous_Endothelial cells:Qin et al 2023
+ACTN1	venous_Endothelial cells:Qin et al 2023
+ADGRG6	venous_Endothelial cells:Qin et al 2023
+FBLN2	venous_Endothelial cells:Qin et al 2023
+TPD52L1	venous_Endothelial cells:Qin et al 2023
+TIMP1	venous_Endothelial cells:Qin et al 2023
+RPS18	venous_Endothelial cells:Qin et al 2023
+CCN2	venous_Endothelial cells:Qin et al 2023
+RPS6	venous_Endothelial cells:Qin et al 2023
+HAPLN3	venous_Endothelial cells:Qin et al 2023
+TSHZ2	venous_Endothelial cells:Qin et al 2023
+RPL34	venous_Endothelial cells:Qin et al 2023
+TGFBR3	venous_Endothelial cells:Qin et al 2023
+VCAN	venous_Endothelial cells:Qin et al 2023
+RPS2	venous_Endothelial cells:Qin et al 2023
+LRRC1	venous_Endothelial cells:Qin et al 2023
+COL3A1	venous_Endothelial cells:Qin et al 2023
+VWF	venous_Endothelial cells:Qin et al 2023
+NUAK1	venous_Endothelial cells:Qin et al 2023
+ARL4A	venous_Endothelial cells:Qin et al 2023
+IL33	venous_Endothelial cells:Qin et al 2023
+RPL26	venous_Endothelial cells:Qin et al 2023
+RPL12	venous_Endothelial cells:Qin et al 2023
+SNCG	venous_Endothelial cells:Qin et al 2023
+RPS8	venous_Endothelial cells:Qin et al 2023
+RPL7	venous_Endothelial cells:Qin et al 2023
+CPXM2	venous_Endothelial cells:Qin et al 2023
+RPL3	venous_Endothelial cells:Qin et al 2023
+RPL32	venous_Endothelial cells:Qin et al 2023
+ADAMTS9	venous_Endothelial cells:Qin et al 2023
+NTS	venous_Endothelial cells:Qin et al 2023

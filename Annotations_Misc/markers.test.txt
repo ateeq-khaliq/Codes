@@ -1,0 +1,827 @@
+Genes	Subtype
+WFDC3	BEST2 goblet cells
+WFDC2	BEST2 goblet cells
+KLK15	BEST2 goblet cells
+KLK1	BEST2 goblet cells
+BEST4	Best4 Enterocytes
+OTOP2	BEST4 enterocytes
+CAR7	BEST4 enterocytes
+CAR2	colonocytes
+SLC26A2	"colonocytes, Immature Enterocytes 2"
+FABP1	"colonocytes, Immature Enterocytes 2"
+CDC25C	Cycling TA
+RBP2	Enterocytes
+SLC26A3	Enterocytes
+FABP2	Enterocytes
+EPCAM	Enterocytes
+ANPEP	Enterocytes
+SCGN	Enteroendocrine
+CCL7	Enteroendocrine
+CCL13	Enteroendocrine
+CHGA	Enteroendocrine cells
+NEUROD1	enteroendocrine cells
+CHGB	enteroendocrine cells
+MUC2	Goblet cells
+ZG16	Goblet cells
+TFF1	Goblet cells
+SPDEF	Goblet cells
+FCGBP	Goblet cells
+CLCA1	Goblet cells
+CAR1	Immature Enterocytes 2
+CCL20	Microfold cells
+TNFRSF11A	Microfold cells
+SPIB	Microfold cells
+GP2	Microfold cells
+REG3A	Paneth
+DEFA6	Paneth
+DEFA5	Paneth
+LGR5	Stem cells
+ASCL2	Stem cells
+SMOC2	Stem cells
+RGMB	Stem cells
+OLFM4	Stem cells
+LEFTY2	Stem cells
+LEFTY1	Stem cells
+TOP2A	TA: transit-amplifying
+PCNA	TA: transit-amplifying
+MKI67	TA: transit-amplifying
+TRPM5	Tuft cells
+POU2F3	Tuft cells
+LRMP	Tuft cells
+IRAG2	Tuft cells
+HCK	Tuft cells
+COL1A1	Fibroblast
+COL1A2	Fibroblast
+DCN	Fibroblast
+COL3A1	Fibroblast
+RGS5	Fibroblast
+TAGLN	Fibroblast
+PECAM1	Endothelial 
+CCL21A	Endothelial 
+CLDN5	Endothelial 
+PLVAP	Endothelial 
+MARCO	Myeloid
+CD68	Myeloid
+FCGR4	Myeloid
+C1QA	Myeloid/TAMS
+C1QB	Myeloid/TAMS
+LYZ2	Myeloid
+LYZ1	Myeloid
+CD4	T-cell
+CD8A	T-cell
+CD8B1	T-cell
+CD3D	T-cell
+CD3G	T-cell
+TFF1	T-cell
+FOXP3	T-cell
+IGHA	B-cell
+MZB1	B-cell
+SELL	B-cell
+CD19	B-cell
+CD74	B-cell
+CCL22	B-cell
+IGKC	Plasma
+JCHAIN	Plasma
+S100A9	Neutrophil/Monocytes
+S100A8	Neutrophil/Monocytes
+FCER1G	Neutrophil/Monocytes
+FCGR3	Neutrophil/Monocytes
+CXCR4	Neutrophil/Monocytes
+KIT	MAST cell
+KRT18	Epithelium
+KRT8	Epithelium
+KRT7	Epithelium
+GUCA2A	Epithelium
+KRT19	Epithelium
+FABBP2	Epithelium
+KRTR20	Epithelium
+KRT19	Tumor
+KRT8	Tumor
+KRT18	Tumor
+KRT17	Tumor
+KRT7	Tumor
+KRT5	Tumor
+KRT6A	Tumor
+KRT14	Tumor
+EPCAM	Tumor
+TACSTD2	Tumor
+ANXA2	Tumor
+S100A10	Tumor
+S100A11	Tumor
+S100A16	Tumor
+TPM1	Tumor
+TFF1	Tumor
+S100A6	Tumor
+AGR2	Tumor
+C19ORF33	Tumor
+INS	Islet
+GCG	Islet
+SST	Islet
+GHR	Islet
+PPY	Islet
+GCK	Islet
+PCSK1	Islet
+PCSK2	Islet
+CHGA	Islet
+CHGB	Islet
+SYP	Islet
+KCNJ11	Islet
+CTRB1	Acinar
+CELA3A	Acinar
+CELA3B	Acinar
+CTRB2	Acinar
+PLA2G1B	Acinar
+PRSS2	Acinar
+SPINK1	Acinar
+CLPS	Acinar
+CPA1	Acinar
+PRSS1	Acinar
+CPA2	Acinar
+REG1A	Acinar
+PNLIP	Acinar
+SYCN	Acinar
+PNLIPRP1	Acinar
+CTRC	Acinar
+KLK1	Acinar
+CELA2A	Acinar
+CPB1	Acinar
+VWF	Endothelial 
+PECAM1	Endothelial 
+FLT4	Endothelial 
+FLT1	Endothelial 
+FLT3	Endothelial 
+KDR	Endothelial 
+PLVAP	Endothelial 
+ANGPT2	Endothelial 
+TRIM24	Endothelial 
+ACTA2	Endothelial 
+TIMP1	Fibroblast
+FN1	Fibroblast
+POSTN	Fibroblast
+ACTA2	Fibroblast
+BST2	Fibroblast
+LY6D	Fibroblast
+COL6A1	Fibroblast
+SLC20A1	Fibroblast
+COL6A2	Fibroblast
+KRT16	Fibroblast
+CD9	Fibroblast
+S100A4	Fibroblast
+EMP1	Fibroblast
+LRRC8A	Fibroblast
+EPCAM	Fibroblast
+PDPN	Fibroblast
+ITGB1	Fibroblast
+PDGFRA	Fibroblast
+THY1	Fibroblast
+HBD	erythrocyte
+GYPA	erythrocyte
+HBA1	erythrocyte
+HBA2	erythrocyte
+CA1	erythrocyte
+HBB	erythrocyte
+BRSK1	erythrocyte
+SDC1	plasma
+IGHG1	plasma
+IGHG3	plasma
+IGHG4	plasma
+CD19	B cells
+MS4A1	B cells
+CD79A	B cells
+CD79B	B cells
+CD83	B cells
+CD86	B cells
+CD8B	CD8 T cells
+CD8A	CD8 T cells
+CD3E	CD8 T cells
+CD3D	CD8 T cells
+CD8B	CD4 T cells
+CD8A	CD4 T cells
+CD4	CD4 T cells
+XCL2	NK
+XCL1	NK
+SPON2	NK
+KLRF1	NK
+KIR2DL3	NK
+IL2RB	NK
+HOPX	NK
+CLIC3	NK
+CD7	NK
+KLRB1	NK
+KLRD1	NK
+GZMA	NK
+PRF1	NK
+CD160	NK
+NCAM1	NK
+FCGR3A	NK
+FCER1A	Mast
+KIT	Mast
+FCER2	Mast
+ENPP3	Mast
+CD1C	DC
+CD1A	DC
+FLT3	DC
+ZBTB46	DC
+XCR1	DC
+CLEC9A	DC
+IRF8	DC
+FLT3	DC
+BATF3	DC
+LY6G6D	Neutrophils
+MPO	Neutrophils
+FUT4	Neutrophils
+FCGR3A	Neutrophils
+ITGAM	Macrophages
+LGALS3	Macrophages
+CD68	Macrophages
+CD163	Macrophages
+LYZ	Macrophages
+ADGRE1	Macrophages
+LAMP2	Macrophages
+CD14	Monocytes
+FCGR3A	Monocytes
+FCGR1A	Monocytes
+IKZF2	Tregs
+TNFRSF18	Tregs
+FOXP3	Tregs
+CTLA4	Tregs
+IL7R	Tregs
+IL2RA	Tregs
+GZMH	cytotoxic T cell
+GZMK	cytotoxic T cell
+GZMB	cytotoxic T cell
+GZMA	cytotoxic T cell
+PRF1	cytotoxic T cell
+IFNG	cytotoxic T cell
+FASLG	cytotoxic T cell
+LAMP1	cytotoxic T cell
+CD8A	cytotoxic T cell
+CD8B	cytotoxic T cell
+CD3E	cytotoxic T cell
+CD3D	cytotoxic T cell
+VSIR	exhausted T cell
+TIGIT	exhausted T cell
+ICOS	exhausted T cell
+EOMES	exhausted T cell
+HAVCR2	exhausted T cell
+PDCD1	exhausted T cell
+BTLA	exhausted T cell
+CD244	exhausted T cell
+LAG3	exhausted T cell
+CD160	exhausted T cell
+CTLA4	exhausted T cell
+CD96	exhausted T cell
+MKI67	proliferation marker
+ACTA2	general CAF
+FAP	general CAF
+PDPN	general CAF
+PDGFRA	general CAF
+IL6	iCAF
+CXCL1	iCAF
+CXCL12	iCAF
+CXCL2	iCAF
+ACTA2	myCAF
+THY1	myCAF
+TAGLN	myCAF
+CD74	apCAF
+SAA2	apCAF
+SAA1	apCAF
+MARCO	Myeloid
+APOE1	Myeloid
+PENG CLASSIFICATION	
+KRT19	ductal cell 1
+KRT7	ductal cell 1
+TSPAN8	ductal cell 1
+SLPI	ductal cell 1
+PRSS1	acinar
+CTRB1	acinar
+CTRB2	acinar
+REG1B	acinar
+CHGB	endocrine cell
+CHGA	endocrine cell
+INS	endocrine cell
+IAPP	endocrine cell
+RGS5	stellate cell
+ACTA2	stellate cell
+PDGFRB	stellate cell
+ADIRF	stellate cell
+LUM	fibroblast
+DCN	fibroblast
+COL1A1	fibroblast
+CDH5	endothelial cell
+PLVAP	endothelial cell
+VWF	endothelial cell
+CLDN5	endothelial cell
+AIF1	macrophage
+CD64	macrophage
+CD14	macrophage
+CD68	macrophage
+CD3D	T cell
+CD3E	T cell
+CD4	T cell
+CD8A	T cell
+MS4A1	B cell
+CD79A	B cell
+CD79B	B cell
+CD52	B cell
+CLU	clu+ intestenial revsc 
+HTTPS://WWW.NATURE.COM/ARTICLES/S41586-019-1154-Y	
+STMN1	SSC2a
+HELLS	SSC2a
+TUBA1B	SSC2a
+RRM2	SSC2a
+RPS20	SSC2b
+RPS26	SSC2b
+RPLP1	SSC2b
+GM10073	SSC2b
+CLU	SSC2c
+ANXA1	SSC2c
+BASP1	SSC2c
+CXADR	SSC2c
+HTTPS://WWW.NATURE.COM/ARTICLES/S41586-019-1154-Y	
+SUPPLI INFO	
+BMI1	plus4
+HOPX	plus4
+LRIG1	plus4
+LGR5	CBCs
+AXIN2	CBCs
+ASCL2	CBCs
+OLFM4	CBCs
+SLC12A2	CBCs
+PLUS4:	
+CBC:CRYPT-BASE COLUMNAR CELLS	
+HTTPS://WWW.SCIENCE.ORG/DOI/10.1126/SCIADV.ABG3750	
+HAMP	Hepatocytes
+CYP1A2	Hepatocytes
+APOF	Hepatocytes
+CYP3A4	Hepatocytes
+C9	Hepatocytes
+ADH4	Hepatocytes
+SLC22A1	Hepatocytes
+CYP2A6	Hepatocytes
+HGFAC	Hepatocytes
+CYP2C8	Hepatocytes
+CYP2E1	Hepatocytes
+RDH16	Hepatocytes
+SPP2	Hepatocytes
+UROC1	Hepatocytes
+AFM	Hepatocytes
+PCK1	Hepatocytes
+F9	Hepatocytes
+CYP4A11	Hepatocytes
+SERPINA11	Hepatocytes
+APOA5	Hepatocytes
+CYP8B1	Hepatocytes
+SLC10A1	Hepatocytes
+SPINK1	Malignancy
+GPC3	Malignancy
+AKR1B10	Malignancy
+TOP2A	Malignancy
+REG3A	Malignancy
+CAP2	Malignancy
+UBE2C	Malignancy
+MDK	Malignancy
+LCN2	Malignancy
+AURKA	Malignancy
+CD3D	T cell
+CD3E	T cell
+CD3G	T cell
+CD19	B cell
+MS4A1	B cell
+CD79A	B cell
+NCAM1	NK cells
+KLRF1	NK cells
+NCR1	NK cells
+KLRC1	NK cells
+ITGAX	Myeloid
+CD33	Myeloid
+CEACAM8	Myeloid
+CD68	Myeloid
+CD163	Myeloid
+COL1A2	Fibroblasts
+FAP	Fibroblasts
+PDPN	Fibroblasts
+DCN	Fibroblasts
+COL3A1	Fibroblasts
+COL6A1	Fibroblasts
+COL1A1	Fibroblasts
+CLDN5	endothelial cell
+PECAM1	endothelial cell
+CD34	endothelial cell
+FLT1	endothelial cell
+VWF	endothelial cell
+ENG	endothelial cell
+CDH5	endothelial cell
+CD8A	CD8_Tcells
+CD8B	CD8_Tcells
+CD8A	CD8_Tcm
+CD8B	CD8_Tcm
+CTSW	CD8_Tcm
+GZMK	CD8_Tcm
+IL2RB	CD8_Tcm
+SH2D1A	CD8_Tcm
+GPR171	CD8_Tcm
+CRTAM	CD8_Tcm
+USP36	CD8_Tcm
+TMEM30B	CD8_Tcm
+DHX8	CD8_Tem
+GZMH	CD8_Tem
+GZMK	CD8_Tem
+LAG3	CD8_Tem
+ZAP70	CD8_Tem
+COLQ	CD8_Tem
+RGS9	CD8_Tem
+CXCR6	CD8_Tem
+PVRIG	CD8_Tem
+PYHIN1	CD8_Tem
+CD2	CD4_Tcells
+CD3D	CD4_Tcells
+CD3E	CD4_Tcells
+CD3G	CD4_Tcells
+CD5	CD4_Tcells
+CD7	CD4_Tcells
+CD27	CD4_Tcells
+CD40LG	CD4_Tcells
+CTLA4	CD4_Tcells
+GOLGA4	CD4_Tcells
+TRAF1	CD4_Tcells
+CD96	CD4_Tcells
+ICOS	CD4_Tcells
+GPR171	CD4_Tcells
+TRAT1	CD4_Tcells
+FOXP3	CD4_Tcells
+SIRPG	CD4_Tcells
+RIC3	CD4_Tcells
+CCR4	Tregs
+CCR8	Tregs
+CTLA4	Tregs
+GPR25	Tregs
+IL2RA	Tregs
+KCNA2	Tregs
+LAIR2	Tregs
+HS3ST3B1	Tregs
+MCF2L2	Tregs
+FOXP3	Tregs
+CD27	CD4_naive_Tcells
+CLC	CD4_naive_Tcells
+CTSW	CD4_naive_Tcells
+DNAJB1	CD4_naive_Tcells
+RBL2	CD4_naive_Tcells
+HAUS3	CD4_naive_Tcells
+ANKRD55	CD4_naive_Tcells
+ZNF394	CD4_naive_Tcells
+CHMP7	CD4_naive_Tcells
+CD28	CD4_memory_Tcells
+CD40LG	CD4_memory_Tcells
+CCR4	CD4_memory_Tcells
+CTLA4	CD4_memory_Tcells
+GPR15	CD4_memory_Tcells
+GZMA	CD4_memory_Tcells
+GZMK	CD4_memory_Tcells
+HMGB2	CD4_memory_Tcells
+PDCD1	CD4_memory_Tcells
+RBL2	CD4_memory_Tcells
+CD226	CD4_memory_Tcells
+GPR171	CD4_memory_Tcells
+TRAT1	CD4_memory_Tcells
+UBASH3A	CD4_memory_Tcells
+ARHGAP15	CD4_memory_Tcells
+CD40LG	CD4_Tcm 
+CCR4	CD4_Tcm 
+CCR8	CD4_Tcm 
+CTLA4	CD4_Tcm 
+DAB1	CD4_Tcm 
+ERN1	CD4_Tcm 
+GPR15	CD4_Tcm 
+DNAJB1	CD4_Tcm 
+KRT1	CD4_Tcm 
+POU6F1	CD4_Tcm 
+TPO	CD4_Tcm 
+CDC14A	CD4_Tcm 
+TRADD	CD4_Tcm 
+DLEC1	CD4_Tcm 
+ICOS	CD4_Tcm 
+TRAT1	CD4_Tcm 
+FXYD7	CD4_Tcm 
+FBXL8	CD4_Tcm 
+SIRPG	CD4_Tcm 
+SLC4A5	CD4_Tcm 
+ANKRD55	CD4_Tcm 
+OBSCN	CD4_Tcm 
+CD40LG	CD4_Tem
+CCR6	CD4_Tem
+KLRB1	CD4_Tem
+LTK	CD4_Tem
+MCF2L2	CD4_Tem
+GALNT8	CD4_Tem
+TRAT1	CD4_Tem
+CD1A	cDC
+CD1B	cDC
+CD1C	cDC
+CD1E	cDC
+CD80	cDC
+CD86	cDC
+FCER1A	cDC
+GFRA2	cDC
+CCL13	cDC
+CCL17	cDC
+CLEC10A	cDC
+CD209	cDC
+KCNK13	cDC
+ALOX15	iDC
+F13A1	iDC
+CCL13	iDC
+CCL17	iDC
+CCL18	iDC
+CCL23	iDC
+CCL24	iDC
+CD209	iDC
+C1QA	aDC
+C1QB	aDC
+CD80	aDC
+FPR3	aDC
+HLA-DQA1	aDC
+IL12B	aDC
+CCL13	aDC
+CCL17	aDC
+CCL19	aDC
+CCL22	aDC
+AIF1	Monocytes
+CYBB	Monocytes
+FCAR	Monocytes
+FCN1	Monocytes
+MNDA	Monocytes
+CFP	Monocytes
+S100A12	Monocytes
+CD163	Monocytes
+CLEC5A	Monocytes
+TREM1	Monocytes
+RETN	Monocytes
+FOLR2	Monocytes
+MS4A6A	Monocytes
+LILRA5	Monocytes
+CHIT1	Macrophages
+CYP19A1	Macrophages
+HK3	Macrophages
+MSR1	Macrophages
+VSIG4	Macrophages
+CLEC5A	Macrophages
+ADAMDEC1	Macrophages
+DNASE2B	Macrophages
+ITGAM	Macrophages_M1
+CD68	Macrophages_M1
+FCGR3A	Macrophages_M1
+FCGR2A	Macrophages_M1
+FCGR1A	Macrophages_M1
+CD80	Macrophages_M1
+CD86	Macrophages_M1
+HLA-DRB5	Macrophages_M1
+TLR4	Macrophages_M1
+TNF	Macrophages_M1
+IL1A	Macrophages_M1
+IL1B	Macrophages_M1
+IL12	Macrophages_M1
+IL12A	Macrophages_M1
+IL12B	Macrophages_M1
+IL6	Macrophages_M1
+NOS2	Macrophages_M1
+ITGAM	Macrophages_M2
+CD68	Macrophages_M2
+CD163	Macrophages_M2
+MRC1	Macrophages_M2
+IL10	Macrophages_M2
+TGFB1	Macrophages_M2
+IDO1	Macrophages_M2
+IL8	Macrophages_M2
+CCL2	Macrophages_M2
+CLC	Neutrophils
+CSF3R	Neutrophils
+FCGR3B	Neutrophils
+FPR2	Neutrophils
+HBB	Neutrophils
+CXCR2	Neutrophils
+S100A12	Neutrophils
+P2RY13	Neutrophils
+TREM1	Neutrophils
+HTR7	Mesenchymal stem cell
+MMP17	Mesenchymal stem cell
+PLA2G5	Mesenchymal stem cell
+CDKL5	Mesenchymal stem cell
+PKD2L1	Mesenchymal stem cell
+ADAMTS12	Mesenchymal stem cell
+ZNRF4	Mesenchymal stem cell
+CTRB2	Mesenchymal stem cell
+FLT4	lymphatic endothelial cell
+HYAL2	lymphatic endothelial cell
+CLEC1A	lymphatic endothelial cell
+SOX18	lymphatic endothelial cell
+ROBO4	lymphatic endothelial cell
+CXORF36	lymphatic endothelial cell
+MYCT1	lymphatic endothelial cell
+KANK3	lymphatic endothelial cell
+ACVRL1	Microvascular endothelial cell
+CETP	Microvascular endothelial cell
+RANGAP1	Microvascular endothelial cell
+SELE	Microvascular endothelial cell
+TIE1	Microvascular endothelial cell
+CLDN5	Microvascular endothelial cell
+VWF	Microvascular endothelial cell
+HYAL2	Microvascular endothelial cell
+EIF2B2	Microvascular endothelial cell
+TNFSF18	Microvascular endothelial cell
+LYVE1	Microvascular endothelial cell
+ARHGEF15	Microvascular endothelial cell
+CLEC1A	Microvascular endothelial cell
+ROBO4	Microvascular endothelial cell
+CXORF36	Microvascular endothelial cell
+MMRN2	Microvascular endothelial cell
+KANK3	Microvascular endothelial cell
+PANCREATIC INTRAEPITHELIAL NEOPLASIA (PANINS) : ELENA FERTEG	
+BTNL8	Classical genes
+FAM3D	Classical genes
+ATAD4	Classical genes
+AGR3	Classical genes
+CTSE	Classical genes
+LOC400573	Classical genes
+LYZ	Classical genes
+TFF2	Classical genes
+TFF1	Classical genes
+ANXA10	Classical genes
+LGALS4	Classical genes
+PLA2G10	Classical genes
+CEACAM6	Classical genes
+VSIG2	Classical genes
+TSPAN8	Classical genes
+ST6GALNAC1	Classical genes
+AGR2	Classical genes
+TFF3	Classical genes
+CYP3A7	Classical genes
+MYO1A	Classical genes
+CLRN3	Classical genes
+KRT20	Classical genes
+CDH17	Classical genes
+SPINK4	Classical genes
+REG4	Classical genes
+VGLL	Basal-like genes
+UCA1	Basal-like genes
+S100A2	Basal-like genes
+LY6D	Basal-like genes
+SPRR3	Basal-like genes
+SPRR1B	Basal-like genes
+LEMD1	Basal-like genes
+KRT15	Basal-like genes
+CTSL2	Basal-like genes
+DHRS9	Basal-like genes
+AREG	Basal-like genes
+CST6	Basal-like genes
+SERPINB3	Basal-like genes
+KRT6C	Basal-like genes
+KRT6A	Basal-like genes
+SERPINB4	Basal-like genes
+FAM83A	Basal-like genes
+SCEL	Basal-like genes
+FGFBP1	Basal-like genes
+KRT7	Basal-like genes
+KRT17	Basal-like genes
+GPR87	Basal-like genes
+TNS4	Basal-like genes
+SLC2A1	Basal-like genes
+ANXA8L2	Basal-like genes
+ABCG2	cancer stem cell 
+ALDH1A1	cancer stem cell 
+CD24	cancer stem cell 
+CD44	cancer stem cell 
+EPCAM	cancer stem cell 
+PROM1	cancer stem cell 
+CXCR4	cancer stem cell 
+NES	cancer stem cell 
+DCLK1	cancer stem cell 
+SOX9	cancer stem cell 
+NANOG	cancer stem cell 
+OUR PAPER	
+EPCAM	Epithelial
+KRT8	Epithelial
+KRT18	Epithelial
+COL1A1	CAF-S1/myCAF
+CLDN5	endothelial
+CD3D	T cells
+CD79A	B cells
+LYZ	epi-mye
+FAP	CAF-S1/myCAF
+PDPN	CAF-S1/myCAF
+PDGFRA	CAF-S1
+COL1A2	CAF-S1/myCAF
+CXCL12	CAF-S1/iCAF
+GJB	CAF-S1/ecm-myCAF
+ANTXR1	CAF-S1/ecm-myCAF
+SDC1	CAF-S1/ecm-myCAF
+SEMA3C	CAF-S1/wound-myCAF
+CD9	CAF-S1/wound-myCAF
+CST1	CAF-S1/TGFB-myCAF
+TGFB1	CAF-S1/TGFB-myCAF
+LAMP5	CAF-S1/TGFB-myCAF
+SCARA5	CAF-S1/IL-iCAF
+DLK1	CAF-S1/IL-iCAF
+ADH1B	CAF-S1/detox-iCAF
+GPC3	CAF-S1/detox-iCAF
+RGS5	CAF-S4
+CSPG4	CAF-S4
+PDGFRB	CAF-S4
+CD248	CAF-S4
+EPAS1	CAF-S4
+CD1C	DC
+C1QA	C!Q+TAM
+C1QB	C!Q+TAM
+MRC1	TAM
+S100A8	Monocytes
+1L1B	Monocytes
+S100A9	Monocytes
+APOE	TAM
+SEPP1	TAM
+CD163	TAM
+FCGR3B	Monocytes
+FOXP3	Tregs
+LAG3	Tregs
+CTLA4	Tregs
+PD-1	Tregs
+CCR7	Memory cell -t
+SELL	Memory cell -t
+TCF7	Memory cell -t
+ANXA1	Resting cells- T
+IL7R	Resting cells- T
+LMNA	Resting cells- T
+CXCL13	Acrtivated T
+GZMK	Cytotoxic T
+GZMB	Cytotoxic T
+IFNG	Cytotoxic T
+PRF1	Cytotoxic T
+CCL4	Cytotoxic T
+CXCL13	Activated
+LAG3	exhaustion T
+HAVCR2	exhaustion T
+CD96	exhaustion T
+EOMES	pre-dysfunctional
+KLRG1	pre-dysfunctional
+EPCAM	Epithelial
+KRT8	Epithelial
+KRT18	Epithelial
+COL1A1	CAF-S1/myCAF
+CLDN5	endothelial
+CD3D	T cells
+CD79A	B cells
+LYZ	epi-mye
+FAP	CAF-S1/myCAF
+PDPN	CAF-S1/myCAF
+PDGFRA	CAF-S1
+COL1A2	CAF-S1/myCAF
+CXCL12	CAF-S1/iCAF
+GJB	CAF-S1/ecm-myCAF
+ANTXR1	CAF-S1/ecm-myCAF
+SDC1	CAF-S1/ecm-myCAF
+SEMA3C	CAF-S1/wound-myCAF
+CD9	CAF-S1/wound-myCAF
+CST1	CAF-S1/TGFB-myCAF
+TGFB1	CAF-S1/TGFB-myCAF
+LAMP5	CAF-S1/TGFB-myCAF
+SCARA5	CAF-S1/IL-iCAF
+DLK1	CAF-S1/IL-iCAF
+ADH1B	CAF-S1/detox-iCAF
+GPC3	CAF-S1/detox-iCAF
+RGS5	CAF-S4
+CSPG4	CAF-S4
+PDGFRB	CAF-S4
+CD248	CAF-S4
+EPAS1	CAF-S4
+CD1C	DC
+C1QA	C!Q+TAM
+C1QB	C!Q+TAM
+MRC1	TAM
+S100A8	Monocytes
+1L1B	Monocytes
+S100A9	Monocytes
+APOE	TAM
+SEPP1	TAM
+CD163	TAM
+FCGR3B	Monocytes
+FOXP3	Tregs
+LAG3	Tregs
+CTLA4	Tregs
+PD-1	Tregs
+CCR7	Memory cell -t
+SELL	Memory cell -t
+TCF7	Memory cell -t
+ANXA1	Resting cells- T
+IL7R	Resting cells- T
+LMNA	Resting cells- T
+CXCL13	Acrtivated T
+GZMK	Cytotoxic T
+GZMB	Cytotoxic T
+IFNG	Cytotoxic T
+PRF1	Cytotoxic T
+CCL4	Cytotoxic T
+CXCL13	Activated
+LAG3	exhaustion T
+HAVCR2	exhaustion T
+CD96	exhaustion T
+EOMES	pre-dysfunctional
+KLRG1	pre-dysfunctional

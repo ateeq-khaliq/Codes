@@ -1,0 +1,315 @@
+Genes	Subtype
+CASP1	IFN-TAM:Qian et al:Cell review 2022
+CASP4	IFN-TAM:Qian et al:Cell review 2022
+CCL2	IFN-TAM:Qian et al:Cell review 2022
+CCL3	IFN-TAM:Qian et al:Cell review 2022
+CCL4	IFN-TAM:Qian et al:Cell review 2022
+CCL7	IFN-TAM:Qian et al:Cell review 2022
+CCL8	IFN-TAM:Qian et al:Cell review 2022
+CD274hi	IFN-TAM:Qian et al:Cell review 2022
+CD40	IFN-TAM:Qian et al:Cell review 2022
+CXCL2	IFN-TAM:Qian et al:Cell review 2022
+CXCL3	IFN-TAM:Qian et al:Cell review 2022
+CXCL9	IFN-TAM:Qian et al:Cell review 2022
+CXCL10	IFN-TAM:Qian et al:Cell review 2022
+CXCL11	IFN-TAM:Qian et al:Cell review 2022
+IDO1	IFN-TAM:Qian et al:Cell review 2022
+IFI6	IFN-TAM:Qian et al:Cell review 2022
+IFIT1	IFN-TAM:Qian et al:Cell review 2022
+IFIT2	IFN-TAM:Qian et al:Cell review 2022
+IFIT3	IFN-TAM:Qian et al:Cell review 2022
+IFITM1	IFN-TAM:Qian et al:Cell review 2022
+IFITM3	IFN-TAM:Qian et al:Cell review 2022
+IRF1	IFN-TAM:Qian et al:Cell review 2022
+IRF7	IFN-TAM:Qian et al:Cell review 2022
+ISG15	IFN-TAM:Qian et al:Cell review 2022
+LAMP3	IFN-TAM:Qian et al:Cell review 2022
+PDCD1LG2hi	IFN-TAM:Qian et al:Cell review 2022
+TNFSF10	IFN-TAM:Qian et al:Cell review 2022
+C1QA	IFN-TAM:Qian et al:Cell review 2022
+C1QC	IFN-TAM:Qian et al:Cell review 2022
+CD38	IFN-TAM:Qian et al:Cell review 2022
+IL4I1	IFN-TAM:Qian et al:Cell review 2022
+ISG15	IFN-TAM:Qian et al:Cell review 2022
+TNFSF10	IFN-TAM:Qian et al:Cell review 2022
+IFI44L	IFN-TAM:Qian et al:Cell review 2022
+CCL2	Inflam-TAM:Qian et al:Cell review 2022
+CCL3	Inflam-TAM:Qian et al:Cell review 2022
+CCL4	Inflam-TAM:Qian et al:Cell review 2022
+CCL5	Inflam-TAM:Qian et al:Cell review 2022
+CCL20	Inflam-TAM:Qian et al:Cell review 2022
+CCL3L1	Inflam-TAM:Qian et al:Cell review 2022
+CCL3L3	Inflam-TAM:Qian et al:Cell review 2022
+CCL4L2	Inflam-TAM:Qian et al:Cell review 2022
+CCL4L4	Inflam-TAM:Qian et al:Cell review 2022
+CXCL1	Inflam-TAM:Qian et al:Cell review 2022
+CXCL2	Inflam-TAM:Qian et al:Cell review 2022
+CXCL3	Inflam-TAM:Qian et al:Cell review 2022
+CXCL5	Inflam-TAM:Qian et al:Cell review 2022
+CXCL8	Inflam-TAM:Qian et al:Cell review 2022
+G0S2	Inflam-TAM:Qian et al:Cell review 2022
+IL1B	Inflam-TAM:Qian et al:Cell review 2022
+IL1RN	Inflam-TAM:Qian et al:Cell review 2022
+IL6	Inflam-TAM:Qian et al:Cell review 2022
+INHBA	Inflam-TAM:Qian et al:Cell review 2022
+KLF2	Inflam-TAM:Qian et al:Cell review 2022
+KLF6	Inflam-TAM:Qian et al:Cell review 2022
+NEDD9	Inflam-TAM:Qian et al:Cell review 2022
+PMAIP1	Inflam-TAM:Qian et al:Cell review 2022
+S100A8	Inflam-TAM:Qian et al:Cell review 2022
+S100A9	Inflam-TAM:Qian et al:Cell review 2022
+SPP1	Inflam-TAM:Qian et al:Cell review 2022
+ACP5	Lipid-Associated-TAM:Qian et al:Cell review 2022
+AOPE	Lipid-Associated-TAM:Qian et al:Cell review 2022
+APOC1	Lipid-Associated-TAM:Qian et al:Cell review 2022
+ATF1	Lipid-Associated-TAM:Qian et al:Cell review 2022
+C1QA	Lipid-Associated-TAM:Qian et al:Cell review 2022
+C1QB	Lipid-Associated-TAM:Qian et al:Cell review 2022
+C1QC	Lipid-Associated-TAM:Qian et al:Cell review 2022
+CCL18	Lipid-Associated-TAM:Qian et al:Cell review 2022
+CD163	Lipid-Associated-TAM:Qian et al:Cell review 2022
+CD36	Lipid-Associated-TAM:Qian et al:Cell review 2022
+CD63	Lipid-Associated-TAM:Qian et al:Cell review 2022
+CHI3L1	Lipid-Associated-TAM:Qian et al:Cell review 2022
+CTSB	Lipid-Associated-TAM:Qian et al:Cell review 2022
+CSTD	Lipid-Associated-TAM:Qian et al:Cell review 2022
+CSTL	Lipid-Associated-TAM:Qian et al:Cell review 2022
+F13A1	Lipid-Associated-TAM:Qian et al:Cell review 2022
+FABP5	Lipid-Associated-TAM:Qian et al:Cell review 2022
+FOLR2	Lipid-Associated-TAM:Qian et al:Cell review 2022
+GPNMB	Lipid-Associated-TAM:Qian et al:Cell review 2022
+IRF3	Lipid-Associated-TAM:Qian et al:Cell review 2022
+LGALS3	Lipid-Associated-TAM:Qian et al:Cell review 2022
+LIPA	Lipid-Associated-TAM:Qian et al:Cell review 2022
+LPL	Lipid-Associated-TAM:Qian et al:Cell review 2022
+MACRO	Lipid-Associated-TAM:Qian et al:Cell review 2022
+MerTK	Lipid-Associated-TAM:Qian et al:Cell review 2022
+MMP7	Lipid-Associated-TAM:Qian et al:Cell review 2022
+MMP9	Lipid-Associated-TAM:Qian et al:Cell review 2022
+MMP12	Lipid-Associated-TAM:Qian et al:Cell review 2022
+MRC1	Lipid-Associated-TAM:Qian et al:Cell review 2022
+NR1H3	Lipid-Associated-TAM:Qian et al:Cell review 2022
+NRF1	Lipid-Associated-TAM:Qian et al:Cell review 2022
+NUPR1	Lipid-Associated-TAM:Qian et al:Cell review 2022
+PLA2G7	Lipid-Associated-TAM:Qian et al:Cell review 2022
+RNASE1	Lipid-Associated-TAM:Qian et al:Cell review 2022
+SPARC	Lipid-Associated-TAM:Qian et al:Cell review 2022
+SPP1	Lipid-Associated-TAM:Qian et al:Cell review 2022
+TFDP2	Lipid-Associated-TAM:Qian et al:Cell review 2022
+TREM2	Lipid-Associated-TAM:Qian et al:Cell review 2022
+ZEB1	Lipid-Associated-TAM:Qian et al:Cell review 2022
+ADAM8	Angio-TAM:Qian et al:Cell review 2022
+AREG	Angio-TAM:Qian et al:Cell review 2022
+BNIP3	Angio-TAM:Qian et al:Cell review 2022
+CCL2	Angio-TAM:Qian et al:Cell review 2022
+CCL4	Angio-TAM:Qian et al:Cell review 2022
+CCL20	Angio-TAM:Qian et al:Cell review 2022
+CD163	Angio-TAM:Qian et al:Cell review 2022
+CD300E	Angio-TAM:Qian et al:Cell review 2022
+CD44	Angio-TAM:Qian et al:Cell review 2022
+CD55	Angio-TAM:Qian et al:Cell review 2022
+CEBPB	Angio-TAM:Qian et al:Cell review 2022
+CLEC5A	Angio-TAM:Qian et al:Cell review 2022
+CTSB	Angio-TAM:Qian et al:Cell review 2022
+EREG	Angio-TAM:Qian et al:Cell review 2022
+FCN1	Angio-TAM:Qian et al:Cell review 2022
+FLT1	Angio-TAM:Qian et al:Cell review 2022
+FN1	Angio-TAM:Qian et al:Cell review 2022
+HES1	Angio-TAM:Qian et al:Cell review 2022
+IL1B	Angio-TAM:Qian et al:Cell review 2022
+IL1RN	Angio-TAM:Qian et al:Cell review 2022
+IL8	Angio-TAM:Qian et al:Cell review 2022
+MAF	Angio-TAM:Qian et al:Cell review 2022
+MIF	Angio-TAM:Qian et al:Cell review 2022
+NR1H3	Angio-TAM:Qian et al:Cell review 2022
+OLR1	Angio-TAM:Qian et al:Cell review 2022
+PPARG	Angio-TAM:Qian et al:Cell review 2022
+S100A8	Angio-TAM:Qian et al:Cell review 2022
+S100A9	Angio-TAM:Qian et al:Cell review 2022
+S100A12	Angio-TAM:Qian et al:Cell review 2022
+SERPINB2	Angio-TAM:Qian et al:Cell review 2022
+SLC2A1	Angio-TAM:Qian et al:Cell review 2022
+SPIC	Angio-TAM:Qian et al:Cell review 2022
+SPP1	Angio-TAM:Qian et al:Cell review 2022
+THBS1	Angio-TAM:Qian et al:Cell review 2022
+TIMP1	Angio-TAM:Qian et al:Cell review 2022
+VCAN	Angio-TAM:Qian et al:Cell review 2022
+VEGFA	Angio-TAM:Qian et al:Cell review 2022
+CCL2	Reg-TAM:Qian et al:Cell review 2022
+CD274	Reg-TAM:Qian et al:Cell review 2022
+CD40	Reg-TAM:Qian et al:Cell review 2022
+CD80	Reg-TAM:Qian et al:Cell review 2022
+CD86	Reg-TAM:Qian et al:Cell review 2022
+CHIT1	Reg-TAM:Qian et al:Cell review 2022
+CX3CR1	Reg-TAM:Qian et al:Cell review 2022
+HLA-A	Reg-TAM:Qian et al:Cell review 2022
+HLA-C	Reg-TAM:Qian et al:Cell review 2022
+HLA-DQA1	Reg-TAM:Qian et al:Cell review 2022
+HLA-DQB1	Reg-TAM:Qian et al:Cell review 2022
+HLA-DRA	Reg-TAM:Qian et al:Cell review 2022
+HLA-DRB1	Reg-TAM:Qian et al:Cell review 2022
+HLA-DRB5	Reg-TAM:Qian et al:Cell review 2022
+ICOSLG	Reg-TAM:Qian et al:Cell review 2022
+IL-10	Reg-TAM:Qian et al:Cell review 2022
+ITGA4	Reg-TAM:Qian et al:Cell review 2022
+LGALS9	Reg-TAM:Qian et al:Cell review 2022
+MACRO	Reg-TAM:Qian et al:Cell review 2022
+MRC1	Reg-TAM:Qian et al:Cell review 2022
+TGFB2	Reg-TAM:Qian et al:Cell review 2022
+CCNA2	Prolif-TAM:Qian et al:Cell review 2022
+CDC45	Prolif-TAM:Qian et al:Cell review 2022
+CDK1	Prolif-TAM:Qian et al:Cell review 2022
+H2AFC	Prolif-TAM:Qian et al:Cell review 2022
+HIST1H4C	Prolif-TAM:Qian et al:Cell review 2022
+HMGB1	Prolif-TAM:Qian et al:Cell review 2022
+HMGN2	Prolif-TAM:Qian et al:Cell review 2022
+MKI67	Prolif-TAM:Qian et al:Cell review 2022
+RRM2	Prolif-TAM:Qian et al:Cell review 2022
+STMN1	Prolif-TAM:Qian et al:Cell review 2022
+TOP2A	Prolif-TAM:Qian et al:Cell review 2022
+TUBA1B	Prolif-TAM:Qian et al:Cell review 2022
+TUBB	Prolif-TAM:Qian et al:Cell review 2022
+TYMS	Prolif-TAM:Qian et al:Cell review 2022
+C1QA	resident-tissue macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+CIQB	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+CIQC	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+CCL7	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+CD163	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+CD5L	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+CD74	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+CETP	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+FOLR2	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+HLA-DPA1	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+HLA-DPB1	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+HLA-DRB1	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+MACRO	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+MAF	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+MS4A7	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+SLC40A1	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+VCAM1	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+VSIG4	Resident-Tissue Macrophages-TAM:Kupffer cell-Like:Qian et al:Cell review 2022
+CCL18	Resident-Tissue Macrophages-TAM:Alveolar cell-Like:Qian et al:Cell review 2022
+CCL23	Resident-Tissue Macrophages-TAM:Alveolar cell-Like:Qian et al:Cell review 2022
+CD52	Resident-Tissue Macrophages-TAM:Alveolar cell-Like:Qian et al:Cell review 2022
+FABP4	Resident-Tissue Macrophages-TAM:Alveolar cell-Like:Qian et al:Cell review 2022
+FBP1	Resident-Tissue Macrophages-TAM:Alveolar cell-Like:Qian et al:Cell review 2022
+LGALS3	Resident-Tissue Macrophages-TAM:Alveolar cell-Like:Qian et al:Cell review 2022
+MACRO	Resident-Tissue Macrophages-TAM:Alveolar cell-Like:Qian et al:Cell review 2022
+MCEMP1	Resident-Tissue Macrophages-TAM:Alveolar cell-Like:Qian et al:Cell review 2022
+MRC1	Resident-Tissue Macrophages-TAM:Alveolar cell-Like:Qian et al:Cell review 2022
+MSR1	Resident-Tissue Macrophages-TAM:Alveolar cell-Like:Qian et al:Cell review 2022
+PPARG	Resident-Tissue Macrophages-TAM:Alveolar cell-Like:Qian et al:Cell review 2022
+RBP4	Resident-Tissue Macrophages-TAM:Alveolar cell-Like:Qian et al:Cell review 2022
+BIN1	Resident-Tissue Macrophages-TAM:Microglia cell-Like:Qian et al:Cell review 2022
+C1QC	Resident-Tissue Macrophages-TAM:Microglia cell-Like:Qian et al:Cell review 2022
+CX3CR1	Resident-Tissue Macrophages-TAM:Microglia cell-Like:Qian et al:Cell review 2022
+NAV3	Resident-Tissue Macrophages-TAM:Microglia cell-Like:Qian et al:Cell review 2022
+P2RY12	Resident-Tissue Macrophages-TAM:Microglia cell-Like:Qian et al:Cell review 2022
+SALL1	Resident-Tissue Macrophages-TAM:Microglia cell-Like:Qian et al:Cell review 2022
+SIGLEC8	Resident-Tissue Macrophages-TAM:Microglia cell-Like:Qian et al:Cell review 2022
+SLC1A3	Resident-Tissue Macrophages-TAM:Microglia cell-Like:Qian et al:Cell review 2022
+MT1E	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+MT1F	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+MT1G	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+MT1H	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+MT1M	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+MT1X	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+MT2A	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+MTG1E	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+MTG1M	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+CXCL9	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+CXCL10	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+GBP1	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+IFITM3	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+LGALS2	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+PARP14	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+SLC30A1	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+SLC39A8	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+STAT1	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+TNFSF13B	Resident-Tissue Macrophages-TAM:MT RTM-Like:Qian et al:Cell review 2022
+FLOR2	Resident-Tissue Macrophages-TAM:Interstitial cell-Like:Qian et al:Cell review 2022
+LYVE1	Resident-Tissue Macrophages-TAM:Interstitial cell-Like:Qian et al:Cell review 2022
+PLTP	Resident-Tissue Macrophages-TAM:Interstitial cell-Like:Qian et al:Cell review 2022
+SEPP1	Resident-Tissue Macrophages-TAM:Interstitial cell-Like:Qian et al:Cell review 2022
+S100A4	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+S100A6	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+S100A8	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+S100A9	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+S100A12	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+S100A113	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+AREG	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CCL4	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CCR2	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CD14	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CD300E	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CD36	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CEBPD	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CLEC11A	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CLEC12A	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CSF1R	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CTSS	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CX3CR1	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CXCL2	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CXCR4	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+EGR1	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+FCN1	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+FOS	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+FTH1	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+IL1B	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+ITGAM	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+JUNB	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+LGALS2	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+LY6C1	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+LY6C2	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+LYZ	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+MAF	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+MAFB	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+MPEG1	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+NFKB1	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+NFKBIA	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+NLRP3	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+NR4A1	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+NR4A2	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+OSM	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+PTGS2	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+RGS2	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+SELL	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+THBS1	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+VCAN	Classical-Tumor-infiltrating monocytes:Qian et al:Cell review 2022
+CX3CR1	NonClassical monocytes:Qian et al:Cell review 2022
+CCL5	NonClassical monocytes:Qian et al:Cell review 2022
+CD52	NonClassical monocytes:Qian et al:Cell review 2022
+CDH23	NonClassical monocytes:Qian et al:Cell review 2022
+CDKN1C	NonClassical monocytes:Qian et al:Cell review 2022
+FCGR3A	NonClassical monocytes:Qian et al:Cell review 2022
+FCGR3B	NonClassical monocytes:Qian et al:Cell review 2022
+FCGR4	NonClassical monocytes:Qian et al:Cell review 2022
+GNLY	NonClassical monocytes:Qian et al:Cell review 2022
+GZMB	NonClassical monocytes:Qian et al:Cell review 2022
+ICAM2	NonClassical monocytes:Qian et al:Cell review 2022
+IFITM1	NonClassical monocytes:Qian et al:Cell review 2022
+IL32	NonClassical monocytes:Qian et al:Cell review 2022
+KLRC4-KLRK1	NonClassical monocytes:Qian et al:Cell review 2022
+LILRA	NonClassical monocytes:Qian et al:Cell review 2022
+LILRB1	NonClassical monocytes:Qian et al:Cell review 2022
+MS4A7	NonClassical monocytes:Qian et al:Cell review 2022
+MTSS1	NonClassical monocytes:Qian et al:Cell review 2022
+PRF1	NonClassical monocytes:Qian et al:Cell review 2022
+SLC44A2	NonClassical monocytes:Qian et al:Cell review 2022
+CX3CR1	Intermediate monocytes:Qian et al:Cell review 2022
+CXCL10	Intermediate monocytes:Qian et al:Cell review 2022
+FCGR3A	Intermediate monocytes:Qian et al:Cell review 2022
+IFITM2	Intermediate monocytes:Qian et al:Cell review 2022
+IL1RN	Intermediate monocytes:Qian et al:Cell review 2022
+IRF7	Intermediate monocytes:Qian et al:Cell review 2022
+ISG15/20	Intermediate monocytes:Qian et al:Cell review 2022
+LILRB1/A1	Intermediate monocytes:Qian et al:Cell review 2022
+MS4A7	Intermediate monocytes:Qian et al:Cell review 2022
+MTSS1	Intermediate monocytes:Qian et al:Cell review 2022
+RHOC	Intermediate monocytes:Qian et al:Cell review 2022
+SERPINA1	Intermediate monocytes:Qian et al:Cell review 2022
+SIGLEC10	Intermediate monocytes:Qian et al:Cell review 2022
+STAT1	Intermediate monocytes:Qian et al:Cell review 2022
+TCF7L2	Intermediate monocytes:Qian et al:Cell review 2022
+TNFSF10	Intermediate monocytes:Qian et al:Cell review 2022
+TNFSF13B	Intermediate monocytes:Qian et al:Cell review 2022

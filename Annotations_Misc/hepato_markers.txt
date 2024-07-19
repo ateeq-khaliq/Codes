@@ -1,0 +1,247 @@
+Genes	Subtype
+ALB	Hepatocytes:Ankur
+HAMP	Hepatocytes:Science
+CYP1A2	Hepatocytes:Science
+APOF	Hepatocytes:Science
+CYP3A4	Hepatocytes:Science
+C9	Hepatocytes:Science
+ADH4	Hepatocytes:Science
+SLC22A1	Hepatocytes:Science
+CYP2A6	Hepatocytes:Science
+HGFAC	Hepatocytes:Science
+CYP2C8	Hepatocytes:Science
+CYP2E1	Hepatocytes:Science
+RDH16	Hepatocytes:Science
+SPP2	Hepatocytes:Science
+UROC1	Hepatocytes:Science
+AFM	Hepatocytes:Science
+PCK1	Hepatocytes:Science
+F9	Hepatocytes:Science
+CYP4A11	Hepatocytes:Science
+SERPINA11	Hepatocytes:Science
+APOA5	Hepatocytes:Science
+CYP8B1	Hepatocytes:Science
+SLC10A1	Hepatocytes:Science
+ALB	Hepatocytes: Ian et al- Nature com 2018
+HAMP	Hepatocytes: Ian et al- Nature com 2018
+ARG1	Hepatocytes: Ian et al- Nature com 2018
+PCK1	Hepatocytes: Ian et al- Nature com 2018
+AFP	Hepatocytes: Ian et al- Nature com 2018
+BCHE	Hepatocytes: Ian et al- Nature com 2018
+CYP3A7	Hepatocytes: Ian et al- Nature com 2018
+CYP2A7	Hepatocytes: Ian et al- Nature com 2018
+CYP2A6	Hepatocytes: Ian et al- Nature com 2018
+SCD	Hepatocytes: Ian et al- Nature com 2018
+HMGCS1	Hepatocytes: Ian et al- Nature com 2018
+ACSS2	Hepatocytes: Ian et al- Nature com 2018
+TM7SF2	Hepatocytes: Ian et al- Nature com 2018
+SEC16B	Hepatocytes: Ian et al- Nature com 2018
+SLBP	Hepatocytes: Ian et al- Nature com 2018
+RND3	Hepatocytes: Ian et al- Nature com 2018
+PCK1	Hepatocytes: Ian et al- Nature com 2018
+BCHE	Hepatocytes: Ian et al- Nature com 2018
+G6PC	Hepatocytes: Ian et al- Nature com 2018
+GHR	Hepatocytes: Ian et al- Nature com 2018
+ALDH6A1	Hepatocytes: Ian et al- Nature com 2018
+RPP25L	Hepatocytes: Ian et al- Nature com 2018
+HSD11B1	Hepatocytes: Ian et al- Nature com 2018
+HAMP	Hepatocytes: Ian et al- Nature com 2018
+GHR	Hepatocytes: Ian et al- Nature com 2018
+HPR	Hepatocytes: Ian et al- Nature com 2018
+GSTA2	Hepatocytes: Ian et al- Nature com 2018
+AKR1C1	Hepatocytes: Ian et al- Nature com 2018
+MASP2	Hepatocytes: Ian et al- Nature com 2018
+CYGB	Hepatic stellate cells:SCTyper
+PPARG	Hepatic stellate cells:SCTyper
+PDGFRA	Hepatic stellate cells:SCTyper
+RGS5	Hepatic stellate cells:SCTyper
+PPARA	Hepatic stellate cells:SCTyper
+FOXF1	Hepatic stellate cells:SCTyper
+ALB	Hepatic stellate cells:SCTyper
+NR1H4	Hepatic stellate cells:SCTyper
+CCN2	Hepatic stellate cells:SCTyper
+SEMA7A	Hepatic stellate cells:SCTyper
+WT1	Hepatic stellate cells:SCTyper
+FGF10	Hepatic stellate cells:SCTyper
+GFAP	Hepatic stellate cells:SCTyper
+NGFR	Hepatic stellate cells:SCTyper
+VEGFA	Hepatic stellate cells:SCTyper
+ACTA2	Hepatic stellate cells:SCTyper
+MYB	Hepatic stellate cells:SCTyper
+DES	Hepatic stellate cells:SCTyper
+FAP	Hepatic stellate cells:SCTyper
+SLC8A1	Hepatic stellate cells:SCTyper
+RELN	Hepatic stellate cells:SCTyper
+SYP	Hepatic stellate cells:SCTyper
+VCL	Hepatic stellate cells:SCTyper
+TIMP1	Hepatic stellate cells:SCTyper
+COL1A1	Hepatic stellate cells:SCTyper
+TAGLN	Hepatic stellate cells:SCTyper
+COL1A2	Hepatic stellate cells:SCTyper
+COL3A1	Hepatic stellate cells:SCTyper
+SPARC	Hepatic stellate cells:SCTyper
+RBP1	Hepatic stellate cells:SCTyper
+DCN	Hepatic stellate cells:SCTyper
+MYL9	Hepatic stellate cells:SCTyper
+TPM2	Hepatic stellate cells:SCTyper
+MEG3	Hepatic stellate cells:SCTyper
+BGN	Hepatic stellate cells:SCTyper
+IGFBP7	Hepatic stellate cells:SCTyper
+IGFBP3	Hepatic stellate cells:SCTyper
+CCN1	Hepatic stellate cells:SCTyper
+OLFML3	Hepatic stellate cells:SCTyper
+IGFBP6	Hepatic stellate cells:SCTyper
+CCL2	Hepatic stellate cells:SCTyper
+COLEC11	Hepatic stellate cells:SCTyper
+HGF	Hepatic stellate cells:SCTyper
+AFP	Hepatoblasts:SCTyper
+ALB	Hepatoblasts:SCTyper
+CEBPA	Hepatoblasts:SCTyper
+KRT14	Hepatoblasts:SCTyper
+DLK1	Hepatoblasts:SCTyper
+CDH1	Hepatoblasts:SCTyper
+FOXM1	Hepatoblasts:SCTyper
+GGT1	Hepatoblasts:SCTyper
+HNF4A	Hepatoblasts:SCTyper
+PROX1	Hepatoblasts:SCTyper
+MAP2K4	Hepatoblasts:SCTyper
+SMAD5	Hepatoblasts:SCTyper
+KRT18	Hepatoblasts:SCTyper
+KRT8	Hepatoblasts:SCTyper
+HNF1B	Hepatoblasts:SCTyper
+HHEX	Hepatoblasts:SCTyper
+MET	Hepatoblasts:SCTyper
+AFP	Hepatocytes:SCTyper
+HNF4A	Hepatocytes:SCTyper
+KRT8	Hepatocytes:SCTyper
+ALB	Hepatocytes:SCTyper
+KRT18	Hepatocytes:SCTyper
+FOSL1	Hepatocytes:SCTyper
+EPPK1	Hepatocytes:SCTyper
+UCP2	Hepatocytes:SCTyper
+GCK	Hepatocytes:SCTyper
+LRP5	Hepatocytes:SCTyper
+SLC10A1	Hepatocytes:SCTyper
+NOS2	Hepatocytes:SCTyper
+ATP7B	Hepatocytes:SCTyper
+GJB2	Hepatocytes:SCTyper
+FGFR4	Hepatocytes:SCTyper
+PROX1	Hepatocytes:SCTyper
+CRP	Hepatocytes:SCTyper
+SLC2A2	Hepatocytes:SCTyper
+TFR2	Hepatocytes:SCTyper
+KIF13B	Hepatocytes:SCTyper
+LIPC	Hepatocytes:SCTyper
+VDR	Hepatocytes:SCTyper
+ASGR1	Hepatocytes:SCTyper
+ARG1	Hepatocytes:SCTyper
+G6PC	Hepatocytes:SCTyper
+OTC	Hepatocytes:SCTyper
+SERPINA1	Hepatocytes:SCTyper
+ZHX2	Hepatocytes:SCTyper
+HHEX	Hepatocytes:SCTyper
+FOXA3	Hepatocytes:SCTyper
+FOXA2	Hepatocytes:SCTyper
+FOXA1	Hepatocytes:SCTyper
+CYP2E1	Hepatocytes:SCTyper
+CYP1A2	Hepatocytes:SCTyper
+CEBPA	Hepatocytes:SCTyper
+CDH1	Hepatocytes:SCTyper
+GPC3	Hepatocytes:SCTyper
+AHR	Hepatocytes:SCTyper
+CPS1	Hepatocytes:SCTyper
+GLS2	Hepatocytes:SCTyper
+PCK1	Hepatocytes:SCTyper
+TAT	Hepatocytes:SCTyper
+WT1	Hepatocytes:SCTyper
+PRRG4	Hepatocytes:SCTyper
+SULT1A1	Hepatocytes:SCTyper
+APOH	Hepatocytes:SCTyper
+CTNNB1	Hepatocytes:SCTyper
+ABCC3	Hepatocytes:SCTyper
+FGB	Hepatocytes:SCTyper
+AQP3	Hepatocytes:SCTyper
+PLSCR1	Hepatocytes:SCTyper
+FGA	Hepatocytes:SCTyper
+APOB	Hepatocytes:SCTyper
+ANG	Hepatocytes:SCTyper
+ANXA13	Hepatocytes:SCTyper
+SAT2	Hepatocytes:SCTyper
+SFRP5	Hepatocytes:SCTyper
+A1CF	Hepatocytes:SCTyper
+APOA1	Hepatocytes:SCTyper
+BNIP3	Hepatocytes:SCTyper
+FGL1	Hepatocytes:SCTyper
+PAH	Hepatocytes:SCTyper
+SERPINA6	Hepatocytes:SCTyper
+APOA2	Hepatocytes:SCTyper
+AZGP1	Hepatocytes:SCTyper
+FGG	Hepatocytes:SCTyper
+APOC3	Hepatocytes:SCTyper
+DEFB1	Hepatocytes:SCTyper
+TM4SF4	Hepatocytes:SCTyper
+GC	Hepatocytes:SCTyper
+AMBP	Hepatocytes:SCTyper
+ORM1	Hepatocytes:SCTyper
+TTR	Hepatocytes:SCTyper
+HAL	Hepatocytes:SCTyper
+ASS1	Hepatocytes:SCTyper
+SCD	Hepatocytes:SCTyper
+HMGCS1	Hepatocytes:SCTyper
+ACSS2	Hepatocytes:SCTyper
+TM7SF2	Hepatocytes:SCTyper
+SEC16B	Hepatocytes:SCTyper
+SLBP	Hepatocytes:SCTyper
+RND3	Hepatocytes:SCTyper
+BCHE	Hepatocytes:SCTyper
+GHR	Hepatocytes:SCTyper
+ALDH6A1	Hepatocytes:SCTyper
+MASP2	Hepatocytes:SCTyper
+AKR1C1	Hepatocytes:SCTyper
+HAMP	Hepatocytes:SCTyper
+GLUL	Hepatocytes:SCTyper
+ACLY	Hepatocytes:SCTyper
+ASL	Hepatocytes:SCTyper
+TMEM97	Hepatocytes:SCTyper
+CP	Hepatocytes:SCTyper
+SLPI	Hepatocytes:SCTyper
+ACAT2	Hepatocytes:SCTyper
+TM4SF5	Hepatocytes:SCTyper
+MSMO1	Hepatocytes:SCTyper
+LEPR	Hepatocytes:SCTyper
+RCAN1	Hepatocytes:SCTyper
+AR	Hepatocytes:SCTyper
+RPP25L	Hepatocytes:SCTyper
+HSD11B1	Hepatocytes:SCTyper
+APOM	Hepatocytes:SCTyper
+TKFC	Hepatocytes:SCTyper
+G0S2	Hepatocytes:SCTyper
+PON3	Hepatocytes:SCTyper
+C1orf53	Hepatocytes:SCTyper
+TTC36	Hepatocytes:SCTyper
+FST	Hepatocytes:SCTyper
+MCC	Hepatocytes:SCTyper
+AQP9	Hepatocytes:SCTyper
+GSTA2	Hepatocytes:SCTyper
+NNT	Hepatocytes:SCTyper
+SAA4	Hepatocytes:SCTyper
+MRPS18C	Hepatocytes:SCTyper
+OCIAD1	Hepatocytes:SCTyper
+APOA5	Hepatocytes:SCTyper
+ENTPD5	Hepatocytes:SCTyper
+C4B	Hepatocytes:SCTyper
+EID2	Hepatocytes:SCTyper
+TP53INP2	Hepatocytes:SCTyper
+ATIC	Hepatocytes:SCTyper
+SERPINH1	Hepatocytes:SCTyper
+SAMD5	Hepatocytes:SCTyper
+GRB14	Hepatocytes:SCTyper
+CD3G	Hepatocytes:SCTyper
+RHOB	Hepatocytes:SCTyper
+EPB41L4B	Hepatocytes:SCTyper
+GPAT4	Hepatocytes:SCTyper
+SPTBN1	Hepatocytes:SCTyper
+SDC2	Hepatocytes:SCTyper
+PHLDA1	Hepatocytes:SCTyper
+WTAP	Hepatocytes:SCTyper
+ACADM	Hepatocytes:SCTyper

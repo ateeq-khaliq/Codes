@@ -1,0 +1,1567 @@
+Genes	Subtype
+MARCO	Myeloid
+CD68	Myeloid
+FCGR4	Myeloid
+C1QA	Myeloid/TAMS
+C1QB	Myeloid/TAMS
+LYZ2	Myeloid
+LYZ1	Myeloid
+KIT	MAST cell
+FCER1A	Mast: Li Ding
+KIT	Mast: Li Ding
+FCER2	Mast: Li Ding
+ENPP3	Mast: Li Ding
+ITGAM	Macrophages: Li Ding
+LGALS3	Macrophages: Li Ding
+CD68	Macrophages: Li Ding
+CD163	Macrophages: Li Ding
+LYZ	Macrophages: Li Ding
+ADGRE1	Macrophages: Li Ding
+LAMP2	Macrophages: Li Ding
+CD14	Monocytes: Li Ding
+FCGR3A	Monocytes: Li Ding
+FCGR1A	Monocytes: Li Ding
+MARCO	Myeloid
+APOE1	Myeloid
+AIF1	macrophage: Peng
+CD64	macrophage: Peng
+CD14	macrophage: Peng
+CD68	macrophage: Peng
+ITGAX	Myeloid:Science
+CD33	Myeloid:Science
+CEACAM8	Myeloid:Science
+CD68	Myeloid:Science
+CD163	Myeloid:Science
+AIF1	Monocytes:Science
+CYBB	Monocytes:Science
+FCAR	Monocytes:Science
+FCN1	Monocytes:Science
+MNDA	Monocytes:Science
+CFP	Monocytes:Science
+S100A12	Monocytes:Science
+CD163	Monocytes:Science
+CLEC5A	Monocytes:Science
+TREM1	Monocytes:Science
+RETN	Monocytes:Science
+FOLR2	Monocytes:Science
+MS4A6A	Monocytes:Science
+LILRA5	Monocytes:Science
+CHIT1	Macrophages:Science
+CYP19A1	Macrophages:Science
+HK3	Macrophages:Science
+MSR1	Macrophages:Science
+VSIG4	Macrophages:Science
+CLEC5A	Macrophages:Science
+ADAMDEC1	Macrophages:Science
+DNASE2B	Macrophages:Science
+ITGAM	Macrophages_M1
+CD68	Macrophages_M1
+FCGR3A	Macrophages_M1
+FCGR2A	Macrophages_M1
+FCGR1A	Macrophages_M1
+CD80	Macrophages_M1
+CD86	Macrophages_M1
+HLA-DRB5	Macrophages_M1
+TLR4	Macrophages_M1
+TNF	Macrophages_M1
+IL1A	Macrophages_M1
+IL1B	Macrophages_M1
+IL12	Macrophages_M1
+IL12A	Macrophages_M1
+IL12B	Macrophages_M1
+IL6	Macrophages_M1
+NOS2	Macrophages_M1
+ITGAM	Macrophages_M2
+CD68	Macrophages_M2
+CD163	Macrophages_M2
+MRC1	Macrophages_M2
+IL10	Macrophages_M2
+TGFB1	Macrophages_M2
+IDO1	Macrophages_M2
+IL8	Macrophages_M2
+CCL2	Macrophages_M2
+S100A8	Monocytes:Our Paper
+1L1B	Monocytes:Our Paper
+S100A9	Monocytes:Our Paper
+FCGR3B	Monocytes:Our Paper
+AiF1	Macrophage: Peng
+CD64	Macrophage: Peng
+CD14	Macrophage: Peng
+CD68	Macrophage: Peng
+C1QA	Macrophage M1:AziziLabs
+C1QC	Macrophage M1:AziziLabs
+CCL3	Macrophage M1:AziziLabs
+CCL3L3	Macrophage M1:AziziLabs
+SEPP1	Macrophage M1:AziziLabs
+TYROBP	Macrophage M1:AziziLabs
+MS4A6A	Macrophage M1:AziziLabs
+APOE	Macrophage M1:AziziLabs
+CXCL8	Macrophage M1:AziziLabs
+MS4A7	Macrophage M1:AziziLabs
+RNASE1	Macrophage M1:AziziLabs
+CD68	Macrophage M1:AziziLabs
+PLTP	Macrophage M1:AziziLabs
+AIF1	Macrophage M1:AziziLabs
+F13A1	Macrophage M1:AziziLabs
+HLA-DRA	Macrophage M1:AziziLabs
+APOC1	Macrophage M1:AziziLabs
+CTSB	Macrophage M1:AziziLabs
+HLA-DPA1	Macrophage M1:AziziLabs
+HLA-DRB1	Macrophage M1:AziziLabs
+DAB2	Macrophage M1:AziziLabs
+CD14	Macrophage M1:AziziLabs
+HLA-DQA1	Macrophage M1:AziziLabs
+HLA-DPB1	Macrophage M1:AziziLabs
+IL1B	Macrophage M1:AziziLabs
+CD74	Macrophage M1:AziziLabs
+FCER1G	Macrophage M1:AziziLabs
+FCGR3A	Macrophage M1:AziziLabs
+GPX1	Macrophage M1:AziziLabs
+LYZ	Macrophage M1:AziziLabs
+HLA-DRB5	Macrophage M1:AziziLabs
+FCGR2A	Macrophage M1:AziziLabs
+FOLR2	Macrophage M1:AziziLabs
+PSAP	Macrophage M1:AziziLabs
+CXCL2	Macrophage M1:AziziLabs
+HLA-DQB1	Macrophage M1:AziziLabs
+CYBB	Macrophage M1:AziziLabs
+FCGRT	Macrophage M1:AziziLabs
+STAB1	Macrophage M1:AziziLabs
+SGK1	Macrophage M1:AziziLabs
+CD83	Macrophage M1:AziziLabs
+CST3	Macrophage M1:AziziLabs
+LGMN	Macrophage M1:AziziLabs
+CCL4L2	Macrophage M1:AziziLabs
+PLAUR	Macrophage M1:AziziLabs
+MRC1	Macrophage M1:AziziLabs
+CTSZ	Macrophage M1:AziziLabs
+SAT1	Macrophage M1:AziziLabs
+CSF1R	Macrophage M1:AziziLabs
+NPC2	Macrophage M1:AziziLabs
+C5AR1	Macrophage M1:AziziLabs
+MAFB	Macrophage M1:AziziLabs
+HLA-DMA	Macrophage M1:AziziLabs
+SOD2	Macrophage M1:AziziLabs
+TMEM176A	Macrophage M1:AziziLabs
+TMEM176B	Macrophage M1:AziziLabs
+SPI1	Macrophage M1:AziziLabs
+MMP19	Macrophage M1:AziziLabs
+CTSD	Macrophage M1:AziziLabs
+GRN	Macrophage M1:AziziLabs
+MS4A4A	Macrophage M1:AziziLabs
+CXCL3	Macrophage M1:AziziLabs
+SLCO2B1	Macrophage M1:AziziLabs
+CD163	Macrophage M1:AziziLabs
+CXCL10	Macrophage M2:AziziLabs
+C1QB	Macrophage M2:AziziLabs
+C1QC	Macrophage M2:AziziLabs
+CXCL9	Macrophage M2:AziziLabs
+C1QA	Macrophage M2:AziziLabs
+APOE	Macrophage M2:AziziLabs
+TYROBP	Macrophage M2:AziziLabs
+CCL8	Macrophage M2:AziziLabs
+LYZ	Macrophage M2:AziziLabs
+FCER1G	Macrophage M2:AziziLabs
+FAM26F	Macrophage M2:AziziLabs
+HLA-DRA	Macrophage M2:AziziLabs
+CXCL11	Macrophage M2:AziziLabs
+CD68	Macrophage M2:AziziLabs
+HLA-DRB5	Macrophage M2:AziziLabs
+HLA-DRB1	Macrophage M2:AziziLabs
+HLA-DQA1	Macrophage M2:AziziLabs
+CCL3	Macrophage M2:AziziLabs
+HLA-DPA1	Macrophage M2:AziziLabs
+PLEK	Macrophage M2:AziziLabs
+CTSB	Macrophage M2:AziziLabs
+CD74	Macrophage M2:AziziLabs
+GBP1	Macrophage M2:AziziLabs
+AIF1	Macrophage M2:AziziLabs
+APOC1	Macrophage M2:AziziLabs
+ISG15	Macrophage M2:AziziLabs
+HLA-DPB1	Macrophage M2:AziziLabs
+MS4A6A	Macrophage M2:AziziLabs
+SOD2	Macrophage M2:AziziLabs
+HLA-DQB1	Macrophage M2:AziziLabs
+CCL2	Macrophage M2:AziziLabs
+C15orf48	Macrophage M2:AziziLabs
+FCGR3A	Macrophage M2:AziziLabs
+PSAP	Macrophage M2:AziziLabs
+SERPINA1	Macrophage M2:AziziLabs
+TNFSF13B	Macrophage M2:AziziLabs
+TYMP	Macrophage M2:AziziLabs
+GRN	Macrophage M2:AziziLabs
+SPI1	Macrophage M2:AziziLabs
+APOBEC3A	Macrophage M2:AziziLabs
+IFIT2	Macrophage M2:AziziLabs
+CTSC	Macrophage M2:AziziLabs
+IL1B	Macrophage M2:AziziLabs
+CD14	Macrophage M2:AziziLabs
+CXCL8	Macrophage M2:AziziLabs
+SPP1	Macrophage M2:AziziLabs
+TMEM176B	Macrophage M2:AziziLabs
+CCL3L3	Macrophage M2:AziziLabs
+CTSD	Macrophage M2:AziziLabs
+CYBB	Macrophage M2:AziziLabs
+IL4I1	Macrophage M2:AziziLabs
+G0S2	Macrophage M2:AziziLabs
+LILRB4	Macrophage M2:AziziLabs
+CTSZ	Macrophage M2:AziziLabs
+GPX1	Macrophage M2:AziziLabs
+CTSS	Macrophage M2:AziziLabs
+BCL2A1	Macrophage M2:AziziLabs
+IL1RN	Macrophage M2:AziziLabs
+PLAUR	Macrophage M2:AziziLabs
+NPC2	Macrophage M2:AziziLabs
+CST3	Macrophage M2:AziziLabs
+LYZ	Monocytes:AziziLabs
+IL1B	Monocytes:AziziLabs
+G0S2	Monocytes:AziziLabs
+TYROBP	Monocytes:AziziLabs
+FCN1	Monocytes:AziziLabs
+AIF1	Monocytes:AziziLabs
+PLAUR	Monocytes:AziziLabs
+LST1	Monocytes:AziziLabs
+FCER1G	Monocytes:AziziLabs
+S100A9	Monocytes:AziziLabs
+CXCL8	Monocytes:AziziLabs
+HLA-DRA	Monocytes:AziziLabs
+SERPINA1	Monocytes:AziziLabs
+C15orf48	Monocytes:AziziLabs
+HLA-DPB1	Monocytes:AziziLabs
+HLA-DPA1	Monocytes:AziziLabs
+BCL2A1	Monocytes:AziziLabs
+MS4A6A	Monocytes:AziziLabs
+EREG	Monocytes:AziziLabs
+CXCL2	Monocytes:AziziLabs
+CTSS	Monocytes:AziziLabs
+GPX1	Monocytes:AziziLabs
+HLA-DRB1	Monocytes:AziziLabs
+SPI1	Monocytes:AziziLabs
+HLA-DRB5	Monocytes:AziziLabs
+SOD2	Monocytes:AziziLabs
+AREG	Monocytes:AziziLabs
+HLA-DQB1	Monocytes:AziziLabs
+SAT1	Monocytes:AziziLabs
+CST3	Monocytes:AziziLabs
+HBEGF	Monocytes:AziziLabs
+HLA-DQA1	Monocytes:AziziLabs
+CD74	Monocytes:AziziLabs
+C1orf162	Monocytes:AziziLabs
+CXCL10	Monocytes:AziziLabs
+CYBB	Monocytes:AziziLabs
+CD68	Monocytes:AziziLabs
+C5AR1	Monocytes:AziziLabs
+FGL2	Monocytes:AziziLabs
+TYMP	Monocytes:AziziLabs
+RGS2	Monocytes:AziziLabs
+PLEK	Monocytes:AziziLabs
+S100A8	Monocytes:AziziLabs
+NAMPT	Monocytes:AziziLabs
+CD14	Monocytes:AziziLabs
+COTL1	Monocytes:AziziLabs
+OLR1	Monocytes:AziziLabs
+APOBEC3A	Monocytes:AziziLabs
+CXCL3	Monocytes:AziziLabs
+C1QA	Monocytes:AziziLabs
+MNDA	Monocytes:AziziLabs
+NPC2	Monocytes:AziziLabs
+S100A12	Monocytes:AziziLabs
+C1QB	Monocytes:AziziLabs
+IL1RN	Monocytes:AziziLabs
+C1QC	Monocytes:AziziLabs
+LGALS2	Monocytes:AziziLabs
+FCGR3A	Monocytes:AziziLabs
+FAM26F	Monocytes:AziziLabs
+RP11-1143G9.4	Monocytes:AziziLabs
+CCL3	Monocytes:AziziLabs
+SLC11A1	Monocytes:AziziLabs
+GRN	Monocytes:AziziLabs
+HLA-DMA	Monocytes:AziziLabs
+PSAP	Monocytes:AziziLabs
+VCAN	Monocytes:AziziLabs
+AP1S2	Monocytes:AziziLabs
+TNFSF13B	Monocytes:AziziLabs
+PPIF	Monocytes:AziziLabs
+MS4A7	Monocytes:AziziLabs
+ITGB2	Monocytes:AziziLabs
+CTSB	Monocytes:AziziLabs
+IGSF6	Monocytes:AziziLabs
+CCL3L3	Monocytes:AziziLabs
+CYBA	Monocytes:AziziLabs
+CSTA	Monocytes:AziziLabs
+MMP19	Monocytes:AziziLabs
+IFI30	Monocytes:AziziLabs
+CLEC7A	Monocytes:AziziLabs
+RNF130	Monocytes:AziziLabs
+FCGR2A	Monocytes:AziziLabs
+CD83	Monocytes:AziziLabs
+RAB31	Monocytes:AziziLabs
+LILRB2	Monocytes:AziziLabs
+NLRP3	Monocytes:AziziLabs
+CTSH	Monocytes:AziziLabs
+IER3	Monocytes:AziziLabs
+CD163	SPP1+ Macrophage B:Lee et al 2020
+SPP1	SPP1+ Macrophage B:Lee et al 2020
+APOE	SPP1+ Macrophage B:Lee et al 2020
+MAF	SPP1+ Macrophage B:Lee et al 2020
+TPSAB1	"Mast cells:Chen et al, Bladder paper"
+S100A8	"Monocytes:Chen et al, Bladder paper"
+S100A9	"Monocytes:Chen et al, Bladder paper"
+CD117	Mast cells:SCTyper
+CD203c	Mast cells:SCTyper
+CD25	Mast cells:SCTyper
+KIT	Mast cells:SCTyper
+SLC18A2	Mast cells:SCTyper
+CD33	Mast cells:SCTyper
+CD32	Mast cells:SCTyper
+FCER1A	Mast cells:SCTyper
+TPSD1	Mast cells:SCTyper
+HPGDS	Mast cells:SCTyper
+CD68	Macrophages:SCTyper
+CD163	Macrophages:SCTyper
+CD14	Macrophages:SCTyper
+CD11b	Macrophages:SCTyper
+CD206	Macrophages:SCTyper
+CD80	Macrophages:SCTyper
+CD86	Macrophages:SCTyper
+CD16	Macrophages:SCTyper
+CD64	Macrophages:SCTyper
+CCL18	Macrophages:SCTyper
+CD115	Macrophages:SCTyper
+CD11c	Macrophages:SCTyper
+CD32	Macrophages:SCTyper
+HLA-DR	Macrophages:SCTyper
+MRC1	Macrophages:SCTyper
+MSR1	Macrophages:SCTyper
+GCA	Macrophages:SCTyper
+Pf4	Macrophages:SCTyper
+ITGAX	Myeloid Dendritic cells:SCTyper
+CD83	Myeloid Dendritic cells:SCTyper
+CD1C	Myeloid Dendritic cells:SCTyper
+NRP1	Myeloid Dendritic cells:SCTyper
+CLEC4C	Myeloid Dendritic cells:SCTyper
+CD86	Myeloid Dendritic cells:SCTyper
+IL3RA	Myeloid Dendritic cells:SCTyper
+CD80	Myeloid Dendritic cells:SCTyper
+CD1A	Myeloid Dendritic cells:SCTyper
+ITGAX	Myeloid Dendritic cells:SCTyper
+CD40	Myeloid Dendritic cells:SCTyper
+HLA-DQA1	Myeloid Dendritic cells:SCTyper
+CD11c	Myeloid Dendritic cells:SCTyper
+HLA-DR	Myeloid Dendritic cells:SCTyper
+HLA-DPB1	Myeloid Dendritic cells:SCTyper
+HLA-DPA1	Myeloid Dendritic cells:SCTyper
+CLEC10A	Myeloid Dendritic cells:SCTyper
+CST3	Myeloid Dendritic cells:SCTyper
+GPR31	Myeloid Dendritic cells:SCTyper
+ODF3L1	Myeloid Dendritic cells:SCTyper
+PRB2	Myeloid Dendritic cells:SCTyper
+CD207	Myeloid Dendritic cells:SCTyper
+ARSE	Myeloid Dendritic cells:SCTyper
+CLEC141	Myeloid Dendritic cells:SCTyper
+MRC	Myeloid Dendritic cells:SCTyper
+EBLN1	Myeloid Dendritic cells:SCTyper
+CRIP3	Myeloid Dendritic cells:SCTyper
+KIT	Mast cells:SCTyper
+ENPP3	Mast cells:SCTyper
+IL2RA	Mast cells:SCTyper
+ISG20	Mast cells:SCTyper
+SLC18A2	Mast cells:SCTyper
+CD9	Mast cells:SCTyper
+FCER1A	Mast cells:SCTyper
+TPSB2	Mast cells:SCTyper
+FCER2	Mast cells:SCTyper
+KIT	Mast cells:SCTyper
+ENPP3	Mast cells:SCTyper
+IL2RA	Mast cells:SCTyper
+ISG20	Mast cells:SCTyper
+SLC18A2	Mast cells:SCTyper
+CD9	Mast cells:SCTyper
+FCER1A	Mast cells:SCTyper
+TPSB2	Mast cells:SCTyper
+FCER2	Mast cells:SCTyper
+FCGR3A	Monocytes:SCTyper
+FCGR3B	Monocytes:SCTyper
+CD14	Monocytes:SCTyper
+Elane1	Monocytes:SCTyper
+AHNAK2	Melanocytes:SCTyper
+AHR	Melanocytes:SCTyper
+BMI1	Melanocytes:SCTyper
+BNC2	Melanocytes:SCTyper
+CRABP1	Melanocytes:SCTyper
+CTNS	Melanocytes:SCTyper
+DCT	Melanocytes:SCTyper
+DKK3	Melanocytes:SCTyper
+ENPP1	Melanocytes:SCTyper
+FILIP1L	Melanocytes:SCTyper
+GPNMB	Melanocytes:SCTyper
+HSPB1	Melanocytes:SCTyper
+KLC2	Melanocytes:SCTyper
+LOXL2	Melanocytes:SCTyper
+MEN1	Melanocytes:SCTyper
+MITF	Melanocytes:SCTyper
+MLANA	Melanocytes:SCTyper
+PAX3	Melanocytes:SCTyper
+PMEL	Melanocytes:SCTyper
+POMC	Melanocytes:SCTyper
+PPARA	Melanocytes:SCTyper
+PPARD	Melanocytes:SCTyper
+PPARG	Melanocytes:SCTyper
+PRKCA	Melanocytes:SCTyper
+PTGDS	Melanocytes:SCTyper
+PTN	Melanocytes:SCTyper
+RAB38	Melanocytes:SCTyper
+SLC45A2	Melanocytes:SCTyper
+SLK	Melanocytes:SCTyper
+SOX9	Melanocytes:SCTyper
+TFAP2A	Melanocytes:SCTyper
+TP63	Melanocytes:SCTyper
+TPH2	Melanocytes:SCTyper
+TRPM1	Melanocytes:SCTyper
+TYR	Melanocytes:SCTyper
+TYRP1	Melanocytes:SCTyper
+ZC3H7A	Melanocytes:SCTyper
+APOE	Myeloid cells 1:Raghu_Kalluri
+C1QA	Myeloid cells 1:Raghu_Kalluri
+LYZ2	Myeloid cells 1:Raghu_Kalluri
+C1QB	Myeloid cells 1:Raghu_Kalluri
+SAA3	Myeloid cells 1:Raghu_Kalluri
+C1QC	Myeloid cells 1:Raghu_Kalluri
+CCL6	Myeloid cells 1:Raghu_Kalluri
+WFDC17	Myeloid cells 1:Raghu_Kalluri
+SELENOP	Myeloid cells 1:Raghu_Kalluri
+CCL8	Myeloid cells 1:Raghu_Kalluri
+FCER1G	Myeloid cells 1:Raghu_Kalluri
+CTSS	Myeloid cells 1:Raghu_Kalluri
+CCL9	Myeloid cells 1:Raghu_Kalluri
+TRF	Myeloid cells 1:Raghu_Kalluri
+CXCL2	Myeloid cells 1:Raghu_Kalluri
+PSAP	Myeloid cells 1:Raghu_Kalluri
+TYROBP	Myeloid cells 1:Raghu_Kalluri
+PF4	Myeloid cells 1:Raghu_Kalluri
+CTSB	Myeloid cells 1:Raghu_Kalluri
+FTL1	Myeloid cells 1:Raghu_Kalluri
+ARG1	Myeloid cells 1:Raghu_Kalluri
+CTSD	Myeloid cells 1:Raghu_Kalluri
+CD14	Myeloid cells 1:Raghu_Kalluri
+LGMN	Myeloid cells 1:Raghu_Kalluri
+CTSC	Myeloid cells 1:Raghu_Kalluri
+FCGR3	Myeloid cells 1:Raghu_Kalluri
+IER3	Myeloid cells 1:Raghu_Kalluri
+CSF1R	Myeloid cells 1:Raghu_Kalluri
+FCGR2B	Myeloid cells 1:Raghu_Kalluri
+CEBPB	Myeloid cells 1:Raghu_Kalluri
+GRN	Myeloid cells 1:Raghu_Kalluri
+FTH1	Myeloid cells 1:Raghu_Kalluri
+FOS	Myeloid cells 1:Raghu_Kalluri
+MRC1	Myeloid cells 1:Raghu_Kalluri
+THBS1	Myeloid cells 1:Raghu_Kalluri
+CCL7	Myeloid cells 1:Raghu_Kalluri
+DUSP1	Myeloid cells 1:Raghu_Kalluri
+CST3	Myeloid cells 1:Raghu_Kalluri
+IFITM3	Myeloid cells 1:Raghu_Kalluri
+MT1	Myeloid cells 1:Raghu_Kalluri
+TGFBI	Myeloid cells 1:Raghu_Kalluri
+IFITM2	Myeloid cells 1:Raghu_Kalluri
+IL1B	Myeloid cells 1:Raghu_Kalluri
+FN1	Myeloid cells 1:Raghu_Kalluri
+MAFB	Myeloid cells 1:Raghu_Kalluri
+MS4A6C	Myeloid cells 1:Raghu_Kalluri
+F13A1	Myeloid cells 1:Raghu_Kalluri
+LTC4S	Myeloid cells 1:Raghu_Kalluri
+DAB2	Myeloid cells 1:Raghu_Kalluri
+ITM2B	Myeloid cells 1:Raghu_Kalluri
+GPX1	Myeloid cells 1:Raghu_Kalluri
+LAMP1	Myeloid cells 1:Raghu_Kalluri
+CLEC4N	Myeloid cells 1:Raghu_Kalluri
+AIF1	Myeloid cells 1:Raghu_Kalluri
+FCGRT	Myeloid cells 1:Raghu_Kalluri
+TMEM176B	Myeloid cells 1:Raghu_Kalluri
+CCL12	Myeloid cells 1:Raghu_Kalluri
+CCL2	Myeloid cells 1:Raghu_Kalluri
+CFP	Myeloid cells 1:Raghu_Kalluri
+ALOX5AP	Myeloid cells 1:Raghu_Kalluri
+CTSZ	Myeloid cells 1:Raghu_Kalluri
+FCNA	Myeloid cells 1:Raghu_Kalluri
+TREM2	Myeloid cells 1:Raghu_Kalluri
+C4B	Myeloid cells 1:Raghu_Kalluri
+NINJ1	Myeloid cells 1:Raghu_Kalluri
+BCL2A1B	Myeloid cells 1:Raghu_Kalluri
+HEXA	Myeloid cells 1:Raghu_Kalluri
+LST1	Myeloid cells 1:Raghu_Kalluri
+ZFP36	Myeloid cells 1:Raghu_Kalluri
+TMEM176A	Myeloid cells 1:Raghu_Kalluri
+ECM1	Myeloid cells 1:Raghu_Kalluri
+FOLR2	Myeloid cells 1:Raghu_Kalluri
+CYBA	Myeloid cells 1:Raghu_Kalluri
+PLTP	Myeloid cells 1:Raghu_Kalluri
+CTSH	Myeloid cells 1:Raghu_Kalluri
+MARCKS	Myeloid cells 1:Raghu_Kalluri
+MS4A6D	Myeloid cells 1:Raghu_Kalluri
+CCL4	Myeloid cells 1:Raghu_Kalluri
+CCR2	Myeloid cells 1:Raghu_Kalluri
+GDA	Myeloid cells 1:Raghu_Kalluri
+C5AR1	Myeloid cells 1:Raghu_Kalluri
+MPEG1	Myeloid cells 1:Raghu_Kalluri
+CDKN1A	Myeloid cells 1:Raghu_Kalluri
+MS4A7	Myeloid cells 1:Raghu_Kalluri
+CD68	Myeloid cells 1:Raghu_Kalluri
+CTSA	Myeloid cells 1:Raghu_Kalluri
+PRDX5	Myeloid cells 1:Raghu_Kalluri
+SDCBP	Myeloid cells 1:Raghu_Kalluri
+MCL1	Myeloid cells 1:Raghu_Kalluri
+CCL24	Myeloid cells 1:Raghu_Kalluri
+CD300C2	Myeloid cells 1:Raghu_Kalluri
+CLTA	Myeloid cells 1:Raghu_Kalluri
+LY86	Myeloid cells 1:Raghu_Kalluri
+CXCL16	Myeloid cells 1:Raghu_Kalluri
+ATOX1	Myeloid cells 1:Raghu_Kalluri
+H2-DMB1	Myeloid cells 1:Raghu_Kalluri
+HMOX1	Myeloid cells 1:Raghu_Kalluri
+LGALS3	Myeloid cells 1:Raghu_Kalluri
+MAF	Myeloid cells 1:Raghu_Kalluri
+NPC2	Myeloid cells 1:Raghu_Kalluri
+FOSB	Myeloid cells 1:Raghu_Kalluri
+OSM	Myeloid cells 1:Raghu_Kalluri
+TIMP2	Myeloid cells 1:Raghu_Kalluri
+CSTB	Myeloid cells 1:Raghu_Kalluri
+SAT1	Myeloid cells 1:Raghu_Kalluri
+SERINC3	Myeloid cells 1:Raghu_Kalluri
+GM2A	Myeloid cells 1:Raghu_Kalluri
+MGL2	Myeloid cells 1:Raghu_Kalluri
+CFH	Myeloid cells 1:Raghu_Kalluri
+STAB1	Myeloid cells 1:Raghu_Kalluri
+CLEC4A2	Myeloid cells 1:Raghu_Kalluri
+MSRB1	Myeloid cells 1:Raghu_Kalluri
+ZEB2	Myeloid cells 1:Raghu_Kalluri
+RGS10	Myeloid cells 1:Raghu_Kalluri
+LRG1	Myeloid cells 1:Raghu_Kalluri
+SPI1	Myeloid cells 1:Raghu_Kalluri
+KLF4	Myeloid cells 1:Raghu_Kalluri
+UNC93B1	Myeloid cells 1:Raghu_Kalluri
+CBR2	Myeloid cells 1:Raghu_Kalluri
+PLD4	Myeloid cells 1:Raghu_Kalluri
+H2-DMA	Myeloid cells 1:Raghu_Kalluri
+PLIN2	Myeloid cells 1:Raghu_Kalluri
+CLEC10A	Myeloid cells 1:Raghu_Kalluri
+CYBB	Myeloid cells 1:Raghu_Kalluri
+LAPTM5	Myeloid cells 1:Raghu_Kalluri
+CLTC	Myeloid cells 1:Raghu_Kalluri
+CD63	Myeloid cells 1:Raghu_Kalluri
+C3AR1	Myeloid cells 1:Raghu_Kalluri
+CCL3	Myeloid cells 1:Raghu_Kalluri
+LAMP2	Myeloid cells 1:Raghu_Kalluri
+SIRPA	Myeloid cells 1:Raghu_Kalluri
+CTSL	Myeloid cells 1:Raghu_Kalluri
+UCP2	Myeloid cells 1:Raghu_Kalluri
+ATP6V0B	Myeloid cells 1:Raghu_Kalluri
+ADGRE1	Myeloid cells 1:Raghu_Kalluri
+TMEM256	Myeloid cells 1:Raghu_Kalluri
+APP	Myeloid cells 1:Raghu_Kalluri
+KCTD12	Myeloid cells 1:Raghu_Kalluri
+CCR5	Myeloid cells 1:Raghu_Kalluri
+PLEK	Myeloid cells 1:Raghu_Kalluri
+RNF130	Myeloid cells 1:Raghu_Kalluri
+CCRL2	Myeloid cells 1:Raghu_Kalluri
+VSIR	Myeloid cells 1:Raghu_Kalluri
+CX3CR1	Myeloid cells 1:Raghu_Kalluri
+SEM1	Myeloid cells 1:Raghu_Kalluri
+PIRB	Myeloid cells 1:Raghu_Kalluri
+PICALM	Myeloid cells 1:Raghu_Kalluri
+MAN2B1	Myeloid cells 1:Raghu_Kalluri
+GATM	Myeloid cells 1:Raghu_Kalluri
+SOCS3	Myeloid cells 1:Raghu_Kalluri
+AP2A2	Myeloid cells 1:Raghu_Kalluri
+CCR1	Myeloid cells 1:Raghu_Kalluri
+EFHD2	Myeloid cells 1:Raghu_Kalluri
+RRBP1	Myeloid cells 1:Raghu_Kalluri
+ATF3	Myeloid cells 1:Raghu_Kalluri
+CLEC4A1	Myeloid cells 1:Raghu_Kalluri
+KLF6	Myeloid cells 1:Raghu_Kalluri
+GABARAP	Myeloid cells 1:Raghu_Kalluri
+FOSL2	Myeloid cells 1:Raghu_Kalluri
+GLUL	Myeloid cells 1:Raghu_Kalluri
+SDC3	Myeloid cells 1:Raghu_Kalluri
+PID1	Myeloid cells 1:Raghu_Kalluri
+TCN2	Myeloid cells 1:Raghu_Kalluri
+VAMP8	Myeloid cells 1:Raghu_Kalluri
+LRRC25	Myeloid cells 1:Raghu_Kalluri
+METRNL	Myeloid cells 1:Raghu_Kalluri
+PTAFR	Myeloid cells 1:Raghu_Kalluri
+CLEC4A3	Myeloid cells 1:Raghu_Kalluri
+FCRLS	Myeloid cells 1:Raghu_Kalluri
+BC005537	Myeloid cells 1:Raghu_Kalluri
+ERP29	Myeloid cells 1:Raghu_Kalluri
+HEXB	Myeloid cells 1:Raghu_Kalluri
+IRF2BP2	Myeloid cells 1:Raghu_Kalluri
+AXL	Myeloid cells 1:Raghu_Kalluri
+CD302	Myeloid cells 1:Raghu_Kalluri
+P2RY6	Myeloid cells 1:Raghu_Kalluri
+PLA2G7	Myeloid cells 1:Raghu_Kalluri
+CSF2RB	Myeloid cells 1:Raghu_Kalluri
+ITGAM	Myeloid cells 1:Raghu_Kalluri
+EHD4	Myeloid cells 1:Raghu_Kalluri
+RNF149	Myeloid cells 1:Raghu_Kalluri
+ASAH1	Myeloid cells 1:Raghu_Kalluri
+FCGR4	Myeloid cells 1:Raghu_Kalluri
+ANXA3	Myeloid cells 1:Raghu_Kalluri
+F10	Myeloid cells 1:Raghu_Kalluri
+EMILIN2	Myeloid cells 1:Raghu_Kalluri
+FTL1-PS1	Myeloid cells 1:Raghu_Kalluri
+MSR1	Myeloid cells 1:Raghu_Kalluri
+HEBP1	Myeloid cells 1:Raghu_Kalluri
+CAMK1	Myeloid cells 1:Raghu_Kalluri
+APLP2	Myeloid cells 1:Raghu_Kalluri
+ABCA1	Myeloid cells 1:Raghu_Kalluri
+CYTH4	Myeloid cells 1:Raghu_Kalluri
+NTPCR	Myeloid cells 1:Raghu_Kalluri
+FCGR1	Myeloid cells 1:Raghu_Kalluri
+DHRS3	Myeloid cells 1:Raghu_Kalluri
+GAS6	Myeloid cells 1:Raghu_Kalluri
+GNS	Myeloid cells 1:Raghu_Kalluri
+COMT	Myeloid cells 1:Raghu_Kalluri
+FURIN	Myeloid cells 1:Raghu_Kalluri
+IFNGR1	Myeloid cells 1:Raghu_Kalluri
+TM6SF1	Myeloid cells 1:Raghu_Kalluri
+TLR2	Myeloid cells 1:Raghu_Kalluri
+LILR4B	Myeloid cells 1:Raghu_Kalluri
+CD33	Myeloid cells 1:Raghu_Kalluri
+FAM46A	Myeloid cells 1:Raghu_Kalluri
+NCF2	Myeloid cells 1:Raghu_Kalluri
+RAB3IL1	Myeloid cells 1:Raghu_Kalluri
+TMEM37	Myeloid cells 1:Raghu_Kalluri
+PRKCD	Myeloid cells 1:Raghu_Kalluri
+PRCP	Myeloid cells 1:Raghu_Kalluri
+BCL2A1A	Myeloid cells 1:Raghu_Kalluri
+NFE2L2	Myeloid cells 1:Raghu_Kalluri
+CREG1	Myeloid cells 1:Raghu_Kalluri
+LITAF	Myeloid cells 1:Raghu_Kalluri
+CSF2RA	Myeloid cells 1:Raghu_Kalluri
+RBPJ	Myeloid cells 1:Raghu_Kalluri
+APOBEC1	Myeloid cells 1:Raghu_Kalluri
+NFIL3	Myeloid cells 1:Raghu_Kalluri
+CEBPA	Myeloid cells 1:Raghu_Kalluri
+ARRB2	Myeloid cells 1:Raghu_Kalluri
+TMEM106A	Myeloid cells 1:Raghu_Kalluri
+NRROS	Myeloid cells 1:Raghu_Kalluri
+GUSB	Myeloid cells 1:Raghu_Kalluri
+TBXAS1	Myeloid cells 1:Raghu_Kalluri
+LYN	Myeloid cells 1:Raghu_Kalluri
+HACD4	Myeloid cells 1:Raghu_Kalluri
+SIRPB1C	Myeloid cells 1:Raghu_Kalluri
+ITGB5	Myeloid cells 1:Raghu_Kalluri
+IFI207	Myeloid cells 1:Raghu_Kalluri
+HK2	Myeloid cells 1:Raghu_Kalluri
+FAM213B	Myeloid cells 1:Raghu_Kalluri
+P2RX4	Myeloid cells 1:Raghu_Kalluri
+ABHD12	Myeloid cells 1:Raghu_Kalluri
+ADAM15	Myeloid cells 1:Raghu_Kalluri
+QK	Myeloid cells 1:Raghu_Kalluri
+PLXND1	Myeloid cells 1:Raghu_Kalluri
+FRMD4B	Myeloid cells 1:Raghu_Kalluri
+TPP1	Myeloid cells 1:Raghu_Kalluri
+NCF1	Myeloid cells 1:Raghu_Kalluri
+SLC6A6	Myeloid cells 1:Raghu_Kalluri
+RASSF4	Myeloid cells 1:Raghu_Kalluri
+CD38	Myeloid cells 1:Raghu_Kalluri
+PLA2G15	Myeloid cells 1:Raghu_Kalluri
+NAAA	Myeloid cells 1:Raghu_Kalluri
+DUSP3	Myeloid cells 1:Raghu_Kalluri
+PILRA	Myeloid cells 1:Raghu_Kalluri
+HIF1A	Myeloid cells 1:Raghu_Kalluri
+TMSB4X	Myeloid cells 1:Raghu_Kalluri
+ATP6AP1	Myeloid cells 1:Raghu_Kalluri
+PLEKHO1	Myeloid cells 1:Raghu_Kalluri
+RGS2	Myeloid cells 1:Raghu_Kalluri
+NFKBIZ	Myeloid cells 1:Raghu_Kalluri
+IL4RA	Myeloid cells 1:Raghu_Kalluri
+PTPN1	Myeloid cells 1:Raghu_Kalluri
+H2-AA	Myeloid cells 1:Raghu_Kalluri
+BASP1	Myeloid cells 1:Raghu_Kalluri
+SNX5	Myeloid cells 1:Raghu_Kalluri
+SH3BGRL	Myeloid cells 1:Raghu_Kalluri
+TPD52	Myeloid cells 1:Raghu_Kalluri
+JAML	Myeloid cells 1:Raghu_Kalluri
+H2-EB1	Myeloid cells 1:Raghu_Kalluri
+BRI3	Myeloid cells 1:Raghu_Kalluri
+DBI	Myeloid cells 1:Raghu_Kalluri
+ATP2B1	Myeloid cells 1:Raghu_Kalluri
+AP2S1	Myeloid cells 1:Raghu_Kalluri
+PIM1	Myeloid cells 1:Raghu_Kalluri
+AKR1A1	Myeloid cells 1:Raghu_Kalluri
+ANXA5	Myeloid cells 1:Raghu_Kalluri
+H2-AB1	Myeloid cells 1:Raghu_Kalluri
+ATP1A1	Myeloid cells 1:Raghu_Kalluri
+FAM174A	Myeloid cells 1:Raghu_Kalluri
+ITM2C	Myeloid cells 1:Raghu_Kalluri
+SMPDL3A	Myeloid cells 1:Raghu_Kalluri
+NCF4	Myeloid cells 1:Raghu_Kalluri
+CARD19	Myeloid cells 1:Raghu_Kalluri
+GDPD3	Myeloid cells 1:Raghu_Kalluri
+NR4A1	Myeloid cells 1:Raghu_Kalluri
+MARCKSL1	Myeloid cells 1:Raghu_Kalluri
+GNG5	Myeloid cells 1:Raghu_Kalluri
+BLVRB	Myeloid cells 1:Raghu_Kalluri
+AHNAK	Myeloid cells 1:Raghu_Kalluri
+ATP6V1G1	Myeloid cells 1:Raghu_Kalluri
+LAMTOR1	Myeloid cells 1:Raghu_Kalluri
+TMEM14C	Myeloid cells 1:Raghu_Kalluri
+GNAI2	Myeloid cells 1:Raghu_Kalluri
+HSP90B1	Myeloid cells 1:Raghu_Kalluri
+CANX	Myeloid cells 1:Raghu_Kalluri
+NFKBIA	Myeloid cells 1:Raghu_Kalluri
+RETNLA	Myeloid cells 1:Raghu_Kalluri
+TNFAIP3	Myeloid cells 1:Raghu_Kalluri
+CD74	Myeloid cells 1:Raghu_Kalluri
+JUN	Myeloid cells 1:Raghu_Kalluri
+GNGT2	Myeloid cells 1:Raghu_Kalluri
+SH3GLB1	Myeloid cells 1:Raghu_Kalluri
+CD44	Myeloid cells 1:Raghu_Kalluri
+PLAUR	Myeloid cells 1:Raghu_Kalluri
+LAMTOR4	Myeloid cells 1:Raghu_Kalluri
+SRGN	Myeloid cells 1:Raghu_Kalluri
+JUNB	Myeloid cells 1:Raghu_Kalluri
+ARPC1B	Myeloid cells 1:Raghu_Kalluri
+FABP5	Myeloid cells 1:Raghu_Kalluri
+CD81	Myeloid cells 1:Raghu_Kalluri
+RAC1	Myeloid cells 1:Raghu_Kalluri
+IQGAP1	Myeloid cells 1:Raghu_Kalluri
+RAP1B	Myeloid cells 1:Raghu_Kalluri
+CAPZA2	Myeloid cells 1:Raghu_Kalluri
+PITPNA	Myeloid cells 1:Raghu_Kalluri
+FXYD5	Myeloid cells 1:Raghu_Kalluri
+CRIP1	Myeloid cells 1:Raghu_Kalluri
+RPS27L	Myeloid cells 1:Raghu_Kalluri
+ATPIF1	Myeloid cells 1:Raghu_Kalluri
+COTL1	Myeloid cells 1:Raghu_Kalluri
+CALR	Myeloid cells 1:Raghu_Kalluri
+SERF2	Myeloid cells 1:Raghu_Kalluri
+GDI2	Myeloid cells 1:Raghu_Kalluri
+SNX3	Myeloid cells 1:Raghu_Kalluri
+UQCR11	Myeloid cells 1:Raghu_Kalluri
+EGR1	Myeloid cells 1:Raghu_Kalluri
+COPS9	Myeloid cells 1:Raghu_Kalluri
+TSPO	Myeloid cells 1:Raghu_Kalluri
+EMP3	Myeloid cells 1:Raghu_Kalluri
+ZFP36L1	Myeloid cells 1:Raghu_Kalluri
+COX5A	Myeloid cells 1:Raghu_Kalluri
+ACP5	Myeloid cells 1:Raghu_Kalluri
+GPX4	Myeloid cells 1:Raghu_Kalluri
+MT2	Myeloid cells 1:Raghu_Kalluri
+TXN1	Myeloid cells 1:Raghu_Kalluri
+RETNLA	Myeloid cells 2:Raghu_Kalluri
+CCL6	Myeloid cells 2:Raghu_Kalluri
+LYZ2	Myeloid cells 2:Raghu_Kalluri
+PSAP	Myeloid cells 2:Raghu_Kalluri
+LYZ1	Myeloid cells 2:Raghu_Kalluri
+EAR2	Myeloid cells 2:Raghu_Kalluri
+FN1	Myeloid cells 2:Raghu_Kalluri
+CCL9	Myeloid cells 2:Raghu_Kalluri
+CRIP1	Myeloid cells 2:Raghu_Kalluri
+CTSD	Myeloid cells 2:Raghu_Kalluri
+GPX1	Myeloid cells 2:Raghu_Kalluri
+C1QB	Myeloid cells 2:Raghu_Kalluri
+CCR2	Myeloid cells 2:Raghu_Kalluri
+CTSC	Myeloid cells 2:Raghu_Kalluri
+FCRLS	Myeloid cells 2:Raghu_Kalluri
+ALOX5AP	Myeloid cells 2:Raghu_Kalluri
+H2-DMB1	Myeloid cells 2:Raghu_Kalluri
+H2-DMA	Myeloid cells 2:Raghu_Kalluri
+WFDC17	Myeloid cells 2:Raghu_Kalluri
+C1QA	Myeloid cells 2:Raghu_Kalluri
+GM2A	Myeloid cells 2:Raghu_Kalluri
+FCER1G	Myeloid cells 2:Raghu_Kalluri
+CFP	Myeloid cells 2:Raghu_Kalluri
+TYROBP	Myeloid cells 2:Raghu_Kalluri
+CXCL2	Myeloid cells 2:Raghu_Kalluri
+GDA	Myeloid cells 2:Raghu_Kalluri
+AHNAK	Myeloid cells 2:Raghu_Kalluri
+LPL	Myeloid cells 2:Raghu_Kalluri
+CLEC4A2	Myeloid cells 2:Raghu_Kalluri
+EFHD2	Myeloid cells 2:Raghu_Kalluri
+FCGR2B	Myeloid cells 2:Raghu_Kalluri
+BATF3	Myeloid cells 2:Raghu_Kalluri
+BC005537	Myeloid cells 2:Raghu_Kalluri
+MRC1	Myeloid cells 2:Raghu_Kalluri
+KCTD12	Myeloid cells 2:Raghu_Kalluri
+GRN	Myeloid cells 2:Raghu_Kalluri
+NAAA	Myeloid cells 2:Raghu_Kalluri
+MCUB	Myeloid cells 2:Raghu_Kalluri
+PRCP	Myeloid cells 2:Raghu_Kalluri
+PLTP	Myeloid cells 2:Raghu_Kalluri
+FLNA	Myeloid cells 2:Raghu_Kalluri
+SDC3	Myeloid cells 2:Raghu_Kalluri
+C1QC	Myeloid cells 2:Raghu_Kalluri
+FOSL2	Myeloid cells 2:Raghu_Kalluri
+FURIN	Myeloid cells 2:Raghu_Kalluri
+ZEB2	Myeloid cells 2:Raghu_Kalluri
+RBPJ	Myeloid cells 2:Raghu_Kalluri
+PLXND1	Myeloid cells 2:Raghu_Kalluri
+ZYX	Myeloid cells 2:Raghu_Kalluri
+CCL24	Myeloid cells 2:Raghu_Kalluri
+TGFBI	Myeloid cells 2:Raghu_Kalluri
+PTAFR	Myeloid cells 2:Raghu_Kalluri
+ITGAM	Myeloid cells 2:Raghu_Kalluri
+CCR5	Myeloid cells 2:Raghu_Kalluri
+DOK2	Myeloid cells 2:Raghu_Kalluri
+PRKCD	Myeloid cells 2:Raghu_Kalluri
+METRNL	Myeloid cells 2:Raghu_Kalluri
+UNC119	Myeloid cells 2:Raghu_Kalluri
+OLFM1	Myeloid cells 2:Raghu_Kalluri
+APLP2	Myeloid cells 2:Raghu_Kalluri
+PLD4	Myeloid cells 2:Raghu_Kalluri
+CLEC4B1	Myeloid cells 2:Raghu_Kalluri
+F10	Myeloid cells 2:Raghu_Kalluri
+ADAM15	Myeloid cells 2:Raghu_Kalluri
+IFITM6	Myeloid cells 2:Raghu_Kalluri
+FCGR3	Myeloid cells 2:Raghu_Kalluri
+HMOX1	Myeloid cells 2:Raghu_Kalluri
+NFAM1	Myeloid cells 2:Raghu_Kalluri
+RAB8B	Myeloid cells 2:Raghu_Kalluri
+MGL2	Myeloid cells 2:Raghu_Kalluri
+CSF1R	Myeloid cells 2:Raghu_Kalluri
+F13A1	Myeloid cells 2:Raghu_Kalluri
+LILR4B	Myeloid cells 2:Raghu_Kalluri
+SIRPA	Myeloid cells 2:Raghu_Kalluri
+RASSF4	Myeloid cells 2:Raghu_Kalluri
+TBXAS1	Myeloid cells 2:Raghu_Kalluri
+DAPK1	Myeloid cells 2:Raghu_Kalluri
+PID1	Myeloid cells 2:Raghu_Kalluri
+ZFP703	Myeloid cells 2:Raghu_Kalluri
+TNIP3	Myeloid cells 2:Raghu_Kalluri
+EGR2	Myeloid cells 2:Raghu_Kalluri
+CLEC4A3	Myeloid cells 2:Raghu_Kalluri
+IL6	Myeloid cells 2:Raghu_Kalluri
+DUSP3	Myeloid cells 2:Raghu_Kalluri
+PILRA	Myeloid cells 2:Raghu_Kalluri
+ADSSL1	Myeloid cells 2:Raghu_Kalluri
+LTB4R1	Myeloid cells 2:Raghu_Kalluri
+TEP1	Myeloid cells 2:Raghu_Kalluri
+SOCS6	Myeloid cells 2:Raghu_Kalluri
+5031439G07RIK	Myeloid cells 2:Raghu_Kalluri
+HOPX	Myeloid cells 2:Raghu_Kalluri
+DAGLB	Myeloid cells 2:Raghu_Kalluri
+TMEM154	Myeloid cells 2:Raghu_Kalluri
+ALDH1A2	Myeloid cells 2:Raghu_Kalluri
+GFRA2	Myeloid cells 2:Raghu_Kalluri
+HEXA	Myeloid cells 2:Raghu_Kalluri
+GATM	Myeloid cells 2:Raghu_Kalluri
+DUSP1	Myeloid cells 2:Raghu_Kalluri
+SLAMF9	Myeloid cells 2:Raghu_Kalluri
+CYSLTR1	Myeloid cells 2:Raghu_Kalluri
+LGALS3	Myeloid cells 2:Raghu_Kalluri
+HSP90B1	Myeloid cells 2:Raghu_Kalluri
+CTSS	Myeloid cells 2:Raghu_Kalluri
+NRROS	Myeloid cells 2:Raghu_Kalluri
+IL1RN	Myeloid cells 2:Raghu_Kalluri
+DAB2	Myeloid cells 2:Raghu_Kalluri
+H2-EB1	Myeloid cells 2:Raghu_Kalluri
+IRF2BP2	Myeloid cells 2:Raghu_Kalluri
+MT1	Myeloid cells 2:Raghu_Kalluri
+IFITM3	Myeloid cells 2:Raghu_Kalluri
+CCL2	Myeloid cells 2:Raghu_Kalluri
+H2-AB1	Myeloid cells 2:Raghu_Kalluri
+KLF4	Myeloid cells 2:Raghu_Kalluri
+FES	Myeloid cells 2:Raghu_Kalluri
+CD14	Myeloid cells 2:Raghu_Kalluri
+PIRB	Myeloid cells 2:Raghu_Kalluri
+CEBPB	Myeloid cells 2:Raghu_Kalluri
+ATP6V1B2	Myeloid cells 2:Raghu_Kalluri
+HK2	Myeloid cells 2:Raghu_Kalluri
+PTPRE	Myeloid cells 2:Raghu_Kalluri
+ZFP36	Myeloid cells 2:Raghu_Kalluri
+RNF141	Myeloid cells 2:Raghu_Kalluri
+AP2A2	Myeloid cells 2:Raghu_Kalluri
+FTL1	Myeloid cells 2:Raghu_Kalluri
+CSF2RA	Myeloid cells 2:Raghu_Kalluri
+GM1673	Myeloid cells 2:Raghu_Kalluri
+LIFR	Myeloid cells 2:Raghu_Kalluri
+PIRA2	Myeloid cells 2:Raghu_Kalluri
+FOSB	Myeloid cells 2:Raghu_Kalluri
+LAPTM5	Myeloid cells 2:Raghu_Kalluri
+ANXA2	Myeloid cells 2:Raghu_Kalluri
+FGFR1	Myeloid cells 2:Raghu_Kalluri
+RYR1	Myeloid cells 2:Raghu_Kalluri
+CCRL2	Myeloid cells 2:Raghu_Kalluri
+CTSZ	Myeloid cells 2:Raghu_Kalluri
+PPP1R21	Myeloid cells 2:Raghu_Kalluri
+CYTH4	Myeloid cells 2:Raghu_Kalluri
+ACTG1	Myeloid cells 2:Raghu_Kalluri
+SEMA4A	Myeloid cells 2:Raghu_Kalluri
+BHLHE40	Myeloid cells 2:Raghu_Kalluri
+RPS6KA3	Myeloid cells 2:Raghu_Kalluri
+MCL1	Myeloid cells 2:Raghu_Kalluri
+TRF	Myeloid cells 2:Raghu_Kalluri
+MYADM	Myeloid cells 2:Raghu_Kalluri
+CYBB	Myeloid cells 2:Raghu_Kalluri
+RPS27L	Myeloid cells 2:Raghu_Kalluri
+CMTM3	Myeloid cells 2:Raghu_Kalluri
+MARCKS	Myeloid cells 2:Raghu_Kalluri
+NFKBIZ	Myeloid cells 2:Raghu_Kalluri
+COLGALT1	Myeloid cells 2:Raghu_Kalluri
+S100A4	Myeloid cells 2:Raghu_Kalluri
+HACD4	Myeloid cells 2:Raghu_Kalluri
+H2-AA	Myeloid cells 2:Raghu_Kalluri
+TMEM176B	Myeloid cells 2:Raghu_Kalluri
+TUBB2A	Myeloid cells 2:Raghu_Kalluri
+TMSB4X	Myeloid cells 2:Raghu_Kalluri
+CBFA2T3	Myeloid cells 2:Raghu_Kalluri
+LAMP2	Myeloid cells 2:Raghu_Kalluri
+PLEKHO1	Myeloid cells 2:Raghu_Kalluri
+VSIR	Myeloid cells 2:Raghu_Kalluri
+SEM1	Myeloid cells 2:Raghu_Kalluri
+ERP29	Myeloid cells 2:Raghu_Kalluri
+MFSD14B	Myeloid cells 2:Raghu_Kalluri
+43719	Myeloid cells 2:Raghu_Kalluri
+TMEM106A	Myeloid cells 2:Raghu_Kalluri
+FAR1	Myeloid cells 2:Raghu_Kalluri
+MPEG1	Myeloid cells 2:Raghu_Kalluri
+CDKN1A	Myeloid cells 2:Raghu_Kalluri
+PLEKHO2	Myeloid cells 2:Raghu_Kalluri
+HIF1A	Myeloid cells 2:Raghu_Kalluri
+PLIN2	Myeloid cells 2:Raghu_Kalluri
+CSF2RB	Myeloid cells 2:Raghu_Kalluri
+ACLY	Myeloid cells 2:Raghu_Kalluri
+TM6SF1	Myeloid cells 2:Raghu_Kalluri
+PIP4K2A	Myeloid cells 2:Raghu_Kalluri
+EPS8	Myeloid cells 2:Raghu_Kalluri
+DIAPH1	Myeloid cells 2:Raghu_Kalluri
+C4B	Myeloid cells 2:Raghu_Kalluri
+RAPH1	Myeloid cells 2:Raghu_Kalluri
+CYP4F18	Myeloid cells 2:Raghu_Kalluri
+DHRS3	Myeloid cells 2:Raghu_Kalluri
+COTL1	Myeloid cells 2:Raghu_Kalluri
+CLEC4A1	Myeloid cells 2:Raghu_Kalluri
+ACTB	Myeloid cells 2:Raghu_Kalluri
+NCF2	Myeloid cells 2:Raghu_Kalluri
+ATOX1	Myeloid cells 2:Raghu_Kalluri
+CD44	Myeloid cells 2:Raghu_Kalluri
+PGD	Myeloid cells 2:Raghu_Kalluri
+LY86	Myeloid cells 2:Raghu_Kalluri
+IDH1	Myeloid cells 2:Raghu_Kalluri
+WDR26	Myeloid cells 2:Raghu_Kalluri
+TTYH3	Myeloid cells 2:Raghu_Kalluri
+CANX	Myeloid cells 2:Raghu_Kalluri
+IL6RA	Myeloid cells 2:Raghu_Kalluri
+SERF2	Myeloid cells 2:Raghu_Kalluri
+GLUD1	Myeloid cells 2:Raghu_Kalluri
+BCL2A1A	Myeloid cells 2:Raghu_Kalluri
+MAFB	Myeloid cells 2:Raghu_Kalluri
+TMEM189	Myeloid cells 2:Raghu_Kalluri
+ATP5E	Myeloid cells 2:Raghu_Kalluri
+TMEM176A	Myeloid cells 2:Raghu_Kalluri
+RRBP1	Myeloid cells 2:Raghu_Kalluri
+SMDT1	Myeloid cells 2:Raghu_Kalluri
+LRRC25	Myeloid cells 2:Raghu_Kalluri
+IQGAP1	Myeloid cells 2:Raghu_Kalluri
+WDR1	Myeloid cells 2:Raghu_Kalluri
+CYBA	Myeloid cells 2:Raghu_Kalluri
+FOS	Myeloid cells 2:Raghu_Kalluri
+CSRNP1	Myeloid cells 2:Raghu_Kalluri
+SKAP2	Myeloid cells 2:Raghu_Kalluri
+ATF3	Myeloid cells 2:Raghu_Kalluri
+NR4A3	Myeloid cells 2:Raghu_Kalluri
+APP	Myeloid cells 2:Raghu_Kalluri
+CST3	Myeloid cells 2:Raghu_Kalluri
+CD84	Myeloid cells 2:Raghu_Kalluri
+PIM1	Myeloid cells 2:Raghu_Kalluri
+TRPS1	Myeloid cells 2:Raghu_Kalluri
+FAM46A	Myeloid cells 2:Raghu_Kalluri
+TMEM256	Myeloid cells 2:Raghu_Kalluri
+TNFAIP3	Myeloid cells 2:Raghu_Kalluri
+EHBP1L1	Myeloid cells 2:Raghu_Kalluri
+SDCBP	Myeloid cells 2:Raghu_Kalluri
+SMPDL3A	Myeloid cells 2:Raghu_Kalluri
+43717	Myeloid cells 2:Raghu_Kalluri
+SYK	Myeloid cells 2:Raghu_Kalluri
+PIK3CD	Myeloid cells 2:Raghu_Kalluri
+LSP1	Myeloid cells 2:Raghu_Kalluri
+ANXA3	Myeloid cells 2:Raghu_Kalluri
+GLRX	Myeloid cells 2:Raghu_Kalluri
+CLTC	Myeloid cells 2:Raghu_Kalluri
+CTSB	Myeloid cells 2:Raghu_Kalluri
+LITAF	Myeloid cells 2:Raghu_Kalluri
+CTSA	Myeloid cells 2:Raghu_Kalluri
+KLF6	Myeloid cells 2:Raghu_Kalluri
+ID2	Myeloid cells 2:Raghu_Kalluri
+RAC1	Myeloid cells 2:Raghu_Kalluri
+SPI1	Myeloid cells 2:Raghu_Kalluri
+IER5	Myeloid cells 2:Raghu_Kalluri
+NFIL3	Myeloid cells 2:Raghu_Kalluri
+PICALM	Myeloid cells 2:Raghu_Kalluri
+SAMHD1	Myeloid cells 2:Raghu_Kalluri
+PITPNA	Myeloid cells 2:Raghu_Kalluri
+MOB1A	Myeloid cells 2:Raghu_Kalluri
+FTL1-PS1	Myeloid cells 2:Raghu_Kalluri
+UBL3	Myeloid cells 2:Raghu_Kalluri
+NR4A2	Myeloid cells 2:Raghu_Kalluri
+ATP1A1	Myeloid cells 2:Raghu_Kalluri
+UNC93B1	Myeloid cells 2:Raghu_Kalluri
+ARF5	Myeloid cells 2:Raghu_Kalluri
+ACTR2	Myeloid cells 2:Raghu_Kalluri
+UCP2	Myeloid cells 2:Raghu_Kalluri
+NME2	Myeloid cells 2:Raghu_Kalluri
+MSRB1	Myeloid cells 2:Raghu_Kalluri
+LYN	Myeloid cells 2:Raghu_Kalluri
+ARPC2	Myeloid cells 2:Raghu_Kalluri
+NR4A1	Myeloid cells 2:Raghu_Kalluri
+ATP1B3	Myeloid cells 2:Raghu_Kalluri
+OXCT1	Myeloid cells 2:Raghu_Kalluri
+NCF1	Myeloid cells 2:Raghu_Kalluri
+TKT	Myeloid cells 2:Raghu_Kalluri
+CTSH	Myeloid cells 2:Raghu_Kalluri
+RNF130	Myeloid cells 2:Raghu_Kalluri
+PTPN1	Myeloid cells 2:Raghu_Kalluri
+PLD3	Myeloid cells 2:Raghu_Kalluri
+PDIA6	Myeloid cells 2:Raghu_Kalluri
+CREG1	Myeloid cells 2:Raghu_Kalluri
+CAPZB	Myeloid cells 2:Raghu_Kalluri
+AKT1	Myeloid cells 2:Raghu_Kalluri
+CCNL1	Myeloid cells 2:Raghu_Kalluri
+HSPA5	Myeloid cells 2:Raghu_Kalluri
+IRF5	Myeloid cells 2:Raghu_Kalluri
+PRDX5	Myeloid cells 2:Raghu_Kalluri
+YWHAZ	Myeloid cells 2:Raghu_Kalluri
+PON2	Myeloid cells 2:Raghu_Kalluri
+RPN1	Myeloid cells 2:Raghu_Kalluri
+LAMP1	Myeloid cells 2:Raghu_Kalluri
+P4HB	Myeloid cells 2:Raghu_Kalluri
+TIMP2	Myeloid cells 2:Raghu_Kalluri
+YBX1	Myeloid cells 2:Raghu_Kalluri
+EGR1	Myeloid cells 2:Raghu_Kalluri
+HNRNPA0	Myeloid cells 2:Raghu_Kalluri
+VCP	Myeloid cells 2:Raghu_Kalluri
+ARPC4	Myeloid cells 2:Raghu_Kalluri
+PTP4A2	Myeloid cells 2:Raghu_Kalluri
+HPCAL1	Myeloid cells 2:Raghu_Kalluri
+COMT	Myeloid cells 2:Raghu_Kalluri
+XBP1	Myeloid cells 2:Raghu_Kalluri
+DBI	Myeloid cells 2:Raghu_Kalluri
+SH3BGRL	Myeloid cells 2:Raghu_Kalluri
+WSB1	Myeloid cells 2:Raghu_Kalluri
+VAMP8	Myeloid cells 2:Raghu_Kalluri
+MT-ND3	Myeloid cells 2:Raghu_Kalluri
+ARPC5	Myeloid cells 2:Raghu_Kalluri
+SAT1	Myeloid cells 2:Raghu_Kalluri
+S100A13	Myeloid cells 2:Raghu_Kalluri
+CALR	Myeloid cells 2:Raghu_Kalluri
+PLEK	Myeloid cells 2:Raghu_Kalluri
+CAPZA2	Myeloid cells 2:Raghu_Kalluri
+PDIA3	Myeloid cells 2:Raghu_Kalluri
+ATP2B1	Myeloid cells 2:Raghu_Kalluri
+CDC42	Myeloid cells 2:Raghu_Kalluri
+AI467606	Myeloid cells 2:Raghu_Kalluri
+CD74	Myeloid cells 2:Raghu_Kalluri
+CAPG	Myeloid cells 2:Raghu_Kalluri
+GABARAP	Myeloid cells 2:Raghu_Kalluri
+SLC39A1	Myeloid cells 2:Raghu_Kalluri
+DAZAP2	Myeloid cells 2:Raghu_Kalluri
+EIF4G2	Myeloid cells 2:Raghu_Kalluri
+ATP5L	Myeloid cells 2:Raghu_Kalluri
+PYCARD	Myeloid cells 2:Raghu_Kalluri
+NEAT1	Myeloid cells 2:Raghu_Kalluri
+RGS2	Myeloid cells 2:Raghu_Kalluri
+STAT3	Myeloid cells 2:Raghu_Kalluri
+PGAM1	Myeloid cells 2:Raghu_Kalluri
+HNRNPAB	Myeloid cells 2:Raghu_Kalluri
+COPS9	Myeloid cells 2:Raghu_Kalluri
+GNB1	Myeloid cells 2:Raghu_Kalluri
+HCLS1	Myeloid cells 2:Raghu_Kalluri
+TUBA1B	Myeloid cells 2:Raghu_Kalluri
+BOLA2	Myeloid cells 2:Raghu_Kalluri
+H2AFJ	Myeloid cells 2:Raghu_Kalluri
+FXYD5	Myeloid cells 2:Raghu_Kalluri
+CLTA	Myeloid cells 2:Raghu_Kalluri
+ATP6V0B	Myeloid cells 2:Raghu_Kalluri
+PCBP1	Myeloid cells 2:Raghu_Kalluri
+ARPC1B	Myeloid cells 2:Raghu_Kalluri
+CAPNS1	Myeloid cells 2:Raghu_Kalluri
+YWHAB	Myeloid cells 2:Raghu_Kalluri
+MYL6	Myeloid cells 2:Raghu_Kalluri
+TAGLN2	Myeloid cells 2:Raghu_Kalluri
+LAMTOR4	Myeloid cells 2:Raghu_Kalluri
+UQCRQ	Myeloid cells 2:Raghu_Kalluri
+COX8A	Myeloid cells 2:Raghu_Kalluri
+NFKBIA	Myeloid cells 2:Raghu_Kalluri
+PTBP3	Myeloid cells 2:Raghu_Kalluri
+GNAI2	Myeloid cells 2:Raghu_Kalluri
+SSR3	Myeloid cells 2:Raghu_Kalluri
+COX5A	Myeloid cells 2:Raghu_Kalluri
+SNX5	Myeloid cells 2:Raghu_Kalluri
+MRPL33	Myeloid cells 2:Raghu_Kalluri
+ZFP36L2	Myeloid cells 2:Raghu_Kalluri
+COX7C	Myeloid cells 2:Raghu_Kalluri
+ETFB	Myeloid cells 2:Raghu_Kalluri
+ATP5K	Myeloid cells 2:Raghu_Kalluri
+TSPO	Myeloid cells 2:Raghu_Kalluri
+AKAP13	Myeloid cells 2:Raghu_Kalluri
+PSMA7	Myeloid cells 2:Raghu_Kalluri
+GLTP	Myeloid cells 2:Raghu_Kalluri
+SEC61B	Myeloid cells 2:Raghu_Kalluri
+CHMP4B	Myeloid cells 2:Raghu_Kalluri
+UQCR11	Myeloid cells 2:Raghu_Kalluri
+JUNB	Myeloid cells 2:Raghu_Kalluri
+TMEM160	Myeloid cells 2:Raghu_Kalluri
+ATP5G3	Myeloid cells 2:Raghu_Kalluri
+COX17	Myeloid cells 2:Raghu_Kalluri
+UQCR10	Myeloid cells 2:Raghu_Kalluri
+NDUFA2	Myeloid cells 2:Raghu_Kalluri
+GM42418	Myeloid cells 2:Raghu_Kalluri
+ARHGDIA	Myeloid cells 2:Raghu_Kalluri
+NDUFC1	Myeloid cells 2:Raghu_Kalluri
+SERP1	Myeloid cells 2:Raghu_Kalluri
+CALM1	Myeloid cells 2:Raghu_Kalluri
+RHOA	Myeloid cells 2:Raghu_Kalluri
+HNRNPA2B1	Myeloid cells 2:Raghu_Kalluri
+COX6B1	Myeloid cells 2:Raghu_Kalluri
+PLAC8	Myeloid cells 3:Raghu_Kalluri
+LYZ2	Myeloid cells 3:Raghu_Kalluri
+IFITM3	Myeloid cells 3:Raghu_Kalluri
+TYROBP	Myeloid cells 3:Raghu_Kalluri
+CEBPB	Myeloid cells 3:Raghu_Kalluri
+FCER1G	Myeloid cells 3:Raghu_Kalluri
+LST1	Myeloid cells 3:Raghu_Kalluri
+MS4A6C	Myeloid cells 3:Raghu_Kalluri
+MSRB1	Myeloid cells 3:Raghu_Kalluri
+S100A4	Myeloid cells 3:Raghu_Kalluri
+GNGT2	Myeloid cells 3:Raghu_Kalluri
+LGALS3	Myeloid cells 3:Raghu_Kalluri
+ALOX5AP	Myeloid cells 3:Raghu_Kalluri
+SPI1	Myeloid cells 3:Raghu_Kalluri
+CCR2	Myeloid cells 3:Raghu_Kalluri
+TGFBI	Myeloid cells 3:Raghu_Kalluri
+IFITM6	Myeloid cells 3:Raghu_Kalluri
+CYBB	Myeloid cells 3:Raghu_Kalluri
+CLEC4A3	Myeloid cells 3:Raghu_Kalluri
+SIRPB1C	Myeloid cells 3:Raghu_Kalluri
+HP	Myeloid cells 3:Raghu_Kalluri
+LY6I	Myeloid cells 3:Raghu_Kalluri
+CLEC4A1	Myeloid cells 3:Raghu_Kalluri
+CLEC12A	Myeloid cells 3:Raghu_Kalluri
+GM21188	Myeloid cells 3:Raghu_Kalluri
+MCEMP1	Myeloid cells 3:Raghu_Kalluri
+GM9733	Myeloid cells 3:Raghu_Kalluri
+ADGRE4	Myeloid cells 3:Raghu_Kalluri
+IGSF6	Myeloid cells 3:Raghu_Kalluri
+KLRA2	Myeloid cells 3:Raghu_Kalluri
+SIRPB1B	Myeloid cells 3:Raghu_Kalluri
+CD300A	Myeloid cells 3:Raghu_Kalluri
+GPX1	Myeloid cells 3:Raghu_Kalluri
+PIRA2	Myeloid cells 3:Raghu_Kalluri
+PLBD1	Myeloid cells 3:Raghu_Kalluri
+IFITM2	Myeloid cells 3:Raghu_Kalluri
+WFDC17	Myeloid cells 3:Raghu_Kalluri
+FGR	Myeloid cells 3:Raghu_Kalluri
+MS4A4C	Myeloid cells 3:Raghu_Kalluri
+CD68	Myeloid cells 3:Raghu_Kalluri
+CSF1R	Myeloid cells 3:Raghu_Kalluri
+PRTN3	Myeloid cells 3:Raghu_Kalluri
+HCK	Myeloid cells 3:Raghu_Kalluri
+CX3CR1	Myeloid cells 3:Raghu_Kalluri
+CCL9	Myeloid cells 3:Raghu_Kalluri
+GSR	Myeloid cells 3:Raghu_Kalluri
+MS4A6D	Myeloid cells 3:Raghu_Kalluri
+TIFAB	Myeloid cells 3:Raghu_Kalluri
+MPEG1	Myeloid cells 3:Raghu_Kalluri
+LY6C2	Myeloid cells 3:Raghu_Kalluri
+PSAP	Myeloid cells 3:Raghu_Kalluri
+PLD4	Myeloid cells 3:Raghu_Kalluri
+SAP30	Myeloid cells 3:Raghu_Kalluri
+CTSS	Myeloid cells 3:Raghu_Kalluri
+ATOX1	Myeloid cells 3:Raghu_Kalluri
+TPD52	Myeloid cells 3:Raghu_Kalluri
+NCF2	Myeloid cells 3:Raghu_Kalluri
+CLEC4A2	Myeloid cells 3:Raghu_Kalluri
+LRRC25	Myeloid cells 3:Raghu_Kalluri
+SIRPA	Myeloid cells 3:Raghu_Kalluri
+FTL1	Myeloid cells 3:Raghu_Kalluri
+ADSSL1	Myeloid cells 3:Raghu_Kalluri
+CSF2RA	Myeloid cells 3:Raghu_Kalluri
+CST3	Myeloid cells 3:Raghu_Kalluri
+GM34084	Myeloid cells 3:Raghu_Kalluri
+AP1S2	Myeloid cells 3:Raghu_Kalluri
+PRDX5	Myeloid cells 3:Raghu_Kalluri
+SMPDL3A	Myeloid cells 3:Raghu_Kalluri
+ZEB2	Myeloid cells 3:Raghu_Kalluri
+PILRA	Myeloid cells 3:Raghu_Kalluri
+NADK	Myeloid cells 3:Raghu_Kalluri
+FCGR3	Myeloid cells 3:Raghu_Kalluri
+CHIL3	Myeloid cells 3:Raghu_Kalluri
+NFAM1	Myeloid cells 3:Raghu_Kalluri
+TALDO1	Myeloid cells 3:Raghu_Kalluri
+CTSC	Myeloid cells 3:Raghu_Kalluri
+SAT1	Myeloid cells 3:Raghu_Kalluri
+CLEC4E	Myeloid cells 3:Raghu_Kalluri
+CD300C2	Myeloid cells 3:Raghu_Kalluri
+NCF4	Myeloid cells 3:Raghu_Kalluri
+AIF1	Myeloid cells 3:Raghu_Kalluri
+MCUB	Myeloid cells 3:Raghu_Kalluri
+SEM1	Myeloid cells 3:Raghu_Kalluri
+RNF149	Myeloid cells 3:Raghu_Kalluri
+CYBA	Myeloid cells 3:Raghu_Kalluri
+NAPSA	Myeloid cells 3:Raghu_Kalluri
+ARPC1B	Myeloid cells 3:Raghu_Kalluri
+BC028528	Myeloid cells 3:Raghu_Kalluri
+FAM49B	Myeloid cells 3:Raghu_Kalluri
+TRPS1	Myeloid cells 3:Raghu_Kalluri
+LYN	Myeloid cells 3:Raghu_Kalluri
+GM2A	Myeloid cells 3:Raghu_Kalluri
+EMILIN2	Myeloid cells 3:Raghu_Kalluri
+LAMP1	Myeloid cells 3:Raghu_Kalluri
+IRF7	Myeloid cells 3:Raghu_Kalluri
+PIRB	Myeloid cells 3:Raghu_Kalluri
+ABI3	Myeloid cells 3:Raghu_Kalluri
+CTSZ	Myeloid cells 3:Raghu_Kalluri
+AB124611	Myeloid cells 3:Raghu_Kalluri
+TKT	Myeloid cells 3:Raghu_Kalluri
+CAPZA2	Myeloid cells 3:Raghu_Kalluri
+PRKCD	Myeloid cells 3:Raghu_Kalluri
+TMSB4X	Myeloid cells 3:Raghu_Kalluri
+F13A1	Myeloid cells 3:Raghu_Kalluri
+METRNL	Myeloid cells 3:Raghu_Kalluri
+MRPL33	Myeloid cells 3:Raghu_Kalluri
+GYG	Myeloid cells 3:Raghu_Kalluri
+IFI27L2A	Myeloid cells 3:Raghu_Kalluri
+SAMHD1	Myeloid cells 3:Raghu_Kalluri
+CTSA	Myeloid cells 3:Raghu_Kalluri
+EFHD2	Myeloid cells 3:Raghu_Kalluri
+CDKN1A	Myeloid cells 3:Raghu_Kalluri
+IRF5	Myeloid cells 3:Raghu_Kalluri
+ITGAL	Myeloid cells 3:Raghu_Kalluri
+CD14	Myeloid cells 3:Raghu_Kalluri
+NPC2	Myeloid cells 3:Raghu_Kalluri
+HEXA	Myeloid cells 3:Raghu_Kalluri
+PLIN2	Myeloid cells 3:Raghu_Kalluri
+FAM96A	Myeloid cells 3:Raghu_Kalluri
+NRROS	Myeloid cells 3:Raghu_Kalluri
+TM6SF1	Myeloid cells 3:Raghu_Kalluri
+VAMP8	Myeloid cells 3:Raghu_Kalluri
+H3F3A	Myeloid cells 3:Raghu_Kalluri
+ASAH1	Myeloid cells 3:Raghu_Kalluri
+GLUD1	Myeloid cells 3:Raghu_Kalluri
+ERP29	Myeloid cells 3:Raghu_Kalluri
+ATP6V0B	Myeloid cells 3:Raghu_Kalluri
+CMPK1	Myeloid cells 3:Raghu_Kalluri
+UCP2	Myeloid cells 3:Raghu_Kalluri
+RAP1A	Myeloid cells 3:Raghu_Kalluri
+RGS2	Myeloid cells 3:Raghu_Kalluri
+IFNGR1	Myeloid cells 3:Raghu_Kalluri
+RTP4	Myeloid cells 3:Raghu_Kalluri
+1110008F13RIK	Myeloid cells 3:Raghu_Kalluri
+CORO1B	Myeloid cells 3:Raghu_Kalluri
+LY86	Myeloid cells 3:Raghu_Kalluri
+H2AFZ	Myeloid cells 3:Raghu_Kalluri
+HPCAL1	Myeloid cells 3:Raghu_Kalluri
+ANXA2	Myeloid cells 3:Raghu_Kalluri
+FAM105A	Myeloid cells 3:Raghu_Kalluri
+TSPO	Myeloid cells 3:Raghu_Kalluri
+CRIP1	Myeloid cells 3:Raghu_Kalluri
+ARPC4	Myeloid cells 3:Raghu_Kalluri
+SH3BGRL	Myeloid cells 3:Raghu_Kalluri
+H2-DMB1	Myeloid cells 3:Raghu_Kalluri
+CTSH	Myeloid cells 3:Raghu_Kalluri
+CD44	Myeloid cells 3:Raghu_Kalluri
+TMEM14C	Myeloid cells 3:Raghu_Kalluri
+H2AFY	Myeloid cells 3:Raghu_Kalluri
+ACTG1	Myeloid cells 3:Raghu_Kalluri
+CMTM7	Myeloid cells 3:Raghu_Kalluri
+ENO1	Myeloid cells 3:Raghu_Kalluri
+COX5A	Myeloid cells 3:Raghu_Kalluri
+FAM174A	Myeloid cells 3:Raghu_Kalluri
+FOS	Myeloid cells 3:Raghu_Kalluri
+PSMA7	Myeloid cells 3:Raghu_Kalluri
+RHOG	Myeloid cells 3:Raghu_Kalluri
+VIM	Myeloid cells 3:Raghu_Kalluri
+MS4A6B	Myeloid cells 3:Raghu_Kalluri
+MGST1	Myeloid cells 3:Raghu_Kalluri
+PLA2G7	Myeloid cells 3:Raghu_Kalluri
+ARPC2	Myeloid cells 3:Raghu_Kalluri
+SYNGR2	Myeloid cells 3:Raghu_Kalluri
+CLTA	Myeloid cells 3:Raghu_Kalluri
+ITGB2	Myeloid cells 3:Raghu_Kalluri
+UNC93B1	Myeloid cells 3:Raghu_Kalluri
+FYB	Myeloid cells 3:Raghu_Kalluri
+ZBP1	Myeloid cells 3:Raghu_Kalluri
+TGFB1	Myeloid cells 3:Raghu_Kalluri
+TMPO	Myeloid cells 3:Raghu_Kalluri
+TMEM256	Myeloid cells 3:Raghu_Kalluri
+DBI	Myeloid cells 3:Raghu_Kalluri
+ISG15	Myeloid cells 3:Raghu_Kalluri
+SLFN2	Myeloid cells 3:Raghu_Kalluri
+FXYD5	Myeloid cells 3:Raghu_Kalluri
+SERF2	Myeloid cells 3:Raghu_Kalluri
+SLC25A5	Myeloid cells 3:Raghu_Kalluri
+RAP1B	Myeloid cells 3:Raghu_Kalluri
+HSPA8	Myeloid cells 3:Raghu_Kalluri
+CAPZB	Myeloid cells 3:Raghu_Kalluri
+FABP5	Myeloid cells 3:Raghu_Kalluri
+OSTF1	Myeloid cells 3:Raghu_Kalluri
+ARPC3	Myeloid cells 3:Raghu_Kalluri
+COX6B1	Myeloid cells 3:Raghu_Kalluri
+SDCBP	Myeloid cells 3:Raghu_Kalluri
+BCL2A1A	Myeloid cells 3:Raghu_Kalluri
+SEC61G	Myeloid cells 3:Raghu_Kalluri
+PTPN6	Myeloid cells 3:Raghu_Kalluri
+CORO1A	Myeloid cells 3:Raghu_Kalluri
+PITPNA	Myeloid cells 3:Raghu_Kalluri
+COX4I1	Myeloid cells 3:Raghu_Kalluri
+NR4A1	Myeloid cells 3:Raghu_Kalluri
+RNH1	Myeloid cells 3:Raghu_Kalluri
+EMB	Myeloid cells 3:Raghu_Kalluri
+GNAI2	Myeloid cells 3:Raghu_Kalluri
+PKM	Myeloid cells 3:Raghu_Kalluri
+GMFG	Myeloid cells 3:Raghu_Kalluri
+TXN1	Myeloid cells 3:Raghu_Kalluri
+UQCRQ	Myeloid cells 3:Raghu_Kalluri
+POMP	Myeloid cells 3:Raghu_Kalluri
+B2M	Myeloid cells 3:Raghu_Kalluri
+SDHB	Myeloid cells 3:Raghu_Kalluri
+CHMP4B	Myeloid cells 3:Raghu_Kalluri
+CDC42	Myeloid cells 3:Raghu_Kalluri
+ARPC5	Myeloid cells 3:Raghu_Kalluri
+BIN2	Myeloid cells 3:Raghu_Kalluri
+ACTR3	Myeloid cells 3:Raghu_Kalluri
+PGK1	Myeloid cells 3:Raghu_Kalluri
+ATP6V1G1	Myeloid cells 3:Raghu_Kalluri
+DUSP1	Myeloid cells 3:Raghu_Kalluri
+ATP5L	Myeloid cells 3:Raghu_Kalluri
+BRI3	Myeloid cells 3:Raghu_Kalluri
+LAMTOR4	Myeloid cells 3:Raghu_Kalluri
+HMGB2	Myeloid cells 3:Raghu_Kalluri
+RPS27L	Myeloid cells 3:Raghu_Kalluri
+LAPTM5	Myeloid cells 3:Raghu_Kalluri
+CCDC12	Myeloid cells 3:Raghu_Kalluri
+RAC1	Myeloid cells 3:Raghu_Kalluri
+SEC61B	Myeloid cells 3:Raghu_Kalluri
+H2AFJ	Myeloid cells 3:Raghu_Kalluri
+SRGN	Myeloid cells 3:Raghu_Kalluri
+ITM2B	Myeloid cells 3:Raghu_Kalluri
+ATP6V0E	Myeloid cells 3:Raghu_Kalluri
+SMDT1	Myeloid cells 3:Raghu_Kalluri
+ATP5C1	Myeloid cells 3:Raghu_Kalluri
+PRDX1	Myeloid cells 3:Raghu_Kalluri
+COX8A	Myeloid cells 3:Raghu_Kalluri
+ACTB	Myeloid cells 3:Raghu_Kalluri
+CDK2AP2	Myeloid cells 3:Raghu_Kalluri
+UQCR11	Myeloid cells 3:Raghu_Kalluri
+LSP1	Myeloid cells 3:Raghu_Kalluri
+LY6E	Myeloid cells 3:Raghu_Kalluri
+BRK1	Myeloid cells 3:Raghu_Kalluri
+CSTB	Myeloid cells 3:Raghu_Kalluri
+RBM3	Myeloid cells 3:Raghu_Kalluri
+HINT1	Myeloid cells 3:Raghu_Kalluri
+COX5B	Myeloid cells 3:Raghu_Kalluri
+CYCS	Myeloid cells 3:Raghu_Kalluri
+RHOA	Myeloid cells 3:Raghu_Kalluri
+TMEM176B	Myeloid cells 3:Raghu_Kalluri
+GNB2	Myeloid cells 3:Raghu_Kalluri
+HSPA1A	Myeloid cells 3:Raghu_Kalluri
+COX7B	Myeloid cells 3:Raghu_Kalluri
+PRR13	Myeloid cells 3:Raghu_Kalluri
+ZFP36L2	Myeloid cells 3:Raghu_Kalluri
+PIM1	Myeloid cells 3:Raghu_Kalluri
+EMP3	Myeloid cells 3:Raghu_Kalluri
+UQCR10	Myeloid cells 3:Raghu_Kalluri
+H2-DMA	Myeloid cells 3:Raghu_Kalluri
+ALDOA	Myeloid cells 3:Raghu_Kalluri
+SH3BGRL3	Myeloid cells 3:Raghu_Kalluri
+TUBA1B	Myeloid cells 3:Raghu_Kalluri
+MARCKSL1	Myeloid cells 3:Raghu_Kalluri
+CD74	Myeloid cells 3:Raghu_Kalluri
+S100A4	Myeloid cells 4:Raghu_Kalluri
+CD209A	Myeloid cells 4:Raghu_Kalluri
+BCL2A1D	Myeloid cells 4:Raghu_Kalluri
+CFP	Myeloid cells 4:Raghu_Kalluri
+PLBD1	Myeloid cells 4:Raghu_Kalluri
+PMAIP1	Myeloid cells 4:Raghu_Kalluri
+CYP4F16	Myeloid cells 4:Raghu_Kalluri
+GRK3	Myeloid cells 4:Raghu_Kalluri
+FFAR2	Myeloid cells 4:Raghu_Kalluri
+ITGAX	Myeloid cells 4:Raghu_Kalluri
+IFITM1	Myeloid cells 4:Raghu_Kalluri
+H2-EB1	Myeloid cells 4:Raghu_Kalluri
+SYNGR2	Myeloid cells 4:Raghu_Kalluri
+CBFA2T3	Myeloid cells 4:Raghu_Kalluri
+SPI1	Myeloid cells 4:Raghu_Kalluri
+NAPSA	Myeloid cells 4:Raghu_Kalluri
+GM2A	Myeloid cells 4:Raghu_Kalluri
+H2-AA	Myeloid cells 4:Raghu_Kalluri
+ALOX5AP	Myeloid cells 4:Raghu_Kalluri
+H2-DMB1	Myeloid cells 4:Raghu_Kalluri
+FCER1G	Myeloid cells 4:Raghu_Kalluri
+TBC1D4	Myeloid cells 4:Raghu_Kalluri
+CIITA	Myeloid cells 4:Raghu_Kalluri
+H2-AB1	Myeloid cells 4:Raghu_Kalluri
+CD74	Myeloid cells 4:Raghu_Kalluri
+MS4A6C	Myeloid cells 4:Raghu_Kalluri
+ATOX1	Myeloid cells 4:Raghu_Kalluri
+ROGDI	Myeloid cells 4:Raghu_Kalluri
+CKB	Myeloid cells 4:Raghu_Kalluri
+H2-DMA	Myeloid cells 4:Raghu_Kalluri
+BATF3	Myeloid cells 4:Raghu_Kalluri
+TYROBP	Myeloid cells 4:Raghu_Kalluri
+TMSB4X	Myeloid cells 4:Raghu_Kalluri
+IL1B	Myeloid cells 4:Raghu_Kalluri
+GPX1	Myeloid cells 4:Raghu_Kalluri
+TCTEX1D2	Myeloid cells 4:Raghu_Kalluri
+AVPI1	Myeloid cells 4:Raghu_Kalluri
+CD300A	Myeloid cells 4:Raghu_Kalluri
+IFITM6	Myeloid cells 4:Raghu_Kalluri
+H2-DMB2	Myeloid cells 4:Raghu_Kalluri
+TMEM176B	Myeloid cells 4:Raghu_Kalluri
+FGR	Myeloid cells 4:Raghu_Kalluri
+LSP1	Myeloid cells 4:Raghu_Kalluri
+EFHD2	Myeloid cells 4:Raghu_Kalluri
+BCL2A1B	Myeloid cells 4:Raghu_Kalluri
+TMEM176A	Myeloid cells 4:Raghu_Kalluri
+H2-OA	Myeloid cells 4:Raghu_Kalluri
+CCND1	Myeloid cells 4:Raghu_Kalluri
+PRCP	Myeloid cells 4:Raghu_Kalluri
+CTSH	Myeloid cells 4:Raghu_Kalluri
+CD7	Myeloid cells 4:Raghu_Kalluri
+PKIB	Myeloid cells 4:Raghu_Kalluri
+IFITM3	Myeloid cells 4:Raghu_Kalluri
+BCL2A1A	Myeloid cells 4:Raghu_Kalluri
+WFDC17	Myeloid cells 4:Raghu_Kalluri
+BHLHE40	Myeloid cells 4:Raghu_Kalluri
+KLRD1	Myeloid cells 4:Raghu_Kalluri
+SNX20	Myeloid cells 4:Raghu_Kalluri
+CSF2RA	Myeloid cells 4:Raghu_Kalluri
+MGL2	Myeloid cells 4:Raghu_Kalluri
+RUNX3	Myeloid cells 4:Raghu_Kalluri
+STX7	Myeloid cells 4:Raghu_Kalluri
+PIM1	Myeloid cells 4:Raghu_Kalluri
+TRPS1	Myeloid cells 4:Raghu_Kalluri
+H2AFZ	Myeloid cells 4:Raghu_Kalluri
+LST1	Myeloid cells 4:Raghu_Kalluri
+CD68	Myeloid cells 4:Raghu_Kalluri
+CST3	Myeloid cells 4:Raghu_Kalluri
+OGFRL1	Myeloid cells 4:Raghu_Kalluri
+H2AFY	Myeloid cells 4:Raghu_Kalluri
+PLEK	Myeloid cells 4:Raghu_Kalluri
+RNASE6	Myeloid cells 4:Raghu_Kalluri
+CTSS	Myeloid cells 4:Raghu_Kalluri
+TRAF1	Myeloid cells 4:Raghu_Kalluri
+DENND4A	Myeloid cells 4:Raghu_Kalluri
+BASP1	Myeloid cells 4:Raghu_Kalluri
+NFKB1	Myeloid cells 4:Raghu_Kalluri
+IRF5	Myeloid cells 4:Raghu_Kalluri
+EVI2A	Myeloid cells 4:Raghu_Kalluri
+LY86	Myeloid cells 4:Raghu_Kalluri
+REL	Myeloid cells 4:Raghu_Kalluri
+RELB	Myeloid cells 4:Raghu_Kalluri
+FAM105A	Myeloid cells 4:Raghu_Kalluri
+CTSZ	Myeloid cells 4:Raghu_Kalluri
+PLD4	Myeloid cells 4:Raghu_Kalluri
+PTMS	Myeloid cells 4:Raghu_Kalluri
+MDH2	Myeloid cells 4:Raghu_Kalluri
+LGALS3	Myeloid cells 4:Raghu_Kalluri
+DOCK10	Myeloid cells 4:Raghu_Kalluri
+MKRN1	Myeloid cells 4:Raghu_Kalluri
+ERP29	Myeloid cells 4:Raghu_Kalluri
+CYTH4	Myeloid cells 4:Raghu_Kalluri
+MARCKSL1	Myeloid cells 4:Raghu_Kalluri
+S100A11	Myeloid cells 4:Raghu_Kalluri
+BTG2	Myeloid cells 4:Raghu_Kalluri
+YWHAH	Myeloid cells 4:Raghu_Kalluri
+SERF2	Myeloid cells 4:Raghu_Kalluri
+KCTD12	Myeloid cells 4:Raghu_Kalluri
+LCP1	Myeloid cells 4:Raghu_Kalluri
+CCDC12	Myeloid cells 4:Raghu_Kalluri
+CD83	Myeloid cells 4:Raghu_Kalluri
+RGS2	Myeloid cells 4:Raghu_Kalluri
+SMDT1	Myeloid cells 4:Raghu_Kalluri
+ZFP36	Myeloid cells 4:Raghu_Kalluri
+TSPAN13	Myeloid cells 4:Raghu_Kalluri
+ZYX	Myeloid cells 4:Raghu_Kalluri
+TALDO1	Myeloid cells 4:Raghu_Kalluri
+SDF2L1	Myeloid cells 4:Raghu_Kalluri
+FABP5	Myeloid cells 4:Raghu_Kalluri
+GDI2	Myeloid cells 4:Raghu_Kalluri
+NR4A1	Myeloid cells 4:Raghu_Kalluri
+SUB1	Myeloid cells 4:Raghu_Kalluri
+ARPC1B	Myeloid cells 4:Raghu_Kalluri
+FTH1	Myeloid cells 4:Raghu_Kalluri
+NFKBIA	Myeloid cells 4:Raghu_Kalluri
+UBL3	Myeloid cells 4:Raghu_Kalluri
+SH3BGRL3	Myeloid cells 4:Raghu_Kalluri
+GNAI2	Myeloid cells 4:Raghu_Kalluri
+PICALM	Myeloid cells 4:Raghu_Kalluri
+IFITM2	Myeloid cells 4:Raghu_Kalluri
+MPC1	Myeloid cells 4:Raghu_Kalluri
+ACTG1	Myeloid cells 4:Raghu_Kalluri
+CYBA	Myeloid cells 4:Raghu_Kalluri
+DUSP1	Myeloid cells 4:Raghu_Kalluri
+FAM49B	Myeloid cells 4:Raghu_Kalluri
+ACTB	Myeloid cells 4:Raghu_Kalluri
+H3F3A	Myeloid cells 4:Raghu_Kalluri
+ID2	Myeloid cells 4:Raghu_Kalluri
+ATPIF1	Myeloid cells 4:Raghu_Kalluri
+IER5	Myeloid cells 4:Raghu_Kalluri
+CDC42	Myeloid cells 4:Raghu_Kalluri
+ATP6V0E	Myeloid cells 4:Raghu_Kalluri
+CDKN1A	Myeloid cells 4:Raghu_Kalluri
+PITPNA	Myeloid cells 4:Raghu_Kalluri
+ISCU	Myeloid cells 4:Raghu_Kalluri
+CALM3	Myeloid cells 4:Raghu_Kalluri
+ARPC2	Myeloid cells 4:Raghu_Kalluri
+HSPA1A	Myeloid cells 4:Raghu_Kalluri
+VAMP8	Myeloid cells 4:Raghu_Kalluri
+ARPC5	Myeloid cells 4:Raghu_Kalluri
+CRIP1	Myeloid cells 4:Raghu_Kalluri
+CAPZA2	Myeloid cells 4:Raghu_Kalluri
+SEC61B	Myeloid cells 4:Raghu_Kalluri
+PFN1	Myeloid cells 4:Raghu_Kalluri
+KDM6B	Myeloid cells 4:Raghu_Kalluri
+PLAC8	Myeloid cells 4:Raghu_Kalluri
+ZFAND6	Myeloid cells 4:Raghu_Kalluri
+IL23 	Macrophage M1:Zhang 2021
+TNF 	Macrophage M1:Zhang 2021
+CXCL9 	Macrophage M1:Zhang 2021
+CXCL10 	Macrophage M1:Zhang 2021
+CXCL11 	Macrophage M1:Zhang 2021
+CD86 	Macrophage M1:Zhang 2021
+IL1A 	Macrophage M1:Zhang 2021
+IL1B 	Macrophage M1:Zhang 2021
+IL6 	Macrophage M1:Zhang 2021
+CCL5 	Macrophage M1:Zhang 2021
+IRF5 	Macrophage M1:Zhang 2021
+IRF1 	Macrophage M1:Zhang 2021
+CD40 	Macrophage M1:Zhang 2021
+IDO1 	Macrophage M1:Zhang 2021
+KYNU 	Macrophage M1:Zhang 2021
+CCR7 	Macrophage M1:Zhang 2021
+IL4R 	Macrophage M2:Zhang 2021
+CCL4 	Macrophage M2:Zhang 2021
+CCL13 	Macrophage M2:Zhang 2021
+CCL20 	Macrophage M2:Zhang 2021
+CCL17 	Macrophage M2:Zhang 2021
+CCL18 	Macrophage M2:Zhang 2021
+CCL22 	Macrophage M2:Zhang 2021
+CCL24 	Macrophage M2:Zhang 2021
+LYVE1 	Macrophage M2:Zhang 2021
+VEGFA 	Macrophage M2:Zhang 2021
+VEGFB 	Macrophage M2:Zhang 2021
+VEGFC 	Macrophage M2:Zhang 2021
+VEGFD 	Macrophage M2:Zhang 2021
+EGF 	Macrophage M2:Zhang 2021
+CTSA 	Macrophage M2:Zhang 2021
+CTSB 	Macrophage M2:Zhang 2021
+CTSC 	Macrophage M2:Zhang 2021
+CTSD 	Macrophage M2:Zhang 2021
+TGFB1 	Macrophage M2:Zhang 2021
+TGFB2 	Macrophage M2:Zhang 2021
+TGFB3 	Macrophage M2:Zhang 2021
+MMP14 	Macrophage M2:Zhang 2021
+MMP19 	Macrophage M2:Zhang 2021
+MMP9 	Macrophage M2:Zhang 2021
+CLEC7A 	Macrophage M2:Zhang 2021
+WNT7B 	Macrophage M2:Zhang 2021
+FASL 	Macrophage M2:Zhang 2021
+TNFSF12 	Macrophage M2:Zhang 2021
+TNFSF8 	Macrophage M2:Zhang 2021
+CD276 	Macrophage M2:Zhang 2021
+VTCN1 	Macrophage M2:Zhang 2021
+MSR1 	Macrophage M2:Zhang 2021
+FN1 	Macrophage M2:Zhang 2021
+IRF4 	Macrophage M2:Zhang 2021
