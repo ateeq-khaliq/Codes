@@ -1,1 +1,86 @@
+# Gene Annotation Script
+
+This script processes gene marker data, annotates it with subtypes, and saves the results to Excel files.
+
+## Description
+
+The script performs the following main tasks:
+1. Reads a list of gene markers and their subtypes
+2. Processes input data containing gene information for different clusters
+3. Annotates the gene data with subtype information
+4. Saves the results to an Excel file with multiple sheets
+
+## Requirements
+
+- Python 3.x
+- pandas
+- openpyxl
+
+Install the required packages using:
+pip install pandas openpyxl
+
+## Usage
+
+Run the script from the command line with the following arguments:
+python annotate.py <input_file> <output_file> <markers_file>
+
+- `<input_file>`: Path to the input CSV file containing gene data (tab-separated)
+- `<output_file>`: Path to the output Excel file
+- `<markers_file>`: Path to the file containing gene markers and subtypes (tab-separated)
+
+Example:
+- `<input_file>`: Path to the input CSV file containing gene data (tab-separated)
+- `<output_file>`: Path to the output Excel file
+- `<markers_file>`: Path to the file containing gene markers and subtypes (tab-separated)
+
+Example:
+python annotate.py metaprograms_genes_cafs.txt metaprograms_genes_cafs_annot_CAFs_Our_andAdel.xlsx CAFs_Our_andAdel.txt
+
+## Input File Formats
+
+1. Input file (`<input_file>`):
+   - CSV format (tab-separated)
+   - Should contain a 'cluster' column and a 'gene' column
+
+2. Markers file (`<markers_file>`):
+   - Tab-separated text file
+   - Two columns: gene name and subtype code
+
+## Output
+
+The script generates an Excel file with multiple sheets:
+- A 'markers' sheet containing the list of markers and their subtypes
+- A sheet for each unique cluster in the input data, containing annotated gene information
+
+## Script Workflow
+
+1. Read the markers file and save it as the first sheet in the output Excel file
+2. Create a dictionary of gene markers and their subtypes
+3. Read the input file containing gene data
+4. Process each unique cluster in the input data:
+   - Filter the data for the current cluster
+   - Merge with the markers data to add subtype information
+   - Save the result as a new sheet in the output Excel file
+
+## Notes
+
+- The script uses 'unicode_escape' encoding for reading the input file to handle potential encoding issues
+- There is a commented-out section at the end of the script for additional processing, which can be uncommented and modified if needed
+
+## Troubleshooting
+
+- If you encounter encoding errors, try modifying the encoding parameter in the `pd.read_csv()` function calls
+- Ensure that the input files are in the correct format and contain the expected columns
+
+## License
+
+MIT
+
+## Author
+
+Ateeq M Khaliq
+
+## Version
+
+1.0.0
 
