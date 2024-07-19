@@ -1,0 +1,15 @@
+Genes	Subtype
+Acta2	general CAF: Li Ding
+Fap	general CAF: Li Ding
+Pdpn	general CAF: Li Ding
+Pdgfra	general CAF: Li Ding
+Il6	iCAF: Li Ding
+Cxcl1	iCAF: Li Ding
+Cxcl12	iCAF: Li Ding
+Cxcl2	iCAF: Li Ding
+Acta2	myCAF: Li Ding
+Thy1	myCAF: Li Ding
+Tagln	myCAF: Li Ding
+Cd74	apCAF: Li Ding
+Saa2	apCAF: Li Ding
+Saa1	apCAF: Li Ding

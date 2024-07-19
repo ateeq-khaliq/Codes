@@ -1,0 +1,92 @@
+Genes	Subtype
+Col1A1	CAF-S1/myCAF:Our Paper
+Fap	CAF-S1/myCAF:Our Paper
+Pdpn	CAF-S1/myCAF:Our Paper
+Pdgfra	CAF-S1:Our Paper
+Col1A2	CAF-S1/myCAF:Our Paper
+Cxcl12	CAF-S1/iCAF:Our Paper
+Gjb	CAF-S1/ecm-myCAF:Our Paper
+Antxr1	CAF-S1/ecm-myCAF:Our Paper
+Sdc1	CAF-S1/ecm-myCAF:Our Paper
+Sema3C	CAF-S1/wound-myCAF:Our Paper
+Cd9	CAF-S1/wound-myCAF:Our Paper
+Cst1	CAF-S1/TGFB-myCAF:Our Paper
+Tgfb1	CAF-S1/TGFB-myCAF:Our Paper
+Lamp5	CAF-S1/TGFB-myCAF:Our Paper
+Scara5	CAF-S1/IL-iCAF:Our Paper
+Dlk1	CAF-S1/IL-iCAF:Our Paper
+Adh1B	CAF-S1/detox-iCAF:Our Paper
+Gpc3	CAF-S1/detox-iCAF:Our Paper
+Rgs5	CAF-S4:Our Paper
+Cspg4	CAF-S4:Our Paper
+Pdgfrb	CAF-S4:Our Paper
+Cd248	CAF-S4:Our Paper
+Epas1	CAF-S4:Our Paper
+Myl9	myCAF:Adel
+Cald1	myCAF:Adel
+Mmp11	myCAF:Adel
+Hopx	myCAF:Adel
+Bgn	myCAF:Adel
+Igfbp7	myCAF:Adel
+Tpm2	myCAF:Adel
+Cthrc1	myCAF:Adel
+Acta2	myCAF:Adel
+Tagln	myCAF:Adel
+Inhba	myCAF:Adel
+Col10A1	myCAF:Adel
+Tpm1	myCAF:Adel
+Postn	myCAF:Adel
+Grp	myCAF:Adel
+Cst1	myCAF:Adel
+C3	iCAF:Adel
+Dusp1	iCAF:Adel
+Fbln1	iCAF:Adel
+Lmna	iCAF:Adel
+Clu	iCAF:Adel
+Ccdc80	iCAF:Adel
+Myc	iCAF:Adel
+Efemp1	iCAF:Adel
+Has1	iCAF:Adel
+Nr4A1	iCAF:Adel
+Cfd	iCAF:Adel
+Anxa1	iCAF:Adel
+Cxcl12	iCAF:Adel
+Fgf7	iCAF:Adel
+Klf4	iCAF:Adel
+Emp1	iCAF:Adel
+Gprc5A	iCAF:Adel
+Srpx	iCAF:Adel
+Mt2A	iCAF:Adel
+Medag	iCAF:Adel
+Igf1	iCAF:Adel
+Mgst1	iCAF:Adel
+Mcl1	iCAF:Adel
+Cebpd	iCAF:Adel
+S100A10	iCAF:Adel
+Uap1	iCAF:Adel
+Tnxb	iCAF:Adel
+Cebpb	iCAF:Adel
+Pnrc1	iCAF:Adel
+Socs3	iCAF:Adel
+Ptgds	iCAF:Adel
+Fosb	iCAF:Adel
+Nfkbia	iCAF:Adel
+Cxcl2	iCAF:Adel
+Thbs1	iCAF:Adel
+Ccl2	iCAF:Adel
+Ogn	iCAF:Adel
+Gsn	iCAF:Adel
+Dpt	iCAF:Adel
+Pla2G2A	iCAF:Adel
+Nampt	iCAF:Adel
+Itm2A	iCAF:Adel
+Rgcc	iCAF:Adel
+Jund	iCAF:Adel
+Nnmt	iCAF:Adel
+Zfp36	iCAF:Adel
+Pim1	iCAF:Adel
+Cpe	iCAF:Adel
+Gfpt2	iCAF:Adel
+Sod2	iCAF:Adel
+Pdgfra	"iCAFs:Chen et al, Bladder paper"
+Rgs5	"myCAFs:Chen et al, Bladder paper"
