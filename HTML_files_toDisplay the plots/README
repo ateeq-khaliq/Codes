@@ -1,0 +1,67 @@
+# Interactive Plot Gallery Generator
+
+This project generates an interactive HTML gallery for visualizing multiple plots, specifically designed for MetaPrograms (NMF) Exploratory Analysis.
+
+## Files
+
+1. `generate_html.py`: The main script that processes plots and generates the HTML file.
+2. `plot_config.py`: Configuration file containing plot file paths and other settings.
+3. `plot_descriptions.py`: File containing descriptions and headings for each plot.
+
+## Prerequisites
+
+- Python 3.6 or higher
+- pip (Python package installer)
+
+## Installation
+
+1. Clone this repository or download the three Python files to a directory of your choice.
+
+2. Install the required Python libraries:
+
+3. If working with PDF files, install Poppler:
+- macOS: `brew install poppler`
+- Ubuntu/Debian: `sudo apt-get install poppler-utils`
+- Windows: Download from the Poppler website and add the bin folder to your system PATH.
+
+## Configuration
+
+1. In `plot_config.py`:
+- Update `plot_files` list with the paths to your plot files.
+- Modify `output_dir` and `output_html` to set the output locations.
+- Adjust `title`, `lab_name`, and `proprietary_text` as needed.
+
+2. In `plot_descriptions.py`:
+- Update the `plot_details` dictionary with appropriate headings and descriptions for each plot.
+
+## Usage
+
+1. Open a terminal or command prompt.
+
+2. Navigate to the directory containing the Python scripts:
+
+cd /path/to/your/script/directory
+
+3. Run the main script: python generate_html.py
+
+4. The script will generate an HTML file at the location specified in `plot_config.py`.
+
+5. Open the generated HTML file in a web browser to view your interactive plot gallery.
+
+## Customization
+
+- To change the plots or their order, modify the `plot_files` list in `plot_config.py`.
+- To update plot descriptions or headings, edit the `plot_details` dictionary in `plot_descriptions.py`.
+- For style or layout changes, modify the HTML template in `generate_html.py`.
+
+## Output
+
+The script generates a self-contained HTML file with all plots embedded. This file can be shared and viewed on any device with a modern web browser, without needing additional files or internet connection.
+
+## Troubleshooting
+
+- If you encounter issues with PDF conversion, ensure Poppler is correctly installed and accessible in your system PATH.
+- For large PDF files, you may need to increase the memory limit for the Python process.
+
+
+
