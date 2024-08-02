@@ -1,0 +1,6 @@
+## Seurat Analysis for Individual Patients
+#
+# This script performs individual Seurat analysis for each patient using the provided data. It subsets the data for each
+# patient, performs clustering analysis, saves the results in individual folders named after the patient IDs, and
+# generates plots and environment files for each patient. Please make sure to update the file paths in the script
+# before running it. Refer to the README for more details.
