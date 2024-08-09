@@ -90,6 +90,8 @@ The script performs the following steps:
 
 ## 🧪 Sample Information
 
+![Project Overview](Picture2.png)
+
 | Sample | Treatment | Sex | Sample ID | Barcode |
 |--------|-----------|-----|-----------|---------|
 | 1-3 | Vehicle | Female | 968, 966, 979 | BC001-BC003 |
