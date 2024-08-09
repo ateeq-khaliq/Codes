@@ -2,6 +2,7 @@
 
 ![Mouse](https://img.shields.io/badge/Organism-Mouse-blue)
 ![Spatial Transcriptomics](https://img.shields.io/badge/Method-Spatial%20Transcriptomics-brightgreen)
+![ScRNASeq Transcriptomics](https://img.shields.io/badge/Method-Spatial%20Transcriptomics-brightgreen)
 ![CellRanger](https://img.shields.io/badge/Tool-CellRanger%207.2.0-orange)
 ![SLURM](https://img.shields.io/badge/HPC-SLURM-blueviolet)
 
@@ -119,10 +120,10 @@ The script performs the following steps:
 
 ## 🏢 Project Affiliation
 
-This work is part of **Heather's Syngenic Mouse Models** project, focusing on spatial transcriptomics analysis of mouse tissue samples to investigate gene expression patterns in various experimental conditions.
+This work is part of **Heather's Syngenic Mouse Models** project, focusing on scRNA-seq transcriptomics analysis of mouse tissue samples to investigate gene expression patterns in various experimental conditions.
 
 ---
 
 <p align="center">
-  Made with ❤️ by the Spatial Transcriptomics Team
+  Made with ❤️ by Ateeq Khaliq
 </p>
