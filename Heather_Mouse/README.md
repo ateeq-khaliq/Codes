@@ -7,18 +7,18 @@
 ![SLURM](https://img.shields.io/badge/HPC-SLURM-blueviolet)
 
 ## 📚 Table of Contents
-- [Project Overview](#project-overview)
-- [Data Description](#data-description)
-- [Requirements](#requirements)
-- [Directory Structure](#directory-structure)
-- [Usage](#usage)
-- [Script Details](#script-details)
-- [Sample Information](#sample-information)
-- [Output](#output)
-- [Customization](#customization)
-- [Troubleshooting](#troubleshooting)
-- [Support](#support)
-- [Project Affiliation](#project-affiliation)
+- [Project Overview](#-project-overview)
+- [Data Description](#-data-description)
+- [Requirements](#️-requirements)
+- [Directory Structure](#-directory-structure)
+- [Usage](#-usage)
+- [Script Details](#-script-details)
+- [Sample Information](#-sample-information)
+- [Output](#-output)
+- [Customization](#️-customization)
+- [Troubleshooting](#-troubleshooting)
+- [Support](#-support)
+- [Project Affiliation](#-project-affiliation)
 
 ## 🔬 Project Overview
 
