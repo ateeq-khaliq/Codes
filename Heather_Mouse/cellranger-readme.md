@@ -115,7 +115,7 @@ The script performs the following steps:
 ## 📞 Support
 
 - **Project Lead**: Ateeq Khaliq
-- **Local Support**: Your bioinformatics support team
+- **Local Support**: Let me Know if you FIND them! 
 - **CellRanger Issues**: [10x Genomics Support](https://support.10xgenomics.com/)
 
 ## 🏢 Project Affiliation
