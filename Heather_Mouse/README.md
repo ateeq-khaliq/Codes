@@ -22,6 +22,8 @@
 
 ## 🔬 Project Overview
 
+![Project Overview](images/project_overview.png)
+
 This project, led by **Ateeq Khaliq** for **Heather's Syngenic Mouse Models**, focuses on analyzing spatial transcriptomics data from mouse samples using the Visium FLEX platform. The study aims to investigate gene expression patterns in various conditions, including vehicle-treated and inhibitor-treated samples from both male and female mice.
 
 ## 📊 Data Description
