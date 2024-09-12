@@ -15,7 +15,7 @@ library(patchwork)
 print("reading data")
 
 st <- readRDS("/Users/akhaliq/Desktop/Gene_NMf/subset.rds")
-st1 <- SCTransform(st, assay = "Spatial", verbose = TRUE, method = "poisson")
+st1 <- SCTransform(untreat, assay = "Spatial", verbose = TRUE, method = "poisson")
 
 print("reading data")
 
@@ -43,14 +43,59 @@ geneNMF.programs <- multiNMF(seu.list, assay="SCT", slot="data", k=4:5, L1=c(0,0
                     do_centering=TRUE, nfeatures = 2000)
 
 geneNMF.metaprograms <- getMetaPrograms(geneNMF.programs,
-                                        nprograms=7,
+                                        nprograms=5,
                                         max.genes=200,
                                         hclust.method="ward.D2",
                                         min.confidence=0.1)
 
-pdf("Plot_meta.pdf", width = 8, height = 6)
+pdf("Plot_meta_untreated.pdf", width = 8, height = 6)
 ph <- plotMetaPrograms(geneNMF.metaprograms, jaccard.cutoff = c(0,0.8))
+ph
 dev.off()
+
+seu <- AddModuleScore_UCell(seu, features = mp.genes, assay="SCT", ncores=4, name = "")
+
+
+# Extract data
+mp_scores <- seu@meta.data[, c("MP1", "MP2", "MP3", "MP4", "MP5")]
+cc_clusters <- seu@meta.data$CompositionCluster_CC
+
+# Calculate average scores per cluster
+avg_scores <- aggregate(mp_scores, by = list(CC = cc_clusters), FUN = mean)
+rownames(avg_scores) <- avg_scores$CC
+avg_scores$CC <- NULL
+
+# Compute correlations
+cor_matrix <- cor(t(avg_scores), method = "spearman")
+
+# Create heatmap
+library(pheatmap)
+pheatmap(cor_matrix,
+         clustering_method = "complete",
+         color = colorRampPalette(c("blue", "white", "red"))(100),
+         annotation_row = data.frame(CC = rownames(avg_scores),
+                                     row.names = rownames(avg_scores)))
+
+
+# Load necessary library
+library(openxlsx)
+
+# Assuming your data is stored in geneNMF.metaprograms$metaprograms.genes
+metaprograms_genes <- geneNMF.metaprograms$metaprograms.genes
+
+# Initialize an empty data frame
+data <- data.frame(Genes = character(), Meta_programs = character(), stringsAsFactors = FALSE)
+
+# Convert the list to a data frame
+for (mp in names(metaprograms_genes)) {
+  genes <- metaprograms_genes[[mp]]
+  temp_df <- data.frame(Genes = genes, Meta_programs = mp, stringsAsFactors = FALSE)
+  data <- rbind(data, temp_df)
+}
+
+# Save the data frame to an Excel file
+output_file <- "metaprograms_genes_TumorCore.xlsx"
+write.xlsx(data, output_file)
 
 
 ######### Hirarchial Clustering for MP and Spearman Coorelation
@@ -63,7 +108,17 @@ library(grid)
 library(gridExtra)
 
 # Extract MP scores
-mp_scores <- seu@meta.data[, c("MP1", "MP2", "MP3", "MP4", "MP5", "MP6", "MP7")]
+#mp_scores <- seu@meta.data[, c("MP1", "MP2", "MP3", "MP4", "MP5")]
+
+library(Seurat)
+library(pheatmap)
+library(RColorBrewer)
+library(dendextend)
+library(grid)
+library(gridExtra)
+
+# Extract MP scores
+mp_scores <- seu@meta.data[, c("MP1", "MP2", "MP3", "MP4", "MP5")]
 
 # Calculate Spearman correlations between MPs
 cor_matrix <- cor(mp_scores, method = "spearman")
@@ -71,24 +126,18 @@ cor_matrix <- cor(mp_scores, method = "spearman")
 # Perform hierarchical clustering
 hc <- hclust(as.dist(1 - cor_matrix), method = "complete")
 
-# Create annotation for CompositionCluster_CC based on the provided data
-cc_data <- data.frame(
-  MP = c("MP1", "MP2", "MP3", "MP4", "MP5", "MP6", "MP7"),
-  CC07 = c(22006, 1391, 526, 313, 21, 3816, 108),
-  CC10 = c(20849, 1650, 0, 1069, 0, 6, 0)
-)
+# Create annotation for CompositionCluster_CC
+cc_annotation <- data.frame(CC = seu@meta.data$CompositionCluster_CC[1:5])
+rownames(cc_annotation) <- colnames(mp_scores)
 
-cc_annotation <- data.frame(CC = ifelse(cc_data$CC07 > cc_data$CC10, "CC07", "CC10"))
-rownames(cc_annotation) <- cc_data$MP
-
-# Ensure CC is a factor with both levels
-cc_annotation$CC <- factor(cc_annotation$CC, levels = c("CC07", "CC10"))
+# Ensure CC is a factor with all levels
+cc_annotation$CC <- factor(cc_annotation$CC)
 
 # Create color palette for annotation and correlation
-annotation_colors <- list(CC = c("CC07" = "#4DAF4A", "CC10" = "#E41A1C"))
+annotation_colors <- list(CC = setNames(rainbow(length(levels(cc_annotation$CC))), levels(cc_annotation$CC)))
 correlation_colors <- colorRampPalette(c("#053061", "#2166AC", "#4393C3", "#92C5DE", "#F7F7F7", "#F4A582", "#D6604D", "#B2182B", "#67001F"))(100)
 
-# Create and save the heatmap as PDF for better quality
+# Create and save the heatmap as PDF
 pdf("MP_correlation_heatmap_with_clustering.pdf", width = 10, height = 10)
 
 # Create the main heatmap
@@ -119,7 +168,6 @@ main_heatmap <- pheatmap(cor_matrix,
 
 # Print the heatmap
 print(main_heatmap)
-
 dev.off()
 
 print("Enhanced heatmap with clustering has been saved as 'MP_correlation_heatmap_with_clustering.pdf'")
@@ -383,7 +431,7 @@ C2 --> CP:KEGG --> KEGG
 
 
 top_p <- lapply(geneNMF.metaprograms$metaprograms.genes, function(program) {
-  runGSEA(program, universe=rownames(seu), category = "C2", subcategory = "CP:KEGG")
+  runGSEA(program, universe=rownames(seu), category = "H", subcategory = FALSE)
 })
 
 
@@ -398,7 +446,7 @@ library(writexl)
 names(top_p) <- paste0("MP", 1:length(top_p))
 
 # Create an Excel file with separate sheets for each MP
-write_xlsx(top_p, path = "MP_KEGG.xlsx")
+write_xlsx(top_p, path = "MP_Hallmark.xlsx")
 
 print("Excel file 'MP_data.xlsx' has been created with separate sheets for each MP.")
 
@@ -423,75 +471,51 @@ library(patchwork)
 library(scales)
 library(ggtext)
 
-# Function to create a more beautiful bar plot for each MP
 create_beautiful_bar_plot <- function(df, mp_name) {
-  df <- df %>%
-    arrange(padj) %>%
-    slice_head(n = 15) %>%  # Top 15 pathways
+  df %>%
+    arrange(desc(padj)) %>%
+    slice_head(n = 15) %>%
     mutate(
-      pathway = fct_reorder(pathway, padj),
+      pathway = fct_reorder(pathway, -padj),
       log_padj = -log10(padj),
       overlap_ratio = overlap / size,
-      label = sprintf("%s", pathway),
       info = sprintf("Overlap: %d/%d (%.1f%%)", overlap, size, overlap_ratio*100)
-    )
-  
-  ggplot(df, aes(x = log_padj, y = label)) +
+    ) %>%
+    ggplot(aes(x = log_padj, y = pathway)) +
     geom_bar(stat = "identity", aes(fill = overlap_ratio), width = 0.7) +
     geom_text(aes(label = sprintf("%.2f", log_padj)), hjust = -0.1, size = 3, fontface = "bold") +
     geom_text(aes(label = info, x = 0), hjust = 1.1, size = 2.5, color = "darkgrey") +
-    scale_fill_gradientn(colours = c("#FDE725FF", "#B4DE2CFF", "#6DCD59FF", "#35B779FF", "#1F9E89FF", "#26828EFF", "#31688EFF", "#3E4989FF", "#482878FF", "#440154FF"),
-                         name = "Overlap\nRatio", labels = percent) +
-    labs(
-      title = mp_name,
-      subtitle = "Top 15 Enriched Pathways",
-      x = "-log10(Adjusted p-value)",
-      y = NULL,
-      caption = "Bar length represents significance. Color intensity shows overlap ratio."
-    ) +
-    theme_minimal() +
+    scale_fill_viridis_c(option = "plasma", name = "Overlap\nRatio", labels = percent) +
+    labs(title = mp_name, x = "-log10(Adjusted p-value)", y = NULL) +
+    theme_minimal(base_size = 14) +
     theme(
-      plot.background = element_rect(fill = "ghostwhite", color = NA),
-      panel.background = element_rect(fill = "white", color = NA),
-      axis.text.y = element_markdown(size = 7, color = "black"),
-      axis.text.x = element_text(size = 8, color = "black"),
-      plot.title = element_text(hjust = 0.5, size = 14, face = "bold", color = "navy"),
-      plot.subtitle = element_text(hjust = 0.5, size = 10, color = "darkblue"),
+      plot.title = element_text(hjust = 0.5, size = 16, face = "bold", color = "navy"),
+      axis.text.y = element_text(size = 10, face = "bold", color = "black"),
+      axis.text.x = element_text(size = 10, color = "black"),
       panel.grid.major.y = element_blank(),
-      panel.grid.minor.y = element_blank(),
-      panel.grid.major.x = element_line(color = "lightgrey", linetype = "dashed"),
+      panel.grid.minor = element_blank(),
       legend.position = "right",
-      legend.key.size = unit(0.5, "cm"),
-      legend.text = element_text(size = 7),
-      legend.title = element_text(size = 8),
-      plot.caption = element_text(size = 8, color = "darkgrey", hjust = 1),
-      plot.margin = margin(t = 20, r = 20, b = 20, l = 20, unit = "pt")
+      plot.margin = margin(t = 10, r = 10, b = 10, l = 10)
     ) +
     scale_x_continuous(expand = expansion(mult = c(0, 0.2)))
 }
 
-# Create plots for each MP
-plot_list <- lapply(names(top_p), function(mp_name) {
-  create_beautiful_bar_plot(top_p[[mp_name]], mp_name)
-})
+plot_list <- lapply(names(top_p), function(mp_name) create_beautiful_bar_plot(top_p[[mp_name]], mp_name))
 
-# Combine plots using patchwork
 combined_plot <- wrap_plots(plot_list, ncol = 2) +
   plot_annotation(
-    title = 'Comprehensive Pathway Enrichment Analysis Across MPs',
-    subtitle = 'Visualizing Significance, Overlap, and Set Size',
+    title = 'Pathway Enrichment Analysis Across MPs',
     theme = theme(
-      plot.title = element_text(size = 20, face = "bold", hjust = 0.5, color = "navy"),
-      plot.subtitle = element_text(size = 16, hjust = 0.5, color = "darkblue"),
-      plot.background = element_rect(fill = "ghostwhite", color = NA)
+      plot.title = element_text(size = 24, face = "bold", hjust = 0.5, color = "navy"),
+      plot.background = element_rect(fill = "white", color = NA)
     )
   ) &
-  theme(plot.background = element_rect(fill = "ghostwhite", color = NA))
+  theme(plot.background = element_rect(fill = "white", color = NA))
 
-# Save the combined plot as a PDF
-ggsave("pathway_enrichment_all_MPs_KEGG.pdf", combined_plot, width = 18, height = 10 * ceiling(length(plot_list)/2), limitsize = FALSE)
+ggsave("pathway_enrichment_all_MPs_Hallmark.pdf", combined_plot, width = 20, height = 12 * ceiling(length(plot_list)/2), limitsize = FALSE)
 
-print("Enhanced bar plots for all MPs have been combined and saved as 'pathway_enrichment_all_MPs_Hallmark.pdf'.")
+print("Enhanced bar plots for all MPs have been combined and saved as 'pathway_enrichment_all_MPs_KEGG.pdf'.")
+
 
 ####
 
