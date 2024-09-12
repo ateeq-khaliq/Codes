@@ -53,6 +53,7 @@ ph <- plotMetaPrograms(geneNMF.metaprograms, jaccard.cutoff = c(0,0.8))
 ph
 dev.off()
 
+mp.genes <- geneNMF.metaprograms$metaprograms.genes
 seu <- AddModuleScore_UCell(seu, features = mp.genes, assay="SCT", ncores=4, name = "")
 
 
