@@ -57,6 +57,17 @@ mp.genes <- geneNMF.metaprograms$metaprograms.genes
 seu <- AddModuleScore_UCell(seu, features = mp.genes, assay="SCT", ncores=4, name = "")
 
 
+####
+# Identify the MP columns
+mp_cols <- grep("^MP", colnames(icaf_so@meta.data))
+
+# Find the MP with the highest score for each cell
+icaf_so$assigned_MP <- colnames(icaf_so@meta.data)[mp_cols][apply(icaf_so@meta.data[, mp_cols], 1, which.max)]
+
+# Check the distribution of cells across MPs
+table(icaf_so$assigned_MP)
+#####
+
 # Extract data
 mp_scores <- seu@meta.data[, c("MP1", "MP2", "MP3", "MP4", "MP5")]
 cc_clusters <- seu@meta.data$CompositionCluster_CC
