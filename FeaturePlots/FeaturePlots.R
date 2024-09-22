@@ -299,6 +299,14 @@ for (image_name in image_names) {
 ####
 Feature Plot output by Feature: Each feature across all Images
 ####
+# Load required libraries
+
+library(Seurat)  # For SpatialFeaturePlot
+library(ggplot2)  # For theme_minimal and other ggplot functions
+library(viridis)  # For scale_fill_viridis
+library(gridExtra)  # For grid.arrange
+library(grid)  # For grid.newpage and grid.text
+
 # Define your list of image names and features
 image_names <- c(
   "IU_PDA_NP11", "IU_PDA_NP2", "IU_PDA_T11", "IU_PDA_T3", "IU_PDA_T8",
