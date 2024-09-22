@@ -296,6 +296,84 @@ for (image_name in image_names) {
   dev.off()
 }
 
+####
+Feature Plot output by Feature: Each feature across all Images
+####
+# Define your list of image names and features
+image_names <- c(
+  "IU_PDA_NP11", "IU_PDA_NP2", "IU_PDA_T11", "IU_PDA_T3", "IU_PDA_T8",
+  "IU_PDA_HM13", "IU_PDA_HM2", "IU_PDA_HM4", "IU_PDA_HM6", "IU_PDA_HM8",
+  "IU_PDA_LNM7", "IU_PDA_T1", "IU_PDA_T4", "IU_PDA_LNM10", "IU_PDA_LNM6",
+  "IU_PDA_LNM8", "IU_PDA_HM12", "IU_PDA_T9", "IU_PDA_T2", "IU_PDA_HM10",
+  "IU_PDA_HM9", "IU_PDA_NP10", "IU_PDA_T10", "IU_PDA_T12", "IU_PDA_T6",
+  "IU_PDA_HM11", "IU_PDA_HM3", "IU_PDA_HM5", "IU_PDA_LNM12", "IU_PDA_HM2_2"
+)
+features <- colnames(norm_weights)
+
+# Create a directory to save the PDF files
+dir.create("pdf_output_by_feature", showWarnings = FALSE)
+
+# Define custom theme for the plots with a smaller legend
+custom_theme <- theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 10),  # Center-align the title and reduce size
+    axis.text = element_blank(),  # Remove axis text
+    axis.title = element_blank(),  # Remove axis title
+    legend.position = "bottom",  # Position legend at the bottom
+    legend.box = "horizontal",  # Display legend as horizontal box
+    legend.title = element_text(size = 8),  # Adjust legend title size
+    legend.text = element_text(size = 8)  # Adjust legend text size
+  )
+
+# Loop through features
+for (feature in features) {
+  # Create a list to store plots for the current feature
+  feature_plots <- list()
+  
+  for (image_name in image_names) {
+    # Generate the spatial feature plot
+    plot <- SpatialFeaturePlot(pdac, features = feature, stroke = 1, max.cutoff = "q99", min.cutoff = "q1", images = image_name) + 
+      scale_fill_viridis(option = "H") +
+      theme_void() +
+      labs(title = image_name) +
+      custom_theme  # Apply the custom theme
+    
+    feature_plots <- c(feature_plots, list(plot))
+  }
+  
+  # Calculate the number of pages needed
+  num_pages <- ceiling(length(feature_plots) / 6)  # Two rows, three columns
+  
+  # Create a PDF file for the current feature
+  pdf_name <- paste0("pdf_output_by_feature/", feature, ".pdf")
+  pdf(pdf_name, width = 15, height = 12, onefile = TRUE)  # Increased height to accommodate feature title
+  
+  # Add a title page with the feature name
+  grid.newpage()
+  grid.text(feature, x = 0.5, y = 0.5, gp = gpar(fontsize = 40, fontface = "bold"))
+  
+  for (page in 1:num_pages) {
+    # Select the plots for the current page
+    start_plot <- (page - 1) * 6 + 1
+    end_plot <- min(page * 6, length(feature_plots))
+    page_plots <- feature_plots[start_plot:end_plot]
+    
+    # Create a 2x3 grid for the current page
+    page_grid <- grid.arrange(
+      grobs = page_plots, 
+      ncol = 3,
+      top = textGrob(paste("Feature:", feature), gp = gpar(fontsize = 16, fontface = "bold"))
+    )
+    
+    # Print the page to the PDF
+    print(page_grid)
+  }
+  
+  dev.off()
+}
+
+####
+
 # Heatmaps
 
 suppressPackageStartupMessages(library(escape))
