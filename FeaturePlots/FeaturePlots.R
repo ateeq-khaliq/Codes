@@ -434,4 +434,123 @@ my_breaks <- c(seq(-2, 0, length.out=ceiling(palette_length/2) + 1),
 pdf("Heatmap1.pdf")
 pheatmap(top_acts_mat, border_color = NA, color=my_color, breaks = my_breaks) 
 dev.off()
+####
+DimPlot
+###
 
+# Load required libraries
+library(Seurat)
+library(ggplot2)
+library(cowplot)
+library(viridis)
+
+# Create a directory to save the PDF files
+dir.create("presentation_CMS_subtypes_large", showWarnings = FALSE)
+
+# Define custom theme for the plots
+custom_theme <- theme_minimal(base_size = 16) +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 24, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5, size = 18, face = "italic"),
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    panel.grid = element_blank(),
+    legend.position = "bottom",
+    legend.box = "horizontal",
+    legend.title = element_text(size = 16, face = "bold"),
+    legend.text = element_text(size = 14),
+    plot.margin = unit(c(1, 1, 1, 1), "cm")
+  )
+
+# Define custom color palette for CMS subtypes
+cms_colors <- c('CMS1' = "#FF9900",
+                'CMS2' = "#009999",
+                'CMS3' = "#CC0033",
+                'CMS4' = "#0000CC")
+
+# Get unique image names
+image_names <- unique(names(pdac@images))
+
+# Create a PDF file for the CMS subtypes
+pdf_name <- "presentation_CMS_subtypes_large/CMS_subtypes_presentation_large.pdf"
+pdf(pdf_name, width = 16, height = 12, onefile = TRUE)  # Larger size for better visibility
+
+# Add a title page
+plot_grid(
+  ggdraw() + 
+    draw_label(
+      "CMS Subtypes in CRC Spatial samples",
+      fontface = 'bold',
+      x = 0.5,
+      y = 0.6,
+      hjust = 0.5,
+      vjust = 0.5,
+      size = 20
+    ),
+  ggdraw() + 
+    draw_label(
+      paste("Total Images:", length(image_names)),
+      fontface = 'italic',
+      x = 0.5,
+      y = 0.4,
+      hjust = 0.5,
+      vjust = 0.5,
+      size = 24
+    )
+)
+
+# Create one large plot per page
+for (i in seq_along(image_names)) {
+  image_name <- image_names[i]
+  
+  # Generate the spatial feature plot for CMS subtypes
+  plot <- SpatialDimPlot(pdac, 
+                         group.by = "CMS_subtypes",
+                         stroke = 0.3, 
+                         pt.size.factor = 1.5,
+                         image.alpha = 0,
+                         images = image_name) + 
+    scale_fill_manual(values = cms_colors, name = "CMS Subtype") +
+    labs(title = paste("Sample:", image_name),
+         subtitle = "Spatial distribution of CMS subtypes") +
+    custom_theme +
+    guides(fill = guide_legend(override.aes = list(size = 5)))
+  
+  # Add page number
+  plot <- plot +
+    annotate("text", x = Inf, y = -Inf, label = paste("Page", i, "of", length(image_names)),
+             hjust = 1.1, vjust = -1, size = 5, fontface = "italic")
+  
+  # Print the page to the PDF
+  print(plot)
+}
+
+# Add a summary page
+cms_counts <- table(pdac$CMS_subtypes)
+cms_percentages <- prop.table(cms_counts) * 100
+
+summary_plot <- ggplot(data.frame(subtype = names(cms_counts), count = as.numeric(cms_counts)), aes(x = "", y = count, fill = subtype)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  scale_fill_manual(values = cms_colors, name = "CMS Subtype") +
+  labs(title = "Distribution of CMS Subtypes",
+       subtitle = paste("Total cells:", sum(cms_counts))) +
+  geom_text(aes(label = sprintf("%s\n%.1f%%", subtype, cms_percentages)), 
+            position = position_stack(vjust = 0.5), size = 6) +
+  custom_theme +
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid = element_blank(),
+        plot.title = element_text(size = 28),
+        plot.subtitle = element_text(size = 20),
+        legend.title = element_text(size = 20),
+        legend.text = element_text(size = 18))
+
+print(summary_plot)
+
+dev.off()
+
+# Print a message to confirm completion
+cat("Large CMS subtypes presentation has been saved to", pdf_name, "\n")
+
+###
