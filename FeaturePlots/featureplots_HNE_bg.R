@@ -30,6 +30,8 @@ pdac@assays[["msigdb"]] <- CreateAssayObject(data = t(as.matrix(norm_weights)))
 if (length(pdac@assays$msigdb@key) == 0) {
     pdac@assays$msigdb@key = "msigdb_"
 }
+
+DefaultAssay(pdac) <- "msigdb"
 ###
 
 # Define your list of image names and features
