@@ -6,6 +6,32 @@ library(gridExtra)
 library(grid)
 library(viridis)  # For an alternative color palette option
 
+###
+#Data Modification
+
+library(Seurat)
+library(spacexr)
+library(stringr)
+
+pdac <- readRDS("/Users/akhaliq/Desktop/asif/04-pdac_nac_subset_CC10.rds")
+msigdb <- readRDS("/Users/akhaliq/Desktop/asif/featureplots/enrichment_scores_mgsib.rds")
+norm_weights <- normalize_weights(msigdb)
+
+# Remove 'HALLMARK_' prefix from column names
+colnames(norm_weights) <- str_remove(colnames(norm_weights), "^HALLMARK_")
+
+# Display the first few rows of the modified data frame
+head(norm_weights)
+
+pdac@assays[["msigdb"]] <- CreateAssayObject(data = t(as.matrix(norm_weights)))
+
+# Seems to be a bug in SeuratData package that the key is not set and any
+# plotting function etc. will throw an error.
+if (length(pdac@assays$msigdb@key) == 0) {
+    pdac@assays$msigdb@key = "msigdb_"
+}
+###
+
 # Define your list of image names and features
 image_names <- names(pdac@images)
 features <- rownames(pdac@assays$msigdb)
