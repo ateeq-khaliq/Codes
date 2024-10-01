@@ -34,6 +34,18 @@ p <- readRDS("/Users/akhaliq/Desktop/spatial_analysis/pdac_new/ischia/new_k10/ge
 p <- readRDS("/Users/akhaliq/Desktop/spatial_analysis/pdac_new/ischia/new_k10/genesets/all_markers/all/ES_All_B_plasma_Endo.rds") # B, Plasma & Endo
 p <- readRDS("/Users/akhaliq/Desktop/spatial_analysis/pdac_new/ischia/new_k10/genesets/all_markers/all/merged_all.rds") # all together
 
+###
+#Remove 'HALLMARK_' prefix from column names
+# Assuming you have the data in a data frame called 'norm_weights'
+library(stringr)
+
+# Remove 'HALLMARK_' prefix from column names
+colnames(norm_weights) <- str_remove(colnames(norm_weights), "^HALLMARK_")
+
+# Display the first few rows of the modified data frame
+head(norm_weights)
+####
+
 tibble_data <- p %>%
   rownames_to_column(var = "condition") %>%
   pivot_longer(cols = -condition, names_to = "source", values_to = "score") %>%
