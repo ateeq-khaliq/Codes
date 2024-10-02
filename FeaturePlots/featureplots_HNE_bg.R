@@ -100,7 +100,7 @@ create_plot <- function(feature, image_name) {
 
 # Function to create a page of plots
 create_page <- function(plots, feature) {
-  title <- textGrob(paste("Spatial Distribution of", feature), 
+  title <- textGrob(paste(feature), 
                     gp = gpar(fontsize = 16, fontface = "bold"))
   
   # Ensure we have exactly 6 grobs (fill with nullGrob if needed)
@@ -122,7 +122,7 @@ for (feature in features) {
   num_pages <- ceiling(length(feature_plots) / 6)
   
   # Create a PDF file for the current feature
-  pdf_name <- paste0("publication_quality_plots/", feature, "_spatial_plot_numerical.pdf")
+  pdf_name <- paste0("publication_quality_plots/", feature, ".pdf")
   pdf(pdf_name, width = 16, height = 12, onefile = TRUE)  # Landscape orientation
   
   for (page in 1:num_pages) {
