@@ -37,11 +37,10 @@ library(cowplot)
 
 # Assuming 'es' is your data frame with pathway activities
 # If it's not already a data frame, convert it:
-es_df <- as.data.frame(es)
+
 
 # Select the pathways you want to plot
 #selected_pathways <- c("HYPOXIA", "E2F_TARGETS","EPITHELIAL_MESENCHYMAL_TRANSITION","OXIDATIVE_PHOSPHORYLATION","INFLAMMATORY_RESPONSE")  # Add more pathways as needed
-
 
 # ONCOGENIC Pathways
 selected_pathways <- c("G2M_CHECKPOINT","EPITHELIAL_MESENCHYMAL_TRANSITION","E2F_TARGETS","PI3K_AKT_MTOR_SIGNALING","MYC_TARGETS_V1")
@@ -54,6 +53,10 @@ selected_pathways <- c("GLYCOLYSIS","ANGIOGENESIS","ADIPOGENESIS","OXIDATIVE_PHO
 
 #Immune
 selected_pathways <- c("IL2_STAT5_SIGNALING","TNFA_SIGNALING_VIA_NFKB","INTERFERON_ALPHA_RESPONSE","INTERFERON_GAMMA_RESPONSE")
+
+
+# Assuming 'es' is your data frame with pathway activities
+es_df <- as.data.frame(es)
 
 create_scatterplot <- function(data, x_pathway, y_pathway) {
   correlation <- round(cor(data[[x_pathway]], data[[y_pathway]]), 2)
@@ -87,7 +90,7 @@ n_cols <- ceiling(sqrt(n_plots))
 n_rows <- ceiling(n_plots / n_cols)
 
 # Create a single-page PDF
-pdf("Oncogenic_pathway_scatterplots.pdf", width = 2.5 * n_cols, height = 2.5 * n_rows)
+pdf("Immune_pathway_scatterplots.pdf", width = 2.5 * n_cols, height = 2.5 * n_rows)
 
 # Arrange all plots in a grid
 grid_arranged_plots <- do.call(gridExtra::grid.arrange, c(plots, ncol = n_cols))
@@ -98,6 +101,6 @@ print(grid_arranged_plots)
 # Close the PDF device
 dev.off()
 
-cat("Compact plots have been saved to 'compact_pathway_scatterplots.pdf'\n")
+cat("Oncogenic pathway scatterplots have been saved to 'Oncogenic_pathway_scatterplots.pdf'\n")
 
 ######
