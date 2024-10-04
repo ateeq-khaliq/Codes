@@ -42,10 +42,18 @@ es_df <- as.data.frame(es)
 # Select the pathways you want to plot
 #selected_pathways <- c("HYPOXIA", "E2F_TARGETS","EPITHELIAL_MESENCHYMAL_TRANSITION","OXIDATIVE_PHOSPHORYLATION","INFLAMMATORY_RESPONSE")  # Add more pathways as needed
 
+
 # ONCOGENIC Pathways
 selected_pathways <- c("G2M_CHECKPOINT","EPITHELIAL_MESENCHYMAL_TRANSITION","E2F_TARGETS","PI3K_AKT_MTOR_SIGNALING","MYC_TARGETS_V1")
-# Select the pathways you want to plot
-#selected_pathways <- c("HYPOXIA", "E2F_TARGETS", "TNFA_SIGNALING_VIA_NFKB", "P53_PATHWAY")
+
+# Signalling Pathways
+selected_pathways <- c("HEDGEHOG_SIGNALING","NOTCH_SIGNALING","WNT_BETA_CATENIN_SIGNALING")
+
+#Metabolism & Development
+selected_pathways <- c("GLYCOLYSIS","ANGIOGENESIS","ADIPOGENESIS","OXIDATIVE_PHOSPHORYLATION")
+
+#Immune
+selected_pathways <- c("IL2_STAT5_SIGNALING","TNFA_SIGNALING_VIA_NFKB","INTERFERON_ALPHA_RESPONSE","INTERFERON_GAMMA_RESPONSE")
 
 create_scatterplot <- function(data, x_pathway, y_pathway) {
   correlation <- round(cor(data[[x_pathway]], data[[y_pathway]]), 2)
