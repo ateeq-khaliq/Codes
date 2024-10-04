@@ -178,3 +178,64 @@ dev.off()
 cat("All pathway correlations have been analyzed and saved to PDF files.\n")
 
 ##
+# the script to calculate correlations for all pathways present in your 'es' dataset.
+
+library(writexl)
+library(dplyr)
+library(tidyr)
+
+# Assuming 'es' is your data frame with all pathway activities
+es_df <- as.data.frame(es)
+
+# Calculate the correlation matrix for all pathways
+cor_matrix <- cor(es_df)
+
+# Convert the correlation matrix to a long format
+cor_long <- as.data.frame(as.table(cor_matrix))
+names(cor_long) <- c("Pathway1", "Pathway2", "Correlation")
+
+# Remove self-correlations and duplicate pairs
+cor_long <- cor_long %>%
+  filter(as.character(Pathway1) < as.character(Pathway2)) %>%
+  mutate(AbsCorrelation = abs(Correlation)) %>%
+  arrange(desc(AbsCorrelation))
+
+# Function to categorize pathways
+categorize_pathway <- function(pathway) {
+  if (pathway %in% c("G2M_CHECKPOINT", "EPITHELIAL_MESENCHYMAL_TRANSITION", "E2F_TARGETS", "PI3K_AKT_MTOR_SIGNALING", "MYC_TARGETS_V1")) {
+    return("ONCOGENIC")
+  } else if (pathway %in% c("HEDGEHOG_SIGNALING", "NOTCH_SIGNALING", "WNT_BETA_CATENIN_SIGNALING")) {
+    return("SIGNALLING")
+  } else if (pathway %in% c("GLYCOLYSIS", "ANGIOGENESIS", "ADIPOGENESIS", "OXIDATIVE_PHOSPHORYLATION")) {
+    return("METABOLISM & DEVELOPMENT")
+  } else if (pathway %in% c("IL2_STAT5_SIGNALING", "TNFA_SIGNALING_VIA_NFKB", "INTERFERON_ALPHA_RESPONSE", "INTERFERON_GAMMA_RESPONSE")) {
+    return("IMMUNE")
+  } else {
+    return("OTHER")
+  }
+}
+
+# Add categories for both pathways
+cor_long <- cor_long %>%
+  mutate(
+    Category1 = sapply(as.character(Pathway1), categorize_pathway),
+    Category2 = sapply(as.character(Pathway2), categorize_pathway)
+  )
+
+# Write to Excel
+write_xlsx(cor_long, "all_pathway_correlations.xlsx")
+
+cat("Correlation data for all pathways has been saved to 'all_pathway_correlations.xlsx'\n")
+
+# Print summary statistics
+cat("\nSummary of correlations:\n")
+print(summary(cor_long$Correlation))
+
+cat("\nTop 10 strongest positive correlations:\n")
+print(head(cor_long[cor_long$Correlation > 0, c("Pathway1", "Pathway2", "Correlation")], 10))
+
+cat("\nTop 10 strongest negative correlations:\n")
+print(head(cor_long[cor_long$Correlation < 0, c("Pathway1", "Pathway2", "Correlation")], 10))
+
+
+###
