@@ -182,7 +182,6 @@ cat("All pathway correlations have been analyzed and saved to PDF files.\n")
 
 library(writexl)
 library(dplyr)
-library(tidyr)
 
 # Assuming 'es' is your data frame with all pathway activities
 es_df <- as.data.frame(es)
@@ -215,27 +214,49 @@ categorize_pathway <- function(pathway) {
   }
 }
 
-# Add categories for both pathways
+# Function to categorize correlation strength
+categorize_correlation <- function(cor_value) {
+  if (cor_value >= 0.7) {
+    return("Strong Positive")
+  } else if (cor_value >= 0.3 && cor_value < 0.7) {
+    return("Moderate Positive")
+  } else if (cor_value > 0 && cor_value < 0.3) {
+    return("Weak Positive")
+  } else if (cor_value == 0) {
+    return("No Correlation")
+  } else if (cor_value > -0.3 && cor_value < 0) {
+    return("Weak Negative")
+  } else if (cor_value >= -0.7 && cor_value <= -0.3) {
+    return("Moderate Negative")
+  } else {
+    return("Strong Negative")
+  }
+}
+
+# Add categories for both pathways and correlation strength
 cor_long <- cor_long %>%
   mutate(
     Category1 = sapply(as.character(Pathway1), categorize_pathway),
-    Category2 = sapply(as.character(Pathway2), categorize_pathway)
+    Category2 = sapply(as.character(Pathway2), categorize_pathway),
+    CorrelationStrength = sapply(Correlation, categorize_correlation)
   )
 
 # Write to Excel
-write_xlsx(cor_long, "all_pathway_correlations.xlsx")
+write_xlsx(cor_long, "all_pathway_correlations_with_strength.xlsx")
 
-cat("Correlation data for all pathways has been saved to 'all_pathway_correlations.xlsx'\n")
+cat("Correlation data for all pathways has been saved to 'all_pathway_correlations_with_strength.xlsx'\n")
 
 # Print summary statistics
 cat("\nSummary of correlations:\n")
 print(summary(cor_long$Correlation))
 
+cat("\nDistribution of correlation strengths:\n")
+print(table(cor_long$CorrelationStrength))
+
 cat("\nTop 10 strongest positive correlations:\n")
-print(head(cor_long[cor_long$Correlation > 0, c("Pathway1", "Pathway2", "Correlation")], 10))
+print(head(cor_long[cor_long$Correlation > 0, c("Pathway1", "Pathway2", "Correlation", "CorrelationStrength")], 10))
 
 cat("\nTop 10 strongest negative correlations:\n")
-print(head(cor_long[cor_long$Correlation < 0, c("Pathway1", "Pathway2", "Correlation")], 10))
-
+print(head(cor_long[cor_long$Correlation < 0, c("Pathway1", "Pathway2", "Correlation", "CorrelationStrength")], 10))
 
 ###
