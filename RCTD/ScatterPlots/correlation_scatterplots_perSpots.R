@@ -104,3 +104,77 @@ dev.off()
 cat("Oncogenic pathway scatterplots have been saved to 'Oncogenic_pathway_scatterplots.pdf'\n")
 
 ######
+# We can combine all these pathways into a single analysis to check the correlations between them. 
+library(ggplot2)
+library(gridExtra)
+library(reshape2)
+library(corrplot)
+
+# Combine all pathways
+all_pathways <- c(
+  # ONCOGENIC Pathways
+  "G2M_CHECKPOINT", "EPITHELIAL_MESENCHYMAL_TRANSITION", "E2F_TARGETS", "PI3K_AKT_MTOR_SIGNALING", "MYC_TARGETS_V1",
+  # Signalling Pathways
+  "HEDGEHOG_SIGNALING", "NOTCH_SIGNALING", "WNT_BETA_CATENIN_SIGNALING",
+  # Metabolism & Development
+  "GLYCOLYSIS", "ANGIOGENESIS", "ADIPOGENESIS", "OXIDATIVE_PHOSPHORYLATION",
+  # Immune
+  "IL2_STAT5_SIGNALING", "TNFA_SIGNALING_VIA_NFKB", "INTERFERON_ALPHA_RESPONSE", "INTERFERON_GAMMA_RESPONSE"
+)
+
+# Assuming 'es' is your data frame with pathway activities
+es_df <- as.data.frame(es)
+
+# Subset the data to include only the selected pathways
+es_subset <- es_df[, all_pathways]
+
+# Calculate the correlation matrix
+cor_matrix <- cor(es_subset)
+
+# Create a correlation heatmap
+pdf("All_pathways_correlation_heatmap.pdf", width = 12, height = 10)
+corrplot(cor_matrix, method = "color", type = "upper", order = "hclust", 
+         tl.col = "black", tl.srt = 45, addCoef.col = "black", 
+         number.cex = 0.7, tl.cex = 0.7)
+dev.off()
+
+# Function to create scatterplot
+create_scatterplot <- function(data, x_pathway, y_pathway) {
+  correlation <- round(cor(data[[x_pathway]], data[[y_pathway]]), 2)
+  
+  ggplot(data, aes_string(x = x_pathway, y = y_pathway)) +
+    geom_point(alpha = 0.3, size = 1, shape = 16) +
+    geom_smooth(method = "lm", se = FALSE, color = "red", size = 0.5) +
+    theme_minimal() +
+    labs(x = x_pathway, y = y_pathway,
+         title = paste("r =", correlation)) +
+    theme(axis.title = element_text(size = 6),
+          axis.text = element_text(size = 5),
+          plot.title = element_text(size = 7, face = "bold"),
+          plot.margin = unit(c(1, 1, 1, 1), "mm")) +
+    coord_fixed(ratio = 1)
+}
+
+# Generate all pairwise scatterplots
+plots <- list()
+for (i in 1:(length(all_pathways) - 1)) {
+  for (j in (i + 1):length(all_pathways)) {
+    plots[[length(plots) + 1]] <- create_scatterplot(es_subset, all_pathways[i], all_pathways[j])
+  }
+}
+
+# Calculate the number of rows and columns needed
+n_plots <- length(plots)
+n_cols <- ceiling(sqrt(n_plots))
+n_rows <- ceiling(n_plots / n_cols)
+
+# Create a multi-page PDF for scatterplots
+pdf("All_pathways_scatterplots.pdf", width = 20, height = 20)
+for(i in seq(1, length(plots), 12)) {
+  print(do.call(gridExtra::grid.arrange, c(plots[i:min(i+11, length(plots))], ncol = 4)))
+}
+dev.off()
+
+cat("All pathway correlations have been analyzed and saved to PDF files.\n")
+
+##
