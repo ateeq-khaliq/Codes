@@ -1,0 +1,151 @@
+cell_type	CompositionCluster_CC	statistic	p.value	method	alternative	p_corr	significant
+Bcell	CC1	4992	5.48257467880303e-16	Wilcoxon rank sum test with continuity correction	greater	8.22386201820455e-14	*
+Bcell	CC10	2615	0.0175022863691651	Wilcoxon rank sum test with continuity correction	greater	1	
+Bcell	CC2	2891	0.102553774785955	Wilcoxon rank sum test with continuity correction	greater	1	
+Bcell	CC3	1549	0.997433811681547	Wilcoxon rank sum test with continuity correction	greater	1	
+Bcell	CC4	1638	0.997087747962889	Wilcoxon rank sum test with continuity correction	greater	1	
+Bcell	CC5	2285	0.75153805739935	Wilcoxon rank sum test with continuity correction	greater	1	
+Bcell	CC6	2866	0.117646639968081	Wilcoxon rank sum test with continuity correction	greater	1	
+Bcell	CC7	1693	0.990024326672445	Wilcoxon rank sum test with continuity correction	greater	1	
+Bcell	CC8	3238	0.00861653268209071	Wilcoxon rank sum test with continuity correction	greater	1	
+Bcell	CC9	443	0.999999999931319	Wilcoxon rank sum test with continuity correction	greater	1	
+C1Q_TAMs	CC1	3540	0.000401554918183652	Wilcoxon rank sum test with continuity correction	greater	0.0538083590366094	*
+C1Q_TAMs	CC10	1007	0.999857186144538	Wilcoxon rank sum test with continuity correction	greater	1	
+C1Q_TAMs	CC2	3112	0.0240216481468396	Wilcoxon rank sum test with continuity correction	greater	1	
+C1Q_TAMs	CC3	2964	0.0334009204027882	Wilcoxon rank sum test with continuity correction	greater	1	
+C1Q_TAMs	CC4	1594	0.998127203933967	Wilcoxon rank sum test with continuity correction	greater	1	
+C1Q_TAMs	CC5	2198	0.831165620192803	Wilcoxon rank sum test with continuity correction	greater	1	
+C1Q_TAMs	CC6	3416	0.00157130462471557	Wilcoxon rank sum test with continuity correction	greater	0.197984382714162	
+C1Q_TAMs	CC7	2326	0.600758701472969	Wilcoxon rank sum test with continuity correction	greater	1	
+C1Q_TAMs	CC8	3342	0.00330634160071821	Wilcoxon rank sum test with continuity correction	greater	0.409986358489058	
+C1Q_TAMs	CC9	711	0.999999985011127	Wilcoxon rank sum test with continuity correction	greater	1	
+CD4_conv	CC1	4169	3.89193732516179e-08	Wilcoxon rank sum test with continuity correction	greater	5.48763162847813e-06	*
+CD4_conv	CC10	1855	0.726706610993717	Wilcoxon rank sum test with continuity correction	greater	1	
+CD4_conv	CC2	2826	0.14494713153083	Wilcoxon rank sum test with continuity correction	greater	1	
+CD4_conv	CC3	2469	0.415757277944589	Wilcoxon rank sum test with continuity correction	greater	1	
+CD4_conv	CC4	2168	0.854319716893986	Wilcoxon rank sum test with continuity correction	greater	1	
+CD4_conv	CC5	2314	0.721126005850393	Wilcoxon rank sum test with continuity correction	greater	1	
+CD4_conv	CC6	2236	0.798626611502617	Wilcoxon rank sum test with continuity correction	greater	1	
+CD4_conv	CC7	1364	0.999668150923121	Wilcoxon rank sum test with continuity correction	greater	1	
+CD4_conv	CC8	3506	0.000592403156501072	Wilcoxon rank sum test with continuity correction	greater	0.0776048135016404	*
+CD4_conv	CC9	1303	0.999843212015573	Wilcoxon rank sum test with continuity correction	greater	1	
+CD8_NK	CC1	2583	0.390568399568623	Wilcoxon rank sum test with continuity correction	greater	1	
+CD8_NK	CC10	2945	0.00050895004644023	Wilcoxon rank sum test with continuity correction	greater	0.0676903561765505	*
+CD8_NK	CC2	2978	0.0609825888327652	Wilcoxon rank sum test with continuity correction	greater	1	
+CD8_NK	CC3	2730	0.142969952167814	Wilcoxon rank sum test with continuity correction	greater	1	
+CD8_NK	CC4	2272	0.764574075864055	Wilcoxon rank sum test with continuity correction	greater	1	
+CD8_NK	CC5	2534	0.45206336054494	Wilcoxon rank sum test with continuity correction	greater	1	
+CD8_NK	CC6	2017	0.938238520013396	Wilcoxon rank sum test with continuity correction	greater	1	
+CD8_NK	CC7	1220	0.999946796157214	Wilcoxon rank sum test with continuity correction	greater	1	
+CD8_NK	CC8	3244	0.00817585856277057	Wilcoxon rank sum test with continuity correction	greater	0.997454744658009	
+CD8_NK	CC9	1687	0.990534856290145	Wilcoxon rank sum test with continuity correction	greater	1	
+Dendritic_cells	CC1	2953	0.0712863578871073	Wilcoxon rank sum test with continuity correction	greater	1	
+Dendritic_cells	CC10	2495	0.0464569521336953	Wilcoxon rank sum test with continuity correction	greater	1	
+Dendritic_cells	CC2	3250	0.00775510991607013	Wilcoxon rank sum test with continuity correction	greater	0.953878519676626	
+Dendritic_cells	CC3	1801	0.975795110832065	Wilcoxon rank sum test with continuity correction	greater	1	
+Dendritic_cells	CC4	2950	0.0726076890762277	Wilcoxon rank sum test with continuity correction	greater	1	
+Dendritic_cells	CC5	3161	0.0164061217193518	Wilcoxon rank sum test with continuity correction	greater	1	
+Dendritic_cells	CC6	1122	0.999994946986577	Wilcoxon rank sum test with continuity correction	greater	1	
+Dendritic_cells	CC7	1419	0.999368208205131	Wilcoxon rank sum test with continuity correction	greater	1	
+Dendritic_cells	CC8	3035	0.041845398694397	Wilcoxon rank sum test with continuity correction	greater	1	
+Dendritic_cells	CC9	2024	0.893217967367589	Wilcoxon rank sum test with continuity correction	greater	1	
+Endothelial	CC1	2996	0.0543136824571482	Wilcoxon rank sum test with continuity correction	greater	1	
+Endothelial	CC10	2136	0.34474638455472	Wilcoxon rank sum test with continuity correction	greater	1	
+Endothelial	CC2	3186	0.0133912528001453	Wilcoxon rank sum test with continuity correction	greater	1	
+Endothelial	CC3	1613	0.995188914285361	Wilcoxon rank sum test with continuity correction	greater	1	
+Endothelial	CC4	1362	0.999865789884043	Wilcoxon rank sum test with continuity correction	greater	1	
+Endothelial	CC5	2438	0.574523235007709	Wilcoxon rank sum test with continuity correction	greater	1	
+Endothelial	CC6	2486	0.513452172090115	Wilcoxon rank sum test with continuity correction	greater	1	
+Endothelial	CC7	2933	0.0416781943592229	Wilcoxon rank sum test with continuity correction	greater	1	
+Endothelial	CC8	4735	3.2381591379731e-13	Wilcoxon rank sum test with continuity correction	greater	4.72771234144073e-11	*
+Endothelial	CC9	325	0.999999999994949	Wilcoxon rank sum test with continuity correction	greater	1	
+FCN1_TAMs	CC1	2561	0.417937016156833	Wilcoxon rank sum test with continuity correction	greater	1	
+FCN1_TAMs	CC10	2537	0.0336210832510721	Wilcoxon rank sum test with continuity correction	greater	1	
+FCN1_TAMs	CC2	3057	0.0359046420417153	Wilcoxon rank sum test with continuity correction	greater	1	
+FCN1_TAMs	CC3	2586	0.27567894393202	Wilcoxon rank sum test with continuity correction	greater	1	
+FCN1_TAMs	CC4	2262	0.774339251465498	Wilcoxon rank sum test with continuity correction	greater	1	
+FCN1_TAMs	CC5	2704	0.252549056325187	Wilcoxon rank sum test with continuity correction	greater	1	
+FCN1_TAMs	CC6	2451	0.558096911685123	Wilcoxon rank sum test with continuity correction	greater	1	
+FCN1_TAMs	CC7	1119	0.999987008753585	Wilcoxon rank sum test with continuity correction	greater	1	
+FCN1_TAMs	CC8	3423	0.00146057008823443	Wilcoxon rank sum test with continuity correction	greater	0.185492401205772	
+FCN1_TAMs	CC9	1510	0.998284687319036	Wilcoxon rank sum test with continuity correction	greater	1	
+Normal_epithelium	CC1	3166	0.0157604824595956	Wilcoxon rank sum test with continuity correction	greater	1	
+Normal_epithelium	CC10	4043	2.95624139279698e-13	Wilcoxon rank sum test with continuity correction	greater	4.34567484741156e-11	*
+Normal_epithelium	CC2	2854	0.125424521583567	Wilcoxon rank sum test with continuity correction	greater	1	
+Normal_epithelium	CC3	1821	0.971823065672454	Wilcoxon rank sum test with continuity correction	greater	1	
+Normal_epithelium	CC4	2473	0.53008437947178	Wilcoxon rank sum test with continuity correction	greater	1	
+Normal_epithelium	CC5	2880	0.109011614093942	Wilcoxon rank sum test with continuity correction	greater	1	
+Normal_epithelium	CC6	1415	0.999743406038068	Wilcoxon rank sum test with continuity correction	greater	1	
+Normal_epithelium	CC7	1239	0.999931439600042	Wilcoxon rank sum test with continuity correction	greater	1	
+Normal_epithelium	CC8	2906	0.0942022800879909	Wilcoxon rank sum test with continuity correction	greater	1	
+Normal_epithelium	CC9	1413	0.999410192903853	Wilcoxon rank sum test with continuity correction	greater	1	
+PVL	CC1	2434	0.579552940080532	Wilcoxon rank sum test with continuity correction	greater	1	
+PVL	CC10	1100	0.999510048157879	Wilcoxon rank sum test with continuity correction	greater	1	
+PVL	CC2	2869	0.115756686726002	Wilcoxon rank sum test with continuity correction	greater	1	
+PVL	CC3	1952	0.930496209788343	Wilcoxon rank sum test with continuity correction	greater	1	
+PVL	CC4	1461	0.999559529479739	Wilcoxon rank sum test with continuity correction	greater	1	
+PVL	CC5	2209	0.822113537313794	Wilcoxon rank sum test with continuity correction	greater	1	
+PVL	CC6	2327	0.706928502820144	Wilcoxon rank sum test with continuity correction	greater	1	
+PVL	CC7	4804	1.9871675848951e-15	Wilcoxon rank sum test with continuity correction	greater	2.94100802564475e-13	*
+PVL	CC8	4376	7.85263325465977e-10	Wilcoxon rank sum test with continuity correction	greater	1.12292655541635e-07	*
+PVL	CC9	678	0.999999991958124	Wilcoxon rank sum test with continuity correction	greater	1	
+SPP1_TAMs	CC1	1908	0.970638488594348	Wilcoxon rank sum test with continuity correction	greater	1	
+SPP1_TAMs	CC10	1753	0.833166138799893	Wilcoxon rank sum test with continuity correction	greater	1	
+SPP1_TAMs	CC2	3372	0.00246092207801616	Wilcoxon rank sum test with continuity correction	greater	0.30761525975202	
+SPP1_TAMs	CC3	4323	1.67860520335593e-10	Wilcoxon rank sum test with continuity correction	greater	2.4339775448661e-08	*
+SPP1_TAMs	CC4	3120	0.0226057562437923	Wilcoxon rank sum test with continuity correction	greater	1	
+SPP1_TAMs	CC5	3508	0.000579186088168658	Wilcoxon rank sum test with continuity correction	greater	0.0764525636382628	*
+SPP1_TAMs	CC6	1304	0.999936008666221	Wilcoxon rank sum test with continuity correction	greater	1	
+SPP1_TAMs	CC7	615	0.999999997626347	Wilcoxon rank sum test with continuity correction	greater	1	
+SPP1_TAMs	CC8	2185	0.841474800798986	Wilcoxon rank sum test with continuity correction	greater	1	
+SPP1_TAMs	CC9	2122	0.822009139102443	Wilcoxon rank sum test with continuity correction	greater	1	
+Tregs	CC1	3240	0.00846738012096983	Wilcoxon rank sum test with continuity correction	greater	1	
+Tregs	CC10	2297	0.165056247374942	Wilcoxon rank sum test with continuity correction	greater	1	
+Tregs	CC2	3811	1.20979450813275e-05	Wilcoxon rank sum test with continuity correction	greater	0.0016695164212232	*
+Tregs	CC3	2092	0.846430951917416	Wilcoxon rank sum test with continuity correction	greater	1	
+Tregs	CC4	2776	0.18465844626922	Wilcoxon rank sum test with continuity correction	greater	1	
+Tregs	CC5	3462	0.000963739655656957	Wilcoxon rank sum test with continuity correction	greater	0.125286155235404	*
+Tregs	CC6	1620	0.997563542554232	Wilcoxon rank sum test with continuity correction	greater	1	
+Tregs	CC7	713	0.999999984440374	Wilcoxon rank sum test with continuity correction	greater	1	
+Tregs	CC8	2527	0.460979660313628	Wilcoxon rank sum test with continuity correction	greater	1	
+Tregs	CC9	1672	0.991712438473	Wilcoxon rank sum test with continuity correction	greater	1	
+Tumor_epithelium	CC1	1316	0.999925209662476	Wilcoxon rank sum test with continuity correction	greater	1	
+Tumor_epithelium	CC10	1498	0.969701703865264	Wilcoxon rank sum test with continuity correction	greater	1	
+Tumor_epithelium	CC2	3216	0.0104155123525484	Wilcoxon rank sum test with continuity correction	greater	1	
+Tumor_epithelium	CC3	1850	0.965112272081161	Wilcoxon rank sum test with continuity correction	greater	1	
+Tumor_epithelium	CC4	4440	2.15288811271842e-10	Wilcoxon rank sum test with continuity correction	greater	3.10015888231452e-08	*
+Tumor_epithelium	CC5	3864	5.605094407929e-06	Wilcoxon rank sum test with continuity correction	greater	0.000779108122702131	*
+Tumor_epithelium	CC6	995	0.999999292273032	Wilcoxon rank sum test with continuity correction	greater	1	
+Tumor_epithelium	CC7	648	0.999999995478852	Wilcoxon rank sum test with continuity correction	greater	1	
+Tumor_epithelium	CC8	1576	0.998444969657066	Wilcoxon rank sum test with continuity correction	greater	1	
+Tumor_epithelium	CC9	4807	1.8373230526726e-15	Wilcoxon rank sum test with continuity correction	greater	2.73761134848217e-13	*
+iCAF	CC1	3673	7.87560856991983e-05	Wilcoxon rank sum test with continuity correction	greater	0.010710827655091	*
+iCAF	CC10	1474	0.975121321030469	Wilcoxon rank sum test with continuity correction	greater	1	
+iCAF	CC2	2623	0.342254536498471	Wilcoxon rank sum test with continuity correction	greater	1	
+iCAF	CC3	2311	0.619592127440007	Wilcoxon rank sum test with continuity correction	greater	1	
+iCAF	CC4	954	0.999999637432607	Wilcoxon rank sum test with continuity correction	greater	1	
+iCAF	CC5	1623	0.997489480969264	Wilcoxon rank sum test with continuity correction	greater	1	
+iCAF	CC6	4194	2.48517377619887e-08	Wilcoxon rank sum test with continuity correction	greater	3.52894676220239e-06	*
+iCAF	CC7	3319	0.0013722282795467	Wilcoxon rank sum test with continuity correction	greater	0.175645219781978	
+iCAF	CC8	3614	0.000165714467665276	Wilcoxon rank sum test with continuity correction	greater	0.0223714531348123	*
+iCAF	CC9	425	0.999999999953437	Wilcoxon rank sum test with continuity correction	greater	1	
+mast_cells	CC1	3239	0.00854167076389236	Wilcoxon rank sum test with continuity correction	greater	1	
+mast_cells	CC10	2537	0.0336210832510721	Wilcoxon rank sum test with continuity correction	greater	1	
+mast_cells	CC2	2625	0.339897881380959	Wilcoxon rank sum test with continuity correction	greater	1	
+mast_cells	CC3	1668	0.992003870665285	Wilcoxon rank sum test with continuity correction	greater	1	
+mast_cells	CC4	1695	0.994979541808843	Wilcoxon rank sum test with continuity correction	greater	1	
+mast_cells	CC5	2281	0.755589653984875	Wilcoxon rank sum test with continuity correction	greater	1	
+mast_cells	CC6	2756	0.20227754059103	Wilcoxon rank sum test with continuity correction	greater	1	
+mast_cells	CC7	2884	0.0580742460907537	Wilcoxon rank sum test with continuity correction	greater	1	
+mast_cells	CC8	3457	0.00101733363360396	Wilcoxon rank sum test with continuity correction	greater	0.13123603873491	*
+mast_cells	CC9	1068	0.999993873193833	Wilcoxon rank sum test with continuity correction	greater	1	
+myCAF	CC1	2505	0.489109434919781	Wilcoxon rank sum test with continuity correction	greater	1	
+myCAF	CC10	714	0.999998517518493	Wilcoxon rank sum test with continuity correction	greater	1	
+myCAF	CC2	3694	5.99406966253942e-05	Wilcoxon rank sum test with continuity correction	greater	0.00821187543767901	*
+myCAF	CC3	2075	0.859235380456497	Wilcoxon rank sum test with continuity correction	greater	1	
+myCAF	CC4	1952	0.959848729149986	Wilcoxon rank sum test with continuity correction	greater	1	
+myCAF	CC5	2780	0.18125264793018	Wilcoxon rank sum test with continuity correction	greater	1	
+myCAF	CC6	3865	5.52284203546516e-06	Wilcoxon rank sum test with continuity correction	greater	0.000773197884965122	*
+myCAF	CC7	2695	0.170419728410748	Wilcoxon rank sum test with continuity correction	greater	1	
+myCAF	CC8	3204	0.011528491293539	Wilcoxon rank sum test with continuity correction	greater	1	
+myCAF	CC9	726	0.999999980182263	Wilcoxon rank sum test with continuity correction	greater	1	
