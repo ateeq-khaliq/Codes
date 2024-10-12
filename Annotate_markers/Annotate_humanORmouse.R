@@ -194,3 +194,4 @@ if __name__ == "__main__":
 
 # Command to run the script
 # python /path/to/annotate.py /path/to/input_file.csv /path/to/output_file.xlsx /path/to/marker_genes.xlsx species
+#python /Users/akhaliq/Desktop/asif/stem_cell_markers/USETHIS_Human_or_mouse_SC_annotation.py markers_gens_cc7_10.csv markers_gens_cc7_10.xlsx /Users/akhaliq/Desktop/asif/stem_cell_markers/stem_cell_markers.xlsx
