@@ -1,0 +1,118 @@
+# Load required libraries
+library(ggplot2)
+library(cowplot)
+library(viridis)
+library(gridExtra)
+library(dplyr)
+
+# First create myCAF_stats
+myCAF_stats <- myCAF_df %>%
+  group_by(CompositionCluster_CC, treated) %>%
+  summarise(
+    mean = mean(myCAF_prop),
+    se = sd(myCAF_prop)/sqrt(n()),
+    n = n()
+  )
+
+# Create output PDF
+pdf("myCAF_analysis_plots.pdf", width = 12, height = 15)
+
+# 1. Simple bar plot with all data
+p1 <- ggplot(myCAF_proportions, aes(x = factor(CompositionCluster_CC, 
+                                    levels = c("CC10", "CC07", "CC03", "CC01", "CC06", "CC08", "CC09", "CC05")), 
+                         y = myCAF_prop)) +
+  geom_bar(stat = "identity", fill = "#4B0082", alpha = 0.7) +
+  theme_minimal() +
+  labs(x = "Compositional Clusters", 
+       y = "myCAF Proportion", 
+       title = "Overall myCAF Proportions across Compositional Clusters") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+        axis.text.y = element_text(size = 12),
+        axis.title = element_text(size = 14),
+        plot.title = element_text(size = 16, face = "bold"),
+        panel.grid.major = element_line(color = "gray90"),
+        panel.grid.minor = element_line(color = "gray95"))
+
+# 2. Side-by-side bar plot for treated vs untreated
+p2 <- ggplot(myCAF_stats, 
+       aes(x = factor(CompositionCluster_CC, 
+                     levels = c("CC10", "CC07", "CC03", "CC01", "CC06", "CC08", "CC09", "CC05")), 
+           y = mean,
+           fill = treated)) +
+  geom_bar(stat = "identity", 
+           position = position_dodge(width = 0.8),
+           alpha = 0.8) +
+  geom_errorbar(aes(ymin = mean - se, 
+                    ymax = mean + se),
+                position = position_dodge(width = 0.8),
+                width = 0.2) +
+  scale_fill_manual(values = c("No" = "#FF69B4", "Yes" = "#4169E1")) +
+  theme_minimal() +
+  labs(x = "Compositional Clusters", 
+       y = "myCAF Proportion", 
+       title = "myCAF Proportions by Treatment Status",
+       fill = "Treated") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+        axis.text.y = element_text(size = 12),
+        axis.title = element_text(size = 14),
+        plot.title = element_text(size = 16, face = "bold"),
+        legend.position = "top",
+        legend.title = element_text(size = 12),
+        legend.text = element_text(size = 11),
+        panel.grid.major = element_line(color = "gray90"),
+        panel.grid.minor = element_line(color = "gray95"))
+
+# 3. Box plot with points
+p3 <- ggplot(myCAF_df, 
+       aes(x = factor(CompositionCluster_CC, 
+                     levels = c("CC10", "CC07", "CC03", "CC01", "CC06", "CC08", "CC09", "CC05")), 
+           y = myCAF_prop,
+           fill = treated)) +
+  geom_boxplot(alpha = 0.7, outlier.shape = NA) +
+  geom_jitter(alpha = 0.2, position = position_dodge(width = 0.75), size = 0.5) +
+  scale_fill_manual(values = c("No" = "#FF69B4", "Yes" = "#4169E1")) +
+  theme_minimal() +
+  labs(x = "Compositional Clusters", 
+       y = "myCAF Proportion", 
+       title = "Distribution of myCAF Proportions by Treatment Status",
+       fill = "Treated") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+        axis.text.y = element_text(size = 12),
+        axis.title = element_text(size = 14),
+        plot.title = element_text(size = 16, face = "bold"),
+        legend.position = "top",
+        legend.title = element_text(size = 12),
+        legend.text = element_text(size = 11),
+        panel.grid.major = element_line(color = "gray90"),
+        panel.grid.minor = element_line(color = "gray95"))
+
+# 4. Violin plot for distribution
+p4 <- ggplot(myCAF_df, 
+       aes(x = factor(CompositionCluster_CC, 
+                     levels = c("CC10", "CC07", "CC03", "CC01", "CC06", "CC08", "CC09", "CC05")), 
+           y = myCAF_prop,
+           fill = treated)) +
+  geom_violin(position = position_dodge(width = 0.75), alpha = 0.7) +
+  geom_boxplot(width = 0.1, position = position_dodge(width = 0.75), 
+               fill = "white", alpha = 0.8) +
+  scale_fill_manual(values = c("No" = "#FF69B4", "Yes" = "#4169E1")) +
+  theme_minimal() +
+  labs(x = "Compositional Clusters", 
+       y = "myCAF Proportion", 
+       title = "Distribution of myCAF Proportions with Treatment Status",
+       fill = "Treated") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+        axis.text.y = element_text(size = 12),
+        axis.title = element_text(size = 14),
+        plot.title = element_text(size = 16, face = "bold"),
+        legend.position = "top",
+        legend.title = element_text(size = 12),
+        legend.text = element_text(size = 11),
+        panel.grid.major = element_line(color = "gray90"),
+        panel.grid.minor = element_line(color = "gray95"))
+
+# Arrange plots in grid
+grid.arrange(p1, p2, p3, p4, ncol = 1)
+
+# Close PDF device
+dev.off()
