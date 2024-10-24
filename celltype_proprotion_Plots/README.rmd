@@ -1,0 +1,84 @@
+myCAF Proportion Analysis Plots
+Description
+This R script generates a comprehensive visualization of myCAF (myofibroblast-like Cancer-Associated Fibroblasts) proportions across different compositional clusters (CC), comparing treated and untreated conditions. The script produces a multi-panel PDF containing four different visualization styles.
+Dependencies
+Required R packages:
+
+ggplot2
+cowplot
+viridis
+gridExtra
+dplyr
+
+Input Data Requirements
+The script expects the following data objects:
+
+myCAF_df: A dataframe containing spot-level myCAF proportions with columns:
+
+CompositionCluster_CC: Cluster assignments (CC01-CC10)
+myCAF_prop: myCAF proportion values
+treated: Treatment status ("Yes"/"No")
+
+
+myCAF_proportions: A summarized dataframe of myCAF proportions per cluster
+
+Output
+
+A PDF file named "myCAF_analysis_plots.pdf" (12" × 15") containing four plots:
+
+Overall myCAF proportions bar plot
+Side-by-side bar plot comparing treated vs untreated conditions with error bars
+Box plot showing distribution with individual points
+Violin plot showing distribution with embedded box plots
+
+
+
+Plot Details
+
+Overall Bar Plot
+
+Simple visualization of myCAF proportions across clusters
+Color: Dark purple (#4B0082)
+
+
+Treated vs Untreated Bar Plot
+
+Comparison of means with standard error bars
+Colors: Pink (#FF69B4) for untreated, Blue (#4169E1) for treated
+
+
+Box Plot
+
+Shows distribution with individual points
+Jittered points for better visualization
+Same color scheme as bar plot
+
+
+Violin Plot
+
+Shows full distribution with embedded box plots
+White box plots inside colored violin plots
+Same color scheme as other plots
+
+
+
+Usage
+RCopy# Run the entire script
+source("myCAF_analysis_script.R")
+Plot Customization
+All plots include:
+
+45° angled x-axis labels
+Minimal theme with subtle grid lines
+Consistent font sizes
+Clear titles and labels
+Standardized cluster ordering: CC10 → CC07 → CC03 → CC01 → CC06 → CC08 → CC09 → CC05
+
+Notes
+
+Error bars represent standard error of the mean
+Outliers are included in the violin plots but hidden in box plots
+All plots maintain consistent cluster ordering to reflect spatial trajectory
+Treated/untreated conditions are consistently color-coded across all plots
+
+Would you like me to add any additional sections or details to this README?
