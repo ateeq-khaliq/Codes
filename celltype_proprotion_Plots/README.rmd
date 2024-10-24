@@ -1,84 +1,64 @@
-myCAF Proportion Analysis Plots
-Description
-This R script generates a comprehensive visualization of myCAF (myofibroblast-like Cancer-Associated Fibroblasts) proportions across different compositional clusters (CC), comparing treated and untreated conditions. The script produces a multi-panel PDF containing four different visualization styles.
-Dependencies
-Required R packages:
+# myCAF Proportion Analysis in PDAC Spatial Transcriptomics
 
-ggplot2
-cowplot
-viridis
-gridExtra
-dplyr
+## Overview
+R scripts for analyzing and visualizing myCAF proportions across different compositional clusters in PDAC spatial transcriptomics data, comparing treated and untreated conditions.
 
-Input Data Requirements
-The script expects the following data objects:
+## Dependencies
+```R
+library(ggplot2)
+library(cowplot)
+library(viridis)
+library(gridExtra)
+library(dplyr)
+library(Seurat)
 
-myCAF_df: A dataframe containing spot-level myCAF proportions with columns:
+Analysis Workflow
+1. Data Preparation
+RCopy# Extract RCTD data for myCAFs
+rctd_data <- GetAssayData(pdac, slot = "data", assay = "rctd_tier2")
+myCAF_data <- rctd_data["myCAF",]
 
-CompositionCluster_CC: Cluster assignments (CC01-CC10)
-myCAF_prop: myCAF proportion values
-treated: Treatment status ("Yes"/"No")
+# Create data frame
+myCAF_df <- data.frame(
+  spot = names(myCAF_data),
+  myCAF_prop = as.numeric(myCAF_data)
+)
+2. Generate Statistics
+RCopymyCAF_stats <- myCAF_df %>%
+  group_by(CompositionCluster_CC, treated) %>%
+  summarise(
+    mean = mean(myCAF_prop),
+    se = sd(myCAF_prop)/sqrt(n()),
+    n = n()
+  )
+3. Visualization
+The script generates multiple plots:
 
+Overall proportion bar plot
+Treatment comparison bar plots
+Distribution box plots
+Violin plots
 
-myCAF_proportions: A summarized dataframe of myCAF proportions per cluster
+4. Output
+RCopypdf("myCAF_analysis_plots.pdf", width = 12, height = 15)
+grid.arrange(p1, p2, p3, p4, ncol = 1)
+dev.off()
+Results
 
-Output
+PDF file containing four visualization panels
+Consistent cluster ordering: CC10 → CC07 → CC03 → CC01 → CC06 → CC08 → CC09 → CC05
+Color scheme:
 
-A PDF file named "myCAF_analysis_plots.pdf" (12" × 15") containing four plots:
-
-Overall myCAF proportions bar plot
-Side-by-side bar plot comparing treated vs untreated conditions with error bars
-Box plot showing distribution with individual points
-Violin plot showing distribution with embedded box plots
-
-
-
-Plot Details
-
-Overall Bar Plot
-
-Simple visualization of myCAF proportions across clusters
-Color: Dark purple (#4B0082)
-
-
-Treated vs Untreated Bar Plot
-
-Comparison of means with standard error bars
-Colors: Pink (#FF69B4) for untreated, Blue (#4169E1) for treated
-
-
-Box Plot
-
-Shows distribution with individual points
-Jittered points for better visualization
-Same color scheme as bar plot
-
-
-Violin Plot
-
-Shows full distribution with embedded box plots
-White box plots inside colored violin plots
-Same color scheme as other plots
+Untreated: #FF69B4
+Treated: #4169E1
 
 
-
-Usage
-RCopy# Run the entire script
-source("myCAF_analysis_script.R")
-Plot Customization
-All plots include:
-
-45° angled x-axis labels
-Minimal theme with subtle grid lines
-Consistent font sizes
-Clear titles and labels
-Standardized cluster ordering: CC10 → CC07 → CC03 → CC01 → CC06 → CC08 → CC09 → CC05
 
 Notes
 
 Error bars represent standard error of the mean
-Outliers are included in the violin plots but hidden in box plots
-All plots maintain consistent cluster ordering to reflect spatial trajectory
-Treated/untreated conditions are consistently color-coded across all plots
+Outliers included in violin plots but hidden in box plots
+Consistent cluster ordering reflects spatial trajectory
 
-Would you like me to add any additional sections or details to this README?
+Contact
+Ateeq Khaliq
