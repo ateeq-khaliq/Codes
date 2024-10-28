@@ -1,209 +1,106 @@
-# Bulk RNA-seq Analysis Pipeline
+# BAM Counting and Normalization Pipeline
 
-## Overview
-This pipeline processes bulk RNA-seq data, starting from sorted BAM files to generate gene expression counts, perform quality control, and create normalized expression matrices.
+This repository contains a pipeline to count reads from RNA-seq BAM files, convert Ensembl IDs to gene names, and normalize counts using DESeq2. The pipeline is designed for HPC environments using SLURM and can be customized for other setups.
 
 ## Table of Contents
-1. [Prerequisites](#prerequisites)
-2. [Installation](#installation)
-3. [Directory Structure](#directory-structure)
-4. [Usage](#usage)
-5. [Output Files](#output-files)
-6. [Quality Control](#quality-control)
-7. [Troubleshooting](#troubleshooting)
-8. [Contact](#contact)
+
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Pipeline Details](#pipeline-details)
+- [Files Generated](#files-generated)
+- [Usage](#usage)
+- [Output Files](#output-files)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+This pipeline processes RNA-seq BAM files by performing the following steps:
+
+1. **Indexing BAM files**: Reindexes BAM files if required.
+2. **Counting Reads**: Uses R’s `GenomicAlignments` package to count reads that map to exons.
+3. **Ensembl ID Conversion**: Converts Ensembl gene IDs to gene names using `org.Hs.eg.db`.
+4. **Normalization**: Normalizes the raw counts using DESeq2, yielding normalized counts.
+5. **Logging**: Generates logs that detail the workflow’s steps and any encountered errors.
 
 ## Prerequisites
 
-### System Requirements
-- SLURM workload manager
-- 500GB RAM
-- 16 CPU cores
-- GPU partition access
+Ensure that your HPC system has the following tools and libraries installed:
 
-### Required Software
-```bash
-# Modules
-module load r
-module load miniconda
+- **SLURM**: To schedule jobs on the HPC.
+- **Miniconda**: To manage dependencies.
+- **SAMtools**: For BAM file indexing.
 
-# Conda environment
-conda activate spatial
+The required R packages are installed by the script if they aren’t already available. These include:
 
-# R packages
-- BiocManager
-- GenomicAlignments
-- GenomicFeatures
-- Rsamtools
-- rtracklayer
-- DESeq2
-```
+- `GenomicAlignments`
+- `GenomicFeatures`
+- `Rsamtools`
+- `rtracklayer`
+- `DESeq2`
+- `BiocParallel`
+- `GenomicRanges`
+- `org.Hs.eg.db`
+- `AnnotationDbi`
 
-### Input Requirements
-1. Sorted BAM files (with index files .bai)
-2. GENCODE v44 GTF annotation file
+## Pipeline Details
 
-## Installation
+### Script Workflow
 
-1. Clone or download the pipeline script:
-```bash
-cd /N/project/akhaliq/
-wget [script_url]/run_bam_count.sh
-chmod +x run_bam_count.sh
-```
+The pipeline script follows these steps:
 
-2. Install required R packages:
-```R
-if (!require("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
+- **SLURM Job Setup**: Configures job parameters like memory, CPUs, partition, and email notifications.
+- **Environment Setup**: Loads necessary modules and activates the Conda environment.
+- **Output Directory Creation**: Creates a timestamped output directory to store results.
+- **BAM Reindexing**: Checks and updates BAM index files if they are outdated or missing.
+- **R Script Generation**: Creates and executes an R script to:
+  - Identify BAM files.
+  - Count reads mapped to exons.
+  - Convert Ensembl IDs to gene names.
+  - Normalize counts using DESeq2.
+- **Logging**: Saves process information in a log file.
 
-BiocManager::install(c(
-    "GenomicAlignments",
-    "GenomicFeatures",
-    "Rsamtools",
-    "rtracklayer",
-    "DESeq2"
-))
-```
+### SLURM Job Options
 
-## Directory Structure
+The SLURM job uses the following options:
 
-### Input Directory Structure
-```
-/N/project/akhaliq/Ateeq_dwd/
-├── Sample1
-│   └── Sample1-RS.v2-RNA-XXXXXXXX
-│       └── Sample1_T_sorted.bam
-├── Sample2
-│   └── Sample2-RS.v2-RNA-XXXXXXXX
-│       └── Sample2_T_sorted.bam
-└── ...
-```
+- **Job name**: `bam_count`
+- **Nodes**: 1
+- **CPUs per task**: 16
+- **Memory**: 500GB
+- **Partition**: GPU
+- **Time limit**: 40 hours
+- **Notifications**: Sent for job start, end, and fail events
 
-### Output Directory Structure
-```
-bulk_counts_[TIMESTAMP]/
-├── raw_counts.csv           # Raw gene expression counts
-├── raw_counts.rds          # R object of raw counts
-├── normalized_counts.csv    # DESeq2 normalized counts
-├── qc_metrics.csv          # Quality control metrics
-├── qc_plots.pdf           # Quality control visualizations
-└── bam_count.log          # Processing log
-```
+## Files Generated
+
+- **Raw Counts**: A CSV file with raw counts and Ensembl IDs.
+- **Normalized Counts**: A CSV file with normalized counts and gene names.
+- **Log File**: Captures details of the run, including errors.
 
 ## Usage
 
-### Basic Usage
+### Step 1: Clone the Repository
+
 ```bash
-sbatch run_bam_count.sh
-```
 
-### Monitor Job
-```bash
-# Check job status
-squeue -u akhaliq
+cd yourrepository
 
-# Monitor log files
-tail -f bam_count_[JOBID].out
-tail -f bulk_counts_[TIMESTAMP]/bam_count.log
-```
+Step 2: Submit the SLURM Job
+Make the script executable and submit it to SLURM:
 
-### Resource Configuration
-Default SLURM settings:
-```bash
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=16
-#SBATCH --mem=500G
-#SBATCH --time=40:00:00
-```
+chmod +x bam_count_pipeline.sh
+sbatch bam_count_pipeline.sh
 
-## Output Files
+Step 3: Check the Output
+The results will be saved in a timestamped directory under /N/project/akhaliq/Ateeq_dwd.
 
-### 1. Raw Counts (`raw_counts.csv`, `raw_counts.rds`)
-- Gene-level read counts
-- Rows: Genes
-- Columns: Samples
-- Format: CSV and R object
+Output Files
+raw_counts.csv: Contains raw counts with Ensembl IDs.
+normalized_counts.csv: Contains normalized counts with gene names.
+bam_counting.log: Log file with details of the run.
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
 
-### 2. Normalized Counts (`normalized_counts.csv`)
-- DESeq2 normalized expression values
-- Accounts for library size differences
-- Suitable for downstream analysis
-
-### 3. QC Metrics (`qc_metrics.csv`)
-- Total reads per sample
-- Detected genes
-- Detection rates
-- Median counts
-- Sample correlations
-
-### 4. QC Plots (`qc_plots.pdf`)
-- Library size distribution
-- Gene detection rates
-- Sample correlation heatmap
-- MA plots
-
-### 5. Log File (`bam_count.log`)
-- Detailed processing steps
-- Timestamps
-- Error messages (if any)
-- Processing statistics
-
-## Quality Control
-
-### Metrics Calculated
-1. **Library Size**
-   - Total reads per sample
-   - Distribution across samples
-
-2. **Gene Detection**
-   - Number of detected genes
-   - Detection rate percentages
-
-3. **Sample Quality**
-   - Sample correlations
-   - Read distribution patterns
-   - Coverage uniformity
-
-### QC Thresholds
-- Minimum library size: Variable
-- Minimum detected genes: Sample dependent
-- Correlation threshold: Study dependent
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Missing BAM Index**
-   ```bash
-   # Create BAM index
-   samtools index sample_sorted.bam
-   ```
-
-2. **Resource Limits**
-   - Adjust memory in SLURM script
-   - Modify CPU allocation
-   - Change time limit
-
-3. **Package Installation**
-   ```R
-   # Manual package installation
-   BiocManager::install("package_name")
-   ```
-
-### Error Messages
-
-1. "Error: cannot allocate vector of size X"
-   - Solution: Increase memory allocation
-
-2. "BAM index not found"
-   - Solution: Create index files
-
-3. "Package not found"
-   - Solution: Install missing packages
-
-## Contact
-- Author: akhaliq
-- Email: akhaliq@iu.edu
-- System: IU GPU cluster
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
