@@ -86,13 +86,15 @@ The SLURM job uses the following options:
 
 cd yourrepository
 
-Step 2: Submit the SLURM Job
+### Step 2: Submit the SLURM Job
 Make the script executable and submit it to SLURM:
 
+```bash
 chmod +x bam_count_pipeline.sh
 sbatch bam_count_pipeline.sh
 
-Step 3: Check the Output
+```bash
+### Step 3: Check the Output
 The results will be saved in a timestamped directory under /N/project/akhaliq/Ateeq_dwd.
 
 Output Files
