@@ -15,51 +15,55 @@
 # Set up environment
 echo "Loading modules..."
 module load miniconda
+module load samtools
 source activate spatial
 set -e
 set -o pipefail
 
-# Verify GTF file exists
-GTF_FILE="/N/project/akhaliq/Ateeq_dwd/reference/gencode.v44.annotation.gtf"
-if [ ! -f "$GTF_FILE" ]; then
-    echo "Error: GTF file not found at $GTF_FILE"
-    exit 1
-fi
-
-# Create output directory with timestamp in the specified location
+# Create output directory
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
 OUTPUT_DIR="/N/project/akhaliq/Ateeq_dwd/bulk_counts_${TIMESTAMP}"
 mkdir -p ${OUTPUT_DIR}
 
-echo "Created output directory: ${OUTPUT_DIR}"
+# Reindex BAM files that need it
+echo "Checking and updating BAM indices..."
+for bam in $(find /N/project/akhaliq/Ateeq_dwd -name "*_T_sorted.bam"); do
+    if [ -f "${bam}" ]; then
+        if [ -f "${bam}.bai" ]; then
+            if [ "${bam}" -nt "${bam}.bai" ]; then
+                echo "Reindexing ${bam}..."
+                samtools index -b ${bam}
+            fi
+        else
+            echo "Creating index for ${bam}..."
+            samtools index -b ${bam}
+        fi
+    fi
+done
 
-# Rest of the script remains the same until the R script part
+# Create the R script
 cat > ${OUTPUT_DIR}/count_bam.R << 'EOL'
 # Install and load required packages
-install_and_load_packages <- function() {
-    if (!require("BiocManager", quietly = TRUE))
-        install.packages("BiocManager", repos='http://cran.rstudio.com/')
-    
-    packages <- c("GenomicAlignments", "GenomicFeatures", 
-                 "Rsamtools", "rtracklayer", "DESeq2")
-    
-    for(pkg in packages) {
-        if (!require(pkg, character.only = TRUE)) {
-            BiocManager::install(pkg)
-            library(pkg, character.only = TRUE)
-        }
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager", repos='http://cran.rstudio.com/')
+
+packages <- c("GenomicAlignments", "GenomicFeatures", "Rsamtools", 
+              "rtracklayer", "DESeq2", "BiocParallel", 
+              "GenomicRanges", "org.Hs.eg.db", "AnnotationDbi")
+
+for(pkg in packages) {
+    if (!require(pkg, character.only = TRUE)) {
+        BiocManager::install(pkg, update=FALSE, ask=FALSE)
+        library(pkg, character.only = TRUE)
     }
 }
-
-install_and_load_packages()
 
 # Function to log messages
 log_message <- function(message) {
     timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M:%S")
-    message_with_timestamp <- sprintf("[%s] %s\n", timestamp, message)
-    cat(message_with_timestamp)
-    # Also write to log file
-    write(message_with_timestamp, file = "bam_counting.log", append = TRUE)
+    msg <- sprintf("[%s] %s", timestamp, message)
+    cat(msg, "\n")
+    write(msg, file = "bam_counting.log", append = TRUE)
 }
 
 # Function to find RNA-seq BAM files
@@ -70,26 +74,26 @@ find_rnaseq_bams <- function(base_dir) {
     bam_files <- character()
     sample_names <- character()
     
-    for(dir in sample_dirs) {
-        # Look for RNA-seq subdirectory
-        rna_dirs <- list.files(dir, pattern = "RS\\.v2-RNA", full.names = TRUE)
-        
-        if(length(rna_dirs) > 0) {
-            bam_file <- list.files(rna_dirs[1], 
-                                 pattern = "_T_sorted\\.bam$", 
-                                 full.names = TRUE)
+    for(dir in sort(sample_dirs)) {
+        if(grepl("^(M|MV)", basename(dir))) {  # Only process M* and MV* directories
+            rna_dirs <- list.files(dir, pattern = "RS\\.v2-RNA", full.names = TRUE)
             
-            if(length(bam_file) > 0) {
-                # Verify BAM index exists
-                if(!file.exists(paste0(bam_file[1], ".bai"))) {
-                    log_message(sprintf("Warning: Index missing for %s", bam_file[1]))
-                    next
-                }
+            if(length(rna_dirs) > 0) {
+                bam_file <- list.files(rna_dirs[1], 
+                                     pattern = "_T_sorted\\.bam$", 
+                                     full.names = TRUE)
                 
-                bam_files <- c(bam_files, bam_file[1])
-                sample_name <- basename(dirname(dirname(bam_file[1])))
-                sample_names <- c(sample_names, sample_name)
-                log_message(sprintf("Found BAM file for sample %s", sample_name))
+                if(length(bam_file) > 0) {
+                    tryCatch({
+                        check_bam(bam_file[1])
+                        bam_files <- c(bam_files, bam_file[1])
+                        sample_name <- basename(dir)
+                        sample_names <- c(sample_names, sample_name)
+                        log_message(sprintf("Found valid BAM file for sample %s", sample_name))
+                    }, error = function(e) {
+                        log_message(sprintf("Error with BAM file for %s: %s", basename(dir), e$message))
+                    })
+                }
             }
         }
     }
@@ -98,17 +102,42 @@ find_rnaseq_bams <- function(base_dir) {
     return(bam_files)
 }
 
+# Function to check BAM file
+check_bam <- function(bam_file) {
+    log_message(sprintf("Checking BAM file: %s", basename(bam_file)))
+    
+    if(!file.exists(bam_file)) {
+        stop(sprintf("BAM file not found: %s", bam_file))
+    }
+    
+    bam <- scanBam(bam_file, param=ScanBamParam(what=c("qname"), tag=character(0)))[[1]]
+    if(length(bam$qname) == 0) {
+        stop(sprintf("No reads found in BAM file: %s", bam_file))
+    }
+    
+    log_message(sprintf("BAM file ok, found %d reads in quick check", length(bam$qname)))
+}
+
+# Function to load GTF file with modified chromosome names and create TxDb object
+create_txdb <- function(gtf_file) {
+    log_message("Loading GTF file and creating TxDb object with modified chromosome names...")
+    gtf <- import(gtf_file)
+    seqlevels(gtf) <- sub("^chr", "", seqlevels(gtf))
+    txdb <- makeTxDbFromGRanges(gtf)
+    return(txdb)
+}
+
+# Main function to process BAM files
 create_count_matrix <- function(bam_files, gtf_file, output_prefix) {
     log_message(sprintf("Processing %d BAM files", length(bam_files)))
     
-    log_message("Creating transcript database from GTF...")
-    txdb <- makeTxDbFromGFF(gtf_file, format = "gtf")
-    
+    txdb <- create_txdb(gtf_file)
     log_message("Extracting exons by gene...")
     exons_by_gene <- exonsBy(txdb, by = "gene")
     
-    log_message("Creating BAM file list...")
-    bfl <- BamFileList(bam_files)
+    param <- ScanBamParam(what = c("qname", "flag", "mapq"))
+    bfl <- BamFileList(bam_files, yieldSize = 1000000)
+    register(MulticoreParam(workers = 16))
     
     log_message("Counting reads across all samples...")
     se <- summarizeOverlaps(
@@ -117,126 +146,59 @@ create_count_matrix <- function(bam_files, gtf_file, output_prefix) {
         mode = "Union",
         singleEnd = TRUE,
         ignore.strand = TRUE,
-        BPPARAM = MulticoreParam(workers = 16)
+        param = param
     )
     
-    # Extract count matrix
     count_matrix <- assay(se)
-    
-    # Calculate QC metrics
-    log_message("Calculating QC metrics...")
-    total_reads <- colSums(count_matrix)
-    detected_genes <- colSums(count_matrix > 0)
-    median_counts <- apply(count_matrix, 2, median)
-    
-    qc_metrics <- data.frame(
-        Sample = colnames(count_matrix),
-        Total_Reads = total_reads,
-        Detected_Genes = detected_genes,
-        Detected_Genes_Ratio = detected_genes / nrow(count_matrix) * 100,
-        Median_Counts = median_counts
-    )
-    
-    # Save outputs
-    log_message("Saving results...")
-    
-    # Raw counts
     write.csv(count_matrix, file = file.path(output_prefix, "raw_counts.csv"))
-    saveRDS(count_matrix, file = file.path(output_prefix, "raw_counts.rds"))
     
-    # Normalized counts (DESeq2)
-    log_message("Performing DESeq2 normalization...")
-    dds <- DESeqDataSetFromMatrix(countData = count_matrix,
-                                 colData = data.frame(row.names = colnames(count_matrix),
-                                                    condition = factor(rep("A", ncol(count_matrix)))),
-                                 design = ~ 1)
-    dds <- estimateSizeFactors(dds)
-    normalized_counts <- counts(dds, normalized = TRUE)
+    log_message("Converting Ensembl IDs to gene names for raw counts...")
+    gene_names <- mapIds(org.Hs.eg.db, keys=row.names(count_matrix), column="SYMBOL", keytype="ENSEMBL", multiVals="first")
+    rownames(count_matrix) <- ifelse(is.na(gene_names), row.names(count_matrix), gene_names)
+    write.csv(count_matrix, file = file.path(output_prefix, "raw_counts_with_gene_names.csv"))
+    
+    log_message("Normalizing counts with DESeq2...")
+    dds <- DESeqDataSetFromMatrix(countData = assay(se), colData = DataFrame(row.names = colnames(count_matrix)), design = ~1)
+    dds <- DESeq(dds)
+    normalized_counts <- counts(dds, normalized=TRUE)
     write.csv(normalized_counts, file = file.path(output_prefix, "normalized_counts.csv"))
     
-    # QC metrics
-    write.csv(qc_metrics, file = file.path(output_prefix, "qc_metrics.csv"), 
-              row.names = FALSE)
-    
-    # Generate QC plots
-    log_message("Generating QC plots...")
-    pdf(file.path(output_prefix, "qc_plots.pdf"))
-    
-    # Library sizes
-    barplot(total_reads/1e6, 
-            main="Library Sizes", 
-            las=2, 
-            cex.names=0.7, 
-            ylab="Million Reads")
-    
-    # Detected genes
-    barplot(detected_genes, 
-            main="Detected Genes", 
-            las=2, 
-            cex.names=0.7, 
-            ylab="Number of Genes")
-    
-    # Sample correlations
-    heatmap(cor(count_matrix), 
-            main="Sample Correlations",
-            cex.main=0.8)
-    
-    # MA plot
-    plotMA(dds, main="MA Plot")
-    
-    dev.off()
-    
-    return(list(counts = count_matrix, 
-                normalized_counts = normalized_counts,
-                qc = qc_metrics))
+    log_message("Converting Ensembl IDs to gene names for normalized counts...")
+    rownames(normalized_counts) <- ifelse(is.na(gene_names), row.names(normalized_counts), gene_names)
+    write.csv(normalized_counts, file = file.path(output_prefix, "normalized_counts_with_gene_names.csv"))
 }
 
 # Main execution
 tryCatch({
-    # Set working directory and output directory
     project_dir <- "/N/project/akhaliq/Ateeq_dwd"
-    output_dir <- Sys.getenv("OUTPUT_DIR")  # Get the output directory from environment variable
+    output_dir <- Sys.getenv("OUTPUT_DIR")
     setwd(project_dir)
-    log_message(sprintf("Working directory set to: %s", project_dir))
-    log_message(sprintf("Output directory set to: %s", output_dir))
     
-    gtf_file <- "/N/project/akhaliq/reference/gencode.v44.annotation.gtf"
-    log_message(sprintf("Using GTF file: %s", gtf_file))
-    
-    # Find BAM files
+    gtf_file <- file.path(project_dir, "reference/gencode.v44.annotation.gtf")
     bam_files <- find_rnaseq_bams(project_dir)
-    log_message(sprintf("Found %d BAM files", length(bam_files)))
     
-    # Generate count matrix
-    results <- create_count_matrix(
+    log_message(sprintf("Found %d BAM files", length(bam_files)))
+    create_count_matrix(
         bam_files = bam_files,
         gtf_file = gtf_file,
         output_prefix = output_dir
     )
-    
-    # Print summary
-    log_message("Processing complete!")
-    log_message(sprintf("Processed %d samples", ncol(results$counts)))
-    log_message(sprintf("Quantified %d genes", nrow(results$counts)))
-    
 }, error = function(e) {
     log_message(sprintf("Error occurred: %s", e$message))
     quit(status = 1)
 })
 EOL
 
-# Pass the output directory to the R script
+# Export output directory
 export OUTPUT_DIR
 
 # Run the R script
 log_file="${OUTPUT_DIR}/bam_count.log"
 Rscript ${OUTPUT_DIR}/count_bam.R 2>&1 | tee ${log_file}
 
-# Check if the script completed successfully
+# Check completion
 if [ $? -eq 0 ]; then
-    echo "BAM counting completed successfully. Check results in ${OUTPUT_DIR}"
-    echo "Output files:"
-    ls -l ${OUTPUT_DIR}
+    echo "BAM counting completed. Check results in ${OUTPUT_DIR}"
 else
     echo "Error occurred during BAM counting. Check log file: ${log_file}"
     exit 1
