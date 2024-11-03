@@ -90,9 +90,7 @@ find_rnaseq_bams <- function(base_dir) {
                                      full.names = TRUE)
                 
                 if(length(bam_file) > 0 && file.exists(bam_file[1])) {
-                    # Check chromosome names
                     chroms <- check_bam_chromosomes(bam_file[1])
-                    
                     bam_files <- c(bam_files, bam_file[1])
                     sample_name <- basename(dir)
                     sample_names <- c(sample_names, sample_name)
@@ -106,70 +104,112 @@ find_rnaseq_bams <- function(base_dir) {
     return(bam_files)
 }
 
+# Function to process GTF and extract gene information
+process_gene_info <- function(gtf_file) {
+    log_message("Processing GTF file for gene information...")
+    
+    # Import GTF
+    gtf <- import(gtf_file)
+    
+    # Extract gene-level information only
+    genes <- gtf[gtf$type == "gene"]
+    
+    # Create gene info dataframe
+    gene_info <- data.frame(
+        gene_id = genes$gene_id,
+        gene_name = genes$gene_name,
+        gene_type = genes$gene_type,
+        stringsAsFactors = FALSE
+    )
+    
+    # Remove duplicates
+    gene_info <- gene_info[!duplicated(gene_info$gene_id),]
+    
+    # Filter out non-standard gene names
+    gene_info$gene_name <- ifelse(
+        !grepl("^ENS", gene_info$gene_name) & 
+        !is.na(gene_info$gene_name) & 
+        gene_info$gene_name != "",
+        gene_info$gene_name,
+        gene_info$gene_id
+    )
+    
+    return(gene_info)
+}
+
 # Function to run featureCounts
 run_featurecounts <- function(bam_files, gtf_file, output_dir) {
     log_message("Starting featureCounts analysis...")
     
-    # Run featureCounts with GTF
-    log_message("Running featureCounts...")
+    # Get gene information first
+    gene_info <- process_gene_info(gtf_file)
     
-	   fc <- featureCounts(
-        files = as.character(bam_files),        # Convert to character vector
+    # Run featureCounts
+    log_message("Running featureCounts...")
+    fc <- featureCounts(
+        files = as.character(bam_files),
+        annot.ext = gtf_file,
+        isGTFAnnotationFile = TRUE,
         GTF.featureType = "exon",
         GTF.attrType = "gene_id",
-        annot.inbuilt = NULL,                   # Set to NULL
-        annot.ext = gtf_file,                   # Use annot.ext instead of annot
-        isGTFAnnotationFile = TRUE,
         useMetaFeatures = TRUE,
-        allowMultiOverlap = TRUE,
         isPairedEnd = FALSE,
         nthreads = 16,
+        countMultiMappingReads = FALSE,
         strandSpecific = 0,
         verbose = TRUE
     )
-     
+    
     # Get count matrix
     count_matrix <- fc$counts
     colnames(count_matrix) <- names(bam_files)
     
-    # Extract gene names from GTF
-    log_message("Processing gene names from GTF...")
-    gtf <- import(gtf_file)
-    gene_id_to_name <- unique(data.frame(
-        gene_id = gtf$gene_id,
-        gene_name = gtf$gene_name
-    ))
-    gene_id_to_name <- gene_id_to_name[!duplicated(gene_id_to_name$gene_id),]
+    # Match gene names using the processed gene info
+    gene_names <- gene_info$gene_name[match(rownames(count_matrix), gene_info$gene_id)]
+    gene_types <- gene_info$gene_type[match(rownames(count_matrix), gene_info$gene_id)]
     
-    # Match gene names to count matrix
-    gene_names <- gene_id_to_name$gene_name[match(rownames(count_matrix), 
-                                                 gene_id_to_name$gene_id)]
+    # Create annotated count matrix
+    count_matrix_annotated <- data.frame(
+        Gene_ID = rownames(count_matrix),
+        Gene_Name = gene_names,
+        Gene_Type = gene_types,
+        count_matrix,
+        stringsAsFactors = FALSE
+    )
     
-    # Save raw counts
-    write.csv(count_matrix, 
-              file = file.path(output_dir, "counts", "raw_counts_ensembl.csv"))
+    # Save different versions of the count matrix
+    # 1. Full annotated version
+    write.csv(count_matrix_annotated, 
+              file = file.path(output_dir, "counts", "counts_full_annotation.csv"),
+              row.names = FALSE)
     
-    # Save raw counts with gene names
+    # 2. Raw counts with gene names
     count_matrix_named <- count_matrix
-    rownames(count_matrix_named) <- ifelse(is.na(gene_names), 
-                                         rownames(count_matrix), 
-                                         gene_names)
+    rownames(count_matrix_named) <- gene_names
     write.csv(count_matrix_named, 
               file = file.path(output_dir, "counts", "raw_counts_gene_names.csv"))
     
-    # Save featureCounts stats
+    # 3. Filtered version (protein coding genes only)
+    protein_coding <- count_matrix_annotated[count_matrix_annotated$Gene_Type == "protein_coding",]
+    write.csv(protein_coding, 
+              file = file.path(output_dir, "counts", "counts_protein_coding.csv"),
+              row.names = FALSE)
+    
+    # Save feature counts statistics
     write.csv(fc$stat, 
               file = file.path(output_dir, "qc", "featurecounts_stats.csv"))
     
-    # Calculate and save QC metrics
+    # Calculate QC metrics
     qc_metrics <- data.frame(
         Sample = colnames(count_matrix),
         Total_Reads = colSums(count_matrix),
         Detected_Genes = colSums(count_matrix > 0),
+        Detected_Protein_Coding = colSums(count_matrix[gene_types == "protein_coding",] > 0),
         Percent_Detected = (colSums(count_matrix > 0) / nrow(count_matrix)) * 100,
         Mean_Counts = colMeans(count_matrix),
         Median_Counts = apply(count_matrix, 2, median)
     )
+    
     write.csv(qc_metrics, 
               file = file.path(output_dir, "qc", "qc_metrics.csv"),
               row.names = FALSE)
@@ -183,40 +223,50 @@ run_featurecounts <- function(bam_files, gtf_file, output_dir) {
     dds <- estimateSizeFactors(dds)
     normalized_counts <- counts(dds, normalized = TRUE)
     
-    # Save normalized counts
-    write.csv(normalized_counts, 
-              file = file.path(output_dir, "counts", "normalized_counts_ensembl.csv"))
+    # Save normalized counts with annotation
+    normalized_counts_annotated <- data.frame(
+        Gene_ID = rownames(normalized_counts),
+        Gene_Name = gene_names,
+        Gene_Type = gene_types,
+        normalized_counts,
+        stringsAsFactors = FALSE
+    )
     
-    normalized_counts_named <- normalized_counts
-    rownames(normalized_counts_named) <- ifelse(is.na(gene_names), 
-                                              rownames(normalized_counts), 
-                                              gene_names)
-    write.csv(normalized_counts_named, 
-              file = file.path(output_dir, "counts", "normalized_counts_gene_names.csv"))
+    write.csv(normalized_counts_annotated, 
+              file = file.path(output_dir, "counts", "normalized_counts_annotated.csv"),
+              row.names = FALSE)
     
-    # Create summary report
+    # Create gene type summary
+    gene_type_summary <- table(gene_types)
+    gene_type_counts <- data.frame(
+        Gene_Type = names(gene_type_summary),
+        Count = as.numeric(gene_type_summary)
+    )
+    write.csv(gene_type_counts,
+              file = file.path(output_dir, "summary", "gene_type_summary.csv"),
+              row.names = FALSE)
+    
+    # Create comprehensive summary report
     sink(file.path(output_dir, "summary", "analysis_summary.txt"))
     cat("featureCounts Analysis Summary\n")
     cat("============================\n\n")
     cat(sprintf("Date: %s\n\n", format(Sys.time(), "%Y-%m-%d %H:%M:%S")))
     cat(sprintf("Total samples processed: %d\n", ncol(count_matrix)))
     cat(sprintf("Total genes quantified: %d\n", nrow(count_matrix)))
+    cat(sprintf("Protein-coding genes: %d\n", sum(gene_types == "protein_coding")))
+    cat("\nGene Type Summary:\n")
+    print(gene_type_counts)
     cat("\nSample Summary:\n")
     print(qc_metrics)
     cat("\nFeatureCounts Statistics:\n")
     print(fc$stat)
     sink()
     
-    # Create sample list
-    write.table(data.frame(Sample = names(bam_files), 
-                          BAM_File = bam_files),
-                file = file.path(output_dir, "summary", "processed_samples.txt"),
-                sep = "\t", quote = FALSE, row.names = FALSE)
-    
     return(list(counts = count_matrix,
                 normalized = normalized_counts,
                 stats = fc$stat,
-                qc = qc_metrics))
+                qc = qc_metrics,
+                gene_info = gene_info))
 }
 
 # Main execution
@@ -263,20 +313,20 @@ if [ $? -eq 0 ]; then
     # Print summary
     echo -e "\nOutput files are organized as follows:"
     echo "${OUTPUT_DIR}/"
-    echo "├── counts/               # Raw and normalized count matrices"
-    echo "│   ├── raw_counts_ensembl.csv"
-    echo "│   ├── raw_counts_gene_names.csv"
-    echo "│   ├── normalized_counts_ensembl.csv"
-    echo "│   └── normalized_counts_gene_names.csv"
-    echo "├── qc/                   # Quality control metrics"
-    echo "│   ├── featurecounts_stats.csv"
-    echo "│   └── qc_metrics.csv"
-    echo "├── logs/                 # Log files"
-    echo "│   ├── featurecounts.log"
-    echo "│   └── run_featurecounts.R"
-    echo "└── summary/              # Analysis summaries"
-    echo "    ├── analysis_summary.txt"
-    echo "    └── processed_samples.txt"
+    echo "├── counts/"
+    echo "│   ├── counts_full_annotation.csv     # Complete counts with annotations"
+    echo "│   ├── counts_protein_coding.csv      # Protein-coding genes only"
+    echo "│   ├── raw_counts_gene_names.csv      # Raw counts with gene names"
+    echo "│   └── normalized_counts_annotated.csv # Normalized counts with annotations"
+    echo "├── qc/"
+    echo "│   ├── featurecounts_stats.csv       # Counting statistics"
+    echo "│   └── qc_metrics.csv                # Quality metrics"
+    echo "├── logs/"
+    echo "│   ├── featurecounts.log            # Processing log"
+    echo "│   └── run_featurecounts.R          # R script"
+    echo "└── summary/"
+    echo "    ├── analysis_summary.txt         # Complete analysis summary"
+    echo "    └── gene_type_summary.csv        # Gene type statistics"
     echo -e "\nLatest results linked to: ${MAIN_DIR}/latest"
     
 else
