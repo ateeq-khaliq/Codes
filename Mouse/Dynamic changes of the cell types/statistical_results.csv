@@ -1,0 +1,25 @@
+"CellType","Treatment","p.value"
+"CAFs","Folfiri",1.10293999323479e-48
+"CAFs","Proagio",7.82632383012267e-26
+"CAFs","Proagio+Folfiri",2.76912400507251e-12
+"T cells","Folfiri",2.03931341394637e-10
+"T cells","Proagio",0.442406217959579
+"T cells","Proagio+Folfiri",7.69524308117202e-156
+"Myeloids","Folfiri",1.80323062129442e-86
+"Myeloids","Proagio",3.5863891883887e-19
+"Myeloids","Proagio+Folfiri",2.22338015571792e-185
+"B Cells","Folfiri",2.1080848019114e-71
+"B Cells","Proagio",0.0150066546146781
+"B Cells","Proagio+Folfiri",2.08646991273745e-49
+"DC","Folfiri",1.63142750649542e-09
+"DC","Proagio",0.00196056813109332
+"DC","Proagio+Folfiri",1.19062167239233e-20
+"Endothelial Cells","Folfiri",9.0775321228124e-08
+"Endothelial Cells","Proagio",1
+"Endothelial Cells","Proagio+Folfiri",7.13182324780356e-72
+"Epithelial cells","Folfiri",1
+"Epithelial cells","Proagio",0.0039486380190126
+"Epithelial cells","Proagio+Folfiri",0.000918769410488586
+"Tumor Cells","Folfiri",1.13565501067695e-286
+"Tumor Cells","Proagio",5.62902875004382e-07
+"Tumor Cells","Proagio+Folfiri",3.32645706166683e-216
