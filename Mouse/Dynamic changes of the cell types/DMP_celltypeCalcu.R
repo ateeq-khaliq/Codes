@@ -4,6 +4,8 @@ library(tidyr)
 library(ggplot2)
 library(cowplot)
 
+all <- readRDS("/Users/akhaliq/Desktop/mouse/Cleaned_data/All_celltypes_merged.rds")
+
 # Set cell type order
 cell_type_order <- c("B Cells", "CAFs", "DC", "Endothelial Cells", 
                      "Epithelial cells", "Myeloids", "T cells", "Tumor Cells")
