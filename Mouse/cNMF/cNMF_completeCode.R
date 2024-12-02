@@ -9,7 +9,7 @@ suppressPackageStartupMessages({
 })
 
 # Function to prepare input files for cNMF
-prepare_myeloid_input <- function(seurat_obj, 
+prepare_myeloid_input <- function(myeloid, 
                                 output_dir = "./myeloid_cnmf", 
                                 min_cells = 3, 
                                 min_features = 200) {
@@ -27,12 +27,12 @@ prepare_myeloid_input <- function(seurat_obj,
     
     # Filter the Seurat object
     print("Filtering cells and features...")
-    seurat_obj <- subset(seurat_obj, 
+    myeloid <- subset(myeloid, 
                         subset = nFeature_RNA > min_features)
     
     # Get counts matrix
     print("Extracting counts matrix...")
-    counts <- GetAssayData(seurat_obj, slot = "counts", assay = "RNA")
+    counts <- GetAssayData(myeloid, slot = "counts", assay = "RNA")
     barcodes <- colnames(counts)
     gene_names <- rownames(counts)
     
@@ -63,13 +63,13 @@ prepare_myeloid_input <- function(seurat_obj,
     
     # Save Seurat object
     print("Saving filtered Seurat object...")
-    saveRDS(seurat_obj, file.path(output_dir, "filtered_seurat.rds"))
+    saveRDS(myeloid, file.path(output_dir, "filtered_seurat.rds"))
     
     # Save metadata about the processing
     metadata <- list(
         date = Sys.time(),
-        original_cells = ncol(seurat_obj),
-        original_genes = nrow(seurat_obj),
+        original_cells = ncol(myeloid),
+        original_genes = nrow(myeloid),
         min_cells = min_cells,
         min_features = min_features,
         filtered_cells = ncol(counts),
@@ -238,3 +238,222 @@ write.csv(top_genes_df, file=file.path(data_dir, "top_genes_per_program.csv"))
 
 print("Analysis complete!")
 print(paste("Results saved in:", data_dir))
+
+###
+
+
+# Add program scores to Seurat object
+usage_norm <- as.data.frame(t(apply(usage, 1, function(x) x / sum(x))))
+myeloid@meta.data <- cbind(myeloid@meta.data, usage_norm)
+
+# Visualize program scores on UMAP
+FeaturePlot(myeloid, 
+            features = colnames(usage_norm),
+            ncol = 3)
+
+# Violin plots across cell types
+VlnPlot(myeloid, 
+        features = colnames(usage_norm),
+        group.by = "cell_type",
+        ncol = 3)
+
+##
+
+# Add program scores to Seurat object
+program_cols <- paste0("Program_", 1:ncol(usage_norm))
+colnames(usage_norm) <- program_cols
+myeloid@meta.data <- cbind(myeloid@meta.data, usage_norm)
+
+# Calculate average program usage per cluster
+avg_usage_by_cluster <- aggregate(usage_norm, 
+                                by = list(cluster = myeloid$seurat_clusters), 
+                                FUN = mean)
+
+# Create heatmap of program-cluster associations
+library(pheatmap)
+library(viridis)
+
+# Prepare matrix for heatmap
+cluster_program_matrix <- t(avg_usage_by_cluster[,-1])
+colnames(cluster_program_matrix) <- paste0("Cluster_", avg_usage_by_cluster$cluster)
+
+# Generate heatmap
+pheatmap(cluster_program_matrix,
+         scale = "row",
+         clustering_method = "ward.D2",
+         color = viridis(100),
+         main = "Program Usage Across Clusters",
+         fontsize = 10)
+
+# Statistical test for program enrichment in clusters
+library(stats)
+test_enrichment <- function(program, clusters) {
+  kruskal.test(program ~ clusters)$p.value
+}
+
+enrichment_pvals <- apply(usage_norm, 2, function(x) {
+  test_enrichment(x, myeloid$seurat_clusters)
+})
+
+print(data.frame(Program = program_cols, 
+                P_value = enrichment_pvals))
+
+
+###
+#program_correlations.pdf: Correlation heatmap
+#pathway_enrichment.pdf: Pathway dotplots
+#pathway_analysis_report.txt: Detailed pathway results
+
+# Save as 'myeloid_pathway_analysis.R'
+
+# Install and load required packages
+#if (!requireNamespace("BiocManager", quietly = TRUE))
+   install.packages("BiocManager")
+
+#BiocManager::install(c("clusterProfiler", "org.Mm.eg.db", "enrichplot"))
+
+library(clusterProfiler)
+library(org.Mm.eg.db)
+library(enrichplot)
+library(pheatmap)
+library(RColorBrewer)
+library(viridis)
+library(ggplot2)
+library(dplyr)
+
+# Function to perform pathway analysis
+analyze_program_pathways <- function(gene_list, program_name) {
+   gene_ids <- mapIds(org.Mm.eg.db, 
+                     keys = gene_list,
+                     keytype = "SYMBOL",
+                     column = "ENTREZID")
+   
+   go_bp <- enrichGO(gene = gene_ids[!is.na(gene_ids)],
+                     OrgDb = org.Mm.eg.db,
+                     ont = "BP",
+                     pAdjustMethod = "BH",
+                     pvalueCutoff = 0.05)
+   
+   return(go_bp)
+}
+
+# Function to create correlation heatmap
+create_pathway_correlation_plot <- function(correlation_matrix, 
+                                         pathway_annotations, 
+                                         output_file,
+                                         width = 10,
+                                         height = 8) {
+   
+   colors <- colorRampPalette(c("#313695", "#FFFFFF", "#A50026"))(100)
+   
+   annot_colors <- list(
+       Program_Type = setNames(viridis(length(unique(pathway_annotations))), 
+                             unique(pathway_annotations))
+   )
+   
+   annotation_df <- data.frame(
+       Program_Type = pathway_annotations,
+       row.names = colnames(correlation_matrix)
+   )
+   
+   pdf(output_file, width = width, height = height, useDingbats = FALSE)
+   
+   pheatmap(correlation_matrix,
+            display_numbers = TRUE,
+            number_format = "%.2f",
+            number_color = "black",
+            fontsize_number = 8,
+            cluster_rows = TRUE,
+            cluster_cols = TRUE,
+            clustering_distance_rows = "euclidean",
+            clustering_method = "complete",
+            labels_row = pathway_annotations,
+            labels_col = pathway_annotations,
+            annotation_row = annotation_df,
+            annotation_col = annotation_df,
+            annotation_colors = annot_colors,
+            fontsize = 10,
+            fontsize_row = 8,
+            fontsize_col = 8,
+            color = colors,
+            breaks = seq(-1, 1, length.out = 101),
+            border_color = "white",
+            main = "Program Correlations with Pathway Annotations",
+            legend = TRUE,
+            legend_breaks = c(-1, -0.5, 0, 0.5, 1),
+            legend_labels = c("-1.0", "-0.5", "0", "0.5", "1.0")
+   )
+   
+   dev.off()
+}
+
+# Main analysis pipeline
+analyze_myeloid_programs <- function(myeloid, usage_norm, top_genes_df) {
+   # Calculate correlations between programs
+   program_correlations <- cor(usage_norm, method = "spearman")
+   
+   # Run pathway analysis for each program
+   pathway_results <- list()
+   for(i in 1:ncol(top_genes_df)) {
+       genes <- top_genes_df[,i]
+       pathway_results[[i]] <- analyze_program_pathways(genes, paste0("Program_", i))
+   }
+   
+   # Get top pathways and create annotations
+   pathway_annotations <- sapply(pathway_results, function(x) {
+       if(nrow(x@result) > 0) {
+           return(x@result$Description[1])
+       } else {
+           return("No significant pathways")
+       }
+   })
+   
+   # Create main correlation plot
+   create_pathway_correlation_plot(
+       correlation_matrix = program_correlations,
+       pathway_annotations = pathway_annotations,
+       output_file = "program_correlations.pdf"
+   )
+   
+   # Create pathway enrichment plots
+   pdf("pathway_enrichment.pdf", width = 12, height = 8)
+   for(i in 1:length(pathway_results)) {
+       if(nrow(pathway_results[[i]]@result) > 0) {
+           print(dotplot(pathway_results[[i]], 
+                        showCategory = 10, 
+                        title = paste0("Program ", i, " Pathways"),
+                        font.size = 10) +
+                 theme_minimal() +
+                 theme(axis.text.y = element_text(size = 8)))
+       }
+   }
+   dev.off()
+   
+   # Create detailed report
+   sink("pathway_analysis_report.txt")
+   cat("Myeloid Program Pathway Analysis Report\n")
+   cat("======================================\n\n")
+   
+   for(i in 1:length(pathway_results)) {
+       cat(sprintf("\nProgram %d:\n", i))
+       cat("-------------\n")
+       if(nrow(pathway_results[[i]]@result) > 0) {
+           top_paths <- head(pathway_results[[i]]@result, 5)
+           print(top_paths[, c("Description", "pvalue", "p.adjust", "Count")])
+       } else {
+           cat("No significant pathways found\n")
+       }
+   }
+   sink()
+   
+   return(list(
+       correlations = program_correlations,
+       pathway_results = pathway_results,
+       annotations = pathway_annotations
+   ))
+}
+
+# Usage example:
+# results <- analyze_myeloid_programs(myeloid, usage_norm, top_genes_df)
+
+#####
