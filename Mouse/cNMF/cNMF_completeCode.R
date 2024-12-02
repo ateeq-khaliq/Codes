@@ -429,68 +429,97 @@ analyze_program_pathways <- function(gene_list, program_name) {
     ))
 }
 
-# Modified main analysis pipeline
+# Modified main analysis pipeline with error handling
 analyze_myeloid_programs <- function(myeloid, usage_norm, top_genes_df) {
     # Calculate correlations between programs
     program_correlations <- cor(usage_norm, method = "spearman")
     
     # Run pathway analysis for each program
     pathway_results <- list()
+    
+    # Create separate directories for different plot types
+    dir.create("GO_plots", showWarnings = FALSE)
+    dir.create("KEGG_plots", showWarnings = FALSE)
+    dir.create("Hallmark_plots", showWarnings = FALSE)
+    
+    # Process each program separately
     for(i in 1:ncol(top_genes_df)) {
         genes <- top_genes_df[,i]
-        pathway_results[[i]] <- analyze_program_pathways(genes, paste0("Program_", i))
-    }
-    
-    # Get top pathways and create annotations (using GO BP as primary annotation)
-    pathway_annotations <- sapply(pathway_results, function(x) {
-        if(nrow(x$go@result) > 0) {
-            return(x$go@result$Description[1])
-        } else {
-            return("No significant pathways")
-        }
-    })
-    
-    # Create main correlation plot
-    create_pathway_correlation_plot(
-        correlation_matrix = program_correlations,
-        pathway_annotations = pathway_annotations,
-        output_file = "program_correlations.pdf"
-    )
-    
-    # Create pathway enrichment plots for all three analyses
-    pdf("pathway_enrichment_all.pdf", width = 12, height = 8)
-    for(i in 1:length(pathway_results)) {
-        # GO Plot
-        if(nrow(pathway_results[[i]]$go@result) > 0) {
-            print(dotplot(pathway_results[[i]]$go, 
-                         showCategory = 10, 
-                         title = paste0("Program ", i, " - GO Pathways"),
-                         font.size = 10) +
-                  theme_minimal() +
-                  theme(axis.text.y = element_text(size = 8)))
-        }
+        genes <- genes[!is.na(genes) & genes != ""] # Clean gene list
         
-        # KEGG Plot
-        if(nrow(pathway_results[[i]]$kegg@result) > 0) {
-            print(dotplot(pathway_results[[i]]$kegg, 
-                         showCategory = 10, 
-                         title = paste0("Program ", i, " - KEGG Pathways"),
-                         font.size = 10) +
-                  theme_minimal() +
-                  theme(axis.text.y = element_text(size = 8)))
-        }
-        
-        # Hallmark Plot
-        if(nrow(pathway_results[[i]]$hallmark@result) > 0) {
-            print(dotplot(pathway_results[[i]]$hallmark, 
-                         showCategory = 10, 
-                         title = paste0("Program ", i, " - Hallmark Pathways"),
-                         font.size = 10) +
-                  theme_minimal() +
-                  theme(axis.text.y = element_text(size = 8)))
+        if(length(genes) > 0) {
+            # Convert gene symbols to ENTREZ IDs
+            gene_ids <- mapIds(org.Mm.eg.db, 
+                             keys = genes,
+                             keytype = "SYMBOL",
+                             column = "ENTREZID")
+            gene_ids <- gene_ids[!is.na(gene_ids)]
+            
+            if(length(gene_ids) > 0) {
+                # GO Analysis
+                tryCatch({
+                    go_bp <- enrichGO(gene = gene_ids,
+                                    OrgDb = org.Mm.eg.db,
+                                    ont = "BP",
+                                    pAdjustMethod = "BH",
+                                    pvalueCutoff = 0.05)
+                    
+                    if(nrow(go_bp@result) > 0) {
+                        pdf(file.path("GO_plots", sprintf("program_%d_GO.pdf", i)), width = 10, height = 8)
+                        print(dotplot(go_bp, showCategory = 10, 
+                                    title = paste0("Program ", i, " - GO Pathways")) +
+                              theme_minimal())
+                        dev.off()
+                    }
+                }, error = function(e) {
+                    message(sprintf("Error in GO analysis for program %d: %s", i, e$message))
+                })
+                
+                # KEGG Analysis
+                tryCatch({
+                    kegg <- enrichKEGG(gene = gene_ids,
+                                     organism = 'mmu',
+                                     pAdjustMethod = "BH",
+                                     pvalueCutoff = 0.05)
+                    
+                    if(nrow(kegg@result) > 0) {
+                        pdf(file.path("KEGG_plots", sprintf("program_%d_KEGG.pdf", i)), width = 10, height = 8)
+                        print(dotplot(kegg, showCategory = 10, 
+                                    title = paste0("Program ", i, " - KEGG Pathways")) +
+                              theme_minimal())
+                        dev.off()
+                    }
+                }, error = function(e) {
+                    message(sprintf("Error in KEGG analysis for program %d: %s", i, e$message))
+                })
+                
+                # Hallmark Analysis
+                tryCatch({
+                    hallmark_gene_sets = msigdbr(species = "Mus musculus", category = "H")
+                    hallmark <- enricher(gene = gene_ids,
+                                       TERM2GENE = dplyr::select(hallmark_gene_sets, gs_name, entrez_gene),
+                                       pAdjustMethod = "BH",
+                                       pvalueCutoff = 0.05)
+                    
+                    if(nrow(hallmark@result) > 0) {
+                        pdf(file.path("Hallmark_plots", sprintf("program_%d_Hallmark.pdf", i)), width = 10, height = 8)
+                        print(dotplot(hallmark, showCategory = 10, 
+                                    title = paste0("Program ", i, " - Hallmark Pathways")) +
+                              theme_minimal())
+                        dev.off()
+                    }
+                }, error = function(e) {
+                    message(sprintf("Error in Hallmark analysis for program %d: %s", i, e$message))
+                })
+                
+                pathway_results[[i]] <- list(
+                    go = go_bp,
+                    kegg = kegg,
+                    hallmark = hallmark
+                )
+            }
         }
     }
-    dev.off()
     
     # Create detailed report
     sink("pathway_analysis_report.txt")
@@ -498,43 +527,47 @@ analyze_myeloid_programs <- function(myeloid, usage_norm, top_genes_df) {
     cat("======================================\n\n")
     
     for(i in 1:length(pathway_results)) {
-        cat(sprintf("\nProgram %d:\n", i))
-        cat("-------------\n")
-        
-        cat("\nTop GO Pathways:\n")
-        if(nrow(pathway_results[[i]]$go@result) > 0) {
-            top_paths <- head(pathway_results[[i]]$go@result, 5)
-            print(top_paths[, c("Description", "pvalue", "p.adjust", "Count")])
-        } else {
-            cat("No significant GO pathways found\n")
-        }
-        
-        cat("\nTop KEGG Pathways:\n")
-        if(nrow(pathway_results[[i]]$kegg@result) > 0) {
-            top_paths <- head(pathway_results[[i]]$kegg@result, 5)
-            print(top_paths[, c("Description", "pvalue", "p.adjust", "Count")])
-        } else {
-            cat("No significant KEGG pathways found\n")
-        }
-        
-        cat("\nTop Hallmark Pathways:\n")
-        if(nrow(pathway_results[[i]]$hallmark@result) > 0) {
-            top_paths <- head(pathway_results[[i]]$hallmark@result, 5)
-            print(top_paths[, c("Description", "pvalue", "p.adjust", "Count")])
-        } else {
-            cat("No significant Hallmark pathways found\n")
+        if(!is.null(pathway_results[[i]])) {
+            cat(sprintf("\nProgram %d:\n", i))
+            cat("-------------\n")
+            
+            # GO Results
+            cat("\nTop GO Pathways:\n")
+            if(!is.null(pathway_results[[i]]$go) && nrow(pathway_results[[i]]$go@result) > 0) {
+                top_paths <- head(pathway_results[[i]]$go@result, 5)
+                print(top_paths[, c("Description", "pvalue", "p.adjust", "Count")])
+            } else {
+                cat("No significant GO pathways found\n")
+            }
+            
+            # KEGG Results
+            cat("\nTop KEGG Pathways:\n")
+            if(!is.null(pathway_results[[i]]$kegg) && nrow(pathway_results[[i]]$kegg@result) > 0) {
+                top_paths <- head(pathway_results[[i]]$kegg@result, 5)
+                print(top_paths[, c("Description", "pvalue", "p.adjust", "Count")])
+            } else {
+                cat("No significant KEGG pathways found\n")
+            }
+            
+            # Hallmark Results
+            cat("\nTop Hallmark Pathways:\n")
+            if(!is.null(pathway_results[[i]]$hallmark) && nrow(pathway_results[[i]]$hallmark@result) > 0) {
+                top_paths <- head(pathway_results[[i]]$hallmark@result, 5)
+                print(top_paths[, c("Description", "pvalue", "p.adjust", "Count")])
+            } else {
+                cat("No significant Hallmark pathways found\n")
+            }
         }
     }
     sink()
     
     return(list(
         correlations = program_correlations,
-        pathway_results = pathway_results,
-        annotations = pathway_annotations
+        pathway_results = pathway_results
     ))
 }
 
 # Usage example:
-# results <- analyze_myeloid_programs(myeloid, usage_norm, top_genes_df)
+results <- analyze_myeloid_programs(myeloid, usage_norm, top_genes_df)
 
 #####
