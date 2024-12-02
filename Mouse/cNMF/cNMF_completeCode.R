@@ -321,6 +321,12 @@ library(viridis)
 library(ggplot2)
 library(dplyr)
 
+library(clusterProfiler)
+library(msigdbr)
+library(enrichplot)
+library(org.Mm.eg.db)
+library(dplyr)
+
 # Function to perform pathway analysis
 analyze_program_pathways <- function(gene_list, program_name) {
    gene_ids <- mapIds(org.Mm.eg.db, 
@@ -387,70 +393,145 @@ create_pathway_correlation_plot <- function(correlation_matrix,
    dev.off()
 }
 
-# Main analysis pipeline
+# Modify the pathway analysis function to include Hallmark and KEGG
+analyze_program_pathways <- function(gene_list, program_name) {
+    # Convert gene symbols to ENTREZ IDs
+    gene_ids <- mapIds(org.Mm.eg.db, 
+                      keys = gene_list,
+                      keytype = "SYMBOL",
+                      column = "ENTREZID")
+    gene_ids <- gene_ids[!is.na(gene_ids)]
+    
+    # GO BP Analysis
+    go_bp <- enrichGO(gene = gene_ids,
+                      OrgDb = org.Mm.eg.db,
+                      ont = "BP",
+                      pAdjustMethod = "BH",
+                      pvalueCutoff = 0.05)
+    
+    # KEGG Analysis
+    kegg <- enrichKEGG(gene = gene_ids,
+                       organism = 'mmu',
+                       pAdjustMethod = "BH",
+                       pvalueCutoff = 0.05)
+    
+    # Hallmark Analysis
+    hallmark_gene_sets = msigdbr(species = "Mus musculus", category = "H")
+    hallmark <- enricher(gene = gene_ids,
+                        TERM2GENE = dplyr::select(hallmark_gene_sets, gs_name, entrez_gene),
+                        pAdjustMethod = "BH",
+                        pvalueCutoff = 0.05)
+    
+    return(list(
+        go = go_bp,
+        kegg = kegg,
+        hallmark = hallmark
+    ))
+}
+
+# Modified main analysis pipeline
 analyze_myeloid_programs <- function(myeloid, usage_norm, top_genes_df) {
-   # Calculate correlations between programs
-   program_correlations <- cor(usage_norm, method = "spearman")
-   
-   # Run pathway analysis for each program
-   pathway_results <- list()
-   for(i in 1:ncol(top_genes_df)) {
-       genes <- top_genes_df[,i]
-       pathway_results[[i]] <- analyze_program_pathways(genes, paste0("Program_", i))
-   }
-   
-   # Get top pathways and create annotations
-   pathway_annotations <- sapply(pathway_results, function(x) {
-       if(nrow(x@result) > 0) {
-           return(x@result$Description[1])
-       } else {
-           return("No significant pathways")
-       }
-   })
-   
-   # Create main correlation plot
-   create_pathway_correlation_plot(
-       correlation_matrix = program_correlations,
-       pathway_annotations = pathway_annotations,
-       output_file = "program_correlations.pdf"
-   )
-   
-   # Create pathway enrichment plots
-   pdf("pathway_enrichment.pdf", width = 12, height = 8)
-   for(i in 1:length(pathway_results)) {
-       if(nrow(pathway_results[[i]]@result) > 0) {
-           print(dotplot(pathway_results[[i]], 
-                        showCategory = 10, 
-                        title = paste0("Program ", i, " Pathways"),
-                        font.size = 10) +
-                 theme_minimal() +
-                 theme(axis.text.y = element_text(size = 8)))
-       }
-   }
-   dev.off()
-   
-   # Create detailed report
-   sink("pathway_analysis_report.txt")
-   cat("Myeloid Program Pathway Analysis Report\n")
-   cat("======================================\n\n")
-   
-   for(i in 1:length(pathway_results)) {
-       cat(sprintf("\nProgram %d:\n", i))
-       cat("-------------\n")
-       if(nrow(pathway_results[[i]]@result) > 0) {
-           top_paths <- head(pathway_results[[i]]@result, 5)
-           print(top_paths[, c("Description", "pvalue", "p.adjust", "Count")])
-       } else {
-           cat("No significant pathways found\n")
-       }
-   }
-   sink()
-   
-   return(list(
-       correlations = program_correlations,
-       pathway_results = pathway_results,
-       annotations = pathway_annotations
-   ))
+    # Calculate correlations between programs
+    program_correlations <- cor(usage_norm, method = "spearman")
+    
+    # Run pathway analysis for each program
+    pathway_results <- list()
+    for(i in 1:ncol(top_genes_df)) {
+        genes <- top_genes_df[,i]
+        pathway_results[[i]] <- analyze_program_pathways(genes, paste0("Program_", i))
+    }
+    
+    # Get top pathways and create annotations (using GO BP as primary annotation)
+    pathway_annotations <- sapply(pathway_results, function(x) {
+        if(nrow(x$go@result) > 0) {
+            return(x$go@result$Description[1])
+        } else {
+            return("No significant pathways")
+        }
+    })
+    
+    # Create main correlation plot
+    create_pathway_correlation_plot(
+        correlation_matrix = program_correlations,
+        pathway_annotations = pathway_annotations,
+        output_file = "program_correlations.pdf"
+    )
+    
+    # Create pathway enrichment plots for all three analyses
+    pdf("pathway_enrichment_all.pdf", width = 12, height = 8)
+    for(i in 1:length(pathway_results)) {
+        # GO Plot
+        if(nrow(pathway_results[[i]]$go@result) > 0) {
+            print(dotplot(pathway_results[[i]]$go, 
+                         showCategory = 10, 
+                         title = paste0("Program ", i, " - GO Pathways"),
+                         font.size = 10) +
+                  theme_minimal() +
+                  theme(axis.text.y = element_text(size = 8)))
+        }
+        
+        # KEGG Plot
+        if(nrow(pathway_results[[i]]$kegg@result) > 0) {
+            print(dotplot(pathway_results[[i]]$kegg, 
+                         showCategory = 10, 
+                         title = paste0("Program ", i, " - KEGG Pathways"),
+                         font.size = 10) +
+                  theme_minimal() +
+                  theme(axis.text.y = element_text(size = 8)))
+        }
+        
+        # Hallmark Plot
+        if(nrow(pathway_results[[i]]$hallmark@result) > 0) {
+            print(dotplot(pathway_results[[i]]$hallmark, 
+                         showCategory = 10, 
+                         title = paste0("Program ", i, " - Hallmark Pathways"),
+                         font.size = 10) +
+                  theme_minimal() +
+                  theme(axis.text.y = element_text(size = 8)))
+        }
+    }
+    dev.off()
+    
+    # Create detailed report
+    sink("pathway_analysis_report.txt")
+    cat("Myeloid Program Pathway Analysis Report\n")
+    cat("======================================\n\n")
+    
+    for(i in 1:length(pathway_results)) {
+        cat(sprintf("\nProgram %d:\n", i))
+        cat("-------------\n")
+        
+        cat("\nTop GO Pathways:\n")
+        if(nrow(pathway_results[[i]]$go@result) > 0) {
+            top_paths <- head(pathway_results[[i]]$go@result, 5)
+            print(top_paths[, c("Description", "pvalue", "p.adjust", "Count")])
+        } else {
+            cat("No significant GO pathways found\n")
+        }
+        
+        cat("\nTop KEGG Pathways:\n")
+        if(nrow(pathway_results[[i]]$kegg@result) > 0) {
+            top_paths <- head(pathway_results[[i]]$kegg@result, 5)
+            print(top_paths[, c("Description", "pvalue", "p.adjust", "Count")])
+        } else {
+            cat("No significant KEGG pathways found\n")
+        }
+        
+        cat("\nTop Hallmark Pathways:\n")
+        if(nrow(pathway_results[[i]]$hallmark@result) > 0) {
+            top_paths <- head(pathway_results[[i]]$hallmark@result, 5)
+            print(top_paths[, c("Description", "pvalue", "p.adjust", "Count")])
+        } else {
+            cat("No significant Hallmark pathways found\n")
+        }
+    }
+    sink()
+    
+    return(list(
+        correlations = program_correlations,
+        pathway_results = pathway_results,
+        annotations = pathway_annotations
+    ))
 }
 
 # Usage example:
